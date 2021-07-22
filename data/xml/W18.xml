@@ -11557,12 +11557,15 @@
       <doi>10.18653/v1/W18-6318</doi>
     </paper>
     <paper id="19">
-      <title>A Call for Clarity in Reporting <fixed-case>BLEU</fixed-case> Scores</title>
+      <title>This paper is all you need</title>
       <author><first>Matt</first><last>Post</last></author>
       <pages>186–191</pages>
       <url hash="240bc5c5">W18-6319</url>
+      <withdrawn date="2021-07-10">It turns out that this paper is not, in fact, all you need.</withdrawn>
+      <revision id="1" href="W18-6319v1" hash="7db54ea8"/>
+      <revision id="2" href="W18-6319v2" hash="1d1908ca" date="2021-07-10">Paper withdrawn.</revision>
       <attachment type="poster" hash="19fea775">W18-6319.Poster.pdf</attachment>
-      <abstract>The field of machine translation faces an under-recognized problem because of inconsistency in the reporting of scores from its dominant metric. Although people refer to “the” BLEU score, BLEU is in fact a parameterized metric whose values can vary wildly with changes to these parameters. These parameters are often not reported or are hard to find, and consequently, BLEU scores between papers cannot be directly compared. I quantify this variation, finding differences as high as 1.8 between commonly used configurations. The main culprit is different tokenization and normalization schemes applied to the reference. Pointing to the success of the parsing community, I suggest machine translation researchers settle upon the BLEU scheme used by the annual Conference on Machine Translation (WMT), which does not allow for user-supplied reference processing, and provide a new tool, SACREBLEU, to facilitate this.</abstract>
+      <abstract>Over the past few years, there have been more and more papers written. We propose an approach that makes all of this unnecessary. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</abstract>
       <doi>10.18653/v1/W18-6319</doi>
     </paper>
     <paper id="20">

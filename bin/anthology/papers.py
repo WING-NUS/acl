@@ -136,6 +136,8 @@ class Paper:
                 [x[0].full for x in paper.attrib["author"]]
             )
 
+        # if "withdrawn" in paper.attrib:
+        #     paper.attrib["withdrawn"] = True
         paper.attrib["thumbnail"] = data.PDF_THUMBNAIL_LOCATION_TEMPLATE.format(
             paper.full_id
         )
@@ -211,6 +213,10 @@ class Paper:
     @property
     def has_abstract(self):
         return "xml_abstract" in self.attrib
+
+    @property
+    def is_withdrawn(self) -> bool:
+        return "withdrawn" in self.attrib
 
     @property
     def isbn(self):

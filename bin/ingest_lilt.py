@@ -10,7 +10,6 @@ import lxml.etree as etree
 import os
 import shutil
 import ssl
-import subprocess
 import sys
 import urllib.request
 

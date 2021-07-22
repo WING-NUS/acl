@@ -81,6 +81,7 @@
 {{ $has_xml := fileExists (printf "/data-export/%s.xml" $anthology_id) }}
 {{ $has_endf := fileExists (printf "/data-export/%s.endf" $anthology_id) }}
 <section id="main">
+  <div {{ with $paper.withdrawn }} style="text-decoration: line-through" {{ end }}>
   <h2 id="title">
     {{ with $paper.pdf }}
     <a href="{{ . }}">{{ $paper.title_html | safeHTML }}</a>
@@ -95,15 +96,26 @@
       {{ partial "author_link.html" (dict "ctx" $ "person" $person) | chomp }}{{ if ne (add $index 1) $len }}, {{ end }}
     {{ end }}
   {{ end }}
+  </p>
+  </div>
   <hr />
 
   <div class="row acl-paper-details">
     <div class="col col-lg-10 order-2">
+      {{ with $paper.withdrawn }}
+      <div class="alert alert-danger" role="alert">
+        <h4>This paper has been withdrawn</h4>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+
       {{ with $paper.abstract_html }}
       <div class="card bg-light mb-2 mb-lg-3">
         <div class="card-body acl-abstract">
           <h5 class="card-title">Abstract</h5>
+          <span {{ with $paper.withdrawn }} style="text-decoration: line-through" {{ end }}>
           {{ . | safeHTML }}
+          </span>
         </div>
       </div>
       {{ end }}
@@ -188,6 +200,7 @@
       <dt>Bibkey:</dt>
       <dd>{{ with $paper.bibkey }}{{ . }}{{ end }}</dd>
       -->
+      {{ if not $paper.withdrawn }}
       <dt class="acl-button-row">Copy Citation:</dt>
       <dd class="acl-button-row">
       {{ if $has_bib }}
@@ -203,6 +216,7 @@
         <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#citeModal">More options…</button>
       {{ end }}
       </dd>
+      {{ end }}  <!-- if not $paper.withdrawn -->
 
       {{ with $paper.pdf }}
       <dt>PDF:</dt><dd><a href="{{ . }}">{{ . }}</a></dd>
@@ -235,7 +249,7 @@
         </a>
         {{ end }}
       {{ end }}
-      {{ if (or $has_bib $has_xml $has_endf) }}
+      {{ if and (not $paper.withdrawn) (or $has_bib $has_xml $has_endf) }}
       <a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle="modal" data-target="#citeModal" href="#">
         <i class="fas fa-quote-left"></i><span class="pl-2">Cite</span>
       </a>

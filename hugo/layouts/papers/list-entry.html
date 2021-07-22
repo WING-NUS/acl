@@ -7,7 +7,7 @@
       pdf
     </a>
     {{- end -}}
-    {{- if (fileExists (printf "/data-export/%s.bib" .Params.anthology_id)) -}}
+    {{- if and (not $paper.withdrawn) (fileExists (printf "/data-export/%s.bib" .Params.anthology_id)) -}}
     <a class="badge badge-secondary align-middle mr-1" href="{{ (printf "/%s.bib" .Params.anthology_id) | relURL }}" data-toggle="tooltip" data-placement="top" title="Export to BibTeX">
       bib
     </a>
@@ -23,7 +23,7 @@
         <a class="badge badge-attachment align-middle mr-1" href="{{ .url }}" data-toggle="tooltip" data-placement="top" title="{{ .type | humanize }}">{{ partial "attachment_repr.html" . }}</a>
       {{- end -}}
   </span>
-  <span class="d-block">
+  <span class="d-block" {{ with $paper.withdrawn }} style="text-decoration: line-through" {{ end }}>
     {{ if eq hugo.Environment "development" }}
       <span class="badge badge-light align-middle">{{ .Params.anthology_id }}</span>
     {{ end }}

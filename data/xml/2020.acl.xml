@@ -7004,8 +7004,11 @@
       <author><first>Jie</first><last>Zhou</last></author>
       <pages>6322–6333</pages>
       <abstract>Recent studies in dialogue state tracking (DST) leverage historical information to determine states which are generally represented as slot-value pairs. However, most of them have limitations to efficiently exploit relevant context due to the lack of a powerful mechanism for modeling interactions between the slot and the dialogue history. Besides, existing methods usually ignore the slot imbalance problem and treat all slots indiscriminately, which limits the learning of hard slots and eventually hurts overall performance. In this paper, we propose to enhance the DST through employing a contextual hierarchical attention network to not only discern relevant information at both word level and turn level but also learn contextual representations. We further propose an adaptive objective to alleviate the slot imbalance problem by dynamically adjust weights of different slots during training. Experimental results show that our approach reaches 52.68% and 58.55% joint accuracy on MultiWOZ 2.0 and MultiWOZ 2.1 datasets respectively and achieves new state-of-the-art performance with considerable improvements (+1.24% and +5.98%).</abstract>
-      <url hash="7db54ea8">2020.acl-main.563</url>
+      <url hash="1d1908ca">2020.acl-main.563</url>
+      <withdrawn date="2020-09-01">The authors found an error in their experimental systems. After correction, some of the results are no longer valid, impacting the main conclusion of the paper.</withdrawn>
       <doi>10.18653/v1/2020.acl-main.563</doi>
+      <revision id="1" href="2020.acl-main.563v1" hash="7db54ea8"/>
+      <revision id="2" href="2020.acl-main.563v2" hash="1d1908ca" date="2020-09-01">Paper withdrawn.</revision>
       <video tag="video" href="http://slideslive.com/38929047"/>
     </paper>
     <paper id="564">

@@ -141,7 +141,10 @@ def retrieve_url(remote_url: str, local_path: str):
         cookieProcessor = urllib.request.HTTPCookieProcessor()
         opener = urllib.request.build_opener(cookieProcessor)
         request = urllib.request.Request(
-            remote_url, headers={'User-Agent': 'Mozilla/5.0'}
+            remote_url,
+            headers={
+                'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'
+            },
         )
 
         with opener.open(request, timeout=1000) as url, open(
