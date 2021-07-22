@@ -28,6 +28,11 @@ akbc:
   acronym: AKBC
   is_acl: true
   name: Workshop on Automated Knowledge Base Construction
+all:
+  acronym: all
+  name: 'The Joint Conference of the 59th Annual Meeting of the Association for Computational
+    Linguistics and the 11th International Joint Conference on Natural Language Processing:
+    System Demonstrations'
 alnlp:
   acronym: ALNLP
   is_acl: true
@@ -99,6 +104,9 @@ birndl:
 blackboxnlp:
   acronym: BlackboxNLP
   name: 'BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP'
+bppf:
+  acronym: BPPF
+  name: '1st Workshop on Benchmarking: Past, Present and Future'
 bsnlp:
   acronym: BSNLP
   name: Workshop on Balto-Slavic Natural Language Processing
@@ -110,6 +118,10 @@ calcs:
   acronym: CALCS
   name: Workshop on Computational Approaches to Linguistic Code-Switching
   url: https://cod1r.github.io/Code-Switching/
+case:
+  acronym: CASE
+  name: Challenges and Applications of Automated Extraction of Socio-political Events
+    from Text
 catocl:
   acronym: CAtoCL
   is_acl: true
@@ -245,6 +257,10 @@ deelio:
 depling:
   acronym: DepLing
   name: International Conference on Dependency Linguistics
+dialdoc:
+  acronym: dialdoc
+  name: 1st Workshop on Document-grounded Dialogue and Conversational Question Answering
+    (DialDoc 2021)
 discomt:
   acronym: DiscoMT
   is_acl: true
@@ -347,6 +363,9 @@ geaf:
 gebnlp:
   acronym: GeBNLP
   name: Workshop on Gender Bias in Natural Language Processing
+gem:
+  acronym: GEM
+  name: 1st Workshop on Natural Language Generation, Evaluation, and Metrics
 gems:
   acronym: GEMS
   is_acl: true
@@ -396,6 +415,10 @@ icos:
   acronym: ICoS
   is_acl: true
   name: International Workshop on Inference in Computational Semantics
+ijclclp:
+  acronym: IJCLCLP
+  is_toplevel: true
+  name: International Journal of Computational Linguistics and Chinese Language Processing
 ijcnlp:
   acronym: IJCNLP
   is_toplevel: true
@@ -411,6 +434,9 @@ insights:
 intellang:
   acronym: IntelLanG
   name: Intelligent Information Processing and Natural Language Generation
+internlp:
+  acronym: InterNLP
+  name: First Workshop on Interactive Learning for Natural Language Processing
 intexsempar:
   acronym: intexsempar
   name: Workshop on Interactive and Executable Semantic Parsing
@@ -481,6 +507,10 @@ law:
 lccm:
   acronym: LCCM
   name: Workshop on Language, Cognition and Computational Models
+lchange:
+  acronym: LChange
+  name: The 2nd  International  Workshop  on  Computational  Approaches  to  Historical  Language
+    Change 2021
 ldl:
   acronym: LDL
   is_acl: true
@@ -546,6 +576,9 @@ ltedi:
 maiworkshop:
   acronym: maiworkshop
   name: Third Workshop on Multimodal Artificial Intelligence
+metanlp:
+  acronym: MetaNLP
+  name: 1st Workshop on Meta Learning and Its Applications to Natural Language Processing
 metaphor:
   acronym: Metaphor
   is_acl: true
@@ -631,6 +664,12 @@ nlp4ita:
 nlp4musa:
   acronym: NLP4MusA
   name: Workshop on NLP for Music and Audio
+nlp4posimpact:
+  acronym: NLP4PosImpact
+  name: 1st Workshop on NLP for Positive Impact
+nlp4prog:
+  acronym: NLP4Prog
+  name: First Workshop on Natural Language Processing for Programming
 nlp4tm:
   acronym: NLP4TM
   name: Workshop on Natural Language Processing for Translation Memories
@@ -745,12 +784,8 @@ robonlp:
   name: Workshop on Language Grounding for Robotics
 rocling:
   acronym: ROCLING
+  is_toplevel: true
   name: Conference on Computational Linguistics and Speech Processing
-  is_toplevel: true
-ijclclp:
-  acronym: IJCLCLP
-  name: International Journal of Computational Linguistics and Chinese Language Processing
-  is_toplevel: true
 s2mt:
   acronym: S2MT
   is_acl: true
@@ -839,6 +874,10 @@ splu:
   acronym: SpLU
   is_acl: true
   name: Spatial Language Understanding
+splurobonlp:
+  acronym: splurobonlp
+  name: Second International Combined Workshop on Spatial Language Understanding and
+    Grounded Communication for Robotics
 spmrl:
   acronym: SPMRL
   is_acl: true
@@ -846,6 +885,12 @@ spmrl:
 spnlp:
   acronym: spnlp
   name: Workshop on Structured Prediction for NLP
+spnlp21:
+  acronym: SPNLP21
+  name: 5th Workshop on Structured Prediction for NLP
+srw:
+  acronym: SRW
+  name: ACL-IJCNLP 2021 Student Research Workshop
 ssst:
   acronym: SSST
   is_acl: true
@@ -929,9 +974,18 @@ ttnls:
   acronym: TTNLS
   is_acl: true
   name: Workshop on Type Theory and Natural Language Semantics
+tutorials:
+  acronym: tutorials
+  name: 'Proceedings of the 59th Annual Meeting of the Association for Computational
+    Linguistics and the 11th International Joint Conference on Natural Language Processing:
+    Tutorial Abstracts'
 udw:
   acronym: UDW
   name: Universal Dependencies Workshop
+unimplicit:
+  acronym: unimplicit
+  name: Proceedings of the 1st Workshop on Understanding Implicit and Underspecified
+    Language (UnImplicit 2021)
 vardial:
   acronym: VarDial
   name: Workshop on Applying NLP Tools to Similar Languages, Varieties and Dialects
@@ -987,6 +1041,9 @@ wnut:
   acronym: WNUT
   is_acl: true
   name: Workshop on Noisy User-generated Text
+woah:
+  acronym: WOAH
+  name: Fifth Workshop on Online Abuse and Harms
 wosp:
   acronym: WOSP
   name: The International Workshop on Mining Scientific Publications

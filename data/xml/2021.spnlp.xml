@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.spnlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 5th Workshop on Structured Prediction for NLP (SPNLP 2021)</booktitle>
+      <editor><first>Zornitsa</first><last>Kozareva</last></editor>
+      <editor><first>Sujith</first><last>Ravi</last></editor>
+      <editor><first>Andreas</first><last>Vlachos</last></editor>
+      <editor><first>Priyanka</first><last>Agrawal</last></editor>
+      <editor><first>André</first><last>Martins</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="3b7ac25c">2021.spnlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="32da2870">2021.spnlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title><fixed-case>R</fixed-case>ewards<fixed-case>O</fixed-case>f<fixed-case>S</fixed-case>um: Exploring Reinforcement Learning Rewards for Summarisation</title>
+      <author><first>Jacob</first><last>Parnell</last></author>
+      <author><first>Inigo</first><last>Jauregi Unanue</last></author>
+      <author><first>Massimo</first><last>Piccardi</last></author>
+      <pages>1–11</pages>
+      <abstract>To date, most abstractive summarisation models have relied on variants of the negative log-likelihood (NLL) as their training objective. In some cases, reinforcement learning has been added to train the models with an objective that is closer to their evaluation measures (e.g. ROUGE). However, the reward function to be used within the reinforcement learning approach can play a key role for performance and is still partially unexplored. For this reason, in this paper, we propose two reward functions for the task of abstractive summarisation: the first function, referred to as RwB-Hinge, dynamically selects the samples for the gradient update. The second function, nicknamed RISK, leverages a small pool of strong candidates to inform the reward. In the experiments, we probe the proposed approach by fine-tuning an NLL pre-trained model over nine summarisation datasets of diverse size and nature. The experimental results show a consistent improvement over the negative log-likelihood baselines.</abstract>
+      <url hash="cac9850f">2021.spnlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title><fixed-case>S</fixed-case>m<fixed-case>B</fixed-case>o<fixed-case>P</fixed-case>: Semi-autoregressive Bottom-up Semantic Parsing</title>
+      <author><first>Ohad</first><last>Rubin</last></author>
+      <author><first>Jonathan</first><last>Berant</last></author>
+      <pages>12–21</pages>
+      <abstract>The de-facto standard decoding method for semantic parsing in recent years has been to autoregressively decode the abstract syntax tree of the target program using a top-down depth-first traversal. In this work, we propose an alternative approach: a Semi-autoregressive Bottom-up Parser (SmBoP) that constructs at decoding step t the top-K sub-trees of height ≤ t. Our parser enjoys several benefits compared to top-down autoregressive parsing. From an efficiency perspective, bottom-up parsing allows to decode all sub-trees of a certain height in parallel, leading to logarithmic runtime complexity rather than linear. From a modeling perspective, a bottom-up parser learns representations for meaningful semantic sub-programs at each step, rather than for semantically-vacuous partial trees. We apply SmBoP on Spider, a challenging zero-shot semantic parsing benchmark, and show that SmBoP leads to a 2.2x speed-up in decoding time and a ~5x speed-up in training time, compared to a semantic parser that uses autoregressive decoding. SmBoP obtains 71.1 denotation accuracy on Spider, establishing a new state-of-the-art, and 69.5 exact match, comparable to the 69.6 exact match of the autoregressive RAT-SQL+Grappa.</abstract>
+      <url hash="a07509ac">2021.spnlp-1.2</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="e4e5214e">2021.spnlp-1.2.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="3">
+      <title>Learning compositional structures for semantic graph parsing</title>
+      <author><first>Jonas</first><last>Groschwitz</last></author>
+      <author><first>Meaghan</first><last>Fowlie</last></author>
+      <author><first>Alexander</first><last>Koller</last></author>
+      <pages>22–36</pages>
+      <abstract>AM dependency parsing is a method for neural semantic graph parsing that exploits the principle of compositionality. While AM dependency parsers have been shown to be fast and accurate across several graphbanks, they require explicit annotations of the compositional tree structures for training. In the past, these were obtained using complex graphbank-specific heuristics written by experts. Here we show how they can instead be trained directly on the graphs with a neural latent-variable model, drastically reducing the amount and complexity of manual heuristics. We demonstrate that our model picks up on several linguistic phenomena on its own and achieves comparable accuracy to supervised training, greatly facilitating the use of AM dependency parsing for new sembanks.</abstract>
+      <url hash="a1ae8251">2021.spnlp-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Offline Reinforcement Learning from Human Feedback in Real-World Sequence-to-Sequence Tasks</title>
+      <author><first>Julia</first><last>Kreutzer</last></author>
+      <author><first>Stefan</first><last>Riezler</last></author>
+      <author><first>Carolin</first><last>Lawrence</last></author>
+      <pages>37–43</pages>
+      <abstract>Large volumes of interaction logs can be collected from NLP systems that are deployed in the real world. How can this wealth of information be leveraged? Using such interaction logs in an offline reinforcement learning (RL) setting is a promising approach. However, due to the nature of NLP tasks and the constraints of production systems, a series of challenges arise. We present a concise overview of these challenges and discuss possible solutions.</abstract>
+      <url hash="fddb7fb3">2021.spnlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Mode recovery in neural autoregressive sequence modeling</title>
+      <author><first>Ilia</first><last>Kulikov</last></author>
+      <author><first>Sean</first><last>Welleck</last></author>
+      <author><first>Kyunghyun</first><last>Cho</last></author>
+      <pages>44–52</pages>
+      <abstract>Despite its wide use, recent studies have revealed unexpected and undesirable properties of neural autoregressive sequence models trained with maximum likelihood, such as an unreasonably high affinity to short sequences after training and to infinitely long sequences at decoding time. We propose to study these phenomena by investigating how the modes, or local maxima, of a distribution are maintained throughout the full <i>learning chain</i> of the ground-truth, empirical, learned and decoding-induced distributions, via the newly proposed <i>mode recovery cost</i>. We design a tractable testbed where we build three types of ground-truth distributions: (1) an LSTM based structured distribution, (2) an unstructured distribution where probability of a sequence does not depend on its content, and (3) a product of these two which we call a semi-structured distribution. Our study reveals both expected and unexpected findings. First, starting with data collection, mode recovery cost strongly relies on the ground-truth distribution and is most costly with the semi-structured distribution. Second, after learning, mode recovery cost from the ground-truth distribution may increase or decrease compared to data collection, with the largest cost degradation occurring with the semi-structured ground-truth distribution. Finally, the ability of the decoding-induced distribution to recover modes from the learned distribution is highly impacted by the choices made earlier in the learning chain. We conclude that future research must consider the entire learning chain in order to fully understand the potentials and perils and to further improve neural autoregressive sequence models.</abstract>
+      <url hash="4141b8ad">2021.spnlp-1.5</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="5cc13228">2021.spnlp-1.5.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="6">
+      <title>Using Hierarchical Class Structure to Improve Fine-Grained Claim Classification</title>
+      <author><first>Erenay</first><last>Dayanik</last></author>
+      <author><first>Andre</first><last>Blessing</last></author>
+      <author><first>Nico</first><last>Blokker</last></author>
+      <author><first>Sebastian</first><last>Haunss</last></author>
+      <author><first>Jonas</first><last>Kuhn</last></author>
+      <author><first>Gabriella</first><last>Lapesa</last></author>
+      <author><first>Sebastian</first><last>Padó</last></author>
+      <pages>53–60</pages>
+      <abstract>The analysis of public debates crucially requires the classification of political demands according to hierarchical <i>claim ontologies</i> (e.g. for immigration, a supercategory “Controlling Migration” might have subcategories “Asylum limit” or “Border installations”). A major challenge for automatic claim classification is the large number and low frequency of such subclasses. We address it by jointly predicting pairs of matching super- and subcategories. We operationalize this idea by (a) encoding soft constraints in the claim classifier and (b) imposing hard constraints via Integer Linear Programming. Our experiments with different claim classifiers on a German immigration newspaper corpus show consistent performance increases for joint prediction, in particular for infrequent categories and discuss the complementarity of the two approaches.</abstract>
+      <url hash="2c230191">2021.spnlp-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>A Globally Normalized Neural Model for Semantic Parsing</title>
+      <author><first>Chenyang</first><last>Huang</last></author>
+      <author><first>Wei</first><last>Yang</last></author>
+      <author><first>Yanshuai</first><last>Cao</last></author>
+      <author><first>Osmar</first><last>Zaïane</last></author>
+      <author><first>Lili</first><last>Mou</last></author>
+      <pages>61–66</pages>
+      <abstract>In this paper, we propose a globally normalized model for context-free grammar (CFG)-based semantic parsing. Instead of predicting a probability, our model predicts a real-valued score at each step and does not suffer from the label bias problem. Experiments show that our approach outperforms locally normalized models on small datasets, but it does not yield improvement on a large dataset.</abstract>
+      <url hash="b626f381">2021.spnlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Comparing Span Extraction Methods for Semantic Role Labeling</title>
+      <author><first>Zhisong</first><last>Zhang</last></author>
+      <author><first>Emma</first><last>Strubell</last></author>
+      <author><first>Eduard</first><last>Hovy</last></author>
+      <pages>67–77</pages>
+      <abstract>In this work, we empirically compare span extraction methods for the task of semantic role labeling (SRL). While recent progress incorporating pre-trained contextualized representations into neural encoders has greatly improved SRL F1 performance on popular benchmarks, the potential costs and benefits of structured decoding in these models have become less clear. With extensive experiments on PropBank SRL datasets, we find that more structured decoding methods outperform BIO-tagging when using static (word type) embeddings across all experimental settings. However, when used in conjunction with pre-trained contextualized word representations, the benefits are diminished. We also experiment in cross-genre and cross-lingual settings and find similar trends. We further perform speed comparisons and provide analysis on the accuracy-efficiency trade-offs among different decoding methods.</abstract>
+      <url hash="6daa5813">2021.spnlp-1.8</url>
+    </paper>
+  </volume>
+</collection>

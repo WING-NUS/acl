@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.woah">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)</booktitle>
+      <editor><first>Aida</first><last>Mostafazadeh Davani</last></editor>
+      <editor><first>Douwe</first><last>Kiela</last></editor>
+      <editor><first>Mathias</first><last>Lambert</last></editor>
+      <editor><first>Bertie</first><last>Vidgen</last></editor>
+      <editor><first>Vinodkumar</first><last>Prabhakaran</last></editor>
+      <editor><first>Zeerak</first><last>Waseem</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="747477a4">2021.woah-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="7df1a565">2021.woah-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Exploiting Auxiliary Data for Offensive Language Detection with Bidirectional Transformers</title>
+      <author><first>Sumer</first><last>Singh</last></author>
+      <author><first>Sheng</first><last>Li</last></author>
+      <pages>1–5</pages>
+      <abstract>Offensive language detection (OLD) has received increasing attention due to its societal impact. Recent work shows that bidirectional transformer based methods obtain impressive performance on OLD. However, such methods usually rely on large-scale well-labeled OLD datasets for model training. To address the issue of data/label scarcity in OLD, in this paper, we propose a simple yet effective domain adaptation approach to train bidirectional transformers. Our approach introduces domain adaptation (DA) training procedures to ALBERT, such that it can effectively exploit auxiliary data from source domains to improve the OLD performance in a target domain. Experimental results on benchmark datasets show that our approach, ALBERT (DA), obtains the state-of-the-art performance in most cases. Particularly, our approach significantly benefits underrepresented and under-performing classes, with a significant improvement over ALBERT.</abstract>
+      <url hash="63ea5da2">2021.woah-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Modeling Profanity and Hate Speech in Social Media with Semantic Subspaces</title>
+      <author><first>Vanessa</first><last>Hahn</last></author>
+      <author><first>Dana</first><last>Ruiter</last></author>
+      <author><first>Thomas</first><last>Kleinbauer</last></author>
+      <author><first>Dietrich</first><last>Klakow</last></author>
+      <pages>6–16</pages>
+      <abstract>Hate speech and profanity detection suffer from data sparsity, especially for languages other than English, due to the subjective nature of the tasks and the resulting annotation incompatibility of existing corpora. In this study, we identify profane subspaces in word and sentence representations and explore their generalization capability on a variety of similar and distant target tasks in a zero-shot setting. This is done monolingually (German) and cross-lingually to closely-related (English), distantly-related (French) and non-related (Arabic) tasks. We observe that, on both similar and distant target tasks and across all languages, the subspace-based representations transfer more effectively than standard BERT representations in the zero-shot setting, with improvements between F1 +10.9 and F1 +42.9 over the baselines across all tested monolingual and cross-lingual scenarios.</abstract>
+      <url hash="8682dbf1">2021.woah-1.2</url>
+    </paper>
+    <paper id="3">
+      <title><fixed-case>H</fixed-case>ate<fixed-case>BERT</fixed-case>: Retraining <fixed-case>BERT</fixed-case> for Abusive Language Detection in <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Tommaso</first><last>Caselli</last></author>
+      <author><first>Valerio</first><last>Basile</last></author>
+      <author><first>Jelena</first><last>Mitrović</last></author>
+      <author><first>Michael</first><last>Granitzer</last></author>
+      <pages>17–25</pages>
+      <abstract>We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection tasks. In all datasets, HateBERT outperforms the corresponding general BERT model. We also discuss a battery of experiments comparing the portability of the fine-tuned models across the datasets, suggesting that portability is affected by compatibility of the annotated phenomena.</abstract>
+      <url hash="5eb5349d">2021.woah-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset</title>
+      <author><first>Hannah</first><last>Kirk</last></author>
+      <author><first>Yennie</first><last>Jun</last></author>
+      <author><first>Paulius</first><last>Rauba</last></author>
+      <author><first>Gal</first><last>Wachtel</last></author>
+      <author><first>Ruining</first><last>Li</last></author>
+      <author><first>Xingjian</first><last>Bai</last></author>
+      <author><first>Noah</first><last>Broestl</last></author>
+      <author><first>Martin</first><last>Doff-Sotta</last></author>
+      <author><first>Aleksandar</first><last>Shtedritski</last></author>
+      <author><first>Yuki M</first><last>Asano</last></author>
+      <pages>26–35</pages>
+      <abstract>Hateful memes pose a unique challenge for current machine learning systems because their message is derived from both text- and visual-modalities. To this effect, Facebook released the Hateful Memes Challenge, a dataset of memes with pre-extracted text captions, but it is unclear whether these synthetic examples generalize to ‘memes in the wild’. In this paper, we collect hateful and non-hateful memes from Pinterest to evaluate out-of-sample performance on models pre-trained on the Facebook dataset. We find that ‘memes in the wild’ differ in two key aspects: 1) Captions must be extracted via OCR, injecting noise and diminishing performance of multimodal models, and 2) Memes are more diverse than ‘traditional memes’, including screenshots of conversations or text on a plain background. This paper thus serves as a reality-check for the current benchmark of hateful meme detection and its applicability for detecting real world hate.</abstract>
+      <url hash="cdcd7ce7">2021.woah-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Measuring and Improving Model-Moderator Collaboration using Uncertainty Estimation</title>
+      <author><first>Ian</first><last>Kivlichan</last></author>
+      <author><first>Zi</first><last>Lin</last></author>
+      <author><first>Jeremiah</first><last>Liu</last></author>
+      <author><first>Lucy</first><last>Vasserman</last></author>
+      <pages>36–53</pages>
+      <abstract>Content moderation is often performed by a collaboration between humans and machine learning models. However, it is not well understood how to design the collaborative process so as to maximize the combined moderator-model system performance. This work presents a rigorous study of this problem, focusing on an approach that incorporates model uncertainty into the collaborative process. First, we introduce principled metrics to describe the performance of the collaborative system under capacity constraints on the human moderator, quantifying how efficiently the combined system utilizes human decisions. Using these metrics, we conduct a large benchmark study evaluating the performance of state-of-the-art uncertainty models under different collaborative review strategies. We find that an uncertainty-based strategy consistently outperforms the widely used strategy based on toxicity scores, and moreover that the choice of review strategy drastically changes the overall system performance. Our results demonstrate the importance of rigorous metrics for understanding and developing effective moderator-model systems for content moderation, as well as the utility of uncertainty estimation in this domain.</abstract>
+      <url hash="aebe10b5">2021.woah-1.5</url>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>DALC</fixed-case>: the <fixed-case>D</fixed-case>utch Abusive Language Corpus</title>
+      <author><first>Tommaso</first><last>Caselli</last></author>
+      <author><first>Arjan</first><last>Schelhaas</last></author>
+      <author><first>Marieke</first><last>Weultjes</last></author>
+      <author><first>Folkert</first><last>Leistra</last></author>
+      <author><first>Hylke</first><last>van der Veen</last></author>
+      <author><first>Gerben</first><last>Timmerman</last></author>
+      <author><first>Malvina</first><last>Nissim</last></author>
+      <pages>54–66</pages>
+      <abstract>As socially unacceptable language become pervasive in social media platforms, the need for automatic content moderation become more pressing. This contribution introduces the Dutch Abusive Language Corpus (DALC v1.0), a new dataset with tweets manually an- notated for abusive language. The resource ad- dress a gap in language resources for Dutch and adopts a multi-layer annotation scheme modeling the explicitness and the target of the abusive messages. Baselines experiments on all annotation layers have been conducted, achieving a macro F1 score of 0.748 for binary classification of the explicitness layer and .489 for target classification.</abstract>
+      <url hash="280957fe">2021.woah-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Offensive Language Detection in <fixed-case>N</fixed-case>epali Social Media</title>
+      <author><first>Nobal B.</first><last>Niraula</last></author>
+      <author><first>Saurab</first><last>Dulal</last></author>
+      <author><first>Diwa</first><last>Koirala</last></author>
+      <pages>67–75</pages>
+      <abstract>Social media texts such as blog posts, comments, and tweets often contain offensive languages including racial hate speech comments, personal attacks, and sexual harassment. Detecting inappropriate use of language is, therefore, of utmost importance for the safety of the users as well as for suppressing hateful conduct and aggression. Existing approaches to this problem are mostly available for resource-rich languages such as English and German. In this paper, we characterize the offensive language in Nepali, a low-resource language, highlighting the challenges that need to be addressed for processing Nepali social media text. We also present experiments for detecting offensive language using supervised machine learning. Besides contributing the first baseline approaches of detecting offensive language in Nepali, we also release human annotated data sets to encourage future research on this crucial topic.</abstract>
+      <url hash="d32c1419">2021.woah-1.7</url>
+    </paper>
+    <paper id="8">
+      <title><fixed-case>MIN</fixed-case>_<fixed-case>PT</fixed-case>: An <fixed-case>E</fixed-case>uropean <fixed-case>P</fixed-case>ortuguese Lexicon for Minorities Related Terms</title>
+      <author><first>Paula</first><last>Fortuna</last></author>
+      <author><first>Vanessa</first><last>Cortez</last></author>
+      <author><first>Miguel</first><last>Sozinho Ramalho</last></author>
+      <author><first>Laura</first><last>Pérez-Mayos</last></author>
+      <pages>76–80</pages>
+      <abstract>Hate speech-related lexicons have been proved to be useful for many tasks such as data collection and classification. However, existing Portuguese lexicons do not distinguish between European and Brazilian Portuguese, and do not include neutral terms that are potentially useful to detect a broader spectrum of content referring to minorities. In this work, we present MIN_PT, a new European Portuguese Lexicon for Minorities-Related Terms specifically designed to tackle the limitations of existing resources. We describe the data collection and annotation process, discuss the limitation and ethical concerns, and prove the utility of the resource by applying it to a use case for the Portuguese 2021 presidential elections.</abstract>
+      <url hash="187902f2">2021.woah-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Fine-Grained Fairness Analysis of Abusive Language Detection Systems with <fixed-case>C</fixed-case>heck<fixed-case>L</fixed-case>ist</title>
+      <author><first>Marta Marchiori</first><last>Manerba</last></author>
+      <author><first>Sara</first><last>Tonelli</last></author>
+      <pages>81–91</pages>
+      <abstract>Current abusive language detection systems have demonstrated unintended bias towards sensitive features such as nationality or gender. This is a crucial issue, which may harm minorities and underrepresented groups if such systems were integrated in real-world applications. In this paper, we create ad hoc tests through the CheckList tool (Ribeiro et al., 2020) to detect biases within abusive language classifiers for English. We compare the behaviour of two BERT-based models, one trained on a generic hate speech dataset and the other on a dataset for misogyny detection. Our evaluation shows that, although BERT-based classifiers achieve high accuracy levels on a variety of natural language processing tasks, they perform very poorly as regards fairness and bias, in particular on samples involving implicit stereotypes, expressions of hate towards minorities and protected attributes such as race or sexual orientation. We release both the notebooks implemented to extend the Fairness tests and the synthetic datasets usable to evaluate systems bias independently of CheckList.</abstract>
+      <url hash="5ea4759a">2021.woah-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Improving Counterfactual Generation for Fair Hate Speech Detection</title>
+      <author><first>Aida</first><last>Mostafazadeh Davani</last></author>
+      <author><first>Ali</first><last>Omrani</last></author>
+      <author><first>Brendan</first><last>Kennedy</last></author>
+      <author><first>Mohammad</first><last>Atari</last></author>
+      <author><first>Xiang</first><last>Ren</last></author>
+      <author><first>Morteza</first><last>Dehghani</last></author>
+      <pages>92–101</pages>
+      <abstract>Bias mitigation approaches reduce models’ dependence on sensitive features of data, such as social group tokens (SGTs), resulting in equal predictions across the sensitive features. In hate speech detection, however, equalizing model predictions may ignore important differences among targeted social groups, as hate speech can contain stereotypical language specific to each SGT. Here, to take the specific language about each SGT into account, we rely on counterfactual fairness and equalize predictions among counterfactuals, generated by changing the SGTs. Our method evaluates the similarity in sentence likelihoods (via pre-trained language models) among counterfactuals, to treat SGTs equally only within interchangeable contexts. By applying logit pairing to equalize outcomes on the restricted set of counterfactuals for each instance, we improve fairness metrics while preserving model performance on hate speech detection.</abstract>
+      <url hash="288ee55e">2021.woah-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Hell Hath No Fury? Correcting Bias in the <fixed-case>NRC</fixed-case> Emotion Lexicon</title>
+      <author><first>Samira</first><last>Zad</last></author>
+      <author><first>Joshuan</first><last>Jimenez</last></author>
+      <author><first>Mark</first><last>Finlayson</last></author>
+      <pages>102–113</pages>
+      <abstract>There have been several attempts to create an accurate and thorough emotion lexicon in English, which identifies the emotional content of words. Of the several commonly used resources, the NRC emotion lexicon (Mohammad and Turney, 2013b) has received the most attention due to its availability, size, and its choice of Plutchik’s expressive 8-class emotion model. In this paper we identify a large number of troubling entries in the NRC lexicon, where words that should in most contexts be emotionally neutral, with no affect (e.g., ‘lesbian’, ‘stone’, ‘mountain’), are associated with emotional labels that are inaccurate, nonsensical, pejorative, or, at best, highly contingent and context-dependent (e.g., ‘lesbian’ labeled as Disgust and Sadness, ‘stone’ as Anger, or ‘mountain’ as Anticipation). We describe a procedure for semi-automatically correcting these problems in the NRC, which includes disambiguating POS categories and aligning NRC entries with other emotion lexicons to infer the accuracy of labels. We demonstrate via an experimental benchmark that the quality of the resources is thus improved. We release the revised resource and our code to enable other researchers to reproduce and build upon results.</abstract>
+      <url hash="9ce0a453">2021.woah-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Mitigating Biases in Toxic Language Detection through Invariant Rationalization</title>
+      <author><first>Yung-Sung</first><last>Chuang</last></author>
+      <author><first>Mingye</first><last>Gao</last></author>
+      <author><first>Hongyin</first><last>Luo</last></author>
+      <author><first>James</first><last>Glass</last></author>
+      <author><first>Hung-yi</first><last>Lee</last></author>
+      <author><first>Yun-Nung</first><last>Chen</last></author>
+      <author><first>Shang-Wen</first><last>Li</last></author>
+      <pages>114–120</pages>
+      <abstract>Automatic detection of toxic language plays an essential role in protecting social media users, especially minority groups, from verbal abuse. However, biases toward some attributes, including gender, race, and dialect, exist in most training datasets for toxicity detection. The biases make the learned models unfair and can even exacerbate the marginalization of people. Considering that current debiasing methods for general natural language understanding tasks cannot effectively mitigate the biases in the toxicity detectors, we propose to use invariant rationalization (InvRat), a game-theoretic framework consisting of a rationale generator and a predictor, to rule out the spurious correlation of certain syntactic patterns (e.g., identity mentions, dialect) to toxicity labels. We empirically show that our method yields lower false positive rate in both lexical and dialectal attributes than previous debiasing methods.</abstract>
+      <url hash="41f11b57">2021.woah-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Fine-grained Classification of Political Bias in <fixed-case>G</fixed-case>erman News: A Data Set and Initial Experiments</title>
+      <author><first>Dmitrii</first><last>Aksenov</last></author>
+      <author><first>Peter</first><last>Bourgonje</last></author>
+      <author><first>Karolina</first><last>Zaczynska</last></author>
+      <author><first>Malte</first><last>Ostendorff</last></author>
+      <author><first>Julian</first><last>Moreno-Schneider</last></author>
+      <author><first>Georg</first><last>Rehm</last></author>
+      <pages>121–131</pages>
+      <abstract>We present a data set consisting of German news articles labeled for political bias on a five-point scale in a semi-supervised way. While earlier work on hyperpartisan news detection uses binary classification (i.e., hyperpartisan or not) and English data, we argue for a more fine-grained classification, covering the full political spectrum (i.e., far-left, left, centre, right, far-right) and for extending research to German data. Understanding political bias helps in accurately detecting hate speech and online abuse. We experiment with different classification methods for political bias detection. Their comparatively low performance (a macro-F1 of 43 for our best setup, compared to a macro-F1 of 79 for the binary classification task) underlines the need for more (balanced) data annotated in a fine-grained way.</abstract>
+      <url hash="4bcd8f41">2021.woah-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Jibes &amp; Delights: A Dataset of Targeted Insults and Compliments to Tackle Online Abuse</title>
+      <author><first>Ravsimar</first><last>Sodhi</last></author>
+      <author><first>Kartikey</first><last>Pant</last></author>
+      <author><first>Radhika</first><last>Mamidi</last></author>
+      <pages>132–139</pages>
+      <abstract>Online abuse and offensive language on social media have become widespread problems in today’s digital age. In this paper, we contribute a Reddit-based dataset, consisting of 68,159 insults and 51,102 compliments targeted at individuals instead of targeting a particular community or race. Secondly, we benchmark multiple existing state-of-the-art models for both classification and unsupervised style transfer on the dataset. Finally, we analyse the experimental results and conclude that the transfer task is challenging, requiring the models to understand the high degree of creativity exhibited in the data.</abstract>
+      <url hash="d2c79b69">2021.woah-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Context Sensitivity Estimation in Toxicity Detection</title>
+      <author><first>Alexandros</first><last>Xenos</last></author>
+      <author><first>John</first><last>Pavlopoulos</last></author>
+      <author><first>Ion</first><last>Androutsopoulos</last></author>
+      <pages>140–145</pages>
+      <abstract>User posts whose perceived toxicity depends on the conversational context are rare in current toxicity detection datasets. Hence, toxicity detectors trained on current datasets will also disregard context, making the detection of context-sensitive toxicity a lot harder when it occurs. We constructed and publicly release a dataset of 10k posts with two kinds of toxicity labels per post, obtained from annotators who considered (i) both the current post and the previous one as context, or (ii) only the current post. We introduce a new task, context-sensitivity estimation, which aims to identify posts whose perceived toxicity changes if the context (previous post) is also considered. Using the new dataset, we show that systems can be developed for this task. Such systems could be used to enhance toxicity detection datasets with more context-dependent posts or to suggest when moderators should consider the parent posts, which may not always be necessary and may introduce additional costs.</abstract>
+      <url hash="c94e092b">2021.woah-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>A Large-Scale <fixed-case>E</fixed-case>nglish Multi-Label <fixed-case>T</fixed-case>witter Dataset for Cyberbullying and Online Abuse Detection</title>
+      <author><first>Semiu</first><last>Salawu</last></author>
+      <author><first>Jo</first><last>Lumsden</last></author>
+      <author><first>Yulan</first><last>He</last></author>
+      <pages>146–156</pages>
+      <abstract>In this paper, we introduce a new English Twitter-based dataset for cyberbullying detection and online abuse. Comprising 62,587 tweets, this dataset was sourced from Twitter using specific query terms designed to retrieve tweets with high probabilities of various forms of bullying and offensive content, including insult, trolling, profanity, sarcasm, threat, porn and exclusion. We recruited a pool of 17 annotators to perform fine-grained annotation on the dataset with each tweet annotated by three annotators. All our annotators are high school educated and frequent users of social media. Inter-rater agreement for the dataset as measured by Krippendorff’s Alpha is 0.67. Analysis performed on the dataset confirmed common cyberbullying themes reported by other studies and revealed interesting relationships between the classes. The dataset was used to train a number of transformer-based deep learning models returning impressive results.</abstract>
+      <url hash="915f1111">2021.woah-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Toxic Comment Collection: Making More Than 30 Datasets Easily Accessible in One Unified Format</title>
+      <author><first>Julian</first><last>Risch</last></author>
+      <author><first>Philipp</first><last>Schmidt</last></author>
+      <author><first>Ralf</first><last>Krestel</last></author>
+      <pages>157–163</pages>
+      <abstract>With the rise of research on toxic comment classification, more and more annotated datasets have been released. The wide variety of the task (different languages, different labeling processes and schemes) has led to a large amount of heterogeneous datasets that can be used for training and testing very specific settings. Despite recent efforts to create web pages that provide an overview, most publications still use only a single dataset. They are not stored in one central database, they come in many different data formats and it is difficult to interpret their class labels and how to reuse these labels in other projects. To overcome these issues, we present a collection of more than thirty datasets in the form of a software tool that automatizes downloading and processing of the data and presents them in a unified data format that also offers a mapping of compatible class labels. Another advantage of that tool is that it gives an overview of properties of available datasets, such as different languages, platforms, and class labels to make it easier to select suitable training and test data.</abstract>
+      <url hash="3b9fb12a">2021.woah-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>When the Echo Chamber Shatters: Examining the Use of Community-Specific Language Post-Subreddit Ban</title>
+      <author><first>Milo</first><last>Trujillo</last></author>
+      <author><first>Sam</first><last>Rosenblatt</last></author>
+      <author><first>Guillermo</first><last>de Anda Jáuregui</last></author>
+      <author><first>Emily</first><last>Moog</last></author>
+      <author><first>Briane Paul V.</first><last>Samson</last></author>
+      <author><first>Laurent</first><last>Hébert-Dufresne</last></author>
+      <author><first>Allison M.</first><last>Roth</last></author>
+      <pages>164–178</pages>
+      <abstract>Community-level bans are a common tool against groups that enable online harassment and harmful speech. Unfortunately, the efficacy of community bans has only been partially studied and with mixed results. Here, we provide a flexible unsupervised methodology to identify in-group language and track user activity on Reddit both before and after the ban of a community (subreddit). We use a simple word frequency divergence to identify uncommon words overrepresented in a given community, not as a proxy for harmful speech but as a linguistic signature of the community. We apply our method to 15 banned subreddits, and find that community response is heterogeneous between subreddits and between users of a subreddit. Top users were more likely to become less active overall, while random users often reduced use of in-group language without decreasing activity. Finally, we find some evidence that the effectiveness of bans aligns with the content of a community. Users of dark humor communities were largely unaffected by bans while users of communities organized around white supremacy and fascism were the most affected. Altogether, our results show that bans do not affect all groups or users equally, and pave the way to understanding the effect of bans across communities.</abstract>
+      <url hash="018d8659">2021.woah-1.18</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="96cf3135">2021.woah-1.18.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="19">
+      <title>Targets and Aspects in Social Media Hate Speech</title>
+      <author><first>Alexander</first><last>Shvets</last></author>
+      <author><first>Paula</first><last>Fortuna</last></author>
+      <author><first>Juan</first><last>Soler</last></author>
+      <author><first>Leo</first><last>Wanner</last></author>
+      <pages>179–190</pages>
+      <abstract>Mainstream research on hate speech focused so far predominantly on the task of classifying mainly social media posts with respect to predefined typologies of rather coarse-grained hate speech categories. This may be sufficient if the goal is to detect and delete abusive language posts. However, removal is not always possible due to the legislation of a country. Also, there is evidence that hate speech cannot be successfully combated by merely removing hate speech posts; they should be countered by education and counter-narratives. For this purpose, we need to identify (i) who is the target in a given hate speech post, and (ii) what aspects (or characteristics) of the target are attributed to the target in the post. As the first approximation, we propose to adapt a generic state-of-the-art concept extraction model to the hate speech domain. The outcome of the experiments is promising and can serve as inspiration for further work on the task</abstract>
+      <url hash="ff060c2c">2021.woah-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Abusive Language on Social Media Through the Legal Looking Glass</title>
+      <author><first>Thales</first><last>Bertaglia</last></author>
+      <author><first>Andreea</first><last>Grigoriu</last></author>
+      <author><first>Michel</first><last>Dumontier</last></author>
+      <author><first>Gijs</first><last>van Dijck</last></author>
+      <pages>191–200</pages>
+      <abstract>Abusive language is a growing phenomenon on social media platforms. Its effects can reach beyond the online context, contributing to mental or emotional stress on users. Automatic tools for detecting abuse can alleviate the issue. In practice, developing automated methods to detect abusive language relies on good quality data. However, there is currently a lack of standards for creating datasets in the field. These standards include definitions of what is considered abusive language, annotation guidelines and reporting on the process. This paper introduces an annotation framework inspired by legal concepts to define abusive language in the context of online harassment. The framework uses a 7-point Likert scale for labelling instead of class labels. We also present ALYT – a dataset of Abusive Language on YouTube. ALYT includes YouTube comments in English extracted from videos on different controversial topics and labelled by Law students. The comments were sampled from the actual collected data, without artificial methods for increasing the abusive content. The paper describes the annotation process thoroughly, including all its guidelines and training steps.</abstract>
+      <url hash="c93fd069">2021.woah-1.20</url>
+    </paper>
+    <paper id="21">
+      <title>Findings of the <fixed-case>WOAH</fixed-case> 5 Shared Task on Fine Grained Hateful Memes Detection</title>
+      <author><first>Lambert</first><last>Mathias</last></author>
+      <author><first>Shaoliang</first><last>Nie</last></author>
+      <author><first>Aida</first><last>Mostafazadeh Davani</last></author>
+      <author><first>Douwe</first><last>Kiela</last></author>
+      <author><first>Vinodkumar</first><last>Prabhakaran</last></author>
+      <author><first>Bertie</first><last>Vidgen</last></author>
+      <author><first>Zeerak</first><last>Waseem</last></author>
+      <pages>201–206</pages>
+      <abstract>We present the results and main findings of the shared task at WOAH 5 on hateful memes detection. The task include two subtasks relating to distinct challenges in the fine-grained detection of hateful memes: (1) the protected category attacked by the meme and (2) the attack type. 3 teams submitted system description papers. This shared task builds on the hateful memes detection task created by Facebook AI Research in 2020.</abstract>
+      <url hash="e9f3cb18">2021.woah-1.21</url>
+    </paper>
+    <paper id="22">
+      <title><fixed-case>VL</fixed-case>-<fixed-case>BERT</fixed-case>+: Detecting Protected Groups in Hateful Multimodal Memes</title>
+      <author><first>Piush</first><last>Aggarwal</last></author>
+      <author><first>Michelle Espranita</first><last>Liman</last></author>
+      <author><first>Darina</first><last>Gold</last></author>
+      <author><first>Torsten</first><last>Zesch</last></author>
+      <pages>207–214</pages>
+      <abstract>This paper describes our submission (winning solution for Task A) to the Shared Task on Hateful Meme Detection at WOAH 2021. We build our system on top of a state-of-the-art system for binary hateful meme classification that already uses image tags such as race, gender, and web entities. We add further metadata such as emotions and experiment with data augmentation techniques, as hateful instances are underrepresented in the data set.</abstract>
+      <url hash="6dd3be4d">2021.woah-1.22</url>
+    </paper>
+    <paper id="23">
+      <title>Racist or Sexist Meme? Classifying Memes beyond Hateful</title>
+      <author><first>Haris Bin</first><last>Zia</last></author>
+      <author><first>Ignacio</first><last>Castro</last></author>
+      <author><first>Gareth</first><last>Tyson</last></author>
+      <pages>215–219</pages>
+      <abstract>Memes are the combinations of text and images that are often humorous in nature. But, that may not always be the case, and certain combinations of texts and images may depict hate, referred to as hateful memes. This work presents a multimodal pipeline that takes both visual and textual features from memes into account to (1) identify the protected category (e.g. race, sex etc.) that has been attacked; and (2) detect the type of attack (e.g. contempt, slurs etc.). Our pipeline uses state-of-the-art pre-trained visual and textual representations, followed by a simple logistic regression classifier. We employ our pipeline on the Hateful Memes Challenge dataset with additional newly created fine-grained labels for protected category and type of attack. Our best model achieves an AUROC of 0.96 for identifying the protected category, and 0.97 for detecting the type of attack. We release our code at https://github.com/harisbinzia/HatefulMemes</abstract>
+      <url hash="24ecb5e6">2021.woah-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>Multimodal or Text? Retrieval or <fixed-case>BERT</fixed-case>? Benchmarking Classifiers for the Shared Task on Hateful Memes</title>
+      <author><first>Vasiliki</first><last>Kougia</last></author>
+      <author><first>John</first><last>Pavlopoulos</last></author>
+      <pages>220–225</pages>
+      <abstract>The Shared Task on Hateful Memes is a challenge that aims at the detection of hateful content in memes by inviting the implementation of systems that understand memes, potentially by combining image and textual information. The challenge consists of three detection tasks: hate, protected category and attack type. The first is a binary classification task, while the other two are multi-label classification tasks. Our participation included a text-based BERT baseline (TxtBERT), the same but adding information from the image (ImgBERT), and neural retrieval approaches. We also experimented with retrieval augmented classification models. We found that an ensemble of TxtBERT and ImgBERT achieves the best performance in terms of ROC AUC score in two out of the three tasks on our development set.</abstract>
+      <url hash="19fb4464">2021.woah-1.24</url>
+    </paper>
+  </volume>
+</collection>

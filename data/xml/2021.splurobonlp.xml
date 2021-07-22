@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.splurobonlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of Second International Combined Workshop on Spatial Language Understanding and Grounded Communication for Robotics</booktitle>
+      <editor><first>Malihe</first><last>Alikhani</last></editor>
+      <editor><first>Valts</first><last>Blukis</last></editor>
+      <editor><first>Parisa</first><last>Kordjamshidi</last></editor>
+      <editor><first>Aishwarya</first><last>Padmakumar</last></editor>
+      <editor><first>Hao</first><last>Tan</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="14057496">2021.splurobonlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="66343b90">2021.splurobonlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Symbol Grounding and Task Learning from Imperfect Corrections</title>
+      <author><first>Mattias</first><last>Appelgren</last></author>
+      <author><first>Alex</first><last>Lascarides</last></author>
+      <pages>1–10</pages>
+      <abstract>This paper describes a method for learning from a teacher’s potentially unreliable corrective feedback in an interactive task learning setting. The graphical model uses discourse coherence to jointly learn symbol grounding, domain concepts and valid plans. Our experiments show that the agent learns its domain-level task in spite of the teacher’s mistakes.</abstract>
+      <url hash="0360370a">2021.splurobonlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Learning to Read Maps: Understanding Natural Language Instructions from Unseen Maps</title>
+      <author><first>Miltiadis Marios</first><last>Katsakioris</last></author>
+      <author><first>Ioannis</first><last>Konstas</last></author>
+      <author><first>Pierre Yves</first><last>Mignotte</last></author>
+      <author><first>Helen</first><last>Hastie</last></author>
+      <pages>11–21</pages>
+      <abstract>Robust situated dialog requires the ability to process instructions based on spatial information, which may or may not be available. We propose a model, based on LXMERT, that can extract spatial information from text instructions and attend to landmarks on OpenStreetMap (OSM) referred to in a natural language instruction. Whilst, OSM is a valuable resource, as with any open-sourced data, there is noise and variation in the names referred to on the map, as well as, variation in natural language instructions, hence the need for data-driven methods over rule-based systems. This paper demonstrates that the gold GPS location can be accurately predicted from the natural language instruction and metadata with 72% accuracy for previously seen maps and 64% for unseen maps.</abstract>
+      <url hash="7cd08afd">2021.splurobonlp-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Visually Grounded Follow-up Questions: a Dataset of Spatial Questions Which Require Dialogue History</title>
+      <author><first>Tianai</first><last>Dong</last></author>
+      <author><first>Alberto</first><last>Testoni</last></author>
+      <author><first>Luciana</first><last>Benotti</last></author>
+      <author><first>Raffaella</first><last>Bernardi</last></author>
+      <pages>22–31</pages>
+      <abstract>In this paper, we define and evaluate a methodology for extracting history-dependent spatial questions from visual dialogues. We say that a question is history-dependent if it requires (parts of) its dialogue history to be interpreted. We argue that some kinds of visual questions define a context upon which a follow-up spatial question relies. We call the question that restricts the context: trigger, and we call the spatial question that requires the trigger question to be answered: zoomer. We automatically extract different trigger and zoomer pairs based on the visual property that the questions rely on (e.g. color, number). We manually annotate the automatically extracted trigger and zoomer pairs to verify which zoomers require their trigger. We implement a simple baseline architecture based on a SOTA multimodal encoder. Our results reveal that there is much room for improvement for answering history-dependent questions.</abstract>
+      <url hash="6ab7b354">2021.splurobonlp-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Modeling Semantics and Pragmatics of Spatial Prepositions via Hierarchical Common-Sense Primitives</title>
+      <author><first>Georgiy</first><last>Platonov</last></author>
+      <author><first>Yifei</first><last>Yang</last></author>
+      <author><first>Haoyu</first><last>Wu</last></author>
+      <author><first>Jonathan</first><last>Waxman</last></author>
+      <author><first>Marcus</first><last>Hill</last></author>
+      <author><first>Lenhart</first><last>Schubert</last></author>
+      <pages>32–41</pages>
+      <abstract>Understanding spatial expressions and using them appropriately is necessary for seamless and natural human-machine interaction. However, capturing the semantics and appropriate usage of spatial prepositions is notoriously difficult, because of their vagueness and polysemy. Although modern data-driven approaches are good at capturing statistical regularities in the usage, they usually require substantial sample sizes, often do not generalize well to unseen instances and, most importantly, their structure is essentially opaque to analysis, which makes diagnosing problems and understanding their reasoning process difficult. In this work, we discuss our attempt at modeling spatial senses of prepositions in English using a combination of rule-based and statistical learning approaches. Each preposition model is implemented as a tree where each node computes certain intuitive relations associated with the preposition, with the root computing the final value of the prepositional relation itself. The models operate on a set of artificial 3D “room world” environments, designed in Blender, taking the scene itself as an input. We also discuss our annotation framework used to collect human judgments employed in the model training. Both our factored models and black-box baseline models perform quite well, but the factored models will enable reasoned explanations of spatial relation judgements.</abstract>
+      <url hash="20abfb4e">2021.splurobonlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Towards Navigation by Reasoning over Spatial Configurations</title>
+      <author><first>Yue</first><last>Zhang</last></author>
+      <author><first>Quan</first><last>Guo</last></author>
+      <author><first>Parisa</first><last>Kordjamshidi</last></author>
+      <pages>42–52</pages>
+      <abstract>We deal with the navigation problem where the agent follows natural language instructions while observing the environment. Focusing on language understanding, we show the importance of spatial semantics in grounding navigation instructions into visual perceptions. We propose a neural agent that uses the elements of spatial configurations and investigate their influence on the navigation agent’s reasoning ability. Moreover, we model the sequential execution order and align visual objects with spatial configurations in the instruction. Our neural agent improves strong baselines on the seen environments and shows competitive performance on the unseen environments. Additionally, the experimental results demonstrate that explicit modeling of spatial semantic elements in the instructions can improve the grounding and spatial reasoning of the model.</abstract>
+      <url hash="8e5bce3e">2021.splurobonlp-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Error-Aware Interactive Semantic Parsing of <fixed-case>O</fixed-case>pen<fixed-case>S</fixed-case>treet<fixed-case>M</fixed-case>ap</title>
+      <author><first>Michael</first><last>Staniek</last></author>
+      <author><first>Stefan</first><last>Riezler</last></author>
+      <pages>53–59</pages>
+      <abstract>In semantic parsing of geographical queries against real-world databases such as OpenStreetMap (OSM), unique correct answers do not necessarily exist. Instead, the truth might be lying in the eye of the user, who needs to enter an interactive setup where ambiguities can be resolved and parsing mistakes can be corrected. Our work presents an approach to interactive semantic parsing where an explicit error detection is performed, and a clarification question is generated that pinpoints the suspected source of ambiguity or error and communicates it to the human user. Our experimental results show that a combination of entropy-based uncertainty detection and beam search, together with multi-source training on clarification question, initial parse, and user answer, results in improvements of 1.2% F1 score on a parser that already performs at 90.26% on the NLMaps dataset for OSM semantic parsing.</abstract>
+      <url hash="06a8710f">2021.splurobonlp-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Plan Explanations that Exploit a Cognitive Spatial Model</title>
+      <author><first>Raj</first><last>Korpan</last></author>
+      <author><first>Susan L.</first><last>Epstein</last></author>
+      <pages>60–70</pages>
+      <abstract>Ideally, people who navigate together in a complex indoor space share a mental model that facilitates explanation. This paper reports on a robot control system whose cognitive world model is based on spatial affordances that generalize over its perceptual data. Given a target, the control system formulates multiple plans, each with a model-relevant metric, and selects among them. As a result, it can provide readily understandable natural language about the robot’s intentions and confidence, and generate diverse, contrastive explanations that reference the acquired spatial model. Empirical results in large, complex environments demonstrate the robot’s ability to provide human-friendly explanations in natural language.</abstract>
+      <url hash="41dfe5f0">2021.splurobonlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Interactive Reinforcement Learning for Table Balancing Robot</title>
+      <author><first>Haein</first><last>Jeon</last></author>
+      <author><first>Yewon</first><last>Kim</last></author>
+      <author><first>Bo-Yeong</first><last>Kang</last></author>
+      <pages>71–78</pages>
+      <abstract>With the development of robotics, the use of robots in daily life is increasing, which has led to the need for anyone to easily train robots to improve robot use. Interactive reinforcement learning(IARL) is a method for robot training based on human–robot interaction; prior studies on IARL provide only limited types of feedback or require appropriately designed shaping rewards, which is known to be difficult and time-consuming. Therefore, in this study, we propose interactive deep reinforcement learning models based on voice feedback. In the proposed system, a robot learns the task of cooperative table balancing through deep Q-network using voice feedback provided by humans in real-time, with automatic speech recognition(ASR) and sentiment analysis to understand human voice feedback. As a result, an optimal policy convergence rate of up to 96% was realized, and performance was improved in all voice feedback-based models</abstract>
+      <url hash="f5793e00">2021.splurobonlp-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Multi-Level Gazetteer-Free Geocoding</title>
+      <author><first>Sayali</first><last>Kulkarni</last></author>
+      <author><first>Shailee</first><last>Jain</last></author>
+      <author><first>Mohammad Javad</first><last>Hosseini</last></author>
+      <author><first>Jason</first><last>Baldridge</last></author>
+      <author><first>Eugene</first><last>Ie</last></author>
+      <author><first>Li</first><last>Zhang</last></author>
+      <pages>79–88</pages>
+      <abstract>We present a multi-level geocoding model (MLG) that learns to associate texts to geographic coordinates. The Earth’s surface is represented using space-filling curves that decompose the sphere into a hierarchical grid. MLG balances classification granularity and accuracy by combining losses across multiple levels and jointly predicting cells at different levels simultaneously. It obtains large gains without any gazetteer metadata, demonstrating that it can effectively learn the connection between text spans and coordinates—and thus makes it a gazetteer-free geocoder. Furthermore, MLG obtains state-of-the-art results for toponym resolution on three English datasets without any dataset-specific tuning.</abstract>
+      <url hash="6bc06944">2021.splurobonlp-1.9</url>
+    </paper>
+  </volume>
+</collection>

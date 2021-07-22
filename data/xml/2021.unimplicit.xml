@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.unimplicit">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on Understanding Implicit and Underspecified Language</booktitle>
+      <editor><first>Michael</first><last>Roth</last></editor>
+      <editor><first>Reut</first><last>Tsarfaty</last></editor>
+      <editor><first>Yoav</first><last>Goldberg</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="2f1d2093">2021.unimplicit-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="ef56eece">2021.unimplicit-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Let’s be explicit about that: Distant supervision for implicit discourse relation classification via connective prediction</title>
+      <author><first>Murathan</first><last>Kurfalı</last></author>
+      <author><first>Robert</first><last>Östling</last></author>
+      <pages>1–10</pages>
+      <abstract>In implicit discourse relation classification, we want to predict the relation between adjacent sentences in the absence of any overt discourse connectives. This is challenging even for humans, leading to shortage of annotated data, a fact that makes the task even more difficult for supervised machine learning approaches. In the current study, we perform implicit discourse relation classification without relying on any labeled implicit relation. We sidestep the lack of data through explicitation of implicit relations to reduce the task to two sub-problems: language modeling and explicit discourse relation classification, a much easier problem. Our experimental results show that this method can even marginally outperform the state-of-the-art, in spite of being much simpler than alternative models of comparable performance. Moreover, we show that the achieved performance is robust across domains as suggested by the zero-shot experiments on a completely different domain. This indicates that recent advances in language modeling have made language models sufficiently good at capturing inter-sentence relations without the help of explicit discourse markers.</abstract>
+      <url hash="2be34d43">2021.unimplicit-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Implicit Phenomena in Short-answer Scoring Data</title>
+      <author><first>Marie</first><last>Bexte</last></author>
+      <author><first>Andrea</first><last>Horbach</last></author>
+      <author><first>Torsten</first><last>Zesch</last></author>
+      <pages>11–19</pages>
+      <abstract>Short-answer scoring is the task of assessing the correctness of a short text given as response to a question that can come from a variety of educational scenarios. As only content, not form, is important, the exact wording including the explicitness of an answer should not matter. However, many state-of-the-art scoring models heavily rely on lexical information, be it word embeddings in a neural network or n-grams in an SVM. Thus, the exact wording of an answer might very well make a difference. We therefore quantify to what extent implicit language phenomena occur in short answer datasets and examine the influence they have on automatic scoring performance. We find that the level of implicitness depends on the individual question, and that some phenomena are very frequent. Resolving implicit wording to explicit formulations indeed tends to improve automatic scoring performance.</abstract>
+      <url hash="1f0d0d8f">2021.unimplicit-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Evaluation Guidelines to Deal with Implicit Phenomena to Assess Factuality in Data-to-Text Generation</title>
+      <author><first>Roy</first><last>Eisenstadt</last></author>
+      <author><first>Michael</first><last>Elhadad</last></author>
+      <pages>20–27</pages>
+      <abstract>Data-to-text generation systems are trained on large datasets, such as WebNLG, Ro-toWire, E2E or DART. Beyond traditional token-overlap evaluation metrics (BLEU or METEOR), a key concern faced by recent generators is to control the factuality of the generated text with respect to the input data specification. We report on our experience when developing an automatic factuality evaluation system for data-to-text generation that we are testing on WebNLG and E2E data. We aim to prepare gold data annotated manually to identify cases where the text communicates more information than is warranted based on the in-put data (extra) or fails to communicate data that is part of the input (missing). While analyzing reference (data, text) samples, we encountered a range of systematic uncertainties that are related to cases on implicit phenomena in text, and the nature of non-linguistic knowledge we expect to be involved when assessing factuality. We derive from our experience a set of evaluation guidelines to reach high inter-annotator agreement on such cases.</abstract>
+      <url hash="56cda1bd">2021.unimplicit-1.3</url>
+    </paper>
+    <paper id="4">
+      <title><fixed-case>U</fixed-case>n<fixed-case>I</fixed-case>mplicit Shared Task Report: Detecting Clarification Requirements in Instructional Text</title>
+      <author><first>Michael</first><last>Roth</last></author>
+      <author><first>Talita</first><last>Anthonio</last></author>
+      <pages>28–32</pages>
+      <abstract>This paper describes the data, task setup, and results of the shared task at the First Workshop on Understanding Implicit and Underspecified Language (UnImplicit). The task requires computational models to predict whether a sentence contains aspects of meaning that are contextually unspecified and thus require clarification. Two teams participated and the best scoring system achieved an accuracy of 68%.</abstract>
+      <url hash="e7673810">2021.unimplicit-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Improvements and Extensions on Metaphor Detection</title>
+      <author><first>Weicheng</first><last>Ma</last></author>
+      <author><first>Ruibo</first><last>Liu</last></author>
+      <author><first>Lili</first><last>Wang</last></author>
+      <author><first>Soroush</first><last>Vosoughi</last></author>
+      <pages>33–42</pages>
+      <abstract>Metaphors are ubiquitous in human language. The metaphor detection task (MD) aims at detecting and interpreting metaphors from written language, which is crucial in natural language understanding (NLU) research. In this paper, we introduce a pre-trained Transformer-based model into MD. Our model outperforms the previous state-of-the-art models by large margins in our evaluations, with relative improvements on the F-1 score from 5.33% to 28.39%. Second, we extend MD to a classification task about the metaphoricity of an entire piece of text to make MD applicable in more general NLU scenes. Finally, we clean up the improper or outdated annotations in one of the MD benchmark datasets and re-benchmark it with our Transformer-based model. This approach could be applied to other existing MD datasets as well, since the metaphoricity annotations in these benchmark datasets may be outdated. Future research efforts are also necessary to build an up-to-date and well-annotated dataset consisting of longer and more complex texts.</abstract>
+      <url hash="5e535c1c">2021.unimplicit-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Human-Model Divergence in the Handling of Vagueness</title>
+      <author><first>Elias</first><last>Stengel-Eskin</last></author>
+      <author><first>Jimena</first><last>Guallar-Blasco</last></author>
+      <author><first>Benjamin</first><last>Van Durme</last></author>
+      <pages>43–57</pages>
+      <abstract>While aggregate performance metrics can generate valuable insights at a large scale, their dominance means more complex and nuanced language phenomena, such as vagueness, may be overlooked. Focusing on vague terms (e.g. sunny, cloudy, young, etc.) we inspect the behavior of visually grounded and text-only models, finding systematic divergences from human judgments even when a model’s overall performance is high. To help explain this disparity, we identify two assumptions made by the datasets and models examined and, guided by the philosophy of vagueness, isolate cases where they do not hold.</abstract>
+      <url hash="c34ab4ad">2021.unimplicit-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>A Mention-Based System for Revision Requirements Detection</title>
+      <author><first>Ahmed</first><last>Ruby</last></author>
+      <author><first>Christian</first><last>Hardmeier</last></author>
+      <author><first>Sara</first><last>Stymne</last></author>
+      <pages>58–63</pages>
+      <abstract>Exploring aspects of sentential meaning that are implicit or underspecified in context is important for sentence understanding. In this paper, we propose a novel architecture based on mentions for revision requirements detection. The goal is to improve understandability, addressing some types of revisions, especially for the Replaced Pronoun type. We show that our mention-based system can predict replaced pronouns well on the mention-level. However, our combined sentence-level system does not improve on the sentence-level BERT baseline. We also present additional contrastive systems, and show results for each type of edit.</abstract>
+      <url hash="01cac0bc">2021.unimplicit-1.7</url>
+    </paper>
+    <paper id="8">
+      <title><fixed-case>TTCB</fixed-case> System Description to a Shared Task on Implicit and Underspecified Language 2021</title>
+      <author><first>Peratham</first><last>Wiriyathammabhum</last></author>
+      <pages>64–70</pages>
+      <abstract>In this report, we describe our transformers for text classification baseline (TTCB) submissions to a shared task on implicit and underspecified language 2021. We cast the task of predicting revision requirements in collaboratively edited instructions as text classification. We considered transformer-based models which are the current state-of-the-art methods for text classification. We explored different training schemes, loss functions, and data augmentations. Our best result of <i>68.45%</i> test accuracy (<i>68.84%</i> validation accuracy), however, consists of an XLNet model with a linear annealing scheduler and a cross-entropy loss. We do not observe any significant gain on any validation metric based on our various design choices except the MiniLM which has a higher validation F1 score and is faster to train by a half but also a lower validation accuracy score.</abstract>
+      <url hash="98811b60">2021.unimplicit-1.8</url>
+    </paper>
+  </volume>
+</collection>

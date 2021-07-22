@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <collection id="2021.jeptalnrecital">
-  <volume id="taln" ingest-date="2021-07-20">
+  <volume id="taln" ingest-date="2021-07-25">
     <meta>
       <booktitle>Actes de la 28e Conférence sur le Traitement Automatique des Langues Naturelles. Volume 1 : conférence principale</booktitle>
       <editor><first>Pascal</first><last>Denis</last></editor>
@@ -347,7 +347,7 @@ _ (<fixed-case>F</fixed-case>rench) We introduce a <fixed-case>F</fixed-case>ren
       <language>fra</language>
     </paper>
   </volume>
-  <volume id="recital" ingest-date="2021-07-20">
+  <volume id="recital" ingest-date="2021-07-25">
     <meta>
       <booktitle>Actes de la 28e Conférence sur le Traitement Automatique des Langues Naturelles. Volume 2 : 23e REncontres jeunes Chercheurs en Informatique pour le TAL (RECITAL)</booktitle>
       <editor><first>Pascal</first><last>Denis</last></editor>
@@ -447,7 +447,7 @@ _ (<fixed-case>F</fixed-case>rench) We introduce a <fixed-case>F</fixed-case>ren
       <language>fra</language>
     </paper>
   </volume>
-  <volume id="demo" ingest-date="2021-07-20">
+  <volume id="demo" ingest-date="2021-07-25">
     <meta>
       <booktitle>Actes de la 28e Conférence sur le Traitement Automatique des Langues Naturelles. Volume 3 : Démonstrations</booktitle>
       <editor><first>Pascal</first><last>Denis</last></editor>
@@ -516,7 +516,7 @@ _ (<fixed-case>F</fixed-case>rench) We introduce a <fixed-case>F</fixed-case>ren
       <url hash="6e511b81">2021.jeptalnrecital-demo.5</url>
     </paper>
   </volume>
-  <volume id="deft" ingest-date="2021-07-20">
+  <volume id="deft" ingest-date="2021-07-25">
     <meta>
       <booktitle>Actes de la 28e Conférence sur le Traitement Automatique des Langues Naturelles. Atelier DÉfi Fouille de Textes (DEFT)</booktitle>
       <editor><first>Cyril</first><last>Grouin</last></editor>

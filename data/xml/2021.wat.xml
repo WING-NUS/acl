@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.wat">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 8th Workshop on Asian Translation (WAT2021)</booktitle>
+      <editor><first>Toshiaki</first><last>Nakazawa</last></editor>
+      <editor><first>Hideki</first><last>Nakayama</last></editor>
+      <editor><first>Isao</first><last>Goto</last></editor>
+      <editor><first>Hideya</first><last>Mino</last></editor>
+      <editor><first>Chenchen</first><last>Ding</last></editor>
+      <editor><first>Raj</first><last>Dabre</last></editor>
+      <editor><first>Anoop</first><last>Kunchukuttan</last></editor>
+      <editor><first>Shohei</first><last>Higashiyama</last></editor>
+      <editor><first>Hiroshi</first><last>Manabe</last></editor>
+      <editor><first>Win Pa</first><last>Pa</last></editor>
+      <editor><first>Shantipriya</first><last>Parida</last></editor>
+      <editor><first>Ondřej</first><last>Bojar</last></editor>
+      <editor><first>Chenhui</first><last>Chu</last></editor>
+      <editor><first>Akiko</first><last>Eriguchi</last></editor>
+      <editor><first>Kaori</first><last>Abe</last></editor>
+      <editor><first>Yusuke</first><last>Oda</last></editor>
+      <editor><first>Katsuhito</first><last>Sudoh</last></editor>
+      <editor><first>Sadao</first><last>Kurohashi</last></editor>
+      <editor><first>Pushpak</first><last>Bhattacharyya</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="949b3b17">2021.wat-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="659551df">2021.wat-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Overview of the 8th Workshop on <fixed-case>A</fixed-case>sian Translation</title>
+      <author><first>Toshiaki</first><last>Nakazawa</last></author>
+      <author><first>Hideki</first><last>Nakayama</last></author>
+      <author><first>Chenchen</first><last>Ding</last></author>
+      <author><first>Raj</first><last>Dabre</last></author>
+      <author><first>Shohei</first><last>Higashiyama</last></author>
+      <author><first>Hideya</first><last>Mino</last></author>
+      <author><first>Isao</first><last>Goto</last></author>
+      <author><first>Win</first><last>Pa Pa</last></author>
+      <author><first>Anoop</first><last>Kunchukuttan</last></author>
+      <author><first>Shantipriya</first><last>Parida</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <author><first>Chenhui</first><last>Chu</last></author>
+      <author><first>Akiko</first><last>Eriguchi</last></author>
+      <author><first>Kaori</first><last>Abe</last></author>
+      <author><first>Yusuke</first><last>Oda</last></author>
+      <author><first>Sadao</first><last>Kurohashi</last></author>
+      <pages>1–45</pages>
+      <abstract>This paper presents the results of the shared tasks from the 8th workshop on Asian translation (WAT2021). For the WAT2021, 28 teams participated in the shared tasks and 24 teams submitted their translation results for the human evaluation. We also accepted 5 research papers. About 2,100 translation results were submitted to the automatic evaluation server, and selected submissions were manually evaluated.</abstract>
+      <url hash="c5f56a7d">2021.wat-1.1</url>
+    </paper>
+    <paper id="2">
+      <title><fixed-case>NHK</fixed-case>’s Lexically-Constrained Neural Machine Translation at <fixed-case>WAT</fixed-case> 2021</title>
+      <author><first>Hideya</first><last>Mino</last></author>
+      <author><first>Kazutaka</first><last>Kinugawa</last></author>
+      <author><first>Hitoshi</first><last>Ito</last></author>
+      <author><first>Isao</first><last>Goto</last></author>
+      <author><first>Ichiro</first><last>Yamada</last></author>
+      <author><first>Takenobu</first><last>Tokunaga</last></author>
+      <pages>46–52</pages>
+      <abstract>This paper describes the system of our team (NHK) for the WAT 2021 Japanese-English restricted machine translation task. In this task, the aim is to improve quality while maintaining consistent terminology for scientific paper translation. This task has a unique feature, where some words in a target sentence are given in addition to a source sentence. In this paper, we use a lexically-constrained neural machine translation (NMT), which concatenates the source sentence and constrained words with a special token to input them into the encoder of NMT. The key to the successful lexically-constrained NMT is the way to extract constraints from a target sentence of training data. We propose two extraction methods: proper-noun constraint and mistranslated-word constraint. These two methods consider the importance of words and fallibility of NMT, respectively. The evaluation results demonstrate the effectiveness of our lexical-constraint method.</abstract>
+      <url hash="39f2e84f">2021.wat-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Input Augmentation Improves Constrained Beam Search for Neural Machine Translation: <fixed-case>NTT</fixed-case> at <fixed-case>WAT</fixed-case> 2021</title>
+      <author><first>Katsuki</first><last>Chousa</last></author>
+      <author><first>Makoto</first><last>Morishita</last></author>
+      <pages>53–61</pages>
+      <abstract>This paper describes our systems that were submitted to the restricted translation task at WAT 2021. In this task, the systems are required to output translated sentences that contain all given word constraints. Our system combined input augmentation and constrained beam search algorithms. Through experiments, we found that this combination significantly improves translation accuracy and can save inference time while containing all the constraints in the output. For both En-&gt;Ja and Ja-&gt;En, our systems obtained the best evaluation performances in automatic and human evaluation.</abstract>
+      <url hash="5b910cee">2021.wat-1.3</url>
+    </paper>
+    <paper id="4">
+      <title><fixed-case>NICT</fixed-case>’s Neural Machine Translation Systems for the <fixed-case>WAT</fixed-case>21 Restricted Translation Task</title>
+      <author><first>Zuchao</first><last>Li</last></author>
+      <author><first>Masao</first><last>Utiyama</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <author><first>Hai</first><last>Zhao</last></author>
+      <pages>62–67</pages>
+      <abstract>This paper describes our system (Team ID: nictrb) for participating in the WAT’21 restricted machine translation task. In our submitted system, we designed a new training approach for restricted machine translation. By sampling from the translation target, we can solve the problem that ordinary training data does not have a restricted vocabulary. With the further help of constrained decoding in the inference phase, we achieved better results than the baseline, confirming the effectiveness of our solution. In addition, we also tried the vanilla and sparse Transformer as the backbone network of the model, as well as model ensembling, which further improved the final translation performance.</abstract>
+      <url hash="d801187b">2021.wat-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Machine Translation with Pre-specified Target-side Words Using a Semi-autoregressive Model</title>
+      <author><first>Seiichiro</first><last>Kondo</last></author>
+      <author><first>Aomi</first><last>Koyama</last></author>
+      <author><first>Tomoshige</first><last>Kiyuna</last></author>
+      <author><first>Tosho</first><last>Hirasawa</last></author>
+      <author><first>Mamoru</first><last>Komachi</last></author>
+      <pages>68–73</pages>
+      <abstract>We introduce our TMU Japanese-to-English system, which employs a semi-autoregressive model, to tackle the WAT 2021 restricted translation task. In this task, we translate an input sentence with the constraint that some words, called restricted target vocabularies (RTVs), must be contained in the output sentence. To satisfy this constraint, we use a semi-autoregressive model, namely, RecoverSAT, due to its ability (known as “forced translation”) to insert specified words into the output sentence. When using “forced translation,” the order of inserting RTVs is a critical problem. In this work, we aligned the source sentence and the corresponding RTVs using GIZA++. In our system, we obtain word alignment between a source sentence and the corresponding RTVs and then sort the RTVs in the order of their corresponding words or phrases in the source sentence. Using the model with sorted order RTVs, we succeeded in inserting all the RTVs into output sentences in more than 96% of the test sentences. Moreover, we confirmed that sorting RTVs improved the BLEU score compared with random order RTVs.</abstract>
+      <url hash="0580ff29">2021.wat-1.5</url>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>NECTEC</fixed-case>’s Participation in <fixed-case>WAT</fixed-case>-2021</title>
+      <author><first>Zar Zar</first><last>Hlaing</last></author>
+      <author><first>Ye Kyaw</first><last>Thu</last></author>
+      <author><first>Thazin</first><last>Myint Oo</last></author>
+      <author><first>Mya</first><last>Ei San</last></author>
+      <author><first>Sasiporn</first><last>Usanavasin</last></author>
+      <author><first>Ponrudee</first><last>Netisopakul</last></author>
+      <author><first>Thepchai</first><last>Supnithi</last></author>
+      <pages>74–82</pages>
+      <abstract>In this paper, we report the experimental results of Machine Translation models conducted by a NECTEC team for the translation tasks of WAT-2021. Basically, our models are based on neural methods for both directions of English-Myanmar and Myanmar-English language pairs. Most of the existing Neural Machine Translation (NMT) models mainly focus on the conversion of sequential data and do not directly use syntactic information. However, we conduct multi-source neural machine translation (NMT) models using the multilingual corpora such as string data corpus, tree data corpus, or POS-tagged data corpus. The multi-source translation is an approach to exploit multiple inputs (e.g. in two different formats) to increase translation accuracy. The RNN-based encoder-decoder model with attention mechanism and transformer architectures have been carried out for our experiment. The experimental results showed that the proposed models of RNN-based architecture outperform the baseline model for English-to-Myanmar translation task, and the multi-source and shared-multi-source transformer models yield better translation results than the baseline.</abstract>
+      <url hash="70ed53ac">2021.wat-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Hybrid Statistical Machine Translation for <fixed-case>E</fixed-case>nglish-<fixed-case>M</fixed-case>yanmar: <fixed-case>UTYCC</fixed-case> Submission to <fixed-case>WAT</fixed-case>-2021</title>
+      <author><first>Ye Kyaw</first><last>Thu</last></author>
+      <author><first>Thazin Myint</first><last>Oo</last></author>
+      <author><first>Hlaing Myat</first><last>Nwe</last></author>
+      <author><first>Khaing Zar</first><last>Mon</last></author>
+      <author><first>Nang Aeindray</first><last>Kyaw</last></author>
+      <author><first>Naing Linn</first><last>Phyo</last></author>
+      <author><first>Nann Hwan</first><last>Khun</last></author>
+      <author><first>Hnin Aye</first><last>Thant</last></author>
+      <pages>83–89</pages>
+      <abstract>In this paper we describe our submissions to WAT-2021 (Nakazawa et al., 2021) for English-to-Myanmar language (Burmese) task. Our team, ID: “YCC-MT1”, focused on bringing transliteration knowledge to the decoder without changing the model. We manually extracted the transliteration word/phrase pairs from the ALT corpus and applying XML markup feature of Moses decoder (i.e. -xml-input exclusive, -xml-input inclusive). We demonstrate that hybrid translation technique can significantly improve (around 6 BLEU scores) the baseline of three well-known “Phrase-based SMT”, “Operation Sequence Model” and “Hierarchical Phrase-based SMT”. Moreover, this simple hybrid method achieved the second highest results among the submitted MT systems for English-to-Myanmar WAT2021 translation share task according to BLEU (Papineni et al., 2002) and AMFM scores (Banchs et al., 2015).</abstract>
+      <url hash="44d6a159">2021.wat-1.7</url>
+    </paper>
+    <paper id="8">
+      <title><fixed-case>NICT</fixed-case>-2 Translation System at <fixed-case>WAT</fixed-case>-2021: Applying a Pretrained Multilingual Encoder-Decoder Model to Low-resource Language Pairs</title>
+      <author><first>Kenji</first><last>Imamura</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <pages>90–95</pages>
+      <abstract>In this paper, we present the NICT system (NICT-2) submitted to the NICT-SAP shared task at the 8th Workshop on Asian Translation (WAT-2021). A feature of our system is that we used a pretrained multilingual BART (Bidirectional and Auto-Regressive Transformer; mBART) model. Because publicly available models do not support some languages in the NICT-SAP task, we added these languages to the mBART model and then trained it using monolingual corpora extracted from Wikipedia. We fine-tuned the expanded mBART model using the parallel corpora specified by the NICT-SAP task. The BLEU scores greatly improved in comparison with those of systems without the pretrained model, including the additional languages.</abstract>
+      <url hash="12623772">2021.wat-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Rakuten’s Participation in <fixed-case>WAT</fixed-case> 2021: Examining the Effectiveness of Pre-trained Models for Multilingual and Multimodal Machine Translation</title>
+      <author><first>Raymond Hendy</first><last>Susanto</last></author>
+      <author><first>Dongzhe</first><last>Wang</last></author>
+      <author><first>Sunil</first><last>Yadav</last></author>
+      <author><first>Mausam</first><last>Jain</last></author>
+      <author><first>Ohnmar</first><last>Htun</last></author>
+      <pages>96–105</pages>
+      <abstract>This paper introduces our neural machine translation systems’ participation in the WAT 2021 shared translation tasks (team ID: sakura). We participated in the (i) NICT-SAP, (ii) Japanese-English multimodal translation, (iii) Multilingual Indic, and (iv) Myanmar-English translation tasks. Multilingual approaches such as mBART (Liu et al., 2020) are capable of pre-training a complete, multilingual sequence-to-sequence model through denoising objectives, making it a great starting point for building multilingual translation systems. Our main focus in this work is to investigate the effectiveness of multilingual finetuning on such a multilingual language model on various translation tasks, including low-resource, multimodal, and mixed-domain translation. We further explore a multimodal approach based on universal visual representation (Zhang et al., 2019) and compare its performance against a unimodal approach based on mBART alone.</abstract>
+      <url hash="68b79767">2021.wat-1.9</url>
+    </paper>
+    <paper id="10">
+      <title><fixed-case>BTS</fixed-case>: Back <fixed-case>T</fixed-case>ran<fixed-case>S</fixed-case>cription for Speech-to-Text Post-Processor using Text-to-Speech-to-Text</title>
+      <author><first>Chanjun</first><last>Park</last></author>
+      <author><first>Jaehyung</first><last>Seo</last></author>
+      <author><first>Seolhwa</first><last>Lee</last></author>
+      <author><first>Chanhee</first><last>Lee</last></author>
+      <author><first>Hyeonseok</first><last>Moon</last></author>
+      <author><first>Sugyeong</first><last>Eo</last></author>
+      <author><first>Heuiseok</first><last>Lim</last></author>
+      <pages>106–116</pages>
+      <abstract>With the growing popularity of smart speakers, such as Amazon Alexa, speech is becoming one of the most important modes of human-computer interaction. Automatic speech recognition (ASR) is arguably the most critical component of such systems, as errors in speech recognition propagate to the downstream components and drastically degrade the user experience. A simple and effective way to improve the speech recognition accuracy is to apply automatic post-processor to the recognition result. However, training a post-processor requires parallel corpora created by human annotators, which are expensive and not scalable. To alleviate this problem, we propose Back TranScription (BTS), a denoising-based method that can create such corpora without human labor. Using a raw corpus, BTS corrupts the text using Text-to-Speech (TTS) and Speech-to-Text (STT) systems. Then, a post-processing model can be trained to reconstruct the original text given the corrupted input. Quantitative and qualitative evaluations show that a post-processor trained using our approach is highly effective in fixing non-trivial speech recognition errors such as mishandling foreign words. We present the generated parallel corpus and post-processing platform to make our results publicly available.</abstract>
+      <url hash="523f9b77">2021.wat-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Zero-pronoun Data Augmentation for <fixed-case>J</fixed-case>apanese-to-<fixed-case>E</fixed-case>nglish Translation</title>
+      <author><first>Ryokan</first><last>Ri</last></author>
+      <author><first>Toshiaki</first><last>Nakazawa</last></author>
+      <author><first>Yoshimasa</first><last>Tsuruoka</last></author>
+      <pages>117–123</pages>
+      <abstract>For Japanese-to-English translation, zero pronouns in Japanese pose a challenge, since the model needs to infer and produce the corresponding pronoun in the target side of the English sentence. However, although fully resolving zero pronouns often needs discourse context, in some cases, the local context within a sentence gives clues to the inference of the zero pronoun. In this study, we propose a data augmentation method that provides additional training signals for the translation model to learn correlations between local context and zero pronouns. We show that the proposed method significantly improves the accuracy of zero pronoun translation with machine translation experiments in the conversational domain.</abstract>
+      <url hash="a0e5659f">2021.wat-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Evaluation Scheme of Focal Translation for <fixed-case>J</fixed-case>apanese Partially Amended Statutes</title>
+      <author><first>Takahiro</first><last>Yamakoshi</last></author>
+      <author><first>Takahiro</first><last>Komamizu</last></author>
+      <author><first>Yasuhiro</first><last>Ogawa</last></author>
+      <author><first>Katsuhiko</first><last>Toyama</last></author>
+      <pages>124–132</pages>
+      <abstract>For updating the translations of Japanese statutes based on their amendments, we need to consider the translation “focality;” that is, we should only modify expressions that are relevant to the amendment and retain the others to avoid misconstruing its contents. In this paper, we introduce an evaluation metric and a corpus to improve focality evaluations. Our metric is called an Inclusive Score for DIfferential Translation: (ISDIT). ISDIT consists of two factors: (1) the n-gram recall of expressions unaffected by the amendment and (2) the n-gram precision of the output compared to the reference. This metric supersedes an existing one for focality by simultaneously calculating the translation quality of the changed expressions in addition to that of the unchanged expressions. We also newly compile a corpus for Japanese partially amendment translation that secures the focality of the post-amendment translations, while an existing evaluation corpus does not. With the metric and the corpus, we examine the performance of existing translation methods for Japanese partially amendment translations.</abstract>
+      <url hash="330ee461">2021.wat-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>TMU</fixed-case> <fixed-case>NMT</fixed-case> System with <fixed-case>J</fixed-case>apanese <fixed-case>BART</fixed-case> for the Patent task of <fixed-case>WAT</fixed-case> 2021</title>
+      <author><first>Hwichan</first><last>Kim</last></author>
+      <author><first>Mamoru</first><last>Komachi</last></author>
+      <pages>133–137</pages>
+      <abstract>In this paper, we introduce our TMU Neural Machine Translation (NMT) system submitted for the Patent task (Korean Japanese and English Japanese) of 8th Workshop on Asian Translation (Nakazawa et al., 2021). Recently, several studies proposed pre-trained encoder-decoder models using monolingual data. One of the pre-trained models, BART (Lewis et al., 2020), was shown to improve translation accuracy via fine-tuning with bilingual data. However, they experimented only Romanian!English translation using English BART. In this paper, we examine the effectiveness of Japanese BART using Japan Patent Office Corpus 2.0. Our experiments indicate that Japanese BART can also improve translation accuracy in both Korean Japanese and English Japanese translations.</abstract>
+      <url hash="3aba8b3d">2021.wat-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>System Description for Transperfect</title>
+      <author><first>Wiktor</first><last>Stribiżew</last></author>
+      <author><first>Fred</first><last>Bane</last></author>
+      <author><first>José</first><last>Conceição</last></author>
+      <author><first>Anna</first><last>Zaretskaya</last></author>
+      <pages>138–140</pages>
+      <abstract>In this paper, we describe our participation in the 2021 Workshop on Asian Translation (team ID: tpt_wat). We submitted results for all six directions of the JPC2 patent task. As a first-time participant in the task, we attempted to identify a single configuration that provided the best overall results across all language pairs. All our submissions were created using single base transformer models, trained on only the task-specific data, using a consistent configuration of hyperparameters. In contrast to the uniformity of our methods, our results vary widely across the six language pairs.</abstract>
+      <url hash="8a962f79">2021.wat-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Bering Lab’s Submissions on <fixed-case>WAT</fixed-case> 2021 Shared Task</title>
+      <author><first>Heesoo</first><last>Park</last></author>
+      <author><first>Dongjun</first><last>Lee</last></author>
+      <pages>141–145</pages>
+      <abstract>This paper presents the Bering Lab’s submission to the shared tasks of the 8th Workshop on Asian Translation (WAT 2021) on JPC2 and NICT-SAP. We participated in all tasks on JPC2 and IT domain tasks on NICT-SAP. Our approach for all tasks mainly focused on building NMT systems in domain-specific corpora. We crawled patent document pairs for English-Japanese, Chinese-Japanese, and Korean-Japanese. After cleaning noisy data, we built parallel corpus by aligning those sentences with the sentence-level similarity scores. Also, for SAP test data, we collected the OPUS dataset including three IT domain corpora. We then trained transformer on the collected dataset. Our submission ranked 1st in eight out of fourteen tasks, achieving up to an improvement of 2.87 for JPC2 and 8.79 for NICT-SAP in BLEU score .</abstract>
+      <url hash="cd0f5085">2021.wat-1.15</url>
+    </paper>
+    <paper id="16">
+      <title><fixed-case>NLPH</fixed-case>ut’s Participation at <fixed-case>WAT</fixed-case>2021</title>
+      <author><first>Shantipriya</first><last>Parida</last></author>
+      <author><first>Subhadarshi</first><last>Panda</last></author>
+      <author><first>Ketan</first><last>Kotwal</last></author>
+      <author><first>Amulya Ratna</first><last>Dash</last></author>
+      <author><first>Satya Ranjan</first><last>Dash</last></author>
+      <author><first>Yashvardhan</first><last>Sharma</last></author>
+      <author><first>Petr</first><last>Motlicek</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <pages>146–154</pages>
+      <abstract>This paper provides the description of shared tasks to the WAT 2021 by our team “NLPHut”. We have participated in the English→Hindi Multimodal translation task, English→Malayalam Multimodal translation task, and Indic Multi-lingual translation task. We have used the state-of-the-art Transformer model with language tags in different settings for the translation task and proposed a novel “region-specific” caption generation approach using a combination of image CNN and LSTM for the Hindi and Malayalam image captioning. Our submission tops in English→Malayalam Multimodal translation task (text-only translation, and Malayalam caption), and ranks second-best in English→Hindi Multimodal translation task (text-only translation, and Hindi caption). Our submissions have also performed well in the Indic Multilingual translation tasks.</abstract>
+      <url hash="13ecd35b">2021.wat-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Improved <fixed-case>E</fixed-case>nglish to <fixed-case>H</fixed-case>indi Multimodal Neural Machine Translation</title>
+      <author><first>Sahinur Rahman</first><last>Laskar</last></author>
+      <author><first>Abdullah Faiz Ur Rahman</first><last>Khilji</last></author>
+      <author><first>Darsh</first><last>Kaushik</last></author>
+      <author><first>Partha</first><last>Pakray</last></author>
+      <author><first>Sivaji</first><last>Bandyopadhyay</last></author>
+      <pages>155–160</pages>
+      <abstract>Machine translation performs automatic translation from one natural language to another. Neural machine translation attains a state-of-the-art approach in machine translation, but it requires adequate training data, which is a severe problem for low-resource language pairs translation. The concept of multimodal is introduced in neural machine translation (NMT) by merging textual features with visual features to improve low-resource pair translation. WAT2021 (Workshop on Asian Translation 2021) organizes a shared task of multimodal translation for English to Hindi. We have participated the same with team name CNLP-NITS-PP in two submissions: multimodal and text-only NMT. This work investigates phrase pairs injection via data augmentation approach and attains improvement over our previous work at WAT2020 on the same task in both text-only and multimodal NMT. We have achieved second rank on the challenge test set for English to Hindi multimodal translation where Bilingual Evaluation Understudy (BLEU) score of 39.28, Rank-based Intuitive Bilingual Evaluation Score (RIBES) 0.792097, and Adequacy-Fluency Metrics (AMFM) score 0.830230 respectively.</abstract>
+      <url hash="cfceed20">2021.wat-1.17</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="484c124a">2021.wat-1.17.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="18">
+      <title><fixed-case>IITP</fixed-case> at <fixed-case>WAT</fixed-case> 2021: System description for <fixed-case>E</fixed-case>nglish-<fixed-case>H</fixed-case>indi Multimodal Translation Task</title>
+      <author><first>Baban</first><last>Gain</last></author>
+      <author><first>Dibyanayan</first><last>Bandyopadhyay</last></author>
+      <author><first>Asif</first><last>Ekbal</last></author>
+      <pages>161–165</pages>
+      <abstract>Neural Machine Translation (NMT) is a predominant machine translation technology nowadays because of its end-to-end trainable flexibility. However, NMT still struggles to translate properly in low-resource settings specifically on distant language pairs. One way to overcome this is to use the information from other modalities if available. The idea is that despite differences in languages, both the source and target language speakers see the same thing and the visual representation of both the source and target is the same, which can positively assist the system. Multimodal information can help the NMT system to improve the translation by removing ambiguity on some phrases or words. We participate in the 8th Workshop on Asian Translation (WAT - 2021) for English-Hindi multimodal translation task and achieve 42.47 and 37.50 BLEU points for Evaluation and Challenge subset, respectively.</abstract>
+      <url hash="bf4e62ef">2021.wat-1.18</url>
+    </paper>
+    <paper id="19">
+      <title><fixed-case>V</fixed-case>i<fixed-case>TA</fixed-case>: Visual-Linguistic Translation by Aligning Object Tags</title>
+      <author><first>Kshitij</first><last>Gupta</last></author>
+      <author><first>Devansh</first><last>Gautam</last></author>
+      <author><first>Radhika</first><last>Mamidi</last></author>
+      <pages>166–173</pages>
+      <abstract>Multimodal Machine Translation (MMT) enriches the source text with visual information for translation. It has gained popularity in recent years, and several pipelines have been proposed in the same direction. Yet, the task lacks quality datasets to illustrate the contribution of visual modality in the translation systems. In this paper, we propose our system under the team name Volta for the Multimodal Translation Task of WAT 2021 from English to Hindi. We also participate in the textual-only subtask of the same language pair for which we use mBART, a pretrained multilingual sequence-to-sequence model. For multimodal translation, we propose to enhance the textual input by bringing the visual information to a textual domain by extracting object tags from the image. We also explore the robustness of our system by systematically degrading the source text. Finally, we achieve a BLEU score of 44.6 and 51.6 on the test set and challenge set of the multimodal task.</abstract>
+      <url hash="38f33339">2021.wat-1.19</url>
+    </paper>
+    <paper id="20">
+      <title><fixed-case>TMEKU</fixed-case> System for the <fixed-case>WAT</fixed-case>2021 Multimodal Translation Task</title>
+      <author><first>Yuting</first><last>Zhao</last></author>
+      <author><first>Mamoru</first><last>Komachi</last></author>
+      <author><first>Tomoyuki</first><last>Kajiwara</last></author>
+      <author><first>Chenhui</first><last>Chu</last></author>
+      <pages>174–180</pages>
+      <abstract>We introduce our TMEKU system submitted to the English-Japanese Multimodal Translation Task for WAT 2021. We participated in the Flickr30kEnt-JP task and Ambiguous MSCOCO Multimodal task under the constrained condition using only the officially provided datasets. Our proposed system employs soft alignment of word-region for multimodal neural machine translation (MNMT). The experimental results evaluated on the BLEU metric provided by the WAT 2021 evaluation site show that the TMEKU system has achieved the best performance among all the participated systems. Further analysis of the case study demonstrates that leveraging word-region alignment between the textual and visual modalities is the key to performance enhancement in our TMEKU system, which leads to better visual information use.</abstract>
+      <url hash="8c1f0d63">2021.wat-1.20</url>
+    </paper>
+    <paper id="21">
+      <title>Optimal Word Segmentation for Neural Machine Translation into <fixed-case>D</fixed-case>ravidian Languages</title>
+      <author><first>Prajit</first><last>Dhar</last></author>
+      <author><first>Arianna</first><last>Bisazza</last></author>
+      <author><first>Gertjan</first><last>van Noord</last></author>
+      <pages>181–190</pages>
+      <abstract>Dravidian languages, such as Kannada and Tamil, are notoriously difficult to translate by state-of-the-art neural models. This stems from the fact that these languages are morphologically very rich as well as being low-resourced. In this paper, we focus on subword segmentation and evaluate Linguistically Motivated Vocabulary Reduction (LMVR) against the more commonly used SentencePiece (SP) for the task of translating from English into four different Dravidian languages. Additionally we investigate the optimal subword vocabulary size for each language. We find that SP is the overall best choice for segmentation, and that larger dictionary sizes lead to higher translation quality.</abstract>
+      <url hash="61626921">2021.wat-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Itihasa: A large-scale corpus for <fixed-case>S</fixed-case>anskrit to <fixed-case>E</fixed-case>nglish translation</title>
+      <author><first>Rahul</first><last>Aralikatte</last></author>
+      <author><first>Miryam</first><last>de Lhoneux</last></author>
+      <author><first>Anoop</first><last>Kunchukuttan</last></author>
+      <author><first>Anders</first><last>Søgaard</last></author>
+      <pages>191–197</pages>
+      <abstract>This work introduces Itihasa, a large-scale translation dataset containing 93,000 pairs of Sanskrit shlokas and their English translations. The shlokas are extracted from two Indian epics viz., The Ramayana and The Mahabharata. We first describe the motivation behind the curation of such a dataset and follow up with empirical analysis to bring out its nuances. We then benchmark the performance of standard translation models on this corpus and show that even state-of-the-art transformer architectures perform poorly, emphasizing the complexity of the dataset.</abstract>
+      <url hash="9f1bffa5">2021.wat-1.22</url>
+    </paper>
+    <paper id="23">
+      <title><fixed-case>NICT</fixed-case>-5’s Submission To <fixed-case>WAT</fixed-case> 2021: <fixed-case>MBART</fixed-case> Pre-training And In-Domain Fine Tuning For Indic Languages</title>
+      <author><first>Raj</first><last>Dabre</last></author>
+      <author><first>Abhisek</first><last>Chakrabarty</last></author>
+      <pages>198–204</pages>
+      <abstract>In this paper we describe our submission to the multilingual Indic language translation wtask “MultiIndicMT” under the team name “NICT-5”. This task involves translation from 10 Indic languages into English and vice-versa. The objective of the task was to explore the utility of multilingual approaches using a variety of in-domain and out-of-domain parallel and monolingual corpora. Given the recent success of multilingual NMT pre-training we decided to explore pre-training an MBART model on a large monolingual corpus collection covering all languages in this task followed by multilingual fine-tuning on small in-domain corpora. Firstly, we observed that a small amount of pre-training followed by fine-tuning on small bilingual corpora can yield large gains over when pre-training is not used. Furthermore, multilingual fine-tuning leads to further gains in translation quality which significantly outperforms a very strong multilingual baseline that does not rely on any pre-training.</abstract>
+      <url hash="284ad0ea">2021.wat-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>How far can we get with one <fixed-case>GPU</fixed-case> in 100 hours? <fixed-case>C</fixed-case>o<fixed-case>AS</fixed-case>ta<fixed-case>L</fixed-case> at <fixed-case>M</fixed-case>ulti<fixed-case>I</fixed-case>ndic<fixed-case>MT</fixed-case> Shared Task</title>
+      <author><first>Rahul</first><last>Aralikatte</last></author>
+      <author><first>Héctor Ricardo</first><last>Murrieta Bello</last></author>
+      <author><first>Daniel</first><last>Hershcovich</last></author>
+      <author><first>Marcel</first><last>Bollmann</last></author>
+      <author><first>Anders</first><last>Søgaard</last></author>
+      <pages>205–211</pages>
+      <abstract>This work shows that competitive translation results can be obtained in a constrained setting by incorporating the latest advances in memory and compute optimization. We train and evaluate large multilingual translation models using a single GPU for a maximum of 100 hours and get within 4-5 BLEU points of the top submission on the leaderboard. We also benchmark standard baselines on the PMI corpus and re-discover well-known shortcomings of translation systems and metrics.</abstract>
+      <url hash="397e106b">2021.wat-1.24</url>
+    </paper>
+    <paper id="25">
+      <title><fixed-case>IIIT</fixed-case> Hyderabad Submission To <fixed-case>WAT</fixed-case> 2021: Efficient Multilingual <fixed-case>NMT</fixed-case> systems for <fixed-case>I</fixed-case>ndian languages</title>
+      <author><first>Sourav</first><last>Kumar</last></author>
+      <author><first>Salil</first><last>Aggarwal</last></author>
+      <author><first>Dipti</first><last>Sharma</last></author>
+      <pages>212–216</pages>
+      <abstract>This paper describes the work and the systems submitted by the IIIT-Hyderbad team in the WAT 2021 MultiIndicMT shared task. The task covers 10 major languages of the Indian subcontinent. For the scope of this task, we have built multilingual systems for 20 translation directions namely English-Indic (one-to- many) and Indic-English (many-to-one). Individually, Indian languages are resource poor which hampers translation quality but by leveraging multilingualism and abundant monolingual corpora, the translation quality can be substantially boosted. But the multilingual systems are highly complex in terms of time as well as computational resources. Therefore, we are training our systems by efficiently se- lecting data that will actually contribute to most of the learning process. Furthermore, we are also exploiting the language related- ness found in between Indian languages. All the comparisons were made using BLEU score and we found that our final multilingual sys- tem significantly outperforms the baselines by an average of 11.3 and 19.6 BLEU points for English-Indic (en-xx) and Indic-English (xx- en) directions, respectively.</abstract>
+      <url hash="96c7d167">2021.wat-1.25</url>
+    </paper>
+    <paper id="26">
+      <title>Language Relatedness and Lexical Closeness can help Improve Multilingual <fixed-case>NMT</fixed-case>: <fixed-case>IITB</fixed-case>ombay@<fixed-case>M</fixed-case>ulti<fixed-case>I</fixed-case>ndic<fixed-case>NMT</fixed-case> <fixed-case>WAT</fixed-case>2021</title>
+      <author><first>Jyotsana</first><last>Khatri</last></author>
+      <author><first>Nikhil</first><last>Saini</last></author>
+      <author><first>Pushpak</first><last>Bhattacharyya</last></author>
+      <pages>217–223</pages>
+      <abstract>Multilingual Neural Machine Translation has achieved remarkable performance by training a single translation model for multiple languages. This paper describes our submission (Team ID: CFILT-IITB) for the MultiIndicMT: An Indic Language Multilingual Task at WAT 2021. We train multilingual NMT systems by sharing encoder and decoder parameters with language embedding associated with each token in both encoder and decoder. Furthermore, we demonstrate the use of transliteration (script conversion) for Indic languages in reducing the lexical gap for training a multilingual NMT system. Further, we show improvement in performance by training a multilingual NMT system using languages of the same family, i.e., related languages.</abstract>
+      <url hash="6bfbb574">2021.wat-1.26</url>
+    </paper>
+    <paper id="27">
+      <title><fixed-case>S</fixed-case>amsung <fixed-case>R</fixed-case>&amp;<fixed-case>D</fixed-case> Institute <fixed-case>P</fixed-case>oland submission to <fixed-case>WAT</fixed-case> 2021 Indic Language Multilingual Task</title>
+      <author><first>Adam</first><last>Dobrowolski</last></author>
+      <author><first>Marcin</first><last>Szymański</last></author>
+      <author><first>Marcin</first><last>Chochowski</last></author>
+      <author><first>Paweł</first><last>Przybysz</last></author>
+      <pages>224–232</pages>
+      <abstract>This paper describes the submission to the WAT 2021 Indic Language Multilingual Task by Samsung R&amp;D Institute Poland. The task covered translation between 10 Indic Languages (Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil and Telugu) and English. We combined a variety of techniques: transliteration, filtering, backtranslation, domain adaptation, knowledge-distillation and finally ensembling of NMT models. We applied an effective approach to low-resource training that consist of pretraining on backtranslations and tuning on parallel corpora. We experimented with two different domain-adaptation techniques which significantly improved translation quality when applied to monolingual corpora. We researched and applied a novel approach for finding the best hyperparameters for ensembling a number of translation models. All techniques combined gave significant improvement - up to +8 BLEU over baseline results. The quality of the models has been confirmed by the human evaluation where SRPOL models scored best for all 5 manually evaluated languages.</abstract>
+      <url hash="27e2db9d">2021.wat-1.27</url>
+    </paper>
+    <paper id="28">
+      <title>Multilingual Machine Translation Systems at <fixed-case>WAT</fixed-case> 2021: One-to-Many and Many-to-One Transformer based <fixed-case>NMT</fixed-case></title>
+      <author><first>Shivam</first><last>Mhaskar</last></author>
+      <author><first>Aditya</first><last>Jain</last></author>
+      <author><first>Aakash</first><last>Banerjee</last></author>
+      <author><first>Pushpak</first><last>Bhattacharyya</last></author>
+      <pages>233–237</pages>
+      <abstract>In this paper, we present the details of the systems that we have submitted for the WAT 2021 MultiIndicMT: An Indic Language Multilingual Task. We have submitted two separate multilingual NMT models: one for English to 10 Indic languages and another for 10 Indic languages to English. We discuss the implementation details of two separate multilingual NMT approaches, namely one-to-many and many-to-one, that makes use of a shared decoder and a shared encoder, respectively. From our experiments, we observe that the multilingual NMT systems outperforms the bilingual baseline MT systems for each of the language pairs under consideration.</abstract>
+      <url hash="57129c8f">2021.wat-1.28</url>
+    </paper>
+    <paper id="29">
+      <title><fixed-case>IITP</fixed-case>-<fixed-case>MT</fixed-case> at <fixed-case>WAT</fixed-case>2021: Indic-<fixed-case>E</fixed-case>nglish Multilingual Neural Machine Translation using <fixed-case>R</fixed-case>omanized Vocabulary</title>
+      <author><first>Ramakrishna</first><last>Appicharla</last></author>
+      <author><first>Kamal Kumar</first><last>Gupta</last></author>
+      <author><first>Asif</first><last>Ekbal</last></author>
+      <author><first>Pushpak</first><last>Bhattacharyya</last></author>
+      <pages>238–243</pages>
+      <abstract>This paper describes the systems submitted to WAT 2021 MultiIndicMT shared task by IITP-MT team. We submit two multilingual Neural Machine Translation (NMT) systems (Indic-to-English and English-to-Indic). We romanize all Indic data and create subword vocabulary which is shared between all Indic languages. We use back-translation approach to generate synthetic data which is appended to parallel corpus and used to train our models. The models are evaluated using BLEU, RIBES and AMFM scores with Indic-to-English model achieving 40.08 BLEU for Hindi-English pair and English-to-Indic model achieving 34.48 BLEU for English-Hindi pair. However, we observe that the shared romanized subword vocabulary is not helping English-to-Indic model at the time of generation, leading it to produce poor quality translations for Tamil, Telugu and Malayalam to English pairs with BLEU score of 8.51, 6.25 and 3.79 respectively.</abstract>
+      <url hash="0332c0f8">2021.wat-1.29</url>
+    </paper>
+    <paper id="30">
+      <title><fixed-case>ANVITA</fixed-case> Machine Translation System for <fixed-case>WAT</fixed-case> 2021 <fixed-case>M</fixed-case>ulti<fixed-case>I</fixed-case>ndic<fixed-case>MT</fixed-case> Shared Task</title>
+      <author><first>Pavanpankaj</first><last>Vegi</last></author>
+      <author><first>Sivabhavani</first><last>J</last></author>
+      <author><first>Biswajit</first><last>Paul</last></author>
+      <author><first>Chitra</first><last>Viswanathan</last></author>
+      <author><first>Prasanna Kumar</first><last>K R</last></author>
+      <pages>244–249</pages>
+      <abstract>This paper describes ANVITA-1.0 MT system, architected for submission to WAT2021 MultiIndicMT shared task by mcairt team, where the team participated in 20 translation directions: English→Indic and Indic→English; Indic set comprised of 10 Indian languages. ANVITA-1.0 MT system comprised of two multi-lingual NMT models one for the English→Indic directions and other for the Indic→English directions with shared encoder-decoder, catering 10 language pairs and twenty translation directions. The base models were built based on Transformer architecture and trained over MultiIndicMT WAT 2021 corpora and further employed back translation and transliteration for selective data augmentation, and model ensemble for better generalization. Additionally, MultiIndicMT WAT 2021 corpora was distilled using a series of filtering operations before putting up for training. ANVITA-1.0 achieved highest AM-FM score for English→Bengali, 2nd for English→Tamil and 3rd for English→Hindi, Bengali→English directions on official test set. In general, performance achieved by ANVITA for the Indic→English directions are relatively better than that of English→Indic directions for all the 10 language pairs when evaluated using BLEU and RIBES, although the same trend is not observed consistently when AM-FM based evaluation was carried out. As compared to BLEU, RIBES and AM-FM based scoring placed ANVITA relatively better among all the task participants.</abstract>
+      <url hash="04b835ef">2021.wat-1.30</url>
+    </paper>
+  </volume>
+</collection>

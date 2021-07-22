@@ -2,6 +2,8 @@ Name: Special Interest Group on Natural Language Parsing (SIGPARSE)
 ShortName: SIGPARSE
 URL: http://www.cs.cmu.edu/~sigparse
 Meetings:
+  - 2021:
+    - 2021.iwpt-1 # Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)
   - 2020:
     - 2020.iwpt-1
     - 2020.tlt-1

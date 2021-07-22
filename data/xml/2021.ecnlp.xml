@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.ecnlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of The 4th Workshop on e-Commerce and NLP</booktitle>
+      <editor><first>Shervin</first><last>Malmasi</last></editor>
+      <editor><first>Surya</first><last>Kallumadi</last></editor>
+      <editor><first>Nicola</first><last>Ueffing</last></editor>
+      <editor><first>Oleg</first><last>Rokhlenko</last></editor>
+      <editor><first>Eugene</first><last>Agichtein</last></editor>
+      <editor><first>Ido</first><last>Guy</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="82227aa8">2021.ecnlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="cbce110d">2021.ecnlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title><fixed-case>BERT</fixed-case> Goes Shopping: Comparing Distributional Models for Product Representations</title>
+      <author><first>Jacopo</first><last>Tagliabue</last></author>
+      <author><first>Federico</first><last>Bianchi</last></author>
+      <author><first>Bingqing</first><last>Yu</last></author>
+      <pages>1–12</pages>
+      <abstract>Word embeddings (e.g., word2vec) have been applied successfully to eCommerce products through prod2vec. Inspired by the recent performance improvements on several NLP tasks brought by contextualized embeddings, we propose to transfer BERT-like architectures to eCommerce: our model - Prod2BERT - is trained to generate representations of products through masked session modeling. Through extensive experiments over multiple shops, different tasks, and a range of design choices, we systematically compare the accuracy of Prod2BERT and prod2vec embeddings: while Prod2BERT is found to be superior in several scenarios, we highlight the importance of resources and hyperparameters in the best performing models. Finally, we provide guidelines to practitioners for training embeddings under a variety of computational and data constraints.</abstract>
+      <url hash="c8a0d9c2">2021.ecnlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Attribute Value Generation from Product Title using Language Models</title>
+      <author><first>Kalyani</first><last>Roy</last></author>
+      <author><first>Pawan</first><last>Goyal</last></author>
+      <author><first>Manish</first><last>Pandey</last></author>
+      <pages>13–17</pages>
+      <abstract>Identifying the value of product attribute is essential for many e-commerce functions such as product search and product recommendations. Therefore, identifying attribute values from unstructured product descriptions is a critical undertaking for any e-commerce retailer. What makes this problem challenging is the diversity of product types and their attributes and values. Existing methods have typically employed multiple types of machine learning models, each of which handles specific product types or attribute classes. This has limited their scalability and generalization for large scale real world e-commerce applications. Previous approaches for this task have formulated the attribute value extraction as a Named Entity Recognition (NER) task or a Question Answering (QA) task. In this paper we have presented a generative approach to the attribute value extraction problem using language models. We leverage the large-scale pretraining of the GPT-2 and the T5 text-to-text transformer to create fine-tuned models that can effectively perform this task. We show that a single general model is very effective for this task over a broad set of product attribute values with the open world assumption. Our approach achieves state-of-the-art performance for different attribute classes, which has previously required a diverse set of models.</abstract>
+      <url hash="0d3ee1b2">2021.ecnlp-1.2</url>
+    </paper>
+    <paper id="3">
+      <title><fixed-case>ASR</fixed-case> Adaptation for <fixed-case>E</fixed-case>-commerce Chatbots using Cross-Utterance Context and Multi-Task Language Modeling</title>
+      <author><first>Ashish</first><last>Shenoy</last></author>
+      <author><first>Sravan</first><last>Bodapati</last></author>
+      <author><first>Katrin</first><last>Kirchhoff</last></author>
+      <pages>18–25</pages>
+      <abstract>Automatic Speech Recognition (ASR) robustness toward slot entities are critical in e-commerce voice assistants that involve monetary transactions and purchases. Along with effective domain adaptation, it is intuitive that cross utterance contextual cues play an important role in disambiguating domain specific content words from speech. In this paper, we investigate various techniques to improve contextualization, content word robustness and domain adaptation of a Transformer-XL neural language model (NLM) to rescore ASR N-best hypotheses. To improve contextualization, we utilize turn level dialogue acts along with cross utterance context carry over. Additionally, to adapt our domain-general NLM towards e-commerce on-the-fly, we use embeddings derived from a finetuned masked LM on in-domain data. Finally, to improve robustness towards in-domain content words, we propose a multi-task model that can jointly perform content word detection and language modeling tasks. Compared to a non-contextual LSTM LM baseline, our best performing NLM rescorer results in a content WER reduction of 19.2% on e-commerce audio test set and a slot labeling F1 improvement of 6.4%.</abstract>
+      <url hash="1eae21f3">2021.ecnlp-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Turn-Level User Satisfaction Estimation in <fixed-case>E</fixed-case>-commerce Customer Service</title>
+      <author><first>Runze</first><last>Liang</last></author>
+      <author><first>Ryuichi</first><last>Takanobu</last></author>
+      <author><first>Feng-Lin</first><last>Li</last></author>
+      <author><first>Ji</first><last>Zhang</last></author>
+      <author><first>Haiqing</first><last>Chen</last></author>
+      <author><first>Minlie</first><last>Huang</last></author>
+      <pages>26–32</pages>
+      <abstract>User satisfaction estimation in the dialogue-based customer service is critical not only for helping developers find the system defects, but also making it possible to get timely human intervention for dissatisfied customers. In this paper, we investigate the problem of user satisfaction estimation in E-commerce customer service. In order to apply the estimator to online services for timely human intervention, we need to estimate the satisfaction score at each turn. However, in actual scenario we can only collect the satisfaction labels for the whole dialogue sessions via user feedback. To this end, we formalize the turn-level satisfaction estimation as a reinforcement learning problem, in which the model can be optimized with only session-level satisfaction labels. We conduct experiments on the dataset collected from a commercial customer service system, and compare our model with the supervised learning models. Extensive experiments show that the proposed method outperforms all the baseline models.</abstract>
+      <url hash="c3f2bb8f">2021.ecnlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Keyword Augmentation via Generative Methods</title>
+      <author><first>Haoran</first><last>Shi</last></author>
+      <author><first>Zhibiao</first><last>Rao</last></author>
+      <author><first>Yongning</first><last>Wu</last></author>
+      <author><first>Zuohua</first><last>Zhang</last></author>
+      <author><first>Chu</first><last>Wang</last></author>
+      <pages>33–37</pages>
+      <abstract>Keyword augmentation is a fundamental problem for sponsored search modeling and business. Machine generated keywords can be recommended to advertisers for better campaign discoverability as well as used as features for sourcing and ranking models. Generating high-quality keywords is difficult, especially for cold campaigns with limited or even no historical logs; and the industry trend of including multiple products in a single ad campaign is making the problem more challenging. In this paper, we propose a keyword augmentation method based on generative seq2seq model and trie-based search mechanism, which is able to generate high-quality keywords for any products or product lists. We conduct human annotations, offline analysis, and online experiments to evaluate the performance of our method against benchmarks in terms of augmented keyword quality as well as lifted ad exposure. The experiment results demonstrate that our method is able to generate more valid keywords which can serve as an efficient addition to advertiser selected keywords.</abstract>
+      <url hash="4a00b8b8">2021.ecnlp-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Personalized Entity Resolution with Dynamic Heterogeneous <fixed-case>K</fixed-case>nowledge<fixed-case>G</fixed-case>raph Representations</title>
+      <author><first>Ying</first><last>Lin</last></author>
+      <author><first>Han</first><last>Wang</last></author>
+      <author><first>Jiangning</first><last>Chen</last></author>
+      <author><first>Tong</first><last>Wang</last></author>
+      <author><first>Yue</first><last>Liu</last></author>
+      <author><first>Heng</first><last>Ji</last></author>
+      <author id="yang-liu-icsi"><first>Yang</first><last>Liu</last></author>
+      <author><first>Premkumar</first><last>Natarajan</last></author>
+      <pages>38–48</pages>
+      <abstract>The growing popularity of Virtual Assistants poses new challenges for Entity Resolution, the task of linking mentions in text to their referent entities in a knowledge base. Specifically, in the shopping domain, customers tend to mention the entities implicitly (e.g., “organic milk”) rather than use the entity names explicitly, leading to a large number of candidate products. Meanwhile, for the same query, different customers may expect different results. For example, with “add milk to my cart”, a customer may refer to a certain product from his/her favorite brand, while some customers may want to re-order products they regularly purchase. Moreover, new customers may lack persistent shopping history, which requires us to enrich the connections between customers through products and their attributes. To address these issues, we propose a new framework that leverages personalized features to improve the accuracy of product ranking. We first build a cross-source heterogeneous knowledge graph from customer purchase history and product knowledge graph to jointly learn customer and product embeddings. After that, we incorporate product, customer, and history representations into a neural reranking model to predict which candidate is most likely to be purchased by a specific customer. Experiment results show that our model substantially improves the accuracy of the top ranked candidates by 24.6% compared to the state-of-the-art product search model.</abstract>
+      <url hash="19a00849">2021.ecnlp-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>A Semi-supervised Multi-task Learning Approach to Classify Customer Contact Intents</title>
+      <author><first>Li</first><last>Dong</last></author>
+      <author><first>Matthew C.</first><last>Spencer</last></author>
+      <author><first>Amir</first><last>Biagi</last></author>
+      <pages>49–57</pages>
+      <abstract>In the area of customer support, understanding customers’ intents is a crucial step. Machine learning plays a vital role in this type of intent classification. In reality, it is typical to collect confirmation from customer support representatives (CSRs) regarding the intent prediction, though it can unnecessarily incur prohibitive cost to ask CSRs to assign existing or new intents to the mis-classified cases. Apart from the confirmed cases with and without intent labels, there can be a number of cases with no human curation. This data composition (Positives + Unlabeled + multiclass Negatives) creates unique challenges for model development. In response to that, we propose a semi-supervised multi-task learning paradigm. In this manuscript, we share our experience in building text-based intent classification models for a customer support service on an E-commerce website. We improve the performance significantly by evolving the model from multiclass classification to semi-supervised multi-task learning by leveraging the negative cases, domain- and task-adaptively pretrained ALBERT on customer contact texts, and a number of un-curated data with no labels. In the evaluation, the final model boosts the average AUC ROC by almost 20 points compared to the baseline finetuned multiclass classification ALBERT model.</abstract>
+      <url hash="4f29d836">2021.ecnlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>“Are you calling for the vaporizer you ordered?” Combining Search and Prediction to Identify Orders in Contact Centers</title>
+      <author><first>Abinaya</first><last>K</last></author>
+      <author><first>Shourya</first><last>Roy</last></author>
+      <pages>58–69</pages>
+      <abstract>With the growing footprint of ecommerce worldwide, the role of contact center is becoming increasingly crucial for customer satisfaction. To effectively handle scale and manage operational cost, automation through chat-bots and voice-bots are getting rapidly adopted. With customers having multiple, often long list of active orders - the first task of a voice-bot is to identify which one they are calling about. Towards solving this problem which we refer to as order identification, we propose a two-staged real-time technique by combining search and prediction in a sequential manner. In the first stage, analogous to retrieval-based question-answering, a fuzzy search technique uses customized textual similarity measures on noisy transcripts of calls to retrieve the order of interest. The coverage of fuzzy search is limited by no or limited response from customers to voice prompts. Hence, in the second stage, a predictive solution that predict the most likely order a customer is calling about based on certain features of orders is introduced. We compare with multiple relevant techniques based on word embeddings as well as ecommerce product search to show that the proposed approach provides the best performance with 64% coverage and 87% accuracy on a large real-life data-set. A system based on the proposed technique is also deployed in production for a fraction of calls landing in the contact center of a large ecommerce provider; providing real evidence of operational benefits as well as increased customer delight.</abstract>
+      <url hash="43e1b712">2021.ecnlp-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Identifying Hijacked Reviews</title>
+      <author><first>Monika</first><last>Daryani</last></author>
+      <author><first>James</first><last>Caverlee</last></author>
+      <pages>70–78</pages>
+      <abstract>Fake reviews and review manipulation are growing problems on online marketplaces globally. Review Hijacking is a new review manipulation tactic in which unethical sellers “hijack” an existing product page (usually one with many positive reviews), then update the product details like title, photo, and description with those of an entirely different product. With the earlier reviews still attached, the new item appears well-reviewed. So far, little knowledge about hijacked reviews has resulted in little academic research and an absence of labeled data. Hence, this paper proposes a three-part study: (i) we propose a framework to generate synthetically labeled data for review hijacking by swapping products and reviews; (ii) then, we evaluate the potential of both a Siamese LSTM network and BERT sequence pair classifier to distinguish legitimate reviews from hijacked ones using this data; and (iii) we then deploy the best performing model on a collection of 31K products (with 6.5 M reviews) in the original data, where we find 100s of previously unknown examples of review hijacking.</abstract>
+      <url hash="8612596e">2021.ecnlp-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Learning Cross-Task Attribute - Attribute Similarity for Multi-task Attribute-Value Extraction</title>
+      <author><first>Mayank</first><last>Jain</last></author>
+      <author><first>Sourangshu</first><last>Bhattacharya</last></author>
+      <author><first>Harshit</first><last>Jain</last></author>
+      <author><first>Karimulla</first><last>Shaik</last></author>
+      <author><first>Muthusamy</first><last>Chelliah</last></author>
+      <pages>79–87</pages>
+      <abstract>Automatic extraction of product attribute-value pairs from unstructured text like product descriptions is an important problem for e-commerce companies. The attribute schema typically varies from one category of products (which will be referred as vertical) to another. This leads to extreme annotation efforts for training of supervised deep sequence labeling models such as LSTM-CRF, and consequently not enough labeled data for some vertical-attribute pairs. In this work, we propose a technique for alleviating this problem by using annotated data from related verticals in a multi-task learning framework. Our approach relies on availability of similar attributes (labels) in another related vertical. Our model jointly learns the similarity between attributes of the two verticals along with the model parameters for the sequence tagging model. The main advantage of our approach is that it does not need any prior annotation of attribute similarity. Our system has been tested with datasets of size more than 10000 from a large e-commerce company in India. We perform detailed experiments to show that our method indeed increases the macro-F1 scores for attribute value extraction in general, and for labels with low training data in particular. We also report top labels from other verticals that contribute towards learning of particular labels.</abstract>
+      <url hash="73bad5d6">2021.ecnlp-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Unsupervised Class-Specific Abstractive Summarization of Customer Reviews</title>
+      <author><first>Thi Nhat Anh</first><last>Nguyen</last></author>
+      <author><first>Mingwei</first><last>Shen</last></author>
+      <author><first>Karen</first><last>Hovsepian</last></author>
+      <pages>88–100</pages>
+      <abstract>Large-scale unsupervised abstractive summarization is sorely needed to automatically scan millions of customer reviews in today’s fast-paced e-commerce landscape. We address a key challenge in unsupervised abstractive summarization – reducing generic and uninformative content and producing useful information that relates to specific product aspects. To do so, we propose to model reviews in the context of some topical classes of interest. In particular, for any arbitrary set of topical classes of interest, the proposed model can learn to generate a set of class-specific summaries from multiple reviews of each product without ground-truth summaries, and the only required signal is class probabilities or class label for each review. The model combines a generative variational autoencoder, with an integrated class-correlation gating mechanism and a hierarchical structure capturing dependence among products, reviews and classes. Human evaluation shows that generated summaries are highly relevant, fluent, and representative. Evaluation using a reference dataset shows that our model outperforms state-of-the-art abstractive and extractive baselines.</abstract>
+      <url hash="c17e4456">2021.ecnlp-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Scalable Approach for Normalizing <fixed-case>E</fixed-case>-commerce Text Attributes (<fixed-case>SANTA</fixed-case>)</title>
+      <author><first>Ravi Shankar</first><last>Mishra</last></author>
+      <author><first>Kartik</first><last>Mehta</last></author>
+      <author><first>Nikhil</first><last>Rasiwasia</last></author>
+      <pages>101–110</pages>
+      <abstract>In this paper, we present SANTA, a scalable framework to automatically normalize E-commerce attribute values (e.g. “Win 10 Pro”) to a fixed set of pre-defined canonical values (e.g. “Windows 10”). Earlier works on attribute normalization focused on fuzzy string matching (also referred as syntactic matching in this paper). In this work, we first perform an extensive study of nine syntactic matching algorithms and establish that ‘cosine’ similarity leads to best results, showing 2.7% improvement over commonly used Jaccard index. Next, we show that string similarity alone is not sufficient for attribute normalization as many surface forms require going beyond syntactic matching (e.g. “720p” and “HD” are synonyms). While semantic techniques like unsupervised embeddings (e.g. word2vec/fastText) have shown good results in word similarity tasks, we observed that they perform poorly to distinguish between close canonical forms, as these close forms often occur in similar contexts. We propose to learn token embeddings using a twin network with triplet loss. We propose an embedding learning task leveraging raw attribute values and product titles to learn these embeddings in a self-supervised fashion. We show that providing supervision using our proposed task improves over both syntactic and unsupervised embeddings based techniques for attribute normalization. Experiments on a real-world dataset of 50 attributes show that the embeddings trained using our proposed approach obtain 2.3% improvement over best string similarity and 19.3% improvement over best unsupervised embeddings.</abstract>
+      <url hash="bfd8b259">2021.ecnlp-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Multimodal Item Categorization Fully Based on Transformer</title>
+      <author><first>Lei</first><last>Chen</last></author>
+      <author><first>Houwei</first><last>Chou</last></author>
+      <author><first>Yandi</first><last>Xia</last></author>
+      <author><first>Hirokazu</first><last>Miyake</last></author>
+      <pages>111–115</pages>
+      <abstract>The Transformer has proven to be a powerful feature extraction method and has gained widespread adoption in natural language processing (NLP). In this paper we propose a multimodal item categorization (MIC) system solely based on the Transformer for both text and image processing. On a multimodal product data set collected from a Japanese e-commerce giant, we tested a new image classification model based on the Transformer and investigated different ways of fusing bi-modal information. Our experimental results on real industry data showed that the Transformer-based image classifier has performance on par with ResNet-based classifiers and is four times faster to train. Furthermore, a cross-modal attention layer was found to be critical for the MIC system to achieve performance gains over text-only and image-only models.</abstract>
+      <url hash="7edbb55e">2021.ecnlp-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Textual Representations for Crosslingual Information Retrieval</title>
+      <author><first>Hang</first><last>Zhang</last></author>
+      <author><first>Liling</first><last>Tan</last></author>
+      <pages>116–122</pages>
+      <abstract>In this paper, we explored different levels of textual representations for cross-lingual information retrieval. Beyond the traditional token level representation, we adopted the subword and character level representations for information retrieval that had shown to improve neural machine translation by reducing the out-of-vocabulary issues in machine translation. We found that crosslingual information retrieval performance can be improved by combining search results from subwords and token level representation.Additionally, we improved the search performance by combining and re-ranking the result sets from the different text representations for German, French and Japanese.</abstract>
+      <url hash="bdb14443">2021.ecnlp-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Detect Profane Language in Streaming Services to Protect Young Audiences</title>
+      <author><first>Jingxiang</first><last>Chen</last></author>
+      <author><first>Kai</first><last>Wei</last></author>
+      <author><first>Xiang</first><last>Hao</last></author>
+      <pages>123–131</pages>
+      <abstract>With the rapid growth of online video streaming, recent years have seen increasing concerns about profane language in their content. Detecting profane language in streaming services is challenging due to the long sentences appeared in a video. While recent research on handling long sentences has focused on developing deep learning modeling techniques, little work has focused on techniques on improving data pipelines. In this work, we develop a data collection pipeline to address long sequence of texts and integrate this pipeline with a multi-head self-attention model. With this pipeline, our experiments show the self-attention model offers 12.5% relative accuracy improvement over state-of-the-art distilBERT model on profane language detection while requiring only 3% of parameters. This research designs a better system for informing users of profane language in video streaming services.</abstract>
+      <url hash="5bb25fbd">2021.ecnlp-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Exploring Inspiration Sets in a Data Programming Pipeline for Product Moderation</title>
+      <author><first>Justine</first><last>Winkler</last></author>
+      <author><first>Simon</first><last>Brugman</last></author>
+      <author><first>Bas</first><last>van Berkel</last></author>
+      <author><first>Martha</first><last>Larson</last></author>
+      <pages>132–139</pages>
+      <abstract>We carry out a case study on the use of data programming to create data to train classifiers used for product moderation on a large e-commerce platform. Data programming is a recently-introduced technique that uses human-defined rules to generate training data sets without tedious item-by-item hand labeling. Our study investigates methods for allowing product moderators to quickly modify the rules given their knowledge of the domain and, especially, of textual item descriptions. Our results show promise that moderators can use this approach to steer the training data, making possible fast and close control of classifiers that detect policy violations.</abstract>
+      <url hash="7619b247">2021.ecnlp-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Enhancing Aspect Extraction for <fixed-case>H</fixed-case>indi</title>
+      <author><first>Arghya</first><last>Bhattacharya</last></author>
+      <author><first>Alok</first><last>Debnath</last></author>
+      <author><first>Manish</first><last>Shrivastava</last></author>
+      <pages>140–149</pages>
+      <abstract>Aspect extraction is not a well-explored topic in Hindi, with only one corpus having been developed for the task. In this paper, we discuss the merits of the existing corpus in terms of quality, size, sparsity, and performance in aspect extraction tasks using established models. To provide a better baseline corpus for aspect extraction, we translate the SemEval 2014 aspect-based sentiment analysis dataset and annotate the aspects in that data. We provide rigorous guidelines and a replicable methodology for this task. We quantitatively evaluate the translations and annotations using inter-annotator agreement scores. We also evaluate our dataset using state-of-the-art neural aspect extraction models in both monolingual and multilingual settings and show that the models perform far better on our corpus than on the existing Hindi dataset. With this, we establish our corpus as the gold-standard aspect extraction dataset in Hindi.</abstract>
+      <url hash="37aa2995">2021.ecnlp-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>Combining semantic search and twin product classification for recognition of purchasable items in voice shopping</title>
+      <author><first>Dieu-Thu</first><last>Le</last></author>
+      <author><first>Verena</first><last>Weber</last></author>
+      <author><first>Melanie</first><last>Bradford</last></author>
+      <pages>150–157</pages>
+      <abstract>The accuracy of an online shopping system via voice commands is particularly important and may have a great impact on customer trust. This paper focuses on the problem of detecting if an utterance contains actual and purchasable products, thus referring to a shopping-related intent in a typical Spoken Language Understanding architecture consist- ing of an intent classifier and a slot detec- tor. Searching through billions of products to check if a detected slot is a purchasable item is prohibitively expensive. To overcome this problem, we present a framework that (1) uses a retrieval module that returns the most rele- vant products with respect to the detected slot, and (2) combines it with a twin network that decides if the detected slot is indeed a pur- chasable item or not. Through various exper- iments, we show that this architecture outper- forms a typical slot detector approach, with a gain of +81% in accuracy and +41% in F1 score.</abstract>
+      <url hash="e844a685">2021.ecnlp-1.18</url>
+    </paper>
+    <paper id="19">
+      <title>Improving Factual Consistency of Abstractive Summarization on Customer Feedback</title>
+      <author id="yang-liu-icsi"><first>Yang</first><last>Liu</last></author>
+      <author><first>Yifei</first><last>Sun</last></author>
+      <author><first>Vincent</first><last>Gao</last></author>
+      <pages>158–163</pages>
+      <abstract>E-commerce stores collect customer feedback to let sellers learn about customer concerns and enhance customer order experience. Because customer feedback often contains redundant information, a concise summary of the feedback can be generated to help sellers better understand the issues causing customer dissatisfaction. Previous state-of-the-art abstractive text summarization models make two major types of factual errors when producing summaries from customer feedback, which are wrong entity detection (WED) and incorrect product-defect description (IPD). In this work, we introduce a set of methods to enhance the factual consistency of abstractive summarization on customer feedback. We augment the training data with artificially corrupted summaries, and use them as counterparts of the target summaries. We add a contrastive loss term into the training objective so that the model learns to avoid certain factual errors. Evaluation results show that a large portion of WED and IPD errors are alleviated for BART and T5. Furthermore, our approaches do not depend on the structure of the summarization model and thus are generalizable to any abstractive summarization systems.</abstract>
+      <url hash="0a9aca6a">2021.ecnlp-1.19</url>
+    </paper>
+    <paper id="20">
+      <title><fixed-case>S</fixed-case>upport<fixed-case>N</fixed-case>et: Neural Networks for Summary Generation and Key Segment Extraction from Technical Support Tickets</title>
+      <author><first>Vinayshekhar</first><last>Bannihatti Kumar</last></author>
+      <author><first>Mohan</first><last>Yarramsetty</last></author>
+      <author><first>Sharon</first><last>Sun</last></author>
+      <author><first>Anukul</first><last>Goel</last></author>
+      <pages>164–173</pages>
+      <abstract>We improve customer experience and gain their trust when their issues are resolved rapidly with less friction. Existing work has focused on reducing the overall case resolution time by binning a case into predefined categories and routing it to the desired support engineer. However, the actions taken by the engineer during case analysis and resolution are altogether ignored, even though it forms the bulk of the case resolution time. In this work, we propose two systems that enable support engineers to resolve cases faster. The first, a guidance extraction model, mines historical cases and provides technical guidance phrases to the support engineers. The phrases can then be used to educate the customer or to obtain critical information needed to resolve the case and thus minimize the number of correspondences between the engineer and customer. The second, a summarization model, creates an abstractive summary of the case to provide better context to the support engineer. Through quantitative evaluation we obtain an F1 score of 0.64 on the guidance extraction model and a BertScore (F1) of 0.55 on the summarization model.</abstract>
+      <url hash="afc2d78b">2021.ecnlp-1.20</url>
+    </paper>
+    <paper id="21">
+      <title>Product Review Translation: Parallel Corpus Creation and Robustness towards User-generated Noisy Text</title>
+      <author><first>Kamal Kumar</first><last>Gupta</last></author>
+      <author><first>Soumya</first><last>Chennabasavaraj</last></author>
+      <author><first>Nikesh</first><last>Garera</last></author>
+      <author><first>Asif</first><last>Ekbal</last></author>
+      <pages>174–183</pages>
+      <abstract>Reviews written by the users for a particular product or service play an influencing role for the customers to make an informative decision. Although online e-commerce portals have immensely impacted our lives, available contents predominantly are in English language- often limiting its widespread usage. There is an exponential growth in the number of e-commerce users who are not proficient in English. Hence, there is a necessity to make these services available in non-English languages, especially in a multilingual country like India. This can be achieved by an in-domain robust machine translation (MT) system. However, the reviews written by the users pose unique challenges to MT, such as misspelled words, ungrammatical constructions, presence of colloquial terms, lack of resources such as in-domain parallel corpus etc. We address the above challenges by presenting an English–Hindi review domain parallel corpus. We train an English–to–Hindi neural machine translation (NMT) system to translate the product reviews available on e-commerce websites. By training the Transformer based NMT model over the generated data, we achieve a score of 33.26 BLEU points for English–to–Hindi translation. In order to make our NMT model robust enough to handle the noisy tokens in the reviews, we integrate a character based language model to generate word vectors and map the noisy tokens with their correct forms. Experiments on four language pairs, viz. English-Hindi, English-German, English-French, and English-Czech show the BLUE scores of 35.09, 28.91, 34.68 and 14.52 which are the improvements of 1.61, 1.05, 1.63 and 1.94, respectively, over the baseline.</abstract>
+      <url hash="e5cdce12">2021.ecnlp-1.21</url>
+    </paper>
+  </volume>
+</collection>

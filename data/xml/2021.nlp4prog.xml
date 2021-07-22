@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.nlp4prog">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)</booktitle>
+      <editor><first>Royi</first><last>Lachmy</last></editor>
+      <editor><first>Ziyu</first><last>Yao</last></editor>
+      <editor><first>Greg</first><last>Durrett</last></editor>
+      <editor><first>Milos</first><last>Gligoric</last></editor>
+      <editor><first>Junyi Jessy</first><last>Li</last></editor>
+      <editor><first>Ray</first><last>Mooney</last></editor>
+      <editor><first>Graham</first><last>Neubig</last></editor>
+      <editor><first>Yu</first><last>Su</last></editor>
+      <editor><first>Huan</first><last>Sun</last></editor>
+      <editor><first>Reut</first><last>Tsarfaty</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="f287d5ec">2021.nlp4prog-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="a66f82be">2021.nlp4prog-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Code to Comment Translation: A Comparative Study on Model Effectiveness &amp; Errors</title>
+      <author><first>Junayed</first><last>Mahmud</last></author>
+      <author><first>Fahim</first><last>Faisal</last></author>
+      <author><first>Raihan Islam</first><last>Arnob</last></author>
+      <author><first>Antonios</first><last>Anastasopoulos</last></author>
+      <author><first>Kevin</first><last>Moran</last></author>
+      <pages>1–16</pages>
+      <abstract>Automated source code summarization is a popular software engineering research topic wherein machine translation models are employed to “translate” code snippets into relevant natural language descriptions. Most evaluations of such models are conducted using automatic reference-based metrics. However, given the relatively large semantic gap between programming languages and natural language, we argue that this line of research would benefit from a qualitative investigation into the various error modes of current state-of-the-art models. Therefore, in this work, we perform both a quantitative and qualitative comparison of three recently proposed source code summarization models. In our quantitative evaluation, we compare the models based on the smoothed BLEU-4, METEOR, and ROUGE-L machine translation metrics, and in our qualitative evaluation, we perform a manual open-coding of the most common errors committed by the models when compared to ground truth captions. Our investigation reveals new insights into the relationship between metric-based performance and model prediction errors grounded in an error taxonomy that can be used to drive future research efforts.</abstract>
+      <url hash="9a8ef39f">2021.nlp4prog-1.1</url>
+    </paper>
+    <paper id="2">
+      <title><fixed-case>C</fixed-case>on<fixed-case>T</fixed-case>est: A Unit Test Completion Benchmark featuring Context</title>
+      <author><first>Johannes</first><last>Villmow</last></author>
+      <author><first>Jonas</first><last>Depoix</last></author>
+      <author><first>Adrian</first><last>Ulges</last></author>
+      <pages>17–25</pages>
+      <abstract>We introduce CONTEST, a benchmark for NLP-based unit test completion, the task of predicting a test’s assert statements given its setup and focal method, i.e. the method to be tested. ConTest is large-scale (with 365k datapoints). Besides the test code and tested code, it also features context code called by either. We found context to be crucial for accurately predicting assertions. We also introduce baselines based on transformer encoder-decoders, and study the effects of including syntactic information and context. Overall, our models achieve a BLEU score of 38.2, while only generating unparsable code in 1.92% of cases.</abstract>
+      <url hash="0bb865de">2021.nlp4prog-1.2</url>
+    </paper>
+    <paper id="3">
+      <title><fixed-case>C</fixed-case>ommit<fixed-case>BERT</fixed-case>: Commit Message Generation Using Pre-Trained Programming Language Model</title>
+      <author><first>Tae Hwan</first><last>Jung</last></author>
+      <pages>26–33</pages>
+      <abstract>Commit message is a document that summarizes source code changes in natural language. A good commit message clearly shows the source code changes, so this enhances collaboration between developers. Therefore, our work is to develop a model that automatically writes the commit message. To this end, we release 345K datasets consisting of code modification and commit messages in six programming languages (Python, PHP, Go, Java, JavaScript, and Ruby). Similar to the neural machine translation (NMT) model, using our dataset, we feed the code modification to the encoder input and the commit message to the decoder input and measure the result of the generated commit message with BLEU-4. Also, we propose the following two training methods to improve the result of generating the commit message: (1) A method of preprocessing the input to feed the code modification to the encoder input. (2) A method that uses an initial weight suitable for the code domain to reduce the gap in contextual representation between programming language (PL) and natural language (NL).</abstract>
+      <url hash="dd9303f1">2021.nlp4prog-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Time-Efficient Code Completion Model for the <fixed-case>R</fixed-case> Programming Language</title>
+      <author><first>Artem</first><last>Popov</last></author>
+      <author><first>Dmitrii</first><last>Orekhov</last></author>
+      <author><first>Denis</first><last>Litvinov</last></author>
+      <author><first>Nikolay</first><last>Korolev</last></author>
+      <author><first>Gleb</first><last>Morgachev</last></author>
+      <pages>34–39</pages>
+      <abstract>In this paper we present a deep learning code completion model for the R language. We introduce several techniques to utilize language modeling based architecture in the code completion task. With these techniques, the model requires low resources, but still achieves high quality. We also present an evaluation dataset for the R language completion task. Our dataset contains multiple autocompletion usage contexts that provides robust validation results. The dataset is publicly available.</abstract>
+      <url hash="319fba13">2021.nlp4prog-1.4</url>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>C</fixed-case>o<fixed-case>T</fixed-case>ex<fixed-case>T</fixed-case>: Multi-task Learning with Code-Text Transformer</title>
+      <author><first>Long</first><last>Phan</last></author>
+      <author><first>Hieu</first><last>Tran</last></author>
+      <author><first>Daniel</first><last>Le</last></author>
+      <author><first>Hieu</first><last>Nguyen</last></author>
+      <author><first>James</first><last>Annibal</last></author>
+      <author><first>Alec</first><last>Peltekian</last></author>
+      <author><first>Yanfang</first><last>Ye</last></author>
+      <pages>40–47</pages>
+      <abstract>We present CoTexT, a pre-trained, transformer-based encoder-decoder model that learns the representative context between natural language (NL) and programming language (PL). Using self-supervision, CoTexT is pre-trained on large programming language corpora to learn a general understanding of language and code. CoTexT supports downstream NL-PL tasks such as code summarizing/documentation, code generation, defect detection, and code debugging. We train CoTexT on different combinations of available PL corpus including both “bimodal” and “unimodal” data. Here, bimodal data is the combination of text and corresponding code snippets, whereas unimodal data is merely code snippets. We first evaluate CoTexT with multi-task learning: we perform Code Summarization on 6 different programming languages and Code Refinement on both small and medium size featured in the CodeXGLUE dataset. We further conduct extensive experiments to investigate CoTexT on other tasks within the CodeXGlue dataset, including Code Generation and Defect Detection. We consistently achieve SOTA results in these tasks, demonstrating the versatility of our models.</abstract>
+      <url hash="7836cbc4">2021.nlp4prog-1.5</url>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>DIRECT</fixed-case> : A Transformer-based Model for Decompiled Identifier Renaming</title>
+      <author><first>Vikram</first><last>Nitin</last></author>
+      <author><first>Anthony</first><last>Saieva</last></author>
+      <author><first>Baishakhi</first><last>Ray</last></author>
+      <author><first>Gail</first><last>Kaiser</last></author>
+      <pages>48–57</pages>
+      <abstract>Decompiling binary executables to high-level code is an important step in reverse engineering scenarios, such as malware analysis and legacy code maintenance. However, the generated high-level code is difficult to understand since the original variable names are lost. In this paper, we leverage transformer models to reconstruct the original variable names from decompiled code. Inherent differences between code and natural language present certain challenges in applying conventional transformer-based architectures to variable name recovery. We propose DIRECT, a novel transformer-based architecture customized specifically for the task at hand. We evaluate our model on a dataset of decompiled functions and find that DIRECT outperforms the previous state-of-the-art model by up to 20%. We also present ablation studies evaluating the impact of each of our modifications. We make the source code of DIRECT available to encourage reproducible research.</abstract>
+      <url hash="c40f7317">2021.nlp4prog-1.6</url>
+    </paper>
+    <paper id="7">
+      <title><fixed-case>S</fixed-case>hellcode_<fixed-case>IA</fixed-case>32: A Dataset for Automatic Shellcode Generation</title>
+      <author><first>Pietro</first><last>Liguori</last></author>
+      <author><first>Erfan</first><last>Al-Hossami</last></author>
+      <author><first>Domenico</first><last>Cotroneo</last></author>
+      <author><first>Roberto</first><last>Natella</last></author>
+      <author><first>Bojan</first><last>Cukic</last></author>
+      <author><first>Samira</first><last>Shaikh</last></author>
+      <pages>58–64</pages>
+      <abstract>We take the first step to address the task of automatically generating shellcodes, i.e., small pieces of code used as a payload in the exploitation of a software vulnerability, starting from natural language comments. We assemble and release a novel dataset (Shellcode_IA32), consisting of challenging but common assembly instructions with their natural language descriptions. We experiment with standard methods in neural machine translation (NMT) to establish baseline performance levels on this task.</abstract>
+      <url hash="6895273b">2021.nlp4prog-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Reading <fixed-case>S</fixed-case>tack<fixed-case>O</fixed-case>verflow Encourages Cheating: Adding Question Text Improves Extractive Code Generation</title>
+      <author><first>Gabriel</first><last>Orlanski</last></author>
+      <author><first>Alex</first><last>Gittens</last></author>
+      <pages>65–76</pages>
+      <abstract>Answering a programming question with only its title is difficult as salient contextual information is left out. To address this, we present a corpus of over 40,000 StackOverflow question texts to be used in conjunction with the corresponding intents from the CoNaLa dataset (Yin et al., 2018). Using both the intent and the question body, we use BART to establish a baseline BLEU score of 34.35 for this new task. We then find further improvements of 2.8% by combining the mined CoNaLa data with the labeled data to achieve a 35.32 BLEU score. We then evaluate the prior state-of-the-art CoNaLa models with this additional data. We find that our proposed method of using the body and mined data beats that of the previous state-of-the-art by a 71.96% BLEU score. Finally, we perform ablations that prove that BART is an unsupervised multimodal learner and examine its extractive behavior.</abstract>
+      <url hash="959970d3">2021.nlp4prog-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Text-to-<fixed-case>SQL</fixed-case> in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data</title>
+      <author><first>Moshe</first><last>Hazoom</last></author>
+      <author><first>Vibhor</first><last>Malik</last></author>
+      <author><first>Ben</first><last>Bogin</last></author>
+      <pages>77–87</pages>
+      <abstract>Most available semantic parsing datasets, comprising of pairs of natural utterances and logical forms, were collected solely for the purpose of training and evaluation of natural language understanding systems. As a result, they do not contain any of the richness and variety of natural-occurring utterances, where humans ask about data they need or are curious about. In this work, we release SEDE, a dataset with 12,023 pairs of utterances and SQL queries collected from real usage on the Stack Exchange website. We show that these pairs contain a variety of real-world challenges which were rarely reflected so far in any other semantic parsing dataset, propose an evaluation metric based on comparison of partial query clauses that is more suitable for real-world queries, and conduct experiments with strong baselines, showing a large gap between the performance on SEDE compared to other common datasets.</abstract>
+      <url hash="54167235">2021.nlp4prog-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Bag-of-Words Baselines for Semantic Code Search</title>
+      <author><first>Xinyu</first><last>Zhang</last></author>
+      <author><first>Ji</first><last>Xin</last></author>
+      <author><first>Andrew</first><last>Yates</last></author>
+      <author><first>Jimmy</first><last>Lin</last></author>
+      <pages>88–94</pages>
+      <abstract>The task of semantic code search is to retrieve code snippets from a source code corpus based on an information need expressed in natural language. The semantic gap between natural language and programming languages has for long been regarded as one of the most significant obstacles to the effectiveness of keyword-based information retrieval (IR) methods. It is a common assumption that “traditional” bag-of-words IR methods are poorly suited for semantic code search: our work empirically investigates this assumption. Specifically, we examine the effectiveness of two traditional IR methods, namely BM25 and RM3, on the CodeSearchNet Corpus, which consists of natural language queries paired with relevant code snippets. We find that the two keyword-based methods outperform several pre-BERT neural models. We also compare several code-specific data pre-processing strategies and find that specialized tokenization improves effectiveness.</abstract>
+      <url hash="3f972535">2021.nlp4prog-1.10</url>
+    </paper>
+  </volume>
+</collection>

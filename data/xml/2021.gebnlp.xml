@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.gebnlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing</booktitle>
+      <editor><first>Marta</first><last>Costa-jussa</last></editor>
+      <editor><first>Hila</first><last>Gonen</last></editor>
+      <editor><first>Christian</first><last>Hardmeier</last></editor>
+      <editor><first>Kellie</first><last>Webster</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="38ae9296">2021.gebnlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="9df1219b">2021.gebnlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>g<fixed-case>EN</fixed-case>der-<fixed-case>IT</fixed-case>: An Annotated <fixed-case>E</fixed-case>nglish-<fixed-case>I</fixed-case>talian Parallel Challenge Set for Cross-Linguistic Natural Gender Phenomena</title>
+      <author><first>Eva</first><last>Vanmassenhove</last></author>
+      <author><first>Johanna</first><last>Monti</last></author>
+      <pages>1–7</pages>
+      <abstract>Languages differ in terms of the absence or presence of gender features, the number of gender classes and whether and where gender features are explicitly marked. These cross-linguistic differences can lead to ambiguities that are difficult to resolve, especially for sentence-level MT systems. The identification of ambiguity and its subsequent resolution is a challenging task for which currently there aren’t any specific resources or challenge sets available. In this paper, we introduce gENder-IT, an English–Italian challenge set focusing on the resolution of natural gender phenomena by providing word-level gender tags on the English source side and multiple gender alternative translations, where needed, on the Italian target side.</abstract>
+      <url hash="64380d56">2021.gebnlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Gender Bias Hidden Behind <fixed-case>C</fixed-case>hinese Word Embeddings: The Case of <fixed-case>C</fixed-case>hinese Adjectives</title>
+      <author><first>Meichun</first><last>Jiao</last></author>
+      <author><first>Ziyang</first><last>Luo</last></author>
+      <pages>8–15</pages>
+      <abstract>Gender bias in word embeddings gradually becomes a vivid research field in recent years. Most studies in this field aim at measurement and debiasing methods with English as the target language. This paper investigates gender bias in static word embeddings from a unique perspective, Chinese adjectives. By training word representations with different models, the gender bias behind the vectors of adjectives is assessed. Through a comparison between the produced results and a human scored data set, we demonstrate how gender bias encoded in word embeddings differentiates from people’s attitudes.</abstract>
+      <url hash="509ba7f6">2021.gebnlp-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Evaluating Gender Bias in <fixed-case>H</fixed-case>indi-<fixed-case>E</fixed-case>nglish Machine Translation</title>
+      <author><first>Krithika</first><last>Ramesh</last></author>
+      <author><first>Gauri</first><last>Gupta</last></author>
+      <author><first>Sanjay</first><last>Singh</last></author>
+      <pages>16–23</pages>
+      <abstract>With language models being deployed increasingly in the real world, it is essential to address the issue of the fairness of their outputs. The word embedding representations of these language models often implicitly draw unwanted associations that form a social bias within the model. The nature of gendered languages like Hindi, poses an additional problem to the quantification and mitigation of bias, owing to the change in the form of the words in the sentence, based on the gender of the subject. Additionally, there is sparse work done in the realm of measuring and debiasing systems for Indic languages. In our work, we attempt to evaluate and quantify the gender bias within a Hindi-English machine translation system. We implement a modified version of the existing TGBI metric based on the grammatical considerations for Hindi. We also compare and contrast the resulting bias measurements across multiple metrics for pre-trained embeddings and the ones learned by our machine translation model.</abstract>
+      <url hash="899b8bf2">2021.gebnlp-1.3</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="5b68eee7">2021.gebnlp-1.3.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="4">
+      <title><fixed-case>A</fixed-case>lexa, <fixed-case>G</fixed-case>oogle, <fixed-case>S</fixed-case>iri: What are Your Pronouns? Gender and Anthropomorphism in the Design and Perception of Conversational Assistants</title>
+      <author><first>Gavin</first><last>Abercrombie</last></author>
+      <author><first>Amanda</first><last>Cercas Curry</last></author>
+      <author><first>Mugdha</first><last>Pandya</last></author>
+      <author><first>Verena</first><last>Rieser</last></author>
+      <pages>24–33</pages>
+      <abstract>Technology companies have produced varied responses to concerns about the effects of the design of their conversational AI systems. Some have claimed that their voice assistants are in fact not gendered or human-like—despite design features suggesting the contrary. We compare these claims to user perceptions by analysing the pronouns they use when referring to AI assistants. We also examine systems’ responses and the extent to which they generate output which is gendered and anthropomorphic. We find that, while some companies appear to be addressing the ethical concerns raised, in some cases, their claims do not seem to hold true. In particular, our results show that system outputs are ambiguous as to the humanness of the systems, and that users tend to personify and gender them as a result.</abstract>
+      <url hash="37fbde43">2021.gebnlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Gender Bias in Text: Origin, Taxonomy, and Implications</title>
+      <author><first>Jad</first><last>Doughman</last></author>
+      <author><first>Wael</first><last>Khreich</last></author>
+      <author><first>Maya</first><last>El Gharib</last></author>
+      <author><first>Maha</first><last>Wiss</last></author>
+      <author><first>Zahraa</first><last>Berjawi</last></author>
+      <pages>34–44</pages>
+      <abstract>Gender inequality represents a considerable loss of human potential and perpetuates a culture of violence, higher gender wage gaps, and a lack of representation of women in higher and leadership positions. Applications powered by Artificial Intelligence (AI) are increasingly being used in the real world to provide critical decisions about who is going to be hired, granted a loan, admitted to college, etc. However, the main pillars of AI, Natural Language Processing (NLP) and Machine Learning (ML) have been shown to reflect and even amplify gender biases and stereotypes, which are mainly inherited from historical training data. In an effort to facilitate the identification and mitigation of gender bias in English text, we develop a comprehensive taxonomy that relies on the following gender bias types: Generic Pronouns, Sexism, Occupational Bias, Exclusionary Bias, and Semantics. We also provide a bottom-up overview of gender bias, from its societal origin to its spillover onto language. Finally, we link the societal implications of gender bias to their corresponding type(s) in the proposed taxonomy. The underlying motivation of our work is to help enable the technical community to identify and mitigate relevant biases from training corpora for improved fairness in NLP systems.</abstract>
+      <url hash="8a6bc4f6">2021.gebnlp-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Sexism in the Judiciary: The Importance of Bias Definition in <fixed-case>NLP</fixed-case> and In Our Courts</title>
+      <author><first>Noa</first><last>Baker Gillis</last></author>
+      <pages>45–54</pages>
+      <abstract>We analyze 6.7 million case law documents to determine the presence of gender bias within our judicial system. We find that current bias detection methods in NLP are insufficient to determine gender bias in our case law database and propose an alternative approach. We show that existing algorithms’ inconsistent results are consequences of prior research’s inconsistent definitions of biases themselves. Bias detection algorithms rely on groups of words to represent bias (e.g., ‘salary,’ ‘job,’ and ‘boss’ to represent employment as a potentially biased theme against women in text). However, the methods to build these groups of words have several weaknesses, primarily that the word lists are based on the researchers’ own intuitions. We suggest two new methods of automating the creation of word lists to represent biases. We find that our methods outperform current NLP bias detection methods. Our research improves the capabilities of NLP technology to detect bias and highlights gender biases present in influential case law. In order to test our NLP bias detection method’s performance, we regress our results of bias in case law against U.S census data of women’s participation in the workforce in the last 100 years.</abstract>
+      <url hash="0cc4e192">2021.gebnlp-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Towards Equal Gender Representation in the Annotations of Toxic Language Detection</title>
+      <author><first>Elizabeth</first><last>Excell</last></author>
+      <author><first>Noura</first><last>Al Moubayed</last></author>
+      <pages>55–65</pages>
+      <abstract>Classifiers tend to propagate biases present in the data on which they are trained. Hence, it is important to understand how the demographic identities of the annotators of comments affect the fairness of the resulting model. In this paper, we focus on the differences in the ways men and women annotate comments for toxicity, investigating how these differences result in models that amplify the opinions of male annotators. We find that the BERT model associates toxic comments containing offensive words with male annotators, causing the model to predict 67.7% of toxic comments as having been annotated by men. We show that this disparity between gender predictions can be mitigated by removing offensive words and highly toxic comments from the training data. We then apply the learned associations between gender and language to toxic language classifiers, finding that models trained exclusively on female-annotated data perform 1.8% better than those trained solely on male-annotated data, and that training models on data after removing all offensive words reduces bias in the model by 55.5% while increasing the sensitivity by 0.4%.</abstract>
+      <url hash="afac6f6d">2021.gebnlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Using Gender- and Polarity-Informed Models to Investigate Bias</title>
+      <author><first>Samia</first><last>Touileb</last></author>
+      <author><first>Lilja</first><last>Øvrelid</last></author>
+      <author><first>Erik</first><last>Velldal</last></author>
+      <pages>66–74</pages>
+      <abstract>In this work we explore the effect of incorporating demographic metadata in a text classifier trained on top of a pre-trained transformer language model. More specifically, we add information about the gender of critics and book authors when classifying the polarity of book reviews, and the polarity of the reviews when classifying the genders of authors and critics. We use an existing data set of Norwegian book reviews with ratings by professional critics, which has also been augmented with gender information, and train a document-level sentiment classifier on top of a recently released Norwegian BERT-model. We show that gender-informed models obtain substantially higher accuracy, and that polarity-informed models obtain higher accuracy when classifying the genders of book authors. For this particular data set, we take this result as a confirmation of the gender bias in the underlying label distribution, but in other settings we believe a similar approach can be used for mitigating bias in the model.</abstract>
+      <url hash="01e11ed3">2021.gebnlp-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Assessing Gender Bias in <fixed-case>W</fixed-case>ikipedia: Inequalities in Article Titles</title>
+      <author><first>Agnieszka</first><last>Falenska</last></author>
+      <author><first>Özlem</first><last>Çetinoğlu</last></author>
+      <pages>75–85</pages>
+      <abstract>Potential gender biases existing in Wikipedia’s content can contribute to biased behaviors in a variety of downstream NLP systems. Yet, efforts in understanding what inequalities in portraying women and men occur in Wikipedia focused so far only on *biographies*, leaving open the question of how often such harmful patterns occur in other topics. In this paper, we investigate gender-related asymmetries in Wikipedia titles from *all domains*. We assess that for only half of gender-related articles, i.e., articles with words such as *women* or *male* in their titles, symmetrical counterparts describing the same concept for the other gender (and clearly stating it in their titles) exist. Among the remaining imbalanced cases, the vast majority of articles concern sports- and social-related issues. We provide insights on how such asymmetries can influence other Wikipedia components and propose steps towards reducing the frequency of observed patterns.</abstract>
+      <url hash="4a1c0980">2021.gebnlp-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Investigating the Impact of Gender Representation in <fixed-case>ASR</fixed-case> Training Data: a Case Study on Librispeech</title>
+      <author><first>Mahault</first><last>Garnerin</last></author>
+      <author><first>Solange</first><last>Rossato</last></author>
+      <author><first>Laurent</first><last>Besacier</last></author>
+      <pages>86–92</pages>
+      <abstract>In this paper we question the impact of gender representation in training data on the performance of an end-to-end ASR system. We create an experiment based on the Librispeech corpus and build 3 different training corpora varying only the proportion of data produced by each gender category. We observe that if our system is overall robust to the gender balance or imbalance in training data, it is nonetheless dependant of the adequacy between the individuals present in the training and testing sets.</abstract>
+      <url hash="d224b621">2021.gebnlp-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Generating Gender Augmented Data for <fixed-case>NLP</fixed-case></title>
+      <author><first>Nishtha</first><last>Jain</last></author>
+      <author><first>Maja</first><last>Popović</last></author>
+      <author><first>Declan</first><last>Groves</last></author>
+      <author><first>Eva</first><last>Vanmassenhove</last></author>
+      <pages>93–102</pages>
+      <abstract>Gender bias is a frequent occurrence in NLP-based applications, especially pronounced in gender-inflected languages. Bias can appear through associations of certain adjectives and animate nouns with the natural gender of referents, but also due to unbalanced grammatical gender frequencies of inflected words. This type of bias becomes more evident in generating conversational utterances where gender is not specified within the sentence, because most current NLP applications still work on a sentence-level context. As a step towards more inclusive NLP, this paper proposes an automatic and generalisable re-writing approach for short conversational sentences. The rewriting method can be applied to sentences that, without extra-sentential context, have multiple equivalent alternatives in terms of gender. The method can be applied both for creating gender balanced outputs as well as for creating gender balanced training data. The proposed approach is based on a neural machine translation system trained to ‘translate’ from one gender alternative to another. Both the automatic and manual analysis of the approach show promising results with respect to the automatic generation of gender alternatives for conversational sentences in Spanish.</abstract>
+      <url hash="552391e1">2021.gebnlp-1.11</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="2de0cc30">2021.gebnlp-1.11.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="12">
+      <title>Second Order <fixed-case>W</fixed-case>ino<fixed-case>B</fixed-case>ias (<fixed-case>S</fixed-case>o<fixed-case>W</fixed-case>ino<fixed-case>B</fixed-case>ias) Test Set for Latent Gender Bias Detection in Coreference Resolution</title>
+      <author><first>Hillary</first><last>Dawkins</last></author>
+      <pages>103–111</pages>
+      <abstract>We observe an instance of gender-induced bias in a downstream application, despite the absence of explicit gender words in the test cases. We provide a test set, SoWinoBias, for the purpose of measuring such latent gender bias in coreference resolution systems. We evaluate the performance of current debiasing methods on the SoWinoBias test set, especially in reference to the method’s design and altered embedding space properties. See https://github.com/hillary-dawkins/SoWinoBias.</abstract>
+      <url hash="4a3028b8">2021.gebnlp-1.12</url>
+    </paper>
+  </volume>
+</collection>

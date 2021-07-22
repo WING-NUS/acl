@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.gem">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)</booktitle>
+      <editor><first>Antoine</first><last>Bosselut</last></editor>
+      <editor><first>Esin</first><last>Durmus</last></editor>
+      <editor><first>Varun Prashant</first><last>Gangal</last></editor>
+      <editor><first>Sebastian</first><last>Gehrmann</last></editor>
+      <editor><first>Yacine</first><last>Jernite</last></editor>
+      <editor><first>Laura</first><last>Perez-Beltrachini</last></editor>
+      <editor><first>Samira</first><last>Shaikh</last></editor>
+      <editor><first>Wei</first><last>Xu</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="ab60ad50">2021.gem-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="13027448">2021.gem-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Flesch-Kincaid is Not a Text Simplification Evaluation Metric</title>
+      <author><first>Teerapaun</first><last>Tanprasert</last></author>
+      <author><first>David</first><last>Kauchak</last></author>
+      <pages>1–14</pages>
+      <abstract>Sentence-level text simplification is currently evaluated using both automated metrics and human evaluation. For automatic evaluation, a combination of metrics is usually employed to evaluate different aspects of the simplification. Flesch-Kincaid Grade Level (FKGL) is one metric that has been regularly used to measure the readability of system output. In this paper, we argue that FKGL should not be used to evaluate text simplification systems. We provide experimental analyses on recent system output showing that the FKGL score can easily be manipulated to improve the score dramatically with only minor impact on other automated metrics (BLEU and SARI). Instead of using FKGL, we suggest that the component statistics, along with others, be used for posthoc analysis to understand system behavior.</abstract>
+      <url hash="3f05c82d">2021.gem-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Human Perception in Natural Language Generation</title>
+      <author><first>Lorenzo</first><last>De Mattei</last></author>
+      <author><first>Huiyuan</first><last>Lai</last></author>
+      <author><first>Felice</first><last>Dell’Orletta</last></author>
+      <author><first>Malvina</first><last>Nissim</last></author>
+      <pages>15–23</pages>
+      <abstract>We ask subjects whether they perceive as human-produced a bunch of texts, some of which are actually human-written, while others are automatically generated. We use this data to fine-tune a GPT-2 model to push it to generate more human-like texts, and observe that this fine-tuned model produces texts that are indeed perceived more human-like than the original model. Contextually, we show that our automatic evaluation strategy well correlates with human judgements. We also run a linguistic analysis to unveil the characteristics of human- vs machine-perceived language.</abstract>
+      <url hash="eba9253f">2021.gem-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Semantic Similarity Based Evaluation for Abstractive News Summarization</title>
+      <author><first>Figen</first><last>Beken Fikri</last></author>
+      <author><first>Kemal</first><last>Oflazer</last></author>
+      <author><first>Berrin</first><last>Yanikoglu</last></author>
+      <pages>24–33</pages>
+      <abstract>ROUGE is a widely used evaluation metric in text summarization. However, it is not suitable for the evaluation of abstractive summarization systems as it relies on lexical overlap between the gold standard and the generated summaries. This limitation becomes more apparent for agglutinative languages with very large vocabularies and high type/token ratios. In this paper, we present semantic similarity models for Turkish and apply them as evaluation metrics for an abstractive summarization task. To achieve this, we translated the English STSb dataset into Turkish and presented the first semantic textual similarity dataset for Turkish as well. We showed that our best similarity models have better alignment with average human judgments compared to ROUGE in both Pearson and Spearman correlations.</abstract>
+      <url hash="e7d5e247">2021.gem-1.3</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="3bfbe003">2021.gem-1.3.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="4">
+      <title>Shades of <fixed-case>BLEU</fixed-case>, Flavours of Success: The Case of <fixed-case>M</fixed-case>ulti<fixed-case>WOZ</fixed-case></title>
+      <author><first>Tomáš</first><last>Nekvinda</last></author>
+      <author><first>Ondřej</first><last>Dušek</last></author>
+      <pages>34–46</pages>
+      <abstract>The MultiWOZ dataset (Budzianowski et al.,2018) is frequently used for benchmarkingcontext-to-response abilities of task-orienteddialogue systems. In this work, we identifyinconsistencies in data preprocessing and re-porting of three corpus-based metrics used onthis dataset, i.e., BLEU score and Inform &amp;Success rates. We point out a few problemsof the MultiWOZ benchmark such as unsat-isfactory preprocessing, insufficient or under-specified evaluation metrics, or rigid database.We re-evaluate 7 end-to-end and 6 policy opti-mization models in as-fair-as-possible setups,and we show that their reported scores cannotbe directly compared. To facilitate compari-son of future systems, we release our stand-alone standardized evaluation scripts. We alsogive basic recommendations for corpus-basedbenchmarking in future works.</abstract>
+      <url hash="00351f5f">2021.gem-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Personalized Response Generation with Tensor Factorization</title>
+      <author><first>Zhenghui</first><last>Wang</last></author>
+      <author><first>Lingxiao</first><last>Luo</last></author>
+      <author><first>Diyi</first><last>Yang</last></author>
+      <pages>47–57</pages>
+      <abstract>Personalized response generation is essential for more human-like conversations. However, how to model user personalization information with no explicit user persona descriptions or demographics still remains under-investigated. To tackle the data sparsity problem and the huge number of users, we utilize tensor factorization to model users’ personalization information with their posting histories. Specifically, we introduce the personalized response embedding for all question-user pairs and form them into a three-mode tensor, decomposed by Tucker decomposition. The personalized response embedding is fed to either the decoder of an LSTM-based Seq2Seq model or a transformer language model to help generate more personalized responses. To evaluate how personalized the generated responses are, we further propose a novel ranking-based metric called Per-Hits@k which measures how likely are the generated responses come from the corresponding users. Results on a large-scale conversation dataset show that our proposed tensor factorization based models generate more personalized and higher quality responses compared to baselines.</abstract>
+      <url hash="d9c70b19">2021.gem-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>A Review of Human Evaluation for Style Transfer</title>
+      <author><first>Eleftheria</first><last>Briakou</last></author>
+      <author><first>Sweta</first><last>Agrawal</last></author>
+      <author><first>Ke</first><last>Zhang</last></author>
+      <author><first>Joel</first><last>Tetreault</last></author>
+      <author><first>Marine</first><last>Carpuat</last></author>
+      <pages>58–67</pages>
+      <abstract>This paper reviews and summarizes human evaluation practices described in 97 style transfer papers with respect to three main evaluation aspects: style transfer, meaning preservation, and fluency. In principle, evaluations by human raters should be the most reliable. However, in style transfer papers, we find that protocols for human evaluations are often underspecified and not standardized, which hampers the reproducibility of research in this field and progress toward better human and automatic evaluation methods.</abstract>
+      <url hash="bf6113dc">2021.gem-1.6</url>
+    </paper>
+    <paper id="7">
+      <title><fixed-case>GOT</fixed-case>: Testing for Originality in Natural Language Generation</title>
+      <author><first>Jennifer</first><last>Brooks</last></author>
+      <author><first>Abdou</first><last>Youssef</last></author>
+      <pages>68–72</pages>
+      <abstract>We propose an approach to automatically test for originality in generation tasks where no standard automatic measures exist. Our proposal addresses original uses of language, not necessarily original ideas. We provide an algorithm for our approach and a run-time analysis. The algorithm, which finds all of the original fragments in a ground-truth corpus and can reveal whether a generated fragment copies an original without attribution, has a run-time complexity of theta(nlogn) where n is the number of sentences in the ground truth.</abstract>
+      <url hash="1778577b">2021.gem-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Evaluating Text Generation from Discourse Representation Structures</title>
+      <author><first>Chunliu</first><last>Wang</last></author>
+      <author><first>Rik</first><last>van Noord</last></author>
+      <author><first>Arianna</first><last>Bisazza</last></author>
+      <author><first>Johan</first><last>Bos</last></author>
+      <pages>73–83</pages>
+      <abstract>We present an end-to-end neural approach to generate English sentences from formal meaning representations, Discourse Representation Structures (DRSs). We use a rather standard bi-LSTM sequence-to-sequence model, work with a linearized DRS input representation, and evaluate character-level and word-level decoders. We obtain very encouraging results in terms of reference-based automatic metrics such as BLEU. But because such metrics only evaluate the surface level of generated output, we develop a new metric, ROSE, that targets specific semantic phenomena. We do this with five DRS generation challenge sets focusing on tense, grammatical number, polarity, named entities and quantities. The aim of these challenge sets is to assess the neural generator’s systematicity and generalization to unseen inputs.</abstract>
+      <url hash="81676380">2021.gem-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Human Evaluation of Creative <fixed-case>NLG</fixed-case> Systems: An Interdisciplinary Survey on Recent Papers</title>
+      <author><first>Mika</first><last>Hämäläinen</last></author>
+      <author><first>Khalid</first><last>Alnajjar</last></author>
+      <pages>84–95</pages>
+      <abstract>We survey human evaluation in papers presenting work on creative natural language generation that have been published in INLG 2020 and ICCC 2020. The most typical human evaluation method is a scaled survey, typically on a 5 point scale, while many other less common methods exist. The most commonly evaluated parameters are meaning, syntactic correctness, novelty, relevance and emotional value, among many others. Our guidelines for future evaluation include clearly defining the goal of the generative system, asking questions as concrete as possible, testing the evaluation setup, using multiple different evaluation setups, reporting the entire evaluation process and potential biases clearly, and finally analyzing the evaluation results in a more profound way than merely reporting the most typical statistics.</abstract>
+      <url hash="f0d8caef">2021.gem-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>The <fixed-case>GEM</fixed-case> Benchmark: Natural Language Generation, its Evaluation and Metrics</title>
+      <author><first>Sebastian</first><last>Gehrmann</last></author>
+      <author><first>Tosin</first><last>Adewumi</last></author>
+      <author><first>Karmanya</first><last>Aggarwal</last></author>
+      <author><first>Pawan Sasanka</first><last>Ammanamanchi</last></author>
+      <author><first>Anuoluwapo</first><last>Aremu</last></author>
+      <author><first>Antoine</first><last>Bosselut</last></author>
+      <author><first>Khyathi Raghavi</first><last>Chandu</last></author>
+      <author><first>Miruna-Adriana</first><last>Clinciu</last></author>
+      <author><first>Dipanjan</first><last>Das</last></author>
+      <author><first>Kaustubh</first><last>Dhole</last></author>
+      <author><first>Wanyu</first><last>Du</last></author>
+      <author><first>Esin</first><last>Durmus</last></author>
+      <author><first>Ondřej</first><last>Dušek</last></author>
+      <author><first>Chris Chinenye</first><last>Emezue</last></author>
+      <author><first>Varun</first><last>Gangal</last></author>
+      <author><first>Cristina</first><last>Garbacea</last></author>
+      <author><first>Tatsunori</first><last>Hashimoto</last></author>
+      <author><first>Yufang</first><last>Hou</last></author>
+      <author><first>Yacine</first><last>Jernite</last></author>
+      <author><first>Harsh</first><last>Jhamtani</last></author>
+      <author><first>Yangfeng</first><last>Ji</last></author>
+      <author><first>Shailza</first><last>Jolly</last></author>
+      <author><first>Mihir</first><last>Kale</last></author>
+      <author><first>Dhruv</first><last>Kumar</last></author>
+      <author><first>Faisal</first><last>Ladhak</last></author>
+      <author><first>Aman</first><last>Madaan</last></author>
+      <author><first>Mounica</first><last>Maddela</last></author>
+      <author><first>Khyati</first><last>Mahajan</last></author>
+      <author><first>Saad</first><last>Mahamood</last></author>
+      <author><first>Bodhisattwa Prasad</first><last>Majumder</last></author>
+      <author><first>Pedro Henrique</first><last>Martins</last></author>
+      <author><first>Angelina</first><last>McMillan-Major</last></author>
+      <author><first>Simon</first><last>Mille</last></author>
+      <author><first>Emiel</first><last>van Miltenburg</last></author>
+      <author><first>Moin</first><last>Nadeem</last></author>
+      <author><first>Shashi</first><last>Narayan</last></author>
+      <author><first>Vitaly</first><last>Nikolaev</last></author>
+      <author><first>Andre</first><last>Niyongabo Rubungo</last></author>
+      <author><first>Salomey</first><last>Osei</last></author>
+      <author><first>Ankur</first><last>Parikh</last></author>
+      <author><first>Laura</first><last>Perez-Beltrachini</last></author>
+      <author><first>Niranjan Ramesh</first><last>Rao</last></author>
+      <author><first>Vikas</first><last>Raunak</last></author>
+      <author><first>Juan Diego</first><last>Rodriguez</last></author>
+      <author><first>Sashank</first><last>Santhanam</last></author>
+      <author><first>João</first><last>Sedoc</last></author>
+      <author><first>Thibault</first><last>Sellam</last></author>
+      <author><first>Samira</first><last>Shaikh</last></author>
+      <author><first>Anastasia</first><last>Shimorina</last></author>
+      <author><first>Marco Antonio</first><last>Sobrevilla Cabezudo</last></author>
+      <author><first>Hendrik</first><last>Strobelt</last></author>
+      <author><first>Nishant</first><last>Subramani</last></author>
+      <author><first>Wei</first><last>Xu</last></author>
+      <author><first>Diyi</first><last>Yang</last></author>
+      <author><first>Akhila</first><last>Yerukola</last></author>
+      <author><first>Jiawei</first><last>Zhou</last></author>
+      <pages>96–120</pages>
+      <abstract>We introduce GEM, a living benchmark for natural language Generation (NLG), its Evaluation, and Metrics. Measuring progress in NLG relies on a constantly evolving ecosystem of automated metrics, datasets, and human evaluation standards. Due to this moving target, new models often still evaluate on divergent anglo-centric corpora with well-established, but flawed, metrics. This disconnect makes it challenging to identify the limitations of current models and opportunities for progress. Addressing this limitation, GEM provides an environment in which models can easily be applied to a wide set of tasks and in which evaluation strategies can be tested. Regular updates to the benchmark will help NLG research become more multilingual and evolve the challenge alongside models. This paper serves as the description of the data for the 2021 shared task at the associated GEM Workshop.</abstract>
+      <url hash="0df4bca5">2021.gem-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Reusable Templates and Guides For Documenting Datasets and Models for Natural Language Processing and Generation: A Case Study of the <fixed-case>H</fixed-case>ugging<fixed-case>F</fixed-case>ace and <fixed-case>GEM</fixed-case> Data and Model Cards</title>
+      <author><first>Angelina</first><last>McMillan-Major</last></author>
+      <author><first>Salomey</first><last>Osei</last></author>
+      <author><first>Juan Diego</first><last>Rodriguez</last></author>
+      <author><first>Pawan Sasanka</first><last>Ammanamanchi</last></author>
+      <author><first>Sebastian</first><last>Gehrmann</last></author>
+      <author><first>Yacine</first><last>Jernite</last></author>
+      <pages>121–135</pages>
+      <abstract>Developing documentation guidelines and easy-to-use templates for datasets and models is a challenging task, especially given the variety of backgrounds, skills, and incentives of the people involved in the building of natural language processing (NLP) tools. Nevertheless, the adoption of standard documentation practices across the field of NLP promotes more accessible and detailed descriptions of NLP datasets and models, while supporting researchers and developers in reflecting on their work. To help with the standardization of documentation, we present two case studies of efforts that aim to develop reusable documentation templates – the HuggingFace data card, a general purpose card for datasets in NLP, and the GEM benchmark data and model cards with a focus on natural language generation. We describe our process for developing these templates, including the identification of relevant stakeholder groups, the definition of a set of guiding principles, the use of existing templates as our foundation, and iterative revisions based on feedback.</abstract>
+      <url hash="5259f8bd">2021.gem-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Structure-to-Text Generation with Self-Training, Acceptability Classifiers and Context-Conditioning for the <fixed-case>GEM</fixed-case> Shared Task</title>
+      <author><first>Shreyan</first><last>Bakshi</last></author>
+      <author><first>Soumya</first><last>Batra</last></author>
+      <author><first>Peyman</first><last>Heidari</last></author>
+      <author><first>Ankit</first><last>Arun</last></author>
+      <author><first>Shashank</first><last>Jain</last></author>
+      <author><first>Michael</first><last>White</last></author>
+      <pages>136–147</pages>
+      <abstract>We explore the use of self-training and acceptability classifiers with pre-trained models for natural language generation in structure-to-text settings using three GEM datasets (E2E, WebNLG-en, Schema-Guided Dialog). With the Schema-Guided Dialog dataset, we also experiment with including multiple turns of context in the input. We find that self-training with reconstruction matching along with acceptability classifier filtering can improve semantic correctness, though gains are limited in the full-data setting. With context-conditioning, we find that including multiple turns in the context encourages the model to align with the user’s word and phrasing choices as well as to generate more self-consistent responses. In future versions of the GEM challenge, we encourage the inclusion of few-shot tracks to encourage research on data efficiency.</abstract>
+      <url hash="64c93fe9">2021.gem-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>NUIG</fixed-case>-<fixed-case>DSI</fixed-case>’s submission to The <fixed-case>GEM</fixed-case> Benchmark 2021</title>
+      <author><first>Nivranshu</first><last>Pasricha</last></author>
+      <author><first>Mihael</first><last>Arcan</last></author>
+      <author><first>Paul</first><last>Buitelaar</last></author>
+      <pages>148–154</pages>
+      <abstract>This paper describes the submission by NUIG-DSI to the GEM benchmark 2021. We participate in the modeling shared task where we submit outputs on four datasets for data-to-text generation, namely, DART, WebNLG (en), E2E and CommonGen. We follow an approach similar to the one described in the GEM benchmark paper where we use the pre-trained T5-base model for our submission. We train this model on additional monolingual data where we experiment with different masking strategies specifically focused on masking entities, predicates and concepts as well as a random masking strategy for pre-training. In our results we find that random masking performs the best in terms of automatic evaluation metrics, though the results are not statistically significantly different compared to other masking strategies.</abstract>
+      <url hash="ce8995b4">2021.gem-1.13</url>
+    </paper>
+    <paper id="14">
+      <title><fixed-case>S</fixed-case>imple<fixed-case>NER</fixed-case> Sentence Simplification System for <fixed-case>GEM</fixed-case> 2021</title>
+      <author><first>K V Aditya</first><last>Srivatsa</last></author>
+      <author><first>Monil</first><last>Gokani</last></author>
+      <author><first>Manish</first><last>Shrivastava</last></author>
+      <pages>155–160</pages>
+      <abstract>This paper describes SimpleNER, a model developed for the sentence simplification task at GEM-2021. Our system is a monolingual Seq2Seq Transformer architecture that uses control tokens pre-pended to the data, allowing the model to shape the generated simplifications according to user desired attributes. Additionally, we show that NER-tagging the training data before use helps stabilize the effect of the control tokens and significantly improves the overall performance of the system. We also employ pretrained embeddings to reduce data sparsity and allow the model to produce more generalizable outputs.</abstract>
+      <url hash="62815520">2021.gem-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>System Description for the <fixed-case>C</fixed-case>ommon<fixed-case>G</fixed-case>en task with the <fixed-case>POINTER</fixed-case> model</title>
+      <author><first>Anna</first><last>Shvets</last></author>
+      <pages>161–165</pages>
+      <abstract>In a current experiment we were testing CommonGen dataset for structure-to-text task from GEM living benchmark with the constraint based POINTER model. POINTER represents a hybrid architecture, combining insertion-based and transformer paradigms, predicting the token and the insertion position at the same time. The text is therefore generated gradually in a parallel non-autoregressive manner, given the set of keywords. The pretrained model was fine-tuned on a training split of the CommonGen dataset and the generation result was compared to the validation and challenge splits. The received metrics outputs, which measure lexical equivalence, semantic similarity and diversity, are discussed in details in a present system description.</abstract>
+      <url hash="2b51ae6d">2021.gem-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Decoding Methods for Neural Narrative Generation</title>
+      <author><first>Alexandra</first><last>DeLucia</last></author>
+      <author><first>Aaron</first><last>Mueller</last></author>
+      <author><first>Xiang Lisa</first><last>Li</last></author>
+      <author><first>João</first><last>Sedoc</last></author>
+      <pages>166–185</pages>
+      <abstract>Narrative generation is an open-ended NLP task in which a model generates a story given a prompt. The task is similar to neural response generation for chatbots; however, innovations in response generation are often not applied to narrative generation, despite the similarity between these tasks. We aim to bridge this gap by applying and evaluating advances in decoding methods for neural response generation to neural narrative generation. In particular, we employ GPT-2 and perform ablations across nucleus sampling thresholds and diverse decoding hyperparameters—specifically, maximum mutual information—analyzing results over multiple criteria with automatic and human evaluation. We find that (1) nucleus sampling is generally best with thresholds between 0.7 and 0.9; (2) a maximum mutual information objective can improve the quality of generated stories; and (3) established automatic metrics do not correlate well with human judgments of narrative quality on any qualitative metric.</abstract>
+      <url hash="aa1c5b4f">2021.gem-1.16</url>
+    </paper>
+  </volume>
+</collection>

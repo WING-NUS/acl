@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.starsem">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics</booktitle>
+      <editor><first>Vivi</first><last>Nastase</last></editor>
+      <editor><first>Ivan</first><last>Vulić</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="b7c2739b">2021.starsem-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="2ecd08a5">2021.starsem-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Did the Cat Drink the Coffee? Challenging Transformers with Generalized Event Knowledge</title>
+      <author><first>Paolo</first><last>Pedinotti</last></author>
+      <author><first>Giulia</first><last>Rambelli</last></author>
+      <author><first>Emmanuele</first><last>Chersoni</last></author>
+      <author><first>Enrico</first><last>Santus</last></author>
+      <author><first>Alessandro</first><last>Lenci</last></author>
+      <author><first>Philippe</first><last>Blache</last></author>
+      <pages>1–11</pages>
+      <abstract>Prior research has explored the ability of computational models to predict a word semantic fit with a given predicate. While much work has been devoted to modeling the typicality relation between verbs and arguments in isolation, in this paper we take a broader perspective by assessing whether and to what extent computational approaches have access to the information about the typicality of entire events and situations described in language (Generalized Event Knowledge). Given the recent success of Transformers Language Models (TLMs), we decided to test them on a benchmark for the dynamic estimation of thematic fit. The evaluation of these models was performed in comparison with SDM, a framework specifically designed to integrate events in sentence meaning representations, and we conducted a detailed error analysis to investigate which factors affect their behavior. Our results show that TLMs can reach performances that are comparable to those achieved by SDM. However, additional analysis consistently suggests that TLMs do not capture important aspects of event knowledge, and their predictions often depend on surface linguistic features, such as frequent words, collocations and syntactic patterns, thereby showing sub-optimal generalization abilities.</abstract>
+      <url hash="025efaba">2021.starsem-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Can Transformer Language Models Predict Psychometric Properties?</title>
+      <author><first>Antonio</first><last>Laverghetta Jr.</last></author>
+      <author><first>Animesh</first><last>Nighojkar</last></author>
+      <author><first>Jamshidbek</first><last>Mirzakhalov</last></author>
+      <author><first>John</first><last>Licato</last></author>
+      <pages>12–25</pages>
+      <abstract>Transformer-based language models (LMs) continue to advance state-of-the-art performance on NLP benchmark tasks, including tasks designed to mimic human-inspired “commonsense” competencies. To better understand the degree to which LMs can be said to have certain linguistic reasoning skills, researchers are beginning to adapt the tools and concepts of the field of psychometrics. But to what extent can the benefits flow in the other direction? I.e., can LMs be of use in predicting what the psychometric properties of test items will be when those items are given to human participants? We gather responses from numerous human participants and LMs (transformer- and non-transformer-based) on a broad diagnostic test of linguistic competencies. We then use the responses to calculate standard psychometric properties of the items in the diagnostic test, using the human responses and the LM responses separately. We then determine how well these two sets of predictions match. We find cases in which transformer-based LMs predict psychometric properties consistently well in certain categories but consistently poorly in others, thus providing new insights into fundamental similarities and differences between human and LM reasoning.</abstract>
+      <url hash="c9268154">2021.starsem-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Semantic shift in social networks</title>
+      <author><first>Bill</first><last>Noble</last></author>
+      <author><first>Asad</first><last>Sayeed</last></author>
+      <author><first>Raquel</first><last>Fernández</last></author>
+      <author><first>Staffan</first><last>Larsson</last></author>
+      <pages>26–37</pages>
+      <abstract>Just as the meaning of words is tied to the communities in which they are used, so too is semantic change. But how does lexical semantic change manifest differently across different communities? In this work, we investigate the relationship between community structure and semantic change in 45 communities from the social media website Reddit. We use distributional methods to quantify lexical semantic change and induce a social network on communities, based on interactions between members. We explore the relationship between semantic change and the clustering coefficient of a community’s social network graph, as well as community size and stability. While none of these factors are found to be significant on their own, we report a significant effect of their three-way interaction. We also report on significant word-level effects of frequency and change in frequency, which replicate previous findings.</abstract>
+      <url hash="417d74f2">2021.starsem-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>A Study on Using Semantic Word Associations to Predict the Success of a Novel</title>
+      <author><first>Syeda</first><last>Jannatus Saba</last></author>
+      <author><first>Biddut Sarker</first><last>Bijoy</last></author>
+      <author><first>Henry</first><last>Gorelick</last></author>
+      <author><first>Sabir</first><last>Ismail</last></author>
+      <author><first>Md Saiful</first><last>Islam</last></author>
+      <author><first>Mohammad Ruhul</first><last>Amin</last></author>
+      <pages>38–51</pages>
+      <abstract>Many new books get published every year, and only a fraction of them become popular among the readers. So the prediction of a book success can be a very useful parameter for publishers to make a reliable decision. This article presents the study of semantic word associations using the word embedding of book content for a set of Roget’s thesaurus concepts for book success prediction. In this work, we discuss the method to represent a book as a spectrum of concepts based on the association score between its content embedding and a global embedding (i.e. fastText) for a set of semantically linked word clusters. We show that the semantic word associations outperform the previous methods for book success prediction. In addition, we present that semantic word associations also provide better results than using features like the frequency of word groups in Roget’s thesaurus, LIWC (a popular tool for linguistic inquiry and word count), NRC (word association emotion lexicon), and part of speech (PoS). Our study reports that concept associations based on Roget’s Thesaurus using word embedding of individual novel resulted in the state-of-the-art performance of 0.89 average weighted F1-score for book success prediction. Finally, we present a set of dominant themes that contribute towards the popularity of a book for a specific genre.</abstract>
+      <url hash="c3d53777">2021.starsem-1.4</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="4dd3ad88">2021.starsem-1.4.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="5">
+      <title>Recovering Lexically and Semantically Reused Texts</title>
+      <author><first>Ansel</first><last>MacLaughlin</last></author>
+      <author><first>Shaobin</first><last>Xu</last></author>
+      <author><first>David A.</first><last>Smith</last></author>
+      <pages>52–66</pages>
+      <abstract>Writers often repurpose material from existing texts when composing new documents. Because most documents have more than one source, we cannot trace these connections using only models of document-level similarity. Instead, this paper considers methods for local text reuse detection (LTRD), detecting localized regions of lexically or semantically similar text embedded in otherwise unrelated material. In extensive experiments, we study the relative performance of four classes of neural and bag-of-words models on three LTRD tasks – detecting plagiarism, modeling journalists’ use of press releases, and identifying scientists’ citation of earlier papers. We conduct evaluations on three existing datasets and a new, publicly-available citation localization dataset. Our findings shed light on a number of previously-unexplored questions in the study of LTRD, including the importance of incorporating document-level context for predictions, the applicability of of-the-shelf neural models pretrained on “general” semantic textual similarity tasks such as paraphrase detection, and the trade-offs between more efficient bag-of-words and feature-based neural models and slower pairwise neural models.</abstract>
+      <url hash="b8d8d726">2021.starsem-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Generating Hypothetical Events for Abductive Inference</title>
+      <author><first>Debjit</first><last>Paul</last></author>
+      <author><first>Anette</first><last>Frank</last></author>
+      <pages>67–77</pages>
+      <abstract>Abductive reasoning starts from some observations and aims at finding the most plausible explanation for these observations. To perform abduction, humans often make use of temporal and causal inferences, and knowledge about how some hypothetical situation can result in different outcomes. This work offers the first study of how such knowledge impacts the Abductive NLI task – which consists in choosing the more likely explanation for given observations. We train a specialized language model LMI that is tasked to generate what could happen next from a hypothetical scenario that evolves from a given event. We then propose a multi-task model MTL to solve the Abductive NLI task, which predicts a plausible explanation by a) considering different possible events emerging from candidate hypotheses – events generated by LMI – and b) selecting the one that is most similar to the observed outcome. We show that our MTL model improves over prior vanilla pre-trained LMs fine-tuned on Abductive NLI. Our manual evaluation and analysis suggest that learning about possible next events from different hypothetical scenarios supports abductive inference.</abstract>
+      <url hash="f9284a91">2021.starsem-1.6</url>
+    </paper>
+    <paper id="7">
+      <title><fixed-case>N</fixed-case>eural<fixed-case>L</fixed-case>og: Natural Language Inference with Joint Neural and Logical Reasoning</title>
+      <author><first>Zeming</first><last>Chen</last></author>
+      <author><first>Qiyue</first><last>Gao</last></author>
+      <author><first>Lawrence S.</first><last>Moss</last></author>
+      <pages>78–88</pages>
+      <abstract>Deep learning (DL) based language models achieve high performance on various benchmarks for Natural Language Inference (NLI). And at this time, symbolic approaches to NLI are receiving less attention. Both approaches (symbolic and DL) have their advantages and weaknesses. However, currently, no method combines them in a system to solve the task of NLI. To merge symbolic and deep learning methods, we propose an inference framework called NeuralLog, which utilizes both a monotonicity-based logical inference engine and a neural network language model for phrase alignment. Our framework models the NLI task as a classic search problem and uses the beam search algorithm to search for optimal inference paths. Experiments show that our joint logic and neural inference system improves accuracy on the NLI task and can achieve state-of-art accuracy on the SICK and MED datasets.</abstract>
+      <url hash="a7cff659">2021.starsem-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Teach the Rules, Provide the Facts: Targeted Relational-knowledge Enhancement for Textual Inference</title>
+      <author><first>Ohad</first><last>Rozen</last></author>
+      <author><first>Shmuel</first><last>Amar</last></author>
+      <author><first>Vered</first><last>Shwartz</last></author>
+      <author><first>Ido</first><last>Dagan</last></author>
+      <pages>89–98</pages>
+      <abstract>We present InferBert, a method to enhance transformer-based inference models with relevant relational knowledge. Our approach facilitates learning generic inference patterns requiring relational knowledge (e.g. inferences related to hypernymy) during training, while injecting on-demand the relevant relational facts (e.g. pangolin is an animal) at test time. We apply InferBERT to the NLI task over a diverse set of inference types (hypernymy, location, color, and country of origin), for which we collected challenge datasets. In this setting, InferBert succeeds to learn general inference patterns, from a relatively small number of training instances, while not hurting performance on the original NLI data and substantially outperforming prior knowledge enhancement models on the challenge data. It further applies its inferences successfully at test time to previously unobserved entities. InferBert is computationally more efficient than most prior methods, in terms of number of parameters, memory consumption and training time.</abstract>
+      <url hash="69da220f">2021.starsem-1.8</url>
+    </paper>
+    <paper id="9">
+      <title><fixed-case>P</fixed-case>ars<fixed-case>FEVER</fixed-case>: a Dataset for <fixed-case>F</fixed-case>arsi Fact Extraction and Verification</title>
+      <author><first>Majid</first><last>Zarharan</last></author>
+      <author><first>Mahsa</first><last>Ghaderan</last></author>
+      <author><first>Amin</first><last>Pourdabiri</last></author>
+      <author><first>Zahra</first><last>Sayedi</last></author>
+      <author><first>Behrouz</first><last>Minaei-Bidgoli</last></author>
+      <author><first>Sauleh</first><last>Eetemadi</last></author>
+      <author><first>Mohammad Taher</first><last>Pilehvar</last></author>
+      <pages>99–104</pages>
+      <abstract>Training and evaluation of automatic fact extraction and verification techniques require large amounts of annotated data which might not be available for low-resource languages. This paper presents ParsFEVER: the first publicly available Farsi dataset for fact extraction and verification. We adopt the construction procedure of the standard English dataset for the task, i.e., FEVER, and improve it for the case of low-resource languages. Specifically, claims are extracted from sentences that are carefully selected to be more informative. The dataset comprises nearly 23K manually-annotated claims. Over 65% of the claims in ParsFEVER are many-hop (require evidence from multiple sources), making the dataset a challenging benchmark (only 13% of the claims in FEVER are many-hop). Also, despite having a smaller training set (around one-ninth of that in Fever), a model trained on ParsFEVER attains similar downstream performance, indicating the quality of the dataset. We release the dataset and the annotation guidelines at https://github.com/Zarharan/ParsFEVER.</abstract>
+      <url hash="8f67e828">2021.starsem-1.9</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="da2a6bcd">2021.starsem-1.9.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="10">
+      <title><fixed-case>B</fixed-case>i<fixed-case>Q</fixed-case>u<fixed-case>AD</fixed-case>: Towards <fixed-case>QA</fixed-case> based on deeper text understanding</title>
+      <author><first>Frank</first><last>Grimm</last></author>
+      <author><first>Philipp</first><last>Cimiano</last></author>
+      <pages>105–115</pages>
+      <abstract>Recent question answering and machine reading benchmarks frequently reduce the task to one of pinpointing spans within a certain text passage that answers the given question. Typically, these systems are not required to actually understand the text on a deeper level that allows for more complex reasoning on the information contained. We introduce a new dataset called BiQuAD that requires deeper comprehension in order to answer questions in both extractive and deductive fashion. The dataset consist of 4,190 closed-domain texts and a total of 99,149 question-answer pairs. The texts are synthetically generated soccer match reports that verbalize the main events of each match. All texts are accompanied by a structured Datalog program that represents a (logical) model of its information. We show that state-of-the-art QA models do not perform well on the challenging long form contexts and reasoning requirements posed by the dataset. In particular, transformer based state-of-the-art models achieve F1-scores of only 39.0. We demonstrate how these synthetic datasets align structured knowledge with natural text and aid model introspection when approaching complex text understanding.</abstract>
+      <url hash="1cb2ee65">2021.starsem-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Evaluating <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependency Parser Recovery of Predicate Argument Structure via <fixed-case>C</fixed-case>omp<fixed-case>C</fixed-case>hain Analysis</title>
+      <author><first>Sagar</first><last>Indurkhya</last></author>
+      <author><first>Beracah</first><last>Yankama</last></author>
+      <author><first>Robert C.</first><last>Berwick</last></author>
+      <pages>116–128</pages>
+      <abstract>Accurate recovery of predicate-argument structure from a Universal Dependency (UD) parse is central to downstream tasks such as extraction of semantic roles or event representations. This study introduces compchains, a categorization of the hierarchy of predicate dependency relations present within a UD parse. Accuracy of compchain classification serves as a proxy for measuring accurate recovery of predicate-argument structure from sentences with embedding. We analyzed the distribution of compchains in three UD English treebanks, EWT, GUM and LinES, revealing that these treebanks are sparse with respect to sentences with predicate-argument structure that includes predicate-argument embedding. We evaluated the CoNLL 2018 Shared Task UDPipe (v1.2) baseline (dependency parsing) models as compchain classifiers for the EWT, GUMS and LinES UD treebanks. Our results indicate that these three baseline models exhibit poorer performance on sentences with predicate-argument structure with more than one level of embedding; we used compchains to characterize the errors made by these parsers and present examples of erroneous parses produced by the parser that were identified using compchains. We also analyzed the distribution of compchains in 58 non-English UD treebanks and then used compchains to evaluate the CoNLL’18 Shared Task baseline model for each of these treebanks. Our analysis shows that performance with respect to compchain classification is only weakly correlated with the official evaluation metrics (LAS, MLAS and BLEX). We identify gaps in the distribution of compchains in several of the UD treebanks, thus providing a roadmap for how these treebanks may be supplemented. We conclude by discussing how compchains provide a new perspective on the sparsity of training data for UD parsers, as well as the accuracy of the resulting UD parses.</abstract>
+      <url hash="a48eab5f">2021.starsem-1.11</url>
+    </paper>
+    <paper id="12">
+      <title><fixed-case>I</fixed-case>n<fixed-case>F</fixed-case>illmore: Frame-Guided Language Generation with Bidirectional Context</title>
+      <author><first>Jiefu</first><last>Ou</last></author>
+      <author><first>Nathaniel</first><last>Weir</last></author>
+      <author><first>Anton</first><last>Belyy</last></author>
+      <author><first>Felix</first><last>Yu</last></author>
+      <author><first>Benjamin</first><last>Van Durme</last></author>
+      <pages>129–142</pages>
+      <abstract>We propose a structured extension to bidirectional-context conditional language generation, or “infilling,” inspired by Frame Semantic theory. Guidance is provided through one of two approaches: (1) model fine-tuning, conditioning directly on observed symbolic frames, and (2) a novel extension to disjunctive lexically constrained decoding that leverages frame semantic lexical units. Automatic and human evaluations confirm that frame-guided generation allows for explicit manipulation of intended infill semantics, with minimal loss in distinguishability from human-generated text. Our methods flexibly apply to a variety of use scenarios, and we provide an interactive web demo.</abstract>
+      <url hash="6d5f51e9">2021.starsem-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Realistic Evaluation Principles for Cross-document Coreference Resolution</title>
+      <author><first>Arie</first><last>Cattan</last></author>
+      <author><first>Alon</first><last>Eirew</last></author>
+      <author><first>Gabriel</first><last>Stanovsky</last></author>
+      <author><first>Mandar</first><last>Joshi</last></author>
+      <author><first>Ido</first><last>Dagan</last></author>
+      <pages>143–151</pages>
+      <abstract>We point out that common evaluation practices for cross-document coreference resolution have been unrealistically permissive in their assumed settings, yielding inflated results. We propose addressing this issue via two evaluation methodology principles. First, as in other tasks, models should be evaluated on predicted mentions rather than on gold mentions. Doing this raises a subtle issue regarding singleton coreference clusters, which we address by decoupling the evaluation of mention detection from that of coreference linking. Second, we argue that models should not exploit the synthetic topic structure of the standard ECB+ dataset, forcing models to confront the lexical ambiguity challenge, as intended by the dataset creators. We demonstrate empirically the drastic impact of our more realistic evaluation principles on a competitive model, yielding a score which is 33 F1 lower compared to evaluating by prior lenient practices.</abstract>
+      <url hash="41075c50">2021.starsem-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Disentangling Online Chats with <fixed-case>DAG</fixed-case>-structured <fixed-case>LSTM</fixed-case>s</title>
+      <author><first>Duccio</first><last>Pappadopulo</last></author>
+      <author><first>Lisa</first><last>Bauer</last></author>
+      <author><first>Marco</first><last>Farina</last></author>
+      <author><first>Ozan</first><last>İrsoy</last></author>
+      <author><first>Mohit</first><last>Bansal</last></author>
+      <pages>152–159</pages>
+      <abstract>Many modern messaging systems allow fast and synchronous textual communication among many users. The resulting sequence of messages hides a more complicated structure in which independent sub-conversations are interwoven with one another. This poses a challenge for any task aiming to understand the content of the chat logs or gather information from them. The ability to disentangle these conversations is then tantamount to the success of many downstream tasks such as summarization and question answering. Structured information accompanying the text such as user turn, user mentions, timestamps, is used as a cue by the participants themselves who need to follow the conversation and has been shown to be important for disentanglement. DAG-LSTMs, a generalization of Tree-LSTMs that can handle directed acyclic dependencies, are a natural way to incorporate such information and its non-sequential nature. In this paper, we apply DAG-LSTMs to the conversation disentanglement task. We perform our experiments on the Ubuntu IRC dataset. We show that the novel model we propose achieves state of the art status on the task of recovering reply-to relations and it is competitive on other disentanglement metrics.</abstract>
+      <url hash="fb1be83f">2021.starsem-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Toward Diverse Precondition Generation</title>
+      <author><first>Heeyoung</first><last>Kwon</last></author>
+      <author><first>Nathanael</first><last>Chambers</last></author>
+      <author><first>Niranjan</first><last>Balasubramanian</last></author>
+      <pages>160–172</pages>
+      <abstract>A typical goal for language understanding is to logically connect the events of a discourse, but often connective events are not described due to their commonsense nature. In order to address this deficit, we focus here on generating precondition events. Precondition generation can be framed as a sequence-to-sequence problem: given a target event, generate a possible precondition. However, in most real-world scenarios, an event can have several preconditions, which is not always suitable for standard seq2seq frameworks. We propose DiP, the Diverse Precondition generation system that can generate unique and diverse preconditions. DiP consists of three stages of the generative process – an event sampler, a candidate generator, and a post-processor. The event sampler provides control codes (precondition triggers) which the candidate generator uses to focus its generation. Post-processing further improves the results through re-ranking and filtering. Unlike other conditional generation systems, DiP automatically generates control codes without training on diverse examples. Analysis reveals that DiP improves the diversity of preconditions significantly compared to a beam search baseline. Also, manual evaluation shows that DiP generates more preconditions than a strong nucleus sampling baseline.</abstract>
+      <url hash="0afad549">2021.starsem-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>One Semantic Parser to Parse Them All: Sequence to Sequence Multi-Task Learning on Semantic Parsing Datasets</title>
+      <author><first>Marco</first><last>Damonte</last></author>
+      <author><first>Emilio</first><last>Monti</last></author>
+      <pages>173–184</pages>
+      <abstract>Semantic parsers map natural language utterances to meaning representations. The lack of a single standard for meaning representations led to the creation of a plethora of semantic parsing datasets. To unify different datasets and train a single model for them, we investigate the use of Multi-Task Learning (MTL) architectures. We experiment with five datasets (Geoquery, NLMaps, TOP, Overnight, AMR). We find that an MTL architecture that shares the entire network across datasets yields competitive or better parsing accuracies than the single-task baselines, while reducing the total number of parameters by 68%. We further provide evidence that MTL has also better compositional generalization than single-task models. We also present a comparison of task sampling methods and propose a competitive alternative to widespread proportional sampling strategies.</abstract>
+      <url hash="0d80a67f">2021.starsem-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Multilingual Neural Semantic Parsing for Low-Resourced Languages</title>
+      <author><first>Menglin</first><last>Xia</last></author>
+      <author><first>Emilio</first><last>Monti</last></author>
+      <pages>185–194</pages>
+      <abstract>Multilingual semantic parsing is a cost-effective method that allows a single model to understand different languages. However, researchers face a great imbalance of availability of training data, with English being resource rich, and other languages having much less data. To tackle the data limitation problem, we propose using machine translation to bootstrap multilingual training data from the more abundant English data. To compensate for the data quality of machine translated training data, we utilize transfer learning from pretrained multilingual encoders to further improve the model. To evaluate our multilingual models on human-written sentences as opposed to machine translated ones, we introduce a new multilingual semantic parsing dataset in English, Italian and Japanese based on the Facebook Task Oriented Parsing (TOP) dataset. We show that joint multilingual training with pretrained encoders substantially outperforms our baselines on the TOP dataset and outperforms the state-of-the-art model on the public NLMaps dataset. We also establish a new baseline for zero-shot learning on the TOP dataset. We find that a semantic parser trained only on English data achieves a zero-shot performance of 44.9% exact-match accuracy on Italian sentences.</abstract>
+      <url hash="7f4a0eee">2021.starsem-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>Script Parsing with Hierarchical Sequence Modelling</title>
+      <author><first>Fangzhou</first><last>Zhai</last></author>
+      <author><first>Iza</first><last>Škrjanec</last></author>
+      <author><first>Alexander</first><last>Koller</last></author>
+      <pages>195–201</pages>
+      <abstract>Scripts capture commonsense knowledge about everyday activities and their participants. Script knowledge proved useful in a number of NLP tasks, such as referent prediction, discourse classification, and story generation. A crucial step for the exploitation of script knowledge is script parsing, the task of tagging a text with the events and participants from a certain activity. This task is challenging: it requires information both about the ways events and participants are usually uttered in surface language as well as the order in which they occur in the world. We show how to do accurate script parsing with a hierarchical sequence model and transfer learning. Our model improves the state of the art of event parsing by over 16 points F-score and, for the first time, accurately tags script participants.</abstract>
+      <url hash="2580401f">2021.starsem-1.18</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="a2fdb158">2021.starsem-1.18.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="19">
+      <title>Incorporating <fixed-case>EDS</fixed-case> Graph for <fixed-case>AMR</fixed-case> Parsing</title>
+      <author><first>Ziyi</first><last>Shou</last></author>
+      <author><first>Fangzhen</first><last>Lin</last></author>
+      <pages>202–211</pages>
+      <abstract>AMR (Abstract Meaning Representation) and EDS (Elementary Dependency Structures) are two popular meaning representations in NLP/NLU. AMR is more abstract and conceptual, while EDS is more low level, closer to the lexical structures of the given sentences. It is thus not surprising that EDS parsing is easier than AMR parsing. In this work, we consider using information from EDS parsing to help improve the performance of AMR parsing. We adopt a transition-based parser and propose to add EDS graphs as additional semantic features using a graph encoder composed of LSTM layer and GCN layer. Our experimental results show that the additional information from EDS parsing indeed gives a boost to the performance of the base AMR parser used in our experiments.</abstract>
+      <url hash="92dfd058">2021.starsem-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Dependency Patterns of Complex Sentences and Semantic Disambiguation for <fixed-case>A</fixed-case>bstract <fixed-case>M</fixed-case>eaning <fixed-case>R</fixed-case>epresentation Parsing</title>
+      <author><first>Yuki</first><last>Yamamoto</last></author>
+      <author><first>Yuji</first><last>Matsumoto</last></author>
+      <author><first>Taro</first><last>Watanabe</last></author>
+      <pages>212–221</pages>
+      <abstract>Abstract Meaning Representation (AMR) is a sentence-level meaning representation based on predicate argument structure. One of the challenges we find in AMR parsing is to capture the structure of complex sentences which expresses the relation between predicates. Knowing the core part of the sentence structure in advance may be beneficial in such a task. In this paper, we present a list of dependency patterns for English complex sentence constructions designed for AMR parsing. With a dedicated pattern matcher, all occurrences of complex sentence constructions are retrieved from an input sentence. While some of the subordinators have semantic ambiguities, we deal with this problem through training classification models on data derived from AMR and Wikipedia corpus, establishing a new baseline for future works. The developed complex sentence patterns and the corresponding AMR descriptions will be made public.</abstract>
+      <url hash="0af86d6f">2021.starsem-1.20</url>
+    </paper>
+    <paper id="21">
+      <title>Neural Metaphor Detection with Visibility Embeddings</title>
+      <author><first>Gitit</first><last>Kehat</last></author>
+      <author><first>James</first><last>Pustejovsky</last></author>
+      <pages>222–228</pages>
+      <abstract>We present new results for the problem of sequence metaphor labeling, using the recently developed Visibility Embeddings. We show that concatenating such embeddings to the input of a BiLSTM obtains consistent and significant improvements at almost no cost, and we present further improved results when visibility embeddings are combined with BERT.</abstract>
+      <url hash="90afa474">2021.starsem-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Inducing Language-Agnostic Multilingual Representations</title>
+      <author><first>Wei</first><last>Zhao</last></author>
+      <author><first>Steffen</first><last>Eger</last></author>
+      <author><first>Johannes</first><last>Bjerva</last></author>
+      <author><first>Isabelle</first><last>Augenstein</last></author>
+      <pages>229–240</pages>
+      <abstract>Cross-lingual representations have the potential to make NLP techniques available to the vast majority of languages in the world. However, they currently require large pretraining corpora or access to typologically similar languages. In this work, we address these obstacles by removing language identity signals from multilingual embeddings. We examine three approaches for this: (i) re-aligning the vector spaces of target languages (all together) to a pivot source language; (ii) removing language-specific means and variances, which yields better discriminativeness of embeddings as a by-product; and (iii) increasing input similarity across languages by removing morphological contractions and sentence reordering. We evaluate on XNLI and reference-free MT evaluation across 19 typologically diverse languages. Our findings expose the limitations of these approaches—unlike vector normalization, vector space re-alignment and text normalization do not achieve consistent gains across encoders and languages. Due to the approaches’ additive effects, their combination decreases the cross-lingual transfer gap by 8.9 points (m-BERT) and 18.2 points (XLM-R) on average across all tasks and languages, however.</abstract>
+      <url hash="b003b43c">2021.starsem-1.22</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="4468620b">2021.starsem-1.22.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="23">
+      <title>Modeling Sense Structure in Word Usage Graphs with the Weighted Stochastic Block Model</title>
+      <author><first>Dominik</first><last>Schlechtweg</last></author>
+      <author><first>Enrique</first><last>Castaneda</last></author>
+      <author><first>Jonas</first><last>Kuhn</last></author>
+      <author><first>Sabine</first><last>Schulte im Walde</last></author>
+      <pages>241–251</pages>
+      <abstract>We suggest to model human-annotated Word Usage Graphs capturing fine-grained semantic proximity distinctions between word uses with a Bayesian formulation of the Weighted Stochastic Block Model, a generative model for random graphs popular in biology, physics and social sciences. By providing a probabilistic model of graded word meaning we aim to approach the slippery and yet widely used notion of word sense in a novel way. The proposed framework enables us to rigorously compare models of word senses with respect to their fit to the data. We perform extensive experiments and select the empirically most adequate model.</abstract>
+      <url hash="b5096b44">2021.starsem-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>Compound or Term Features? Analyzing Salience in Predicting the Difficulty of <fixed-case>G</fixed-case>erman Noun Compounds across Domains</title>
+      <author><first>Anna</first><last>Hätty</last></author>
+      <author><first>Julia</first><last>Bettinger</last></author>
+      <author><first>Michael</first><last>Dorna</last></author>
+      <author><first>Jonas</first><last>Kuhn</last></author>
+      <author><first>Sabine</first><last>Schulte im Walde</last></author>
+      <pages>252–262</pages>
+      <abstract>Predicting the difficulty of domain-specific vocabulary is an important task towards a better understanding of a domain, and to enhance the communication between lay people and experts. We investigate German closed noun compounds and focus on the interaction of compound-based lexical features (such as frequency and productivity) and terminology-based features (contrasting domain-specific and general language) across word representations and classifiers. Our prediction experiments complement insights from classification using (a) manually designed features to characterise termhood and compound formation and (b) compound and constituent word embeddings. We find that for a broad binary distinction into ‘easy’ vs. ‘difficult’ general-language compound frequency is sufficient, but for a more fine-grained four-class distinction it is crucial to include contrastive termhood features and compound and constituent features.</abstract>
+      <url hash="dccad101">2021.starsem-1.24</url>
+    </paper>
+    <paper id="25">
+      <title>Spurious Correlations in Cross-Topic Argument Mining</title>
+      <author><first>Terne Sasha</first><last>Thorn Jakobsen</last></author>
+      <author><first>Maria</first><last>Barrett</last></author>
+      <author><first>Anders</first><last>Søgaard</last></author>
+      <pages>263–277</pages>
+      <abstract>Recent work in cross-topic argument mining attempts to learn models that generalise across topics rather than merely relying on within-topic spurious correlations. We examine the effectiveness of this approach by analysing the output of single-task and multi-task models for cross-topic argument mining, through a combination of linear approximations of their decision boundaries, manual feature grouping, challenge examples, and ablations across the input vocabulary. Surprisingly, we show that cross-topic models still rely mostly on spurious correlations and only generalise within closely related topics, e.g., a model trained only on closed-class words and a few common open-class words outperforms a state-of-the-art cross-topic model on distant target topics.</abstract>
+      <url hash="e26daf8d">2021.starsem-1.25</url>
+    </paper>
+    <paper id="26">
+      <title>Learning Embeddings for Rare Words Leveraging <fixed-case>I</fixed-case>nternet Search Engine and Spatial Location Relationships</title>
+      <author><first>Xiaotao</first><last>Li</last></author>
+      <author><first>Shujuan</first><last>You</last></author>
+      <author><first>Yawen</first><last>Niu</last></author>
+      <author><first>Wai</first><last>Chen</last></author>
+      <pages>278–287</pages>
+      <abstract>Word embedding techniques depend heavily on the frequencies of words in the corpus, and are negatively impacted by failures in providing reliable representations for low-frequency words or unseen words during training. To address this problem, we propose an algorithm to learn embeddings for rare words based on an Internet search engine and the spatial location relationships. Our algorithm proceeds in two steps. We firstly retrieve webpages corresponding to the rare word through the search engine and parse the returned results to extract a set of most related words. We average the vectors of the related words as the initial vector of the rare word. Then, the location of the rare word in the vector space is iteratively fine-tuned according to the order of its relevances to the related words. Compared to other approaches, our algorithm can learn more accurate representations for a wider range of vocabulary. We evaluate our learned rare-word embeddings on the word relatedness task, and the experimental results show that our algorithm achieves state-of-the-art performance.</abstract>
+      <url hash="ec6257bd">2021.starsem-1.26</url>
+    </paper>
+    <paper id="27">
+      <title>Overcoming Poor Word Embeddings with Word Definitions</title>
+      <author><first>Christopher</first><last>Malon</last></author>
+      <pages>288–293</pages>
+      <abstract>Modern natural language understanding models depend on pretrained subword embeddings, but applications may need to reason about words that were never or rarely seen during pretraining. We show that examples that depend critically on a rarer word are more challenging for natural language inference models. Then we explore how a model could learn to use definitions, provided in natural text, to overcome this handicap. Our model’s understanding of a definition is usually weaker than a well-modeled word embedding, but it recovers most of the performance gap from using a completely untrained word.</abstract>
+      <url hash="a823cd7c">2021.starsem-1.27</url>
+    </paper>
+    <paper id="28">
+      <title>Denoising Word Embeddings by Averaging in a Shared Space</title>
+      <author><first>Avi</first><last>Caciularu</last></author>
+      <author><first>Ido</first><last>Dagan</last></author>
+      <author><first>Jacob</first><last>Goldberger</last></author>
+      <pages>294–301</pages>
+      <abstract>We introduce a new approach for smoothing and improving the quality of word embeddings. We consider a method of fusing word embeddings that were trained on the same corpus but with different initializations. We project all the models to a shared vector space using an efficient implementation of the Generalized Procrustes Analysis (GPA) procedure, previously used in multilingual word translation. Our word representation demonstrates consistent improvements over the raw models as well as their simplistic average, on a range of tasks. As the new representations are more stable and reliable, there is a noticeable improvement in rare word evaluations.</abstract>
+      <url hash="f19f7c52">2021.starsem-1.28</url>
+    </paper>
+    <paper id="29">
+      <title>Evaluating a Joint Training Approach for Learning Cross-lingual Embeddings with Sub-word Information without Parallel Corpora on Lower-resource Languages</title>
+      <author><first>Ali</first><last>Hakimi Parizi</last></author>
+      <author><first>Paul</first><last>Cook</last></author>
+      <pages>302–307</pages>
+      <abstract>Cross-lingual word embeddings provide a way for information to be transferred between languages. In this paper we evaluate an extension of a joint training approach to learning cross-lingual embeddings that incorporates sub-word information during training. This method could be particularly well-suited to lower-resource and morphologically-rich languages because it can be trained on modest size monolingual corpora, and is able to represent out-of-vocabulary words (OOVs). We consider bilingual lexicon induction, including an evaluation focused on OOVs. We find that this method achieves improvements over previous approaches, particularly for OOVs.</abstract>
+      <url hash="365d66ef">2021.starsem-1.29</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="2e555344">2021.starsem-1.29.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="30">
+      <title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
+      <author><first>Ziqing</first><last>Yang</last></author>
+      <author><first>Yiming</first><last>Cui</last></author>
+      <author><first>Chenglei</first><last>Si</last></author>
+      <author><first>Wanxiang</first><last>Che</last></author>
+      <author><first>Ting</first><last>Liu</last></author>
+      <author><first>Shijin</first><last>Wang</last></author>
+      <author><first>Guoping</first><last>Hu</last></author>
+      <pages>308–313</pages>
+      <abstract>Adversarial training (AT) as a regularization method has proved its effectiveness on various tasks. Though there are successful applications of AT on some NLP tasks, the distinguishing characteristics of NLP tasks have not been exploited. In this paper, we aim to apply AT on machine reading comprehension (MRC) tasks. Furthermore, we adapt AT for MRC tasks by proposing a novel adversarial training method called PQAT that perturbs the embedding matrix instead of word vectors. To differentiate the roles of passages and questions, PQAT uses additional virtual P/Q-embedding matrices to gather the global perturbations of words from passages and questions separately. We test the method on a wide range of MRC tasks, including span-based extractive RC and multiple-choice RC. The results show that adversarial training is effective universally, and PQAT further improves the performance.</abstract>
+      <url hash="55c7cc31">2021.starsem-1.30</url>
+    </paper>
+  </volume>
+</collection>

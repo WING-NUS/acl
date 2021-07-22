@@ -1,10 +1,8 @@
 aacl:
   2020: [2020.iwdp-1, 2020.knlp-1, 2020.lifelongnlp-1, 2020.loresmt-1, 2020.nlptea-1, 2020.wat-1]
 acl:
+  2021: [2021.findings-1, 2021.case-1, 2021.dialdoc-1, 2021.ecnlp-1, 2021.gebnlp-1, 2021.gem-1, 2021.internlp-1, 2021.iwpt-1, 2021.lchange-1, 2021.metanlp-1, 2021.mwe-1, 2021.nlp4posimpact-1, 2021.nlp4prog-1, 2021.repl4nlp-1, 2021.sigmorphon-1, 2021.splurobonlp-1, 2021.spnlp-1, 2021.starsem-1, 2021.unimplicit-1, 2021.wat-1, 2021.woah-1, 2021.iwslt-1]
   2020: [2020.autosimtrans-1, 2020.bionlp-1, 2020.challengehml-1, 2020.fever-1, 2020.nlp4convai-1, 2020.repl4nlp-1, 2020.sigmorphon-1, 2020.socialnlp-1, 2020.winlp-1, 2020.alvr-1, 2020.bea-1, 2020.ecnlp-1, 2020.figlang-1, 2020.iwpt-1, 2020.iwslt-1, 2020.nli-1, 2020.nlpmc-1, 2020.nuse-1, 2020.ngt-1, 2020.nlpcovid19-acl]
-  2012:
-  - W12-32
-  - W12-33
   2018:
   - W18-23
   - W18-24
@@ -45,6 +43,9 @@ acl:
   - W19-52
   - W19-53
   - W19-54
+  2012:
+  - W12-32
+  - W12-33
   2000:
   - W00-11  # Workshop on Recent Advances in Natural Language Processing and Information Retrieval
   - W00-12  # Second Chinese Language Processing Workshop
@@ -563,6 +564,7 @@ ijclclp:
   1996:
   - O96-2
 ijcnlp:
+  2021: [2021.acl-long, 2021.acl-short, 2021.acl-demo, 2021.acl-srw, 2021.acl-tutorials, 2021.findings-1, 2021.case-1, 2021.dialdoc-1, 2021.ecnlp-1, 2021.gebnlp-1, 2021.gem-1, 2021.internlp-1, 2021.iwpt-1, 2021.lchange-1, 2021.metanlp-1, 2021.mwe-1, 2021.nlp4posimpact-1, 2021.nlp4prog-1, 2021.repl4nlp-1, 2021.sigmorphon-1, 2021.splurobonlp-1, 2021.spnlp-1, 2021.starsem-1, 2021.unimplicit-1, 2021.wat-1, 2021.woah-1, 2021.iwslt-1]
   2009:
   - P09-1
   - P09-2

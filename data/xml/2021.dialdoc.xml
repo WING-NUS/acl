@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.dialdoc">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)</booktitle>
+      <editor><first>Song</first><last>Feng</last></editor>
+      <editor><first>Siva</first><last>Reddy</last></editor>
+      <editor><first>Malihe</first><last>Alikhani</last></editor>
+      <editor><first>He</first><last>He</last></editor>
+      <editor><first>Yangfeng</first><last>Ji</last></editor>
+      <editor><first>Mohit</first><last>Iyyer</last></editor>
+      <editor><first>Zhou</first><last>Yu</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="3e48dd78">2021.dialdoc-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="2ec0943c">2021.dialdoc-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title><fixed-case>D</fixed-case>ial<fixed-case>D</fixed-case>oc 2021 Shared Task: Goal-Oriented Document-grounded Dialogue Modeling</title>
+      <author><first>Song</first><last>Feng</last></author>
+      <pages>1–7</pages>
+      <abstract>We present the results of Shared Task at Workshop DialDoc 2021 that is focused on document-grounded dialogue and conversational question answering. The primary goal of this Shared Task is to build goal-oriented information-seeking conversation systems that can identify the most relevant knowledge in the associated document for generating agent responses in natural language. It includes two subtasks on predicting agent responses: the first subtask is to predict the grounding text span in the given document for next agent response; the second subtask is to generate agent response in natural language given the context. Many submissions outperform baseline significantly. For the first task, the best-performing system achieved 67.1 Exact Match and 76.3 F1. For the second subtask, the best system achieved 41.1 SacreBLEU and highest rank by human evaluation.</abstract>
+      <url hash="07e16bd3">2021.dialdoc-1.1</url>
+    </paper>
+    <paper id="2">
+      <title><fixed-case>S</fixed-case>eq<fixed-case>D</fixed-case>ial<fixed-case>N</fixed-case>: Sequential Visual Dialog Network in Joint Visual-Linguistic Representation Space</title>
+      <author><first>Liu</first><last>Yang</last></author>
+      <author><first>Fanqi</first><last>Meng</last></author>
+      <author><first>Xiao</first><last>Liu</last></author>
+      <author><first>Ming-Kuang Daniel</first><last>Wu</last></author>
+      <author><first>Vicent</first><last>Ying</last></author>
+      <author><first>James</first><last>Xu</last></author>
+      <pages>8–17</pages>
+      <abstract>The key challenge of the visual dialog task is how to fuse features from multimodal sources and extract relevant information from dialog history to answer the current query. In this work, we formulate a visual dialog as an information flow in which each piece of information is encoded with the joint visual-linguistic representation of a single dialog round. Based on this formulation, we consider the visual dialog task as a sequence problem consisting of ordered visual-linguistic vectors.For featurization, we use a Dense SymmetricCo-Attention network (Nguyen and Okatani,2018) as a lightweight vison-language joint representation generator to fuse multimodal features (i.e., image and text), yielding better computation and data efficiencies. For inference, we propose two Sequential Dialog Networks (SeqDialN): the first uses LSTM(Hochreiter and Schmidhuber,1997) for information propagation (IP) and the second uses a modified Transformer (Vaswani et al.,2017) for multi-step reasoning (MR). Our architecture separates the complexity of multimodal feature fusion from that of inference, which allows simpler design of the inference engine. On VisDial v1.0 test-std dataset, our best single generative SeqDialN achieves 62.54% NDCG and 48.63% MRR; our ensemble generative SeqDialN achieves 63.78% NDCG and 49.98% MRR, which set a new state-of-the-art generative visual dialog model. We fine-tune discriminative SeqDialN with dense annotations and boost the performance up to 72.41% NDCG and 55.11% MRR. In this work, we discuss the extensive experiments we have conducted to demonstrate the effectiveness of our model components. We also provide visualization for the reasoning process from the relevant conversation rounds and discuss our fine-tuning methods. The code is available at https://github.com/xiaoxiaoheimei/SeqDialN.</abstract>
+      <url hash="3a00b8cc">2021.dialdoc-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>A Template-guided Hybrid Pointer Network for Knowledge-based Task-oriented Dialogue Systems</title>
+      <author><first>Dingmin</first><last>Wang</last></author>
+      <author><first>Ziyao</first><last>Chen</last></author>
+      <author><first>Wanwei</first><last>He</last></author>
+      <author><first>Li</first><last>Zhong</last></author>
+      <author><first>Yunzhe</first><last>Tao</last></author>
+      <author><first>Min</first><last>Yang</last></author>
+      <pages>18–28</pages>
+      <abstract>Most existing neural network based task-oriented dialog systems follow encoder-decoder paradigm, where the decoder purely depends on the source texts to generate a sequence of words, usually suffering from instability and poor readability. Inspired by the traditional template-based generation approaches, we propose a template-guided hybrid pointer network for knowledge-based task-oriented dialog systems, which retrieves several potentially relevant answers from a pre-constructed domain-specific conversational repository as guidance answers, and incorporates the guidance answers into both the encoding and decoding processes. Specifically, we design a memory pointer network model with a gating mechanism to fully exploit the semantic correlation between the retrieved answers and the ground-truth response. We evaluate our model on four widely used task-oriented datasets, including one simulated and three manually created datasets. The experimental results demonstrate that the proposed model achieves significantly better performance than the state-of-the-art methods over different automatic evaluation metrics.</abstract>
+      <url hash="6fbc33af">2021.dialdoc-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Automatic Learning Assistant in <fixed-case>T</fixed-case>elugu</title>
+      <author><first>Meghana</first><last>Bommadi</last></author>
+      <author><first>Shreya</first><last>Terupally</last></author>
+      <author><first>Radhika</first><last>Mamidi</last></author>
+      <pages>29–37</pages>
+      <abstract>This paper presents a learning assistant that tests one’s knowledge and gives feedback that helps a person learn at a faster pace. A learning assistant (based on automated question generation) has extensive uses in education, information websites, self-assessment, FAQs, testing ML agents, research, etc. Multiple researchers, and companies have worked on Virtual Assistance, but majorly in English. We built our learning assistant for Telugu language to help with teaching in the mother tongue, which is the most efficient way of learning. Our system is built primarily based on Question Generation in Telugu. Many experiments were conducted on Question Generation in English in multiple ways. We have built the first hybrid machine learning and rule-based solution in Telugu, which proves efficient for short stories or short passages in children’s books. Our work covers the fundamental question forms with question types: adjective, yes/no, adverb, verb, when, where, whose, quotative, and quantitative (how many/how much). We constructed rules for question generation using Part of Speech (POS) tags and Universal Dependency (UD) tags along with linguistic information of the surrounding relevant context of the word. We used keyword matching, multilingual sentence embedding to evaluate the answer. Our system is primarily built on question generation in Telugu, and is also capable of evaluating the user’s answers to the generated questions.</abstract>
+      <url hash="bd4bbb41">2021.dialdoc-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Combining Open Domain Question Answering with a Task-Oriented Dialog System</title>
+      <author><first>Jan</first><last>Nehring</last></author>
+      <author><first>Nils</first><last>Feldhus</last></author>
+      <author><first>Harleen</first><last>Kaur</last></author>
+      <author><first>Akhyar</first><last>Ahmed</last></author>
+      <pages>38–45</pages>
+      <abstract>We apply the modular dialog system framework to combine open-domain question answering with a task-oriented dialog system. This meta dialog system can answer questions from Wikipedia and at the same time act as a personal assistant. The aim of this system is to combine the strength of an open-domain question answering system with the conversational power of task-oriented dialog systems. After explaining the technical details of the system, we combined a new dataset out of standard datasets to evaluate the system. We further introduce an evaluation method for this system. Using this method, we compare the performance of the non-modular system with the performance of the modular system and show that the modular dialog system framework is very suitable for this combination of conversational agents and that the performance of each agent decreases only marginally through the modular setting.</abstract>
+      <url hash="b04297cd">2021.dialdoc-1.5</url>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>CA</fixed-case>i<fixed-case>RE</fixed-case> in <fixed-case>D</fixed-case>ial<fixed-case>D</fixed-case>oc21: Data Augmentation for Information Seeking Dialogue System</title>
+      <author><first>Yan</first><last>Xu</last></author>
+      <author><first>Etsuko</first><last>Ishii</last></author>
+      <author><first>Genta Indra</first><last>Winata</last></author>
+      <author><first>Zhaojiang</first><last>Lin</last></author>
+      <author><first>Andrea</first><last>Madotto</last></author>
+      <author><first>Zihan</first><last>Liu</last></author>
+      <author><first>Peng</first><last>Xu</last></author>
+      <author><first>Pascale</first><last>Fung</last></author>
+      <pages>46–51</pages>
+      <abstract>Information-seeking dialogue systems, including knowledge identification and response generation, aim to respond to users with fluent, coherent, and informative responses based on users’ needs, which. To tackle this challenge, we utilize data augmentation methods and several training techniques with the pre-trained language models to learn a general pattern of the task and thus achieve promising performance. In DialDoc21 competition, our system achieved 74.95 F1 score and 60.74 Exact Match score in subtask 1, and 37.72 SacreBLEU score in subtask 2. Empirical analysis is provided to explain the effectiveness of our approaches.</abstract>
+      <url hash="17824f16">2021.dialdoc-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Technical Report on Shared Task in <fixed-case>D</fixed-case>ial<fixed-case>D</fixed-case>oc21</title>
+      <author><first>Jiapeng</first><last>Li</last></author>
+      <author><first>Mingda</first><last>Li</last></author>
+      <author><first>Longxuan</first><last>Ma</last></author>
+      <author><first>Wei-Nan</first><last>Zhang</last></author>
+      <author><first>Ting</first><last>Liu</last></author>
+      <pages>52–56</pages>
+      <abstract>We participate in the DialDoc Shared Task sub-task 1 (Knowledge Identification). The task requires identifying the grounding knowledge in form of a document span for the next dialogue turn. We employ two well-known pre-trained language models (RoBERTa and ELECTRA) to identify candidate document spans and propose a metric-based ensemble method for span selection. Our methods include data augmentation, model pre-training/fine-tuning, post-processing, and ensemble. On the submission page, we rank 2nd based on the average of normalized F1 and EM scores used for the final evaluation. Specifically, we rank 2nd on EM and 3rd on F1.</abstract>
+      <url hash="1f197c85">2021.dialdoc-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Cascaded Span Extraction and Response Generation for Document-Grounded Dialog</title>
+      <author><first>Nico</first><last>Daheim</last></author>
+      <author><first>David</first><last>Thulke</last></author>
+      <author><first>Christian</first><last>Dugast</last></author>
+      <author><first>Hermann</first><last>Ney</last></author>
+      <pages>57–62</pages>
+      <abstract>This paper summarizes our entries to both subtasks of the first DialDoc shared task which focuses on the agent response prediction task in goal-oriented document-grounded dialogs. The task is split into two subtasks: predicting a span in a document that grounds an agent turn and generating an agent response based on a dialog and grounding document. In the first subtask, we restrict the set of valid spans to the ones defined in the dataset, use a biaffine classifier to model spans, and finally use an ensemble of different models. For the second sub-task, we use a cascaded model which grounds the response prediction on the predicted span instead of the full document. With these approaches, we obtain significant improvements in both subtasks compared to the baseline.</abstract>
+      <url hash="846c5cb9">2021.dialdoc-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Ensemble <fixed-case>ALBERT</fixed-case> and <fixed-case>R</fixed-case>o<fixed-case>BERT</fixed-case>a for Span Prediction in Question Answering</title>
+      <author><first>Sony</first><last>Bachina</last></author>
+      <author><first>Spandana</first><last>Balumuri</last></author>
+      <author><first>Sowmya</first><last>Kamath S</last></author>
+      <pages>63–68</pages>
+      <abstract>Retrieving relevant answers from heterogeneous data formats, for given for questions, is a challenging problem. The process of pinpointing relevant information suitable to answer a question is further compounded in large document collections containing documents of substantial length. This paper presents the models designed as part of our submission to the DialDoc21 Shared Task (Document-grounded Dialogue and Conversational Question Answering) for span prediction in question answering. The proposed models leverage the superior predictive power of pretrained transformer models like RoBERTa, ALBERT and ELECTRA, to identify the most relevant information in an associated passage for the next agent turn. To further enhance the performance, the models were fine-tuned on different span selection based question answering datasets like SQuAD2.0 and Natural Questions (NQ) corpus. We also explored ensemble techniques for combining multiple models to achieve enhanced performance for the task. Our team SB_NITK ranked 6th on the leaderboard for the Knowledge Identification task, and our best ensemble model achieved an Exact score of 58.58 and an F1 score of 73.39.</abstract>
+      <url hash="8f00d681">2021.dialdoc-1.9</url>
+    </paper>
+    <paper id="10">
+      <title><fixed-case>W</fixed-case>ea<fixed-case>S</fixed-case>u<fixed-case>L</fixed-case>: Weakly Supervised Dialogue Policy Learning: Reward Estimation for Multi-turn Dialogue</title>
+      <author><first>Anant</first><last>Khandelwal</last></author>
+      <pages>69–80</pages>
+      <abstract>An intelligent dialogue system in a multi-turn setting should not only generate the responses which are of good quality, but it should also generate the responses which can lead to long-term success of the dialogue. Although, the current approaches improved the response quality, but they over-look the training signals present in the dialogue data. We can leverage these signals to generate the weakly supervised training data for learning dialog policy and reward estimator, and make the policy take actions (generates responses) which can foresee the future direction for a successful (rewarding) conversation. We simulate the dialogue between an agent and a user (modelled similar to an agent with supervised learning objective) to interact with each other. The agent uses dynamic blocking to generate ranked diverse responses and exploration-exploitation to select among the Top-K responses. Each simulated state-action pair is evaluated (works as a weak annotation) with three quality modules: Semantic Relevant, Semantic Coherence and Consistent Flow. Empirical studies with two benchmarks indicate that our model can significantly out-perform the response quality and lead to a successful conversation on both automatic evaluation and human judgment.</abstract>
+      <url hash="c618776c">2021.dialdoc-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Summary-Oriented Question Generation for Informational Queries</title>
+      <author><first>Xusen</first><last>Yin</last></author>
+      <author><first>Li</first><last>Zhou</last></author>
+      <author><first>Kevin</first><last>Small</last></author>
+      <author><first>Jonathan</first><last>May</last></author>
+      <pages>81–97</pages>
+      <abstract>Users frequently ask simple factoid questions for question answering (QA) systems, attenuating the impact of myriad recent works that support more complex questions. Prompting users with automatically generated suggested questions (SQs) can improve user understanding of QA system capabilities and thus facilitate more effective use. We aim to produce self-explanatory questions that focus on main document topics and are answerable with variable length passages as appropriate. We satisfy these requirements by using a BERT-based Pointer-Generator Network trained on the Natural Questions (NQ) dataset. Our model shows SOTA performance of SQ generation on the NQ dataset (20.1 BLEU-4). We further apply our model on out-of-domain news articles, evaluating with a QA system due to the lack of gold questions and demonstrate that our model produces better SQs for news articles – with further confirmation via a human evaluation.</abstract>
+      <url hash="b3c3113b">2021.dialdoc-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Document-Grounded Goal-Oriented Dialogue Systems on Pre-Trained Language Model with Diverse Input Representation</title>
+      <author><first>Boeun</first><last>Kim</last></author>
+      <author><first>Dohaeng</first><last>Lee</last></author>
+      <author><first>Sihyung</first><last>Kim</last></author>
+      <author><first>Yejin</first><last>Lee</last></author>
+      <author><first>Jin-Xia</first><last>Huang</last></author>
+      <author><first>Oh-Woog</first><last>Kwon</last></author>
+      <author><first>Harksoo</first><last>Kim</last></author>
+      <pages>98–102</pages>
+      <abstract>Document-grounded goal-oriented dialog system understands users’ utterances, and generates proper responses by using information obtained from documents. The Dialdoc21 shared task consists of two subtasks; subtask1, finding text spans associated with users’ utterances from documents, and subtask2, generating responses based on information obtained from subtask1. In this paper, we propose two models (i.e., a knowledge span prediction model and a response generation model) for the subtask1 and the subtask2. In the subtask1, dialogue act losses are used with RoBERTa, and title embeddings are added to input representation of RoBERTa. In the subtask2, various special tokens and embeddings are added to input representation of BART’s encoder. Then, we propose a method to assign different difficulty scores to leverage curriculum learning. In the subtask1, our span prediction model achieved F1-scores of 74.81 (ranked at top 7) and 73.41 (ranked at top 5) in test-dev phase and test phase, respectively. In the subtask2, our response generation model achieved sacreBLEUs of 37.50 (ranked at top 3) and 41.06 (ranked at top 1) in in test-dev phase and test phase, respectively.</abstract>
+      <url hash="b6ad48bd">2021.dialdoc-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Team <fixed-case>JARS</fixed-case>: <fixed-case>D</fixed-case>ial<fixed-case>D</fixed-case>oc Subtask 1 - Improved Knowledge Identification with Supervised Out-of-Domain Pretraining</title>
+      <author><first>Sopan</first><last>Khosla</last></author>
+      <author><first>Justin</first><last>Lovelace</last></author>
+      <author><first>Ritam</first><last>Dutt</last></author>
+      <author><first>Adithya</first><last>Pratapa</last></author>
+      <pages>103–108</pages>
+      <abstract>In this paper, we discuss our submission for DialDoc subtask 1. The subtask requires systems to extract knowledge from FAQ-type documents vital to reply to a user’s query in a conversational setting. We experiment with pretraining a BERT-based question-answering model on different QA datasets from MRQA, as well as conversational QA datasets like CoQA and QuAC. Our results show that models pretrained on CoQA and QuAC perform better than their counterparts that are pretrained on MRQA datasets. Our results also indicate that adding more pretraining data does not necessarily result in improved performance. Our final model, which is an ensemble of AlBERT-XL pretrained on CoQA and QuAC independently, with the chosen answer having the highest average probability score, achieves an F1-Score of 70.9% on the official test-set.</abstract>
+      <url hash="10419e05">2021.dialdoc-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Building Goal-oriented Document-grounded Dialogue Systems</title>
+      <author><first>Xi</first><last>Chen</last></author>
+      <author><first>Faner</first><last>Lin</last></author>
+      <author><first>Yeju</first><last>Zhou</last></author>
+      <author><first>Kaixin</first><last>Ma</last></author>
+      <author><first>Jonathan</first><last>Francis</last></author>
+      <author><first>Eric</first><last>Nyberg</last></author>
+      <author><first>Alessandro</first><last>Oltramari</last></author>
+      <pages>109–112</pages>
+      <abstract>In this paper, we describe our systems for solving the two Doc2Dial shared task: knowledge identification and response generation. We proposed several pre-processing and post-processing methods, and we experimented with data augmentation by pre-training the models on other relevant datasets. Our best model for knowledge identification outperformed the baseline by 10.5+ f1-score on the test-dev split, and our best model for response generation outperformed the baseline by 11+ Sacrebleu score on the test-dev split.</abstract>
+      <url hash="1cfd4ae8">2021.dialdoc-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Agenda Pushing in Email to Thwart Phishing</title>
+      <author><first>Hyundong</first><last>Cho</last></author>
+      <author><first>Genevieve</first><last>Bartlett</last></author>
+      <author><first>Marjorie</first><last>Freedman</last></author>
+      <pages>113–118</pages>
+      <abstract>In this work, we draw parallels between automatically responding to emails for combating social-engineering attacks and document-grounded response generation and lay out the blueprint of our approach. Phishing emails are longer than dialogue utterances and often contain multiple intents. Hence, we need to make decisions similar to those for document-grounded responses in deciding what parts of long text to use and how to address each intent to generate a knowledgeable multi-component response that pushes scammers towards agendas that aid in attribution and linking attacks. We propose , a hybrid system that uses customizable probabilistic finite state transducers to orchestrate pushing agendas coupled with neural dialogue systems that generate responses to unexpected prompts, as a promising solution to this end. We emphasize the need for this system by highlighting each component’s strengths and weaknesses and show how they complement each other.</abstract>
+      <url hash="c77a3f4e">2021.dialdoc-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Can <fixed-case>I</fixed-case> Be of Further Assistance? Using Unstructured Knowledge Access to Improve Task-oriented Conversational Modeling</title>
+      <author><first>Di</first><last>Jin</last></author>
+      <author><first>Seokhwan</first><last>Kim</last></author>
+      <author><first>Dilek</first><last>Hakkani-Tur</last></author>
+      <pages>119–127</pages>
+      <abstract>Most prior work on task-oriented dialogue systems are restricted to limited coverage of domain APIs. However, users oftentimes have requests that are out of the scope of these APIs. This work focuses on responding to these beyond-API-coverage user turns by incorporating external, unstructured knowledge sources. Our approach works in a pipelined manner with knowledge-seeking turn detection, knowledge selection, and response generation in sequence. We introduce novel data augmentation methods for the first two steps and demonstrate that the use of information extracted from dialogue context improves the knowledge selection and end-to-end performances. Through experiments, we achieve state-of-the-art performance for both automatic and human evaluation metrics on the DSTC9 Track 1 benchmark dataset, validating the effectiveness of our contributions.</abstract>
+      <url hash="840a6ccf">2021.dialdoc-1.16</url>
+    </paper>
+  </volume>
+</collection>

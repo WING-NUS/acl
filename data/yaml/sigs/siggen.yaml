@@ -2,6 +2,8 @@ Name: Special Interest Group on Natural Language Generation (SIGGEN)
 ShortName: SIGGEN
 URL: https://aclweb.org/aclwiki/SIGGEN
 Meetings:
+  - 2021:
+    - 2021.gem-1 # Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)
   - 2020:
     - 2020.msr-1 # Proceedings of the Third Workshop on Multilingual Surface Realisation
     - 2020.inlg-1 # Proceedings of the 13th International Conference on Natural Language Generation

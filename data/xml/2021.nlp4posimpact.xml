@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.nlp4posimpact">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on NLP for Positive Impact</booktitle>
+      <editor><first>Anjalie</first><last>Field</last></editor>
+      <editor><first>Shrimai</first><last>Prabhumoye</last></editor>
+      <editor><first>Maarten</first><last>Sap</last></editor>
+      <editor><first>Zhijing</first><last>Jin</last></editor>
+      <editor><first>Jieyu</first><last>Zhao</last></editor>
+      <editor><first>Chris</first><last>Brockett</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="2a2e6a54">2021.nlp4posimpact-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="4789defb">2021.nlp4posimpact-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Restatement and Question Generation for Counsellor Chatbot</title>
+      <author><first>John</first><last>Lee</last></author>
+      <author><first>Baikun</first><last>Liang</last></author>
+      <author><first>Haley</first><last>Fong</last></author>
+      <pages>1–7</pages>
+      <abstract>Amidst rising mental health needs in society, virtual agents are increasingly deployed in counselling. In order to give pertinent advice, counsellors must first gain an understanding of the issues at hand by eliciting sharing from the counsellee. It is thus important for the counsellor chatbot to encourage the user to open up and talk. One way to sustain the conversation flow is to acknowledge the counsellee’s key points by restating them, or probing them further with questions. This paper applies models from two closely related NLP tasks — summarization and question generation — to restatement and question generation in the counselling context. We conducted experiments on a manually annotated dataset of Cantonese post-reply pairs on topics related to loneliness, academic anxiety and test anxiety. We obtained the best performance in both restatement and question generation by fine-tuning BertSum, a state-of-the-art summarization model, with the in-domain manual dataset augmented with a large-scale, automatically mined open-domain dataset.</abstract>
+      <url hash="77786282">2021.nlp4posimpact-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>The Climate Change Debate and Natural Language Processing</title>
+      <author><first>Manfred</first><last>Stede</last></author>
+      <author><first>Ronny</first><last>Patz</last></author>
+      <pages>8–18</pages>
+      <abstract>The debate around climate change (CC)—its extent, its causes, and the necessary responses—is intense and of global importance. Yet, in the natural language processing (NLP) community, this domain has so far received little attention. In contrast, it is of enormous prominence in various social science disciplines, and some of that work follows the ”text-as-data” paradigm, seeking to employ quantitative methods for analyzing large amounts of CC-related text. Other research is qualitative in nature and studies details, nuances, actors, and motivations within CC discourses. Coming from both NLP and Political Science, and reviewing key works in both disciplines, we discuss how social science approaches to CC debates can inform advances in text-mining/NLP, and how, in return, NLP can support policy-makers and activists in making sense of large-scale and complex CC discourses across multiple genres, channels, topics, and communities. This is paramount for their ability to make rapid and meaningful impact on the discourse, and for shaping the necessary policy change.</abstract>
+      <url hash="a348fc77">2021.nlp4posimpact-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Cartography of Natural Language Processing for Social Good (<fixed-case>NLP</fixed-case>4<fixed-case>SG</fixed-case>): Searching for Definitions, Statistics and White Spots</title>
+      <author><first>Paula</first><last>Fortuna</last></author>
+      <author><first>Laura</first><last>Pérez-Mayos</last></author>
+      <author><first>Ahmed</first><last>AbuRa’ed</last></author>
+      <author><first>Juan</first><last>Soler-Company</last></author>
+      <author><first>Leo</first><last>Wanner</last></author>
+      <pages>19–26</pages>
+      <abstract>The range of works that can be considered as developing NLP for social good (NLP4SG) is enormous. While many of them target the identification of hate speech or fake news, there are others that address, e.g., text simplification to alleviate consequences of dyslexia, or coaching strategies to fight depression. However, so far, there is no clear picture of what areas are targeted by NLP4SG, who are the actors, which are the main scenarios and what are the topics that have been left aside. In order to obtain a clearer view in this respect, we first propose a working definition of NLP4SG and identify some primary aspects that are crucial for NLP4SG, including, e.g., areas, ethics, privacy and bias. Then, we draw upon a corpus of around 50,000 articles downloaded from the ACL Anthology. Based on a list of keywords retrieved from the literature and revised in view of the task, we select from this corpus articles that can be considered to be on NLP4SG according to our definition and analyze them in terms of trends along the time line, etc. The result is a map of the current NLP4SG research and insights concerning the white spots on this map.</abstract>
+      <url hash="cd498b12">2021.nlp4posimpact-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Guiding Principles for Participatory Design-inspired Natural Language Processing</title>
+      <author><first>Tommaso</first><last>Caselli</last></author>
+      <author><first>Roberto</first><last>Cibin</last></author>
+      <author><first>Costanza</first><last>Conforti</last></author>
+      <author><first>Enrique</first><last>Encinas</last></author>
+      <author><first>Maurizio</first><last>Teli</last></author>
+      <pages>27–35</pages>
+      <abstract>We introduce 9 guiding principles to integrate Participatory Design (PD) methods in the development of Natural Language Processing (NLP) systems. The adoption of PD methods by NLP will help to alleviate issues concerning the development of more democratic, fairer, less-biased technologies to process natural language data. This short paper is the outcome of an ongoing dialogue between designers and NLP experts and adopts a non-standard format following previous work by Traum (2000); Bender (2013); Abzianidze and Bos (2019). Every section is a guiding principle. While principles 1–3 illustrate assumptions and methods that inform community-based PD practices, we used two fictional design scenarios (Encinas and Blythe, 2018), which build on top of situations familiar to the authors, to elicit the identification of the other 6. Principles 4–6 describes the impact of PD methods on the design of NLP systems, targeting two critical aspects: data collection &amp; annotation, and the deployment &amp; evaluation. Finally, principles 7–9 guide a new reflexivity of the NLP research with respect to its context, actors and participants, and aims. We hope this guide will offer inspiration and a road-map to develop a new generation of PD-inspired NLP.</abstract>
+      <url hash="eb1b6b1c">2021.nlp4posimpact-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Theano: A <fixed-case>G</fixed-case>reek-speaking conversational agent for <fixed-case>COVID</fixed-case>-19</title>
+      <author><first>Nikoletta</first><last>Ventoura</last></author>
+      <author><first>Kosmas</first><last>Palios</last></author>
+      <author><first>Yannis</first><last>Vasilakis</last></author>
+      <author><first>Georgios</first><last>Paraskevopoulos</last></author>
+      <author><first>Nassos</first><last>Katsamanis</last></author>
+      <author><first>Vassilis</first><last>Katsouros</last></author>
+      <pages>36–46</pages>
+      <abstract>Conversational Agents (CAs) can be a proxy for disseminating information and providing support to the public, especially in times of crisis. CAs can scale to reach larger numbers of end-users than human operators, while they can offer information interactively and engagingly. In this work, we present Theano, a Greek-speaking virtual assistant for COVID-19. Theano presents users with COVID-19 statistics and facts and informs users about the best health practices as well as the latest COVID-19 related guidelines. Additionally, Theano provides support to end-users by helping them self-assess their symptoms and redirecting them to first-line health workers. The relevant, localized information that Theano provides, makes it a valuable tool for combating COVID-19 in Greece. Theano has already conversed with different users in more than 170 different conversations through a web interface as a chatbot and over the phone as a voice bot.</abstract>
+      <url hash="3e5d9940">2021.nlp4posimpact-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Are we human, or are we users? The role of natural language processing in human-centric news recommenders that nudge users to diverse content</title>
+      <author><first>Myrthe</first><last>Reuver</last></author>
+      <author><first>Nicolas</first><last>Mattis</last></author>
+      <author><first>Marijn</first><last>Sax</last></author>
+      <author><first>Suzan</first><last>Verberne</last></author>
+      <author><first>Nava</first><last>Tintarev</last></author>
+      <author><first>Natali</first><last>Helberger</last></author>
+      <author><first>Judith</first><last>Moeller</last></author>
+      <author><first>Sanne</first><last>Vrijenhoek</last></author>
+      <author><first>Antske</first><last>Fokkens</last></author>
+      <author><first>Wouter</first><last>van Atteveldt</last></author>
+      <pages>47–59</pages>
+      <abstract>In this position paper, we present a research agenda and ideas for facilitating exposure to diverse viewpoints in news recommendation. Recommending news from diverse viewpoints is important to prevent potential filter bubble effects in news consumption, and stimulate a healthy democratic debate.To account for the complexity that is inherent to humans as citizens in a democracy, we anticipate (among others) individual-level differences in acceptance of diversity. We connect this idea to techniques in Natural Language Processing, where distributional language models would allow us to place different users and news articles in a multidimensional space based on semantic content, where diversity is operationalized as distance and variance. In this way, we can model individual “latitudes of diversity” for different users, and thus personalize viewpoint diversity in support of a healthy public debate. In addition, we identify technical, ethical and conceptual issues related to our presented ideas. Our investigation describes how NLP can play a central role in diversifying news recommendations.</abstract>
+      <url hash="fa48744f">2021.nlp4posimpact-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Automatic Sentence Simplification in Low Resource Settings for <fixed-case>U</fixed-case>rdu</title>
+      <author><first>Yusra</first><last>Anees</last></author>
+      <author><first>Sadaf</first><last>Abdul Rauf</last></author>
+      <pages>60–70</pages>
+      <abstract>To build automated simplification systems, corpora of complex sentences and their simplified versions is the first step to understand sentence complexity and enable the development of automatic text simplification systems. We present a lexical and syntactically simplified Urdu simplification corpus with a detailed analysis of the various simplification operations and human evaluation of corpus quality. We further analyze our corpora using text readability measures and present a comparison of the original, lexical simplified and syntactically simplified corpora. In addition, we compare our corpus with other existing simplification corpora by building simplification systems and evaluating these systems using BLEU and SARI scores. Our system achieves the highest BLEU score and comparable SARI score in comparison to other systems. We release our simplification corpora for the benefit of the research community.</abstract>
+      <url hash="7a0b8c2d">2021.nlp4posimpact-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Challenges for Information Extraction from Dialogue in Criminal Law</title>
+      <author><first>Jenny</first><last>Hong</last></author>
+      <author><first>Catalin</first><last>Voss</last></author>
+      <author><first>Christopher</first><last>Manning</last></author>
+      <pages>71–81</pages>
+      <abstract>Information extraction and question answering have the potential to introduce a new paradigm for how machine learning is applied to criminal law. Existing approaches generally use tabular data for predictive metrics. An alternative approach is needed for matters of equitable justice, where individuals are judged on a case-by-case basis, in a process involving verbal or written discussion and interpretation of case factors. Such discussions are individualized, but they nonetheless rely on underlying facts. Information extraction can play an important role in surfacing these facts, which are still important to understand. We analyze unsupervised, weakly supervised, and pre-trained models’ ability to extract such factual information from the free-form dialogue of California parole hearings. With a few exceptions, most F1 scores are below 0.85. We use this opportunity to highlight some opportunities for further research for information extraction and question answering. We encourage new developments in NLP to enable analysis and review of legal cases to be done in a post-hoc, not predictive, manner.</abstract>
+      <url hash="75a129e5">2021.nlp4posimpact-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Detecting Hashtag Hijacking for Hashtag Activism</title>
+      <author><first>Pooneh</first><last>Mousavi</last></author>
+      <author><first>Jessica</first><last>Ouyang</last></author>
+      <pages>82–92</pages>
+      <abstract>Social media has changed the way we engage in social activities. On Twitter, users can participate in social movements using hashtags such as #MeToo; this is known as hashtag activism. However, while these hashtags can help reshape social norms, they can also be used maliciously by spammers or troll communities for other purposes, such as signal boosting unrelated content, making a dent in a movement, or sharing hate speech. We present a Tweet-level hashtag hijacking detection framework focusing on hashtag activism. Our weakly-supervised framework uses bootstrapping to update itself as new Tweets are posted. Our experiments show that the system adapts to new topics in a social movement, as well as new hijacking strategies, maintaining strong performance over time.</abstract>
+      <url hash="99a31f12">2021.nlp4posimpact-1.9</url>
+    </paper>
+    <paper id="10">
+      <title><fixed-case>NLP</fixed-case> for Consumer Protection: Battling Illegal Clauses in <fixed-case>G</fixed-case>erman Terms and Conditions in Online Shopping</title>
+      <author><first>Daniel</first><last>Braun</last></author>
+      <author><first>Florian</first><last>Matthes</last></author>
+      <pages>93–99</pages>
+      <abstract>Online shopping is an ever more important part of the global consumer economy, not just in times of a pandemic. When we place an order online as consumers, we regularly agree to the so-called “Terms and Conditions” (T&amp;C), a contract unilaterally drafted by the seller. Often, consumers do not read these contracts and unwittingly agree to unfavourable and often void terms. Government and non-government organisations (NGOs) for consumer protection battle such terms on behalf of consumers, who often hesitate to take on legal actions themselves. However, the growing number of online shops and a lack of funding makes it increasingly difficult for such organisations to monitor the market effectively. This paper describes how Natural Language Processing (NLP) can be applied to support consumer advocates in their efforts to protect consumers. Together with two NGOs from Germany, we developed an NLP-based application that legally assesses clauses in T&amp;C from German online shops under the European Union’s (EU) jurisdiction. We report that we could achieve an accuracy of 0.9 in the detection of void clauses by fine-tuning a pre-trained German BERT model. The approach is currently used by two NGOs and has already helped to challenge void clauses in T&amp;C.</abstract>
+      <url hash="02f729bb">2021.nlp4posimpact-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>A Research Framework for Understanding Education-Occupation Alignment with <fixed-case>NLP</fixed-case> Techniques</title>
+      <author><first>Renzhe</first><last>Yu</last></author>
+      <author><first>Subhro</first><last>Das</last></author>
+      <author><first>Sairam</first><last>Gurajada</last></author>
+      <author><first>Kush</first><last>Varshney</last></author>
+      <author><first>Hari</first><last>Raghavan</last></author>
+      <author><first>Carlos</first><last>Lastra-Anadon</last></author>
+      <pages>100–106</pages>
+      <abstract>Understanding the gaps between job requirements and university curricula is crucial for improving student success and institutional effectiveness in higher education. In this context, natural language processing (NLP) can be leveraged to generate granular insights into where the gaps are and how they change. This paper proposes a three-dimensional research framework that combines NLP techniques with economic and educational research to quantify the alignment between course syllabi and job postings. We elaborate on key technical details of the framework and further discuss its potential positive impacts on practice, including unveiling the inequalities in and long-term consequences of education-occupation alignment to inform policymakers, and fostering information systems to support students, institutions and employers in the school-to-work pipeline.</abstract>
+      <url hash="a0d59c44">2021.nlp4posimpact-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Dialogue Act Classification for Augmentative and Alternative Communication</title>
+      <author><first>E. Margaret</first><last>Perkoff</last></author>
+      <pages>107–114</pages>
+      <abstract>Augmentative and Alternative Communication (AAC) devices and applications are intended to make it easier for individuals with complex communication needs to participate in conversations. However, these devices have low adoption and retention rates. We review prior work with text recommendation systems that have not been successful in mitigating these problems. To address these gaps, we propose applying Dialogue Act classification to AAC conversations. We evaluated the performance of a state of the art model on a limited AAC dataset that was trained on both AAC and non-AAC datasets. The one trained on AAC (accuracy = 38.6%) achieved better performance than that trained on a non-AAC corpus (accuracy = 34.1%). These results reflect the need to incorporate representative datasets in later experiments. We discuss the need to collect more labeled AAC datasets and propose areas of future work.</abstract>
+      <url hash="7dedea7a">2021.nlp4posimpact-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Improving Policing with Natural Language Processing</title>
+      <author><first>Anthony</first><last>Dixon</last></author>
+      <author><first>Daniel</first><last>Birks</last></author>
+      <pages>115–124</pages>
+      <abstract>This article explores the potential for Natural Language Processing (NLP) to enable a more effective, prevention focused and less confrontational policing model that has hitherto been too resource consuming to implement at scale. Problem-Oriented Policing (POP) is a potential replacement, at least in part, for traditional policing which adopts a reactive approach, relying heavily on the criminal justice system. By contrast, POP seeks to prevent crime by manipulating the underlying conditions that allow crimes to be committed. Identifying these underlying conditions requires a detailed understanding of crime events - tacit knowledge that is often held by police officers but which can be challenging to derive from structured police data. One potential source of insight exists in unstructured free text data commonly collected by police for the purposes of investigation or administration. Yet police agencies do not typically have the skills or resources to analyse these data at scale. In this article we argue that NLP offers the potential to unlock these unstructured data and by doing so allow police to implement more POP initiatives. However we caution that using NLP models without adequate knowledge may either allow or perpetuate bias within the data potentially leading to unfavourable outcomes.</abstract>
+      <url hash="3387a444">2021.nlp4posimpact-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Empathy and Hope: Resource Transfer to Model Inter-country Social Media Dynamics</title>
+      <author><first>Clay H.</first><last>Yoo</last></author>
+      <author><first>Shriphani</first><last>Palakodety</last></author>
+      <author><first>Rupak</first><last>Sarkar</last></author>
+      <author><first>Ashiqur</first><last>KhudaBukhsh</last></author>
+      <pages>125–134</pages>
+      <abstract>The ongoing COVID-19 pandemic resulted in significant ramifications for international relations ranging from travel restrictions, global ceasefires, and international vaccine production and sharing agreements. Amidst a wave of infections in India that resulted in a systemic breakdown of healthcare infrastructure, a social welfare organization based in Pakistan offered to procure medical-grade oxygen to assist India - a nation which was involved in four wars with Pakistan in the past few decades. In this paper, we focus on Pakistani Twitter users’ response to the ongoing healthcare crisis in India. While #IndiaNeedsOxygen and #PakistanStandsWithIndia featured among the top-trending hashtags in Pakistan, divisive hashtags such as #EndiaSaySorryToKashmir simultaneously started trending. Against the backdrop of a contentious history including four wars, divisive content of this nature, especially when a country is facing an unprecedented healthcare crisis, fuels further deterioration of relations. In this paper, we define a new task of detecting <i>supportive</i> content and demonstrate that existing <i>NLP for social impact</i> tools can be effectively harnessed for such tasks within a quick turnaround time. We also release the first publicly available data set at the intersection of geopolitical relations and a raging pandemic in the context of India and Pakistan.</abstract>
+      <url hash="1caf4aa0">2021.nlp4posimpact-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>A Speech-enabled Fixed-phrase Translator for Healthcare Accessibility</title>
+      <author><first>Pierrette</first><last>Bouillon</last></author>
+      <author><first>Johanna</first><last>Gerlach</last></author>
+      <author><first>Jonathan</first><last>Mutal</last></author>
+      <author><first>Nikos</first><last>Tsourakis</last></author>
+      <author><first>Hervé</first><last>Spechbach</last></author>
+      <pages>135–142</pages>
+      <abstract>In this overview article we describe an application designed to enable communication between health practitioners and patients who do not share a common language, in situations where professional interpreters are not available. Built on the principle of a fixed phrase translator, the application implements different natural language processing (NLP) technologies, such as speech recognition, neural machine translation and text-to-speech to improve usability. Its design allows easy portability to new domains and integration of different types of output for multiple target audiences. Even though BabelDr is far from solving the problem of miscommunication between patients and doctors, it is a clear example of NLP in a real world application designed to help minority groups to communicate in a medical context. It also gives some insights into the relevant criteria for the development of such an application.</abstract>
+      <url hash="7830b960">2021.nlp4posimpact-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>A Grounded Well-being Conversational Agent with Multiple Interaction Modes: Preliminary Results</title>
+      <author><first>Xinxin</first><last>Yan</last></author>
+      <author><first>Ndapa</first><last>Nakashole</last></author>
+      <pages>143–151</pages>
+      <abstract>Technologies for enhancing well-being, healthcare vigilance and monitoring are on the rise. However, despite patient interest, such technologies suffer from low adoption. One hypothesis for this limited adoption is loss of human interaction that is central to doctor-patient encounters. In this paper we seek to address this limitation via a conversational agent that adopts one aspect of in-person doctor-patient interactions: A human avatar to facilitate medical grounded question answering. This is akin to the in-person scenario where the doctor may point to the human body or the patient may point to their own body to express their conditions. Additionally, our agent has multiple interaction modes, that may give more options for the patient to use the agent, not just for medical question answering, but also to engage in conversations about general topics and current events. Both the avatar, and the multiple interaction modes could help improve adherence. We present a high level overview of the design of our agent, Marie Bot Wellbeing. We also report implementation details of our early prototype , and present preliminary results.</abstract>
+      <url hash="b0d8e80f">2021.nlp4posimpact-1.16</url>
+    </paper>
+  </volume>
+</collection>

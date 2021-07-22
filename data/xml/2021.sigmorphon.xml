@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.sigmorphon">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology</booktitle>
+      <editor><first>Garrett</first><last>Nicolai</last></editor>
+      <editor><first>Kyle</first><last>Gorman</last></editor>
+      <editor><first>Ryan</first><last>Cotterell</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="872e9305">2021.sigmorphon-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="620a81ae">2021.sigmorphon-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Towards Detection and Remediation of Phonemic Confusion</title>
+      <author><first>Francois</first><last>Roewer-Despres</last></author>
+      <author><first>Arnold</first><last>Yeung</last></author>
+      <author><first>Ilan</first><last>Kogan</last></author>
+      <pages>1–10</pages>
+      <abstract>Reducing communication breakdown is critical to success in interactive NLP applications, such as dialogue systems. To this end, we propose a confusion-mitigation framework for the detection and remediation of communication breakdown. In this work, as a first step towards implementing this framework, we focus on detecting phonemic sources of confusion. As a proof-of-concept, we evaluate two neural architectures in predicting the probability that a listener will misunderstand phonemes in an utterance. We show that both neural models outperform a weighted n-gram baseline, showing early promise for the broader framework.</abstract>
+      <url hash="d714d2b7">2021.sigmorphon-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Recursive prosody is not finite-state</title>
+      <author><first>Hossep</first><last>Dolatian</last></author>
+      <author><first>Aniello</first><last>De Santo</last></author>
+      <author><first>Thomas</first><last>Graf</last></author>
+      <pages>11–22</pages>
+      <abstract>This paper investigates bounds on the generative capacity of prosodic processes, by focusing on the complexity of recursive prosody in coordination contexts in English (Wagner, 2010). Although all phonological processes and most prosodic processes are computationally regular string languages, we show that recursive prosody is not. The output string language is instead parallel multiple context-free (Seki et al., 1991). We evaluate the complexity of the pattern over strings, and then move on to a characterization over trees that requires the expressivity of multi bottom-up tree transducers. In doing so, we provide a foundation for future mathematically grounded investigations of the syntax-prosody interface.</abstract>
+      <url hash="cdaa26e5">2021.sigmorphon-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>The Match-Extend serialization algorithm in Multiprecedence</title>
+      <author><first>Maxime</first><last>Papillon</last></author>
+      <pages>23–31</pages>
+      <abstract>Raimy (1999; 2000a; 2000b) proposed a graphical formalism for modeling reduplication, originallymostly focused on phonological overapplication in a derivational framework. This framework is now known as Precedence-based phonology or Multiprecedence phonology. Raimy’s idea is that the segments at the input to the phonology are not totally ordered by precedence. This paper tackles a challenge that arose with Raimy’s work, the development of a deterministic serialization algorithm as part of the derivation of surface forms. The Match-Extend algorithm introduced here requires fewer assumptions and sticks tighter to the attested typology. The algorithm also contains no parameter or constraint specific to individual graphs or topologies, unlike previous proposals. Match-Extend requires nothing except knowing the last added set of links.</abstract>
+      <url hash="ceeb3a26">2021.sigmorphon-1.3</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="776b6b1f">2021.sigmorphon-1.3.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="4">
+      <title>Incorporating tone in the calculation of phonotactic probability</title>
+      <author><first>James</first><last>Kirby</last></author>
+      <pages>32–38</pages>
+      <abstract>This paper investigates how the ordering of tone relative to the segmental string influences the calculation of phonotactic probability. Trigram and recurrent neural network models were trained on syllable lexicons of four Asian syllable-tone languages (Mandarin, Thai, Vietnamese, and Cantonese) in which tone was treated as a segment occurring in different positions in the string. For trigram models, the optimal permutation interacted with language, while neural network models were relatively unaffected by tone position in all languages. In addition to providing a baseline for future evaluation, these results suggest that phonotactic probability is robust to choices of how tone is ordered with respect to other elements in the syllable.</abstract>
+      <url hash="eb0d3657">2021.sigmorphon-1.4</url>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>M</fixed-case>orphy<fixed-case>N</fixed-case>et: a Large Multilingual Database of Derivational and Inflectional Morphology</title>
+      <author><first>Khuyagbaatar</first><last>Batsuren</last></author>
+      <author><first>Gábor</first><last>Bella</last></author>
+      <author><first>Fausto</first><last>Giunchiglia</last></author>
+      <pages>39–48</pages>
+      <abstract>Large-scale morphological databases provide essential input to a wide range of NLP applications. Inflectional data is of particular importance for morphologically rich (agglutinative and highly inflecting) languages, and derivations can be used, e.g. to infer the semantics of out-of-vocabulary words. Extending the scope of state-of-the-art multilingual morphological databases, we announce the release of MorphyNet, a high-quality resource with 15 languages, 519k derivational and 10.1M inflectional entries, and a rich set of morphological features. MorphyNet was extracted from Wiktionary using both hand-crafted and automated methods, and was manually evaluated to be of a precision higher than 98%. Both the resource generation logic and the resulting database are made freely available and are reusable as stand-alone tools or in combination with existing resources.</abstract>
+      <url hash="3cdfd2dc">2021.sigmorphon-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>A Study of Morphological Robustness of Neural Machine Translation</title>
+      <author><first>Sai Muralidhar</first><last>Jayanthi</last></author>
+      <author><first>Adithya</first><last>Pratapa</last></author>
+      <pages>49–59</pages>
+      <abstract>In this work, we analyze the robustness of neural machine translation systems towards grammatical perturbations in the source. In particular, we focus on morphological inflection related perturbations. While this has been recently studied for English→French (MORPHEUS) (Tan et al., 2020), it is unclear how this extends to Any→English translation systems. We propose MORPHEUS-MULTILINGUAL that utilizes UniMorph dictionaries to identify morphological perturbations to source that adversely affect the translation models. Along with an analysis of state-of-the-art pretrained MT systems, we train and analyze systems for 11 language pairs using the multilingual TED corpus (Qi et al., 2018). We also compare this to actual errors of non-native speakers using Grammatical Error Correction datasets. Finally, we present a qualitative and quantitative analysis of the robustness of Any→English translation systems.</abstract>
+      <url hash="f9b65799">2021.sigmorphon-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Sample-efficient Linguistic Generalizations through Program Synthesis: Experiments with Phonology Problems</title>
+      <author><first>Saujas</first><last>Vaduguru</last></author>
+      <author><first>Aalok</first><last>Sathe</last></author>
+      <author><first>Monojit</first><last>Choudhury</last></author>
+      <author><first>Dipti</first><last>Sharma</last></author>
+      <pages>60–71</pages>
+      <abstract>Neural models excel at extracting statistical patterns from large amounts of data, but struggle to learn patterns or reason about language from only a few examples. In this paper, we ask: Can we learn explicit rules that generalize well from only a few examples? We explore this question using program synthesis. We develop a synthesis model to learn phonology rules as programs in a domain-specific language. We test the ability of our models to generalize from few training examples using our new dataset of problems from the Linguistics Olympiad, a challenging set of tasks that require strong linguistic reasoning ability. In addition to being highly sample-efficient, our approach generates human-readable programs, and allows control over the generalizability of the learnt programs.</abstract>
+      <url hash="2e4fd440">2021.sigmorphon-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Findings of the <fixed-case>SIGMORPHON</fixed-case> 2021 Shared Task on Unsupervised Morphological Paradigm Clustering</title>
+      <author><first>Adam</first><last>Wiemerslage</last></author>
+      <author><first>Arya D.</first><last>McCarthy</last></author>
+      <author><first>Alexander</first><last>Erdmann</last></author>
+      <author><first>Garrett</first><last>Nicolai</last></author>
+      <author><first>Manex</first><last>Agirrezabal</last></author>
+      <author><first>Miikka</first><last>Silfverberg</last></author>
+      <author><first>Mans</first><last>Hulden</last></author>
+      <author><first>Katharina</first><last>Kann</last></author>
+      <pages>72–81</pages>
+      <abstract>We describe the second SIGMORPHON shared task on unsupervised morphology: the goal of the SIGMORPHON 2021 Shared Task on Unsupervised Morphological Paradigm Clustering is to cluster word types from a raw text corpus into paradigms. To this end, we release corpora for 5 development and 9 test languages, as well as gold partial paradigms for evaluation. We receive 14 submissions from 4 teams that follow different strategies, and the best performing system is based on adaptor grammars. Results vary significantly across languages. However, all systems are outperformed by a supervised lemmatizer, implying that there is still room for improvement.</abstract>
+      <url hash="994d226b">2021.sigmorphon-1.8</url>
+    </paper>
+    <paper id="9">
+      <title><fixed-case>A</fixed-case>daptor <fixed-case>G</fixed-case>rammars for Unsupervised Paradigm Clustering</title>
+      <author><first>Kate</first><last>McCurdy</last></author>
+      <author><first>Sharon</first><last>Goldwater</last></author>
+      <author><first>Adam</first><last>Lopez</last></author>
+      <pages>82–89</pages>
+      <abstract>This work describes the Edinburgh submission to the SIGMORPHON 2021 Shared Task 2 on unsupervised morphological paradigm clustering. Given raw text input, the task was to assign each token to a cluster with other tokens from the same paradigm. We use Adaptor Grammar segmentations combined with frequency-based heuristics to predict paradigm clusters. Our system achieved the highest average F1 score across 9 test languages, placing first out of 15 submissions.</abstract>
+      <url hash="14af72d0">2021.sigmorphon-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Orthographic vs. Semantic Representations for Unsupervised Morphological Paradigm Clustering</title>
+      <author><first>E. Margaret</first><last>Perkoff</last></author>
+      <author><first>Josh</first><last>Daniels</last></author>
+      <author><first>Alexis</first><last>Palmer</last></author>
+      <pages>90–97</pages>
+      <abstract>This paper presents two different systems for unsupervised clustering of morphological paradigms, in the context of the SIGMORPHON 2021 Shared Task 2. The goal of this task is to correctly cluster words in a given language by their inflectional paradigm, without any previous knowledge of the language and without supervision from labeled data of any sort. The words in a single morphological paradigm are different inflectional variants of an underlying lemma, meaning that the words share a common core meaning. They also - usually - show a high degree of orthographical similarity. Following these intuitions, we investigate KMeans clustering using two different types of word representations: one focusing on orthographical similarity and the other focusing on semantic similarity.Additionally, we discuss the merits of randomly initialized centroids versus pre-defined centroids for clustering. Pre-defined centroids are identified based on either a standard longest common substring algorithm or a connected graph method built off of longest common substring. For all development languages, the character-based embeddings perform similarly to the baseline, and the semantic embeddings perform well below the baseline.Analysis of the systems’ errors suggests that clustering based on orthographic representations is suitable for a wide range of morphological mechanisms, particularly as part of a larger system.</abstract>
+      <url hash="9231ef72">2021.sigmorphon-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Unsupervised Paradigm Clustering Using Transformation Rules</title>
+      <author><first>Changbing</first><last>Yang</last></author>
+      <author><first>Garrett</first><last>Nicolai</last></author>
+      <author><first>Miikka</first><last>Silfverberg</last></author>
+      <pages>98–106</pages>
+      <abstract>This paper describes the submission of the CU-UBC team for the SIGMORPHON 2021 Shared Task 2: Unsupervised morphological paradigm clustering. Our system generates paradigms using morphological transformation rules which are discovered from raw data. We experiment with two methods for discovering rules. Our first approach generates prefix and suffix transformations between similar strings. Secondly, we experiment with more general rules which can apply transformations inside the input strings in addition to prefix and suffix transformations. We find that the best overall performance is delivered by prefix and suffix rules but more general transformation rules perform better for languages with templatic morphology and very high morpheme-to-word ratios.</abstract>
+      <url hash="dab58b0f">2021.sigmorphon-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Paradigm Clustering with Weighted Edit Distance</title>
+      <author><first>Andrew</first><last>Gerlach</last></author>
+      <author><first>Adam</first><last>Wiemerslage</last></author>
+      <author><first>Katharina</first><last>Kann</last></author>
+      <pages>107–114</pages>
+      <abstract>This paper describes our system for the SIGMORPHON 2021 Shared Task on Unsupervised Morphological Paradigm Clustering, which asks participants to group inflected forms together according their underlying lemma without the aid of annotated training data. We employ agglomerative clustering to group word forms together using a metric that combines an orthographic distance and a semantic distance from word embeddings. We experiment with two variations of an edit distance-based model for quantifying orthographic distance, but, due to time constraints, our system does not improve over the shared task’s baseline system.</abstract>
+      <url hash="de4425c3">2021.sigmorphon-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Results of the Second <fixed-case>SIGMORPHON</fixed-case> Shared Task on Multilingual Grapheme-to-Phoneme Conversion</title>
+      <author><first>Lucas F.E.</first><last>Ashby</last></author>
+      <author><first>Travis M.</first><last>Bartley</last></author>
+      <author><first>Simon</first><last>Clematide</last></author>
+      <author><first>Luca</first><last>Del Signore</last></author>
+      <author><first>Cameron</first><last>Gibson</last></author>
+      <author><first>Kyle</first><last>Gorman</last></author>
+      <author><first>Yeonju</first><last>Lee-Sikka</last></author>
+      <author><first>Peter</first><last>Makarov</last></author>
+      <author><first>Aidan</first><last>Malanoski</last></author>
+      <author><first>Sean</first><last>Miller</last></author>
+      <author><first>Omar</first><last>Ortiz</last></author>
+      <author><first>Reuben</first><last>Raff</last></author>
+      <author><first>Arundhati</first><last>Sengupta</last></author>
+      <author><first>Bora</first><last>Seo</last></author>
+      <author><first>Yulia</first><last>Spektor</last></author>
+      <author><first>Winnie</first><last>Yan</last></author>
+      <pages>115–125</pages>
+      <abstract>Grapheme-to-phoneme conversion is an important component in many speech technologies, but until recently there were no multilingual benchmarks for this task. The second iteration of the SIGMORPHON shared task on multilingual grapheme-to-phoneme conversion features many improvements from the previous year’s task (Gorman et al. 2020), including additional languages, a stronger baseline, three subtasks varying the amount of available resources, extensive quality assurance procedures, and automated error analyses. Four teams submitted a total of thirteen systems, at best achieving relative reductions of word error rate of 11% in the high-resource subtask and 4% in the low-resource subtask.</abstract>
+      <url hash="7d1fd62e">2021.sigmorphon-1.13</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="3409b4de">2021.sigmorphon-1.13.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="14">
+      <title>Data augmentation for low-resource grapheme-to-phoneme mapping</title>
+      <author><first>Michael</first><last>Hammond</last></author>
+      <pages>126–130</pages>
+      <abstract>In this paper we explore a very simple neural approach to mapping orthography to phonetic transcription in a low-resource context. The basic idea is to start from a baseline system and focus all efforts on data augmentation. We will see that some techniques work, but others do not.</abstract>
+      <url hash="91811dae">2021.sigmorphon-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Linguistic Knowledge in Multilingual Grapheme-to-Phoneme Conversion</title>
+      <author><first>Roger Yu-Hsiang</first><last>Lo</last></author>
+      <author><first>Garrett</first><last>Nicolai</last></author>
+      <pages>131–140</pages>
+      <abstract>This paper documents the UBC Linguistics team’s approach to the SIGMORPHON 2021 Grapheme-to-Phoneme Shared Task, concentrating on the low-resource setting. Our systems expand the baseline model with simple modifications informed by syllable structure and error analysis. In-depth investigation of test-set predictions shows that our best model rectifies a significant number of mistakes compared to the baseline prediction, besting all other submissions. Our results validate the view that careful error analysis in conjunction with linguistic knowledge can lead to more effective computational modeling.</abstract>
+      <url hash="aaa92032">2021.sigmorphon-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Avengers, Ensemble! Benefits of ensembling in grapheme-to-phoneme prediction</title>
+      <author><first>Vasundhara</first><last>Gautam</last></author>
+      <author><first>Wang Yau</first><last>Li</last></author>
+      <author><first>Zafarullah</first><last>Mahmood</last></author>
+      <author><first>Frederic</first><last>Mailhot</last></author>
+      <author><first>Shreekantha</first><last>Nadig</last></author>
+      <author><first>Riqiang</first><last>Wang</last></author>
+      <author><first>Nathan</first><last>Zhang</last></author>
+      <pages>141–147</pages>
+      <abstract>We describe three baseline beating systems for the high-resource English-only sub-task of the SIGMORPHON 2021 Shared Task 1: a small ensemble that Dialpad’s speech recognition team uses internally, a well-known off-the-shelf model, and a larger ensemble model comprising these and others. We additionally discuss the challenges related to the provided data, along with the processing steps we took.</abstract>
+      <url hash="05200396">2021.sigmorphon-1.16</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="ca239cf5">2021.sigmorphon-1.16.OptionalSupplementaryMaterial.tex</attachment>
+    </paper>
+    <paper id="17">
+      <title><fixed-case>CLUZH</fixed-case> at <fixed-case>SIGMORPHON</fixed-case> 2021 Shared Task on Multilingual Grapheme-to-Phoneme Conversion: Variations on a Baseline</title>
+      <author><first>Simon</first><last>Clematide</last></author>
+      <author><first>Peter</first><last>Makarov</last></author>
+      <pages>148–153</pages>
+      <abstract>This paper describes the submission by the team from the Department of Computational Linguistics, Zurich University, to the Multilingual Grapheme-to-Phoneme Conversion (G2P) Task 1 of the SIGMORPHON 2021 challenge in the low and medium settings. The submission is a variation of our 2020 G2P system, which serves as the baseline for this year’s challenge. The system is a neural transducer that operates over explicit edit actions and is trained with imitation learning. For this challenge, we experimented with the following changes: a) emitting phoneme segments instead of single character phonemes, b) input character dropout, c) a mogrifier LSTM decoder (Melis et al., 2019), d) enriching the decoder input with the currently attended input character, e) parallel BiLSTM encoders, and f) an adaptive batch size scheduler. In the low setting, our best ensemble improved over the baseline, however, in the medium setting, the baseline was stronger on average, although for certain languages improvements could be observed.</abstract>
+      <url hash="2f4238ab">2021.sigmorphon-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>What transfers in morphological inflection? Experiments with analogical models</title>
+      <author><first>Micha</first><last>Elsner</last></author>
+      <pages>154–166</pages>
+      <abstract>We investigate how abstract processes like suffixation can be learned from morphological inflection task data using an analogical memory-based framework. In this framework, the inflection target form is specified by providing an example inflection of another word in the language. We show that this model is capable of near-baseline performance on the SigMorphon 2020 inflection challenge. Such a model can make predictions for unseen languages, allowing us to perform one-shot inflection on natural languages and investigate morphological transfer with synthetic probes. Accuracy for one-shot transfer can be unexpectedly high for some target languages (88% in Shona) and language families (53% across Romance). Probe experiments show that the model learns partially generalizable representations of prefixation, suffixation and reduplication, aiding its ability to transfer. We argue that the degree of generality of these process representations also helps to explain transfer results from previous research.</abstract>
+      <url hash="dcba9337">2021.sigmorphon-1.18</url>
+    </paper>
+    <paper id="19">
+      <title>Simple induction of (deterministic) probabilistic finite-state automata for phonotactics by stochastic gradient descent</title>
+      <author><first>Huteng</first><last>Dai</last></author>
+      <author><first>Richard</first><last>Futrell</last></author>
+      <pages>167–176</pages>
+      <abstract>We introduce a simple and highly general phonotactic learner which induces a probabilistic finite-state automaton from word-form data. We describe the learner and show how to parameterize it to induce unrestricted regular languages, as well as how to restrict it to certain subregular classes such as Strictly k-Local and Strictly k-Piecewise languages. We evaluate the learner on its ability to learn phonotactic constraints in toy examples and in datasets of Quechua and Navajo. We find that an unrestricted learner is the most accurate overall when modeling attested forms not seen in training; however, only the learner restricted to the Strictly Piecewise language class successfully captures certain nonlocal phonotactic constraints. Our learner serves as a baseline for more sophisticated methods.</abstract>
+      <url hash="807e8b76">2021.sigmorphon-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Recognizing Reduplicated Forms: Finite-State Buffered Machines</title>
+      <author><first>Yang</first><last>Wang</last></author>
+      <pages>177–187</pages>
+      <abstract>Total reduplication is common in natural language phonology and morphology. However, formally as copying on reduplicants of unbounded size, unrestricted total reduplication requires computational power beyond context-free, while other phonological and morphological patterns are regular, or even sub-regular. Thus, existing language classes characterizing reduplicated strings inevitably include typologically unattested context-free patterns, such as reversals. This paper extends regular languages to incorporate reduplication by introducing a new computational device: finite state buffered machine (FSBMs). We give its mathematical definitions and discuss some closure properties of the corresponding set of languages. As a result, the class of regular languages and languages derived from them through a copying mechanism is characterized. Suggested by previous literature, this class of languages should approach the characterization of natural language word sets.</abstract>
+      <url hash="6b070b36">2021.sigmorphon-1.20</url>
+    </paper>
+    <paper id="21">
+      <title>An <fixed-case>FST</fixed-case> morphological analyzer for the Gitksan language</title>
+      <author><first>Clarissa</first><last>Forbes</last></author>
+      <author><first>Garrett</first><last>Nicolai</last></author>
+      <author><first>Miikka</first><last>Silfverberg</last></author>
+      <pages>188–197</pages>
+      <abstract>This paper presents a finite-state morphological analyzer for the Gitksan language. The analyzer draws from a 1250-token Eastern dialect wordlist. It is based on finite-state technology and additionally includes two extensions which can provide analyses for out-of-vocabulary words: rules for generating predictable dialect variants, and a neural guesser component. The pre-neural analyzer, tested against interlinear-annotated texts from multiple dialects, achieves coverage of (75-81%), and maintains high precision (95-100%). The neural extension improves coverage at the cost of lowered precision.</abstract>
+      <url hash="2e940c82">2021.sigmorphon-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Comparative Error Analysis in Neural and Finite-state Models for Unsupervised Character-level Transduction</title>
+      <author><first>Maria</first><last>Ryskina</last></author>
+      <author><first>Eduard</first><last>Hovy</last></author>
+      <author><first>Taylor</first><last>Berg-Kirkpatrick</last></author>
+      <author><first>Matthew R.</first><last>Gormley</last></author>
+      <pages>198–211</pages>
+      <abstract>Traditionally, character-level transduction problems have been solved with finite-state models designed to encode structural and linguistic knowledge of the underlying process, whereas recent approaches rely on the power and flexibility of sequence-to-sequence models with attention. Focusing on the less explored unsupervised learning scenario, we compare the two model classes side by side and find that they tend to make different types of errors even when achieving comparable performance. We analyze the distributions of different error classes using two unsupervised tasks as testbeds: converting informally romanized text into the native script of its language (for Russian, Arabic, and Kannada) and translating between a pair of closely related languages (Serbian and Bosnian). Finally, we investigate how combining finite-state and sequence-to-sequence models at decoding time affects the output quantitatively and qualitatively.</abstract>
+      <url hash="4b3a22b2">2021.sigmorphon-1.22</url>
+    </paper>
+    <paper id="23">
+      <title>Finite-state Model of Shupamem Reduplication</title>
+      <author><first>Magdalena</first><last>Markowska</last></author>
+      <author><first>Jeffrey</first><last>Heinz</last></author>
+      <author><first>Owen</first><last>Rambow</last></author>
+      <pages>212–221</pages>
+      <abstract>Shupamem, a language of Western Cameroon, is a tonal language which also exhibits the morpho-phonological process of full reduplication. This creates two challenges for finite-state model of its morpho-syntax and morphophonology: how to manage the full reduplication and the autosegmental nature of lexical tone. Dolatian and Heinz (2020) explain how 2-way finite-state transducers can model full reduplication without an exponential increase in states, and finite-state transducers with multiple tapes have been used to model autosegmental tiers, including tone (Wiebe, 1992; Dolatian and Rawski, 2020a). Here we synthesize 2-way finite-state transducers and multitape transducers, resulting in a finite-state formalism that subsumes both, to account for the full reduplicative processes in Shupamem which also affect tone.</abstract>
+      <url hash="d14265db">2021.sigmorphon-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>Improved pronunciation prediction accuracy using morphology</title>
+      <author><first>Dravyansh</first><last>Sharma</last></author>
+      <author><first>Saumya</first><last>Sahai</last></author>
+      <author><first>Neha</first><last>Chaudhari</last></author>
+      <author><first>Antoine</first><last>Bruguier</last></author>
+      <pages>222–228</pages>
+      <abstract>Pronunciation lexicons and prediction models are a key component in several speech synthesis and recognition systems. We know that morphologically related words typically follow a fixed pattern of pronunciation which can be described by language-specific paradigms. In this work we explore how deep recurrent neural networks can be used to automatically learn and exploit this pattern to improve the pronunciation prediction quality of words related by morphological inflection. We propose two novel approaches for supplying morphological information, using the word’s morphological class and its lemma, which are typically annotated in standard lexicons. We report improvements across a number of European languages with varying degrees of phonological and morphological complexity, and two language families, with greater improvements for languages where the pronunciation prediction task is inherently more challenging. We also observe that combining bidirectional LSTM networks with attention mechanisms is an effective neural approach for the computational problem considered, across languages. Our approach seems particularly beneficial in the low resource setting, both by itself and in conjunction with transfer learning.</abstract>
+      <url hash="d0d96573">2021.sigmorphon-1.24</url>
+    </paper>
+  </volume>
+</collection>

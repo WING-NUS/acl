@@ -2,6 +2,9 @@ Name: Special Interest Group on the Lexicon (SIGLEX)
 ShortName: SIGLEX
 URL: http://www.siglex.org/
 Meetings:
+  - 2021:
+    - 2021.mwe-1 # Proceedings of the 17th Workshop on Multiword Expressions (MWE 2021)
+    - 2021.semeval-1 # Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)
   - 2020:
     - 2020.semeval-1 # Proceedings of the Fourteenth Workshop on Semantic Evaluation
     - 2020.starsem-1 # Proceedings of the Ninth Joint Conference on Lexical and Computational Semantics

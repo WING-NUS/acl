@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.lchange">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of The 2nd International Workshop on Computational Approaches to Historical Language Change 2021</booktitle>
+      <editor><first>Nina</first><last>Tahmasebi</last></editor>
+      <editor><first>Adam</first><last>Jatowt</last></editor>
+      <editor><first>Yang</first><last>Xu</last></editor>
+      <editor><first>Simon</first><last>Hengchen</last></editor>
+      <editor><first>Syrielle</first><last>Montariol</last></editor>
+      <editor><first>Haim</first><last>Dubossarsky</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="4d61727a">2021.lchange-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="05788371">2021.lchange-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Time-Aware <fixed-case>A</fixed-case>ncient <fixed-case>C</fixed-case>hinese Text Translation and Inference</title>
+      <author><first>Ernie</first><last>Chang</last></author>
+      <author><first>Yow-Ting</first><last>Shiue</last></author>
+      <author><first>Hui-Syuan</first><last>Yeh</last></author>
+      <author><first>Vera</first><last>Demberg</last></author>
+      <pages>1–6</pages>
+      <abstract>In this paper, we aim to address the challenges surrounding the translation of ancient Chinese text: (1) The linguistic gap due to the difference in eras results in translations that are poor in quality, and (2) most translations are missing the contextual information that is often very crucial to understanding the text. To this end, we improve upon past translation techniques by proposing the following: We reframe the task as a multi-label prediction task where the model predicts both the translation and its particular era. We observe that this helps to bridge the linguistic gap as chronological context is also used as auxiliary information. We validate our framework on a parallel corpus annotated with chronology information and show experimentally its efficacy in producing quality translation outputs. We release both the code and the data for future research.</abstract>
+      <url hash="9e9830a9">2021.lchange-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Three-part diachronic semantic change dataset for <fixed-case>R</fixed-case>ussian</title>
+      <author><first>Andrey</first><last>Kutuzov</last></author>
+      <author><first>Lidia</first><last>Pivovarova</last></author>
+      <pages>7–13</pages>
+      <abstract>We present a manually annotated lexical semantic change dataset for Russian: RuShiftEval. Its novelty is ensured by a single set of target words annotated for their diachronic semantic shifts across three time periods, while the previous work either used only two time periods, or different sets of target words. The paper describes the composition and annotation procedure for the dataset. In addition, it is shown how the ternary nature of RuShiftEval allows to trace specific diachronic trajectories: ‘changed at a particular time period and stable afterwards’ or ‘was changing throughout all time periods’. Based on the analysis of the submissions to the recent shared task on semantic change detection for Russian, we argue that correctly identifying such trajectories can be an interesting sub-task itself.</abstract>
+      <url hash="6926ffc8">2021.lchange-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>The Corpora They Are a-Changing: a Case Study in <fixed-case>I</fixed-case>talian Newspapers</title>
+      <author><first>Pierpaolo</first><last>Basile</last></author>
+      <author><first>Annalina</first><last>Caputo</last></author>
+      <author><first>Tommaso</first><last>Caselli</last></author>
+      <author><first>Pierluigi</first><last>Cassotti</last></author>
+      <author><first>Rossella</first><last>Varvara</last></author>
+      <pages>14–20</pages>
+      <abstract>The use of automatic methods for the study of lexical semantic change (LSC) has led to the creation of evaluation benchmarks. Benchmark datasets, however, are intimately tied to the corpus used for their creation questioning their reliability as well as the robustness of automatic methods. This contribution investigates these aspects showing the impact of unforeseen social and cultural dimensions. We also identify a set of additional issues (OCR quality, named entities) that impact the performance of the automatic methods, especially when used to discover LSC.</abstract>
+      <url hash="2258bb44">2021.lchange-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Linguistic change and historical periodization of Old Literary <fixed-case>F</fixed-case>innish</title>
+      <author><first>Niko</first><last>Partanen</last></author>
+      <author><first>Khalid</first><last>Alnajjar</last></author>
+      <author><first>Mika</first><last>Hämäläinen</last></author>
+      <author><first>Jack</first><last>Rueter</last></author>
+      <pages>21–27</pages>
+      <abstract>In this study, we have normalized and lemmatized an Old Literary Finnish corpus using a lemmatization model trained on texts from Agricola. We analyse the error types that occur and appear in different decades, and use word error rate (WER) and different error types as a proxy for measuring linguistic innovation and change. We show that the proposed approach works, and the errors are connected to accumulating changes and innovations, which also results in a continuous decrease in the accuracy of the model. The described error types also guide further work in improving these models, and document the currently observed issues. We also have trained word embeddings for four centuries of lemmatized Old Literary Finnish, which are available on Zenodo.</abstract>
+      <url hash="20d2a861">2021.lchange-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>A diachronic evaluation of gender asymmetry in euphemism</title>
+      <author><first>Anna</first><last>Kapron-King</last></author>
+      <author><first>Yang</first><last>Xu</last></author>
+      <pages>28–38</pages>
+      <abstract>The use of euphemisms is a known driver of language change. It has been proposed that women use euphemisms more than men. Although there have been several studies investigating gender differences in language, the claim about euphemism usage has not been tested comprehensively through time. If women do use euphemisms more, this could mean that women also lead the formation of new euphemisms and language change over time. Using four large diachronic text corpora of English, we evaluate the claim that women use euphemisms more than men through a quantitative analysis. We assembled a list of 106 euphemism-taboo pairs to analyze their relative use through time by each gender in the corpora. Contrary to the existing belief, our results show that women do not use euphemisms with a higher proportion than men. We repeated the analysis using different subsets of the euphemism-taboo pairs list and found that our result was robust. Our study indicates that in a broad range of settings involving both speech and writing, and with varying degrees of formality, women do not use or form euphemisms more than men.</abstract>
+      <url hash="64074e62">2021.lchange-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>The <fixed-case>GLAU</fixed-case>x corpus: methodological issues in designing a long-term, diverse, multi-layered corpus of <fixed-case>A</fixed-case>ncient <fixed-case>G</fixed-case>reek</title>
+      <author><first>Alek</first><last>Keersmaekers</last></author>
+      <pages>39–50</pages>
+      <abstract>This paper describes the GLAUx project (“the Greek Language Automated”), an ongoing effort to develop a large long-term diachronic corpus of Greek, covering sixteen centuries of literary and non-literary material annotated with NLP methods. After providing an overview of related corpus projects and discussing the general architecture of the corpus, it zooms in on a number of larger methodological issues in the design of historical corpora. These include the encoding of textual variants, handling extralinguistic variation and annotating linguistic ambiguity. Finally, the long- and short-term perspectives of this project are discussed.</abstract>
+      <url hash="7f23b9bf">2021.lchange-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Bhāṣācitra: Visualising the dialect geography of <fixed-case>S</fixed-case>outh <fixed-case>A</fixed-case>sia</title>
+      <author><first>Aryaman</first><last>Arora</last></author>
+      <author><first>Adam</first><last>Farris</last></author>
+      <author><first>Gopalakrishnan</first><last>R</last></author>
+      <author><first>Samopriya</first><last>Basu</last></author>
+      <pages>51–57</pages>
+      <abstract>We present Bhāṣācitra, a dialect mapping system for South Asia built on a database of linguistic studies of languages of the region annotated for topic and location data. We analyse language coverage and look towards applications to typology by visualising example datasets. The application is not only meant to be useful for feature mapping, but also serves as a new kind of interactive bibliography for linguists of South Asian languages.</abstract>
+      <url hash="8df779b2">2021.lchange-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Modeling the Evolution of Word Senses with Force-Directed Layouts of Co-occurrence Networks</title>
+      <author><first>Tim</first><last>Reke</last></author>
+      <author><first>Robert</first><last>Schwanhold</last></author>
+      <author><first>Ralf</first><last>Krestel</last></author>
+      <pages>58–63</pages>
+      <abstract>Languages evolve over time and the meaning of words can shift. Furthermore, individual words can have multiple senses. However, existing language models often only reflect one word sense per word and do not reflect semantic changes over time. While there are language models that can either model semantic change of words or multiple word senses, none of them cover both aspects simultaneously. We propose a novel force-directed graph layout algorithm to draw a network of frequently co-occurring words. In this way, we are able to use the drawn graph to visualize the evolution of word senses. In addition, we hope that jointly modeling semantic change and multiple senses of words results in improvements for the individual tasks.</abstract>
+      <url hash="31817be4">2021.lchange-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Tracking Semantic Change in Cognate Sets for <fixed-case>E</fixed-case>nglish and <fixed-case>R</fixed-case>omance Languages</title>
+      <author><first>Ana Sabina</first><last>Uban</last></author>
+      <author><first>Alina Maria</first><last>Cristea</last></author>
+      <author><first>Anca</first><last>Dinu</last></author>
+      <author><first>Liviu P.</first><last>Dinu</last></author>
+      <author><first>Simona</first><last>Georgescu</last></author>
+      <author><first>Laurentiu</first><last>Zoicas</last></author>
+      <pages>64–74</pages>
+      <abstract>Semantic divergence in related languages is a key concern of historical linguistics. We cross-linguistically investigate the semantic divergence of cognate pairs in English and Romance languages, by means of word embeddings. To this end, we introduce a new curated dataset of cognates in all pairs of those languages. We describe the types of errors that occurred during the automated cognate identification process and manually correct them. Additionally, we label the English cognates according to their etymology, separating them into two groups: old borrowings and recent borrowings. On this curated dataset, we analyse word properties such as frequency and polysemy, and the distribution of similarity scores between cognate sets in different languages. We automatically identify different clusters of English cognates, setting a new direction of research in cognates, borrowings and possibly false friends analysis in related languages.</abstract>
+      <url hash="3b8ae280">2021.lchange-1.9</url>
+    </paper>
+  </volume>
+</collection>

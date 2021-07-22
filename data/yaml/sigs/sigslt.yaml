@@ -2,5 +2,7 @@ Name: Special Interest Group on Spoken Language Translation
 ShortName: SIGSLT
 URL: https://iwslt.org/sigslt/
 Meetings:
+  - 2021:
+    - 2021.iwslt-1 # Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)
   - 2020:
     - 2020.iwslt-1

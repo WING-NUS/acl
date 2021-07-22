@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.iwpt">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)</booktitle>
+      <editor><first>Stephan</first><last>Oepen</last></editor>
+      <editor><first>Kenji</first><last>Sagae</last></editor>
+      <editor><first>Reut</first><last>Tsarfaty</last></editor>
+      <editor><first>Gosse</first><last>Bouma</last></editor>
+      <editor><first>Djam\'e</first><last>Seddah</last></editor>
+      <editor><first>Daniel</first><last>Zeman</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="05bb805f">2021.iwpt-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="bbff3db1">2021.iwpt-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Generic Oracles for Structured Prediction</title>
+      <author><first>Christoph</first><last>Teichmann</last></author>
+      <author><first>Antoine</first><last>Venant</last></author>
+      <pages>1–12</pages>
+      <abstract>When learned without exploration, local models for structured prediction tasks are subject to exposure bias and cannot be trained without detailed guidance. Active Imitation Learning (AIL), also known in NLP as Dynamic Oracle Learning, is a general technique for working around these issues by allowing the exploration of different outputs at training time. AIL requires oracle feedback: an oracle is any algorithm which can, given a partial candidate solution and gold annotation, find the correct (minimum loss) next output to produce. This paper describes a general finite state technique for deriving oracles. The technique describe is also efficient and will greatly expand the tasks for which AIL can be used.</abstract>
+      <url hash="a56615a1">2021.iwpt-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Proof Net Structure for Neural <fixed-case>L</fixed-case>ambek Categorial Parsing</title>
+      <author><first>Aditya</first><last>Bhargava</last></author>
+      <author><first>Gerald</first><last>Penn</last></author>
+      <pages>13–25</pages>
+      <abstract>In this paper, we present the first statistical parser for Lambek categorial grammar (LCG), a grammatical formalism for which the graphical proof method known as *proof nets* is applicable. Our parser incorporates proof net structure and constraints into a system based on self-attention networks via novel model elements. Our experiments on an English LCG corpus show that incorporating term graph structure is helpful to the model, improving both parsing accuracy and coverage. Moreover, we derive novel loss functions by expressing proof net constraints as differentiable functions of our model output, enabling us to train our parser without ground-truth derivations.</abstract>
+      <url hash="8f35dfd0">2021.iwpt-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>The Reading Machine: A Versatile Framework for Studying Incremental Parsing Strategies</title>
+      <author><first>Franck</first><last>Dary</last></author>
+      <author><first>Alexis</first><last>Nasr</last></author>
+      <pages>26–37</pages>
+      <abstract>The Reading Machine, is a parsing framework that takes as input raw text and performs six standard nlp tasks: tokenization, pos tagging, morphological analysis, lemmatization, dependency parsing and sentence segmentation. It is built upon Transition Based Parsing, and allows to implement a large number of parsing configurations, among which a fully incremental one. Three case studies are presented to highlight the versatility of the framework. The first one explores whether an incremental parser is able to take into account top-down dependencies (i.e. the influence of high level decisions on low level ones), the second compares the performances of an incremental and a pipe-line architecture and the third quantifies the impact of the right context on the predictions made by an incremental parser.</abstract>
+      <url hash="8d33e21f">2021.iwpt-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Semi-Automatic Construction of Text-to-<fixed-case>SQL</fixed-case> Data for Domain Transfer</title>
+      <author><first>Tianyi</first><last>Li</last></author>
+      <author><first>Sujian</first><last>Li</last></author>
+      <author><first>Mark</first><last>Steedman</last></author>
+      <pages>38–49</pages>
+      <abstract>Strong and affordable in-domain data is a desirable asset when transferring trained semantic parsers to novel domains. As previous methods for semi-automatically constructing such data cannot handle the complexity of realistic SQL queries, we propose to construct SQL queries via context-dependent sampling, and introduce the concept of topic. Along with our SQL query construction method, we propose a novel pipeline of semi-automatic Text-to-SQL dataset construction that covers the broad space of SQL queries. We show that the created dataset is comparable with expert annotation along multiple dimensions, and is capable of improving domain transfer performance for SOTA semantic parsers.</abstract>
+      <url hash="e79eec90">2021.iwpt-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Levi Graph <fixed-case>AMR</fixed-case> Parser using Heterogeneous Attention</title>
+      <author><first>Han</first><last>He</last></author>
+      <author><first>Jinho D.</first><last>Choi</last></author>
+      <pages>50–57</pages>
+      <abstract>Coupled with biaffine decoders, transformers have been effectively adapted to text-to-graph transduction and achieved state-of-the-art performance on AMR parsing. Many prior works, however, rely on the biaffine decoder for either or both arc and label predictions although most features used by the decoder may be learned by the transformer already. This paper presents a novel approach to AMR parsing by combining heterogeneous data (tokens, concepts, labels) as one input to a transformer to learn attention, and use only attention matrices from the transformer to predict all elements in AMR graphs (concepts, arcs, labels). Although our models use significantly fewer parameters than the previous state-of-the-art graph parser, they show similar or better accuracy on AMR 2.0 and 3.0.</abstract>
+      <url hash="4c335237">2021.iwpt-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Translate, then Parse! A Strong Baseline for Cross-Lingual <fixed-case>AMR</fixed-case> Parsing</title>
+      <author><first>Sarah</first><last>Uhrig</last></author>
+      <author><first>Yoalli</first><last>Garcia</last></author>
+      <author><first>Juri</first><last>Opitz</last></author>
+      <author><first>Anette</first><last>Frank</last></author>
+      <pages>58–64</pages>
+      <abstract>In cross-lingual Abstract Meaning Representation (AMR) parsing, researchers develop models that project sentences from various languages onto their AMRs to capture their essential semantic structures: given a sentence in any language, we aim to capture its core semantic content through concepts connected by manifold types of semantic relations. Methods typically leverage large silver training data to learn a single model that is able to project non-English sentences to AMRs. However, we find that a simple baseline tends to be overlooked: translating the sentences to English and projecting their AMR with a monolingual AMR parser (translate+parse,T+P). In this paper, we revisit this simple two-step base-line, and enhance it with a strong NMT system and a strong AMR parser. Our experiments show that T+P outperforms a recent state-of-the-art system across all tested languages: German, Italian, Spanish and Mandarin with +14.6, +12.6, +14.3 and +16.0 Smatch points</abstract>
+      <url hash="4b4b2b70">2021.iwpt-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Great Service! Fine-grained Parsing of Implicit Arguments</title>
+      <author><first>Ruixiang</first><last>Cui</last></author>
+      <author><first>Daniel</first><last>Hershcovich</last></author>
+      <pages>65–77</pages>
+      <abstract>Broad-coverage meaning representations in NLP mostly focus on explicitly expressed content. More importantly, the scarcity of datasets annotating diverse implicit roles limits empirical studies into their linguistic nuances. For example, in the web review “Great service!”, the provider and consumer are implicit arguments of different types. We examine an annotated corpus of fine-grained implicit arguments (Cui and Hershcovich, 2020) by carefully re-annotating it, resolving several inconsistencies. Subsequently, we present the first transition-based neural parser that can handle implicit arguments dynamically, and experiment with two different transition systems on the improved dataset. We find that certain types of implicit arguments are more difficult to parse than others and that the simpler system is more accurate in recovering implicit arguments, despite having a lower overall parsing score, attesting current reasoning limitations of NLP models. This work will facilitate a better understanding of implicit and underspecified language, by incorporating it holistically into meaning representations.</abstract>
+      <url hash="91b5dd68">2021.iwpt-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>A Falta de Pan, Buenas Son Tortas: The Efficacy of Predicted <fixed-case>UPOS</fixed-case> Tags for Low Resource <fixed-case>UD</fixed-case> Parsing</title>
+      <author><first>Mark</first><last>Anderson</last></author>
+      <author><first>Mathieu</first><last>Dehouck</last></author>
+      <author><first>Carlos</first><last>Gómez-Rodríguez</last></author>
+      <pages>78–83</pages>
+      <abstract>We evaluate the efficacy of predicted UPOS tags as input features for dependency parsers in lower resource settings to evaluate how treebank size affects the impact tagging accuracy has on parsing performance. We do this for real low resource universal dependency treebanks, artificially low resource data with varying treebank sizes, and for very small treebanks with varying amounts of augmented data. We find that predicted UPOS tags are somewhat helpful for low resource treebanks, especially when fewer fully-annotated trees are available. We also find that this positive impact diminishes as the amount of data increases.</abstract>
+      <url hash="dbd1e8db">2021.iwpt-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Multilingual Dependency Parsing for Low-Resource <fixed-case>A</fixed-case>frican Languages: Case Studies on <fixed-case>B</fixed-case>ambara, <fixed-case>W</fixed-case>olof, and <fixed-case>Y</fixed-case>oruba</title>
+      <author><first>Cheikh M. Bamba</first><last>Dione</last></author>
+      <pages>84–92</pages>
+      <abstract>This paper describes a methodology for syntactic knowledge transfer between high-resource languages to extremely low-resource languages. The methodology consists in leveraging multilingual BERT self-attention model pretrained on large datasets to develop a multilingual multi-task model that can predict Universal Dependencies annotations for three African low-resource languages. The UD annotations include universal part-of-speech, morphological features, lemmas, and dependency trees. In our experiments, we used multilingual word embeddings and a total of 11 Universal Dependencies treebanks drawn from three high-resource languages (English, French, Norwegian) and three low-resource languages (Bambara, Wolof and Yoruba). We developed various models to test specific language combinations involving contemporary contact languages or genetically related languages. The results of the experiments show that multilingual models that involve high-resource languages and low-resource languages with contemporary contact between each other can provide better results than combinations that only include unrelated languages. As far genetic relationships are concerned, we could not draw any conclusion regarding the impact of language combinations involving the selected low-resource languages, namely Wolof and Yoruba.</abstract>
+      <url hash="b63a84ca">2021.iwpt-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Bidirectional Domain Adaptation Using Weighted Multi-Task Learning</title>
+      <author><first>Daniel</first><last>Dakota</last></author>
+      <author><first>Zeeshan Ali</first><last>Sayyed</last></author>
+      <author><first>Sandra</first><last>Kübler</last></author>
+      <pages>93–105</pages>
+      <abstract>Domain adaption in syntactic parsing is still a significant challenge. We address the issue of data imbalance between the in-domain and out-of-domain treebank typically used for the problem. We define domain adaptation as a Multi-task learning (MTL) problem, which allows us to train two parsers, one for each do-main. Our results show that the MTL approach is beneficial for the smaller treebank. For the larger treebank, we need to use loss weighting in order to avoid a decrease in performance be-low the single task. In order to determine towhat degree the data imbalance between two domains and the domain differences affect results, we also carry out an experiment with two imbalanced in-domain treebanks and show that loss weighting also improves performance in an in-domain setting. Given loss weighting in MTL, we can improve results for both parsers.</abstract>
+      <url hash="6227bb0d">2021.iwpt-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Strength in Numbers: Averaging and Clustering Effects in Mixture of Experts for Graph-Based Dependency Parsing</title>
+      <author><first>Xudong</first><last>Zhang</last></author>
+      <author><first>Joseph</first><last>Le Roux</last></author>
+      <author><first>Thierry</first><last>Charnois</last></author>
+      <pages>106–118</pages>
+      <abstract>We review two features of mixture of experts (MoE) models which we call averaging and clustering effects in the context of graph-based dependency parsers learned in a supervised probabilistic framework. Averaging corresponds to the ensemble combination of parsers and is responsible for variance reduction which helps stabilizing and improving parsing accuracy. Clustering describes the capacity of MoE models to give more credit to experts believed to be more accurate given an input. Although promising, this is difficult to achieve, especially without additional data. We design an experimental set-up to study the impact of these effects. Whereas averaging is always beneficial, clustering requires good initialization and stabilization techniques, but its advantages over mere averaging seem to eventually vanish when enough experts are present. As a by product, we show how this leads to state-of-the-art results on the PTB and the CoNLL09 Chinese treebank, with low variance across experiments.</abstract>
+      <url hash="c446200d">2021.iwpt-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>A Modest <fixed-case>P</fixed-case>areto Optimisation Analysis of Dependency Parsers in 2021</title>
+      <author><first>Mark</first><last>Anderson</last></author>
+      <author><first>Carlos</first><last>Gómez-Rodríguez</last></author>
+      <pages>119–130</pages>
+      <abstract>We evaluate three leading dependency parser systems from different paradigms on a small yet diverse subset of languages in terms of their accuracy-efficiency Pareto front. As we are interested in efficiency, we evaluate core parsers without pretrained language models (as these are typically huge networks and would constitute most of the compute time) or other augmentations that can be transversally applied to any of them. Biaffine parsing emerges as a well-balanced default choice, with sequence-labelling parsing being preferable if inference speed (but not training energy cost) is the priority.</abstract>
+      <url hash="e6dd2d87">2021.iwpt-1.12</url>
+    </paper>
+    <paper id="13">
+      <title>Applying Occam’s Razor to Transformer-Based Dependency Parsing: What Works, What Doesn’t, and What is Really Necessary</title>
+      <author><first>Stefan</first><last>Grünewald</last></author>
+      <author><first>Annemarie</first><last>Friedrich</last></author>
+      <author><first>Jonas</first><last>Kuhn</last></author>
+      <pages>131–144</pages>
+      <abstract>The introduction of pre-trained transformer-based contextualized word embeddings has led to considerable improvements in the accuracy of graph-based parsers for frameworks such as Universal Dependencies (UD). However, previous works differ in various dimensions, including their choice of pre-trained language models and whether they use LSTM layers. With the aims of disentangling the effects of these choices and identifying a simple yet widely applicable architecture, we introduce STEPS, a new modular graph-based dependency parser. Using STEPS, we perform a series of analyses on the UD corpora of a diverse set of languages. We find that the choice of pre-trained embeddings has by far the greatest impact on parser performance and identify XLM-R as a robust choice across the languages in our study. Adding LSTM layers provides no benefits when using transformer-based embeddings. A multi-task training setup outputting additional UD features may contort results. Taking these insights together, we propose a simple but widely applicable parser architecture and configuration, achieving new state-of-the-art results (in terms of LAS) for 10 out of 12 diverse languages.</abstract>
+      <url hash="32ddd303">2021.iwpt-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Incorporating Compositionality and Morphology into End-to-End Models</title>
+      <author><first>Emily</first><last>Pitler</last></author>
+      <pages>145</pages>
+      <abstract>Many neural end-to-end systems today do not rely on syntactic parse trees, as much of the information that parse trees provide is encoded in the parameters of pretrained models. Lessons learned from parsing technologies and from taking a multilingual perspective, however, are still relevant even for end-to-end models. This talk will describe work that relies on compositionality in semantic parsing and in reading comprehension requiring numerical reasoning. We’ll then describe a new dataset that requires advances in multilingual modeling, and some approaches designed to better model morphology than off-the-shelf subword models that make some progress on these challenges.</abstract>
+      <url hash="dee1135b">2021.iwpt-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>From Raw Text to Enhanced <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies: The Parsing Shared Task at <fixed-case>IWPT</fixed-case> 2021</title>
+      <author><first>Gosse</first><last>Bouma</last></author>
+      <author><first>Djamé</first><last>Seddah</last></author>
+      <author><first>Daniel</first><last>Zeman</last></author>
+      <pages>146–157</pages>
+      <abstract>We describe the second IWPT task on end-to-end parsing from raw text to Enhanced Universal Dependencies. We provide details about the evaluation metrics and the datasets used for training and evaluation. We compare the approaches taken by participating teams and discuss the results of the shared task, also in comparison with the first edition of this task.</abstract>
+      <url hash="cf9056a2">2021.iwpt-1.15</url>
+    </paper>
+    <paper id="16">
+      <title><fixed-case>COMBO</fixed-case>: A New Module for <fixed-case>EUD</fixed-case> Parsing</title>
+      <author><first>Mateusz</first><last>Klimaszewski</last></author>
+      <author><first>Alina</first><last>Wróblewska</last></author>
+      <pages>158–166</pages>
+      <abstract>We introduce the COMBO-based approach for EUD parsing and its implementation, which took part in the IWPT 2021 EUD shared task. The goal of this task is to parse raw texts in 17 languages into Enhanced Universal Dependencies (EUD). The proposed approach uses COMBO to predict UD trees and EUD graphs. These structures are then merged into the final EUD graphs. Some EUD edge labels are extended with case information using a single language-independent expansion rule. In the official evaluation, the solution ranked fourth, achieving an average ELAS of 83.79%. The source code is available at https://gitlab.clarin-pl.eu/syntactic-tools/combo.</abstract>
+      <url hash="922fdc8d">2021.iwpt-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Splitting <fixed-case>EUD</fixed-case> Graphs into Trees: A Quick and Clatty Approach</title>
+      <author><first>Mark</first><last>Anderson</last></author>
+      <author><first>Carlos</first><last>Gómez-Rodríguez</last></author>
+      <pages>167–174</pages>
+      <abstract>We present the system submission from the FASTPARSE team for the EUD Shared Task at IWPT 2021. We engaged in the task last year by focusing on efficiency. This year we have focused on experimenting with new ideas on a limited time budget. Our system is based on splitting the EUD graph into several trees, based on linguistic criteria. We predict these trees using a sequence-labelling parser and combine them into an EUD graph. The results were relatively poor, although not a total disaster and could probably be improved with some polishing of the system’s rough edges.</abstract>
+      <url hash="3798df83">2021.iwpt-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>Graph Rewriting for Enhanced <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependencies</title>
+      <author><first>Bruno</first><last>Guillaume</last></author>
+      <author><first>Guy</first><last>Perrier</last></author>
+      <pages>175–183</pages>
+      <abstract>This paper describes a system proposed for the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (EUD). We propose a Graph Rewriting based system for computing Enhanced Universal Dependencies, given the Basic Universal Dependencies (UD).</abstract>
+      <url hash="3292791d">2021.iwpt-1.18</url>
+    </paper>
+    <paper id="19">
+      <title>Biaffine Dependency and Semantic Graph Parsing for <fixed-case>E</fixed-case>nhanced<fixed-case>U</fixed-case>niversal Dependencies</title>
+      <author><first>Giuseppe</first><last>Attardi</last></author>
+      <author><first>Daniele</first><last>Sartiano</last></author>
+      <author><first>Maria</first><last>Simi</last></author>
+      <pages>184–188</pages>
+      <abstract>This paper presents the system used in our submission to the <i>IWPT 2021 Shared Task</i>. This year the official evaluation metrics was ELAS, therefore dependency parsing might have been avoided as well as other pipeline stages like POS tagging and lemmatization. We nevertheless chose to deploy a combination of a dependency parser and a graph parser. The dependency parser is a biaffine parser, that uses transformers for representing input sentences, with no other feature. The graph parser is a semantic parser that exploits a similar architecture except for using a sigmoid crossentropy loss function to return multiple values for the predicted arcs. The final output is obtained by merging the output of the two parsers. The dependency parser achieves top or close to top LAS performance with respect to other systems that report results on such metrics, except on low resource languages (Tamil, Estonian, Latvian).</abstract>
+      <url hash="3262b981">2021.iwpt-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Enhanced <fixed-case>U</fixed-case>niversal <fixed-case>D</fixed-case>ependency Parsing with Automated Concatenation of Embeddings</title>
+      <author><first>Xinyu</first><last>Wang</last></author>
+      <author><first>Zixia</first><last>Jia</last></author>
+      <author><first>Yong</first><last>Jiang</last></author>
+      <author><first>Kewei</first><last>Tu</last></author>
+      <pages>189–195</pages>
+      <abstract>This paper describe the system used in our submission to the <i>IWPT 2021 Shared Task</i>. Our system is a graph-based parser with the technique of Automated Concatenation of Embeddings (ACE). Because recent work found that better word representations can be obtained by concatenating different types of embeddings, we use ACE to automatically find the better concatenation of embeddings for the task of enhanced universal dependencies. According to official results averaged on 17 languages, our system rank 2nd over 9 teams.</abstract>
+      <url hash="3265d13d">2021.iwpt-1.20</url>
+    </paper>
+    <paper id="21">
+      <title><fixed-case>R</fixed-case>obert<fixed-case>NLP</fixed-case> at the <fixed-case>IWPT</fixed-case> 2021 Shared Task: Simple Enhanced <fixed-case>UD</fixed-case> Parsing for 17 Languages</title>
+      <author><first>Stefan</first><last>Grünewald</last></author>
+      <author><first>Frederik Tobias</first><last>Oertel</last></author>
+      <author><first>Annemarie</first><last>Friedrich</last></author>
+      <pages>196–203</pages>
+      <abstract>This paper presents our multilingual dependency parsing system as used in the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies. Our system consists of an unfactorized biaffine classifier that operates directly on fine-tuned XLM-R embeddings and generates enhanced UD graphs by predicting the best dependency label (or absence of a dependency) for each pair of tokens. To avoid sparsity issues resulting from lexicalized dependency labels, we replace lexical items in relations with placeholders at training and prediction time, later retrieving them from the parse via a hybrid rule-based/machine-learning system. In addition, we utilize model ensembling at prediction time. Our system achieves high parsing accuracy on the blind test data, ranking 3rd out of 9 with an average ELAS F1 score of 86.97.</abstract>
+      <url hash="477cec25">2021.iwpt-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>The <fixed-case>DCU</fixed-case>-<fixed-case>EPFL</fixed-case> Enhanced Dependency Parser at the <fixed-case>IWPT</fixed-case> 2021 Shared Task</title>
+      <author><first>James</first><last>Barry</last></author>
+      <author><first>Alireza</first><last>Mohammadshahi</last></author>
+      <author><first>Joachim</first><last>Wagner</last></author>
+      <author><first>Jennifer</first><last>Foster</last></author>
+      <author><first>James</first><last>Henderson</last></author>
+      <pages>204–212</pages>
+      <abstract>We describe the DCU-EPFL submission to the IWPT 2021 Parsing Shared Task: From Raw Text to Enhanced Universal Dependencies. The task involves parsing Enhanced UD graphs, which are an extension of the basic dependency trees designed to be more facilitative towards representing semantic structure. Evaluation is carried out on 29 treebanks in 17 languages and participants are required to parse the data from each language starting from raw strings. Our approach uses the Stanza pipeline to preprocess the text files, XLM-RoBERTa to obtain contextualized token representations, and an edge-scoring and labeling model to predict the enhanced graph. Finally, we run a postprocessing script to ensure all of our outputs are valid Enhanced UD graphs. Our system places 6th out of 9 participants with a coarse Enhanced Labeled Attachment Score (ELAS) of 83.57. We carry out additional post-deadline experiments which include using Trankit for pre-processing, XLM-RoBERTa LARGE, treebank concatenation, and multitask learning between a basic and an enhanced dependency parser. All of these modifications improve our initial score and our final system has a coarse ELAS of 88.04.</abstract>
+      <url hash="bc0dc6e3">2021.iwpt-1.22</url>
+    </paper>
+    <paper id="23">
+      <title><fixed-case>TGIF</fixed-case>: Tree-Graph Integrated-Format Parser for Enhanced <fixed-case>UD</fixed-case> with Two-Stage Generic- to Individual-Language Finetuning</title>
+      <author><first>Tianze</first><last>Shi</last></author>
+      <author><first>Lillian</first><last>Lee</last></author>
+      <pages>213–224</pages>
+      <abstract>We present our contribution to the IWPT 2021 shared task on parsing into enhanced Universal Dependencies. Our main system component is a hybrid tree-graph parser that integrates (a) predictions of spanning trees for the enhanced graphs with (b) additional graph edges not present in the spanning trees. We also adopt a finetuning strategy where we first train a language-generic parser on the concatenation of data from all available languages, and then, in a second step, finetune on each individual language separately. Additionally, we develop our own complete set of pre-processing modules relevant to the shared task, including tokenization, sentence segmentation, and multiword token expansion, based on pre-trained XLM-R models and our own pre-training of character-level language models. Our submission reaches a macro-average ELAS of 89.24 on the test set. It ranks top among all teams, with a margin of more than 2 absolute ELAS over the next best-performing submission, and best score on 16 out of 17 languages.</abstract>
+      <url hash="5f36b301">2021.iwpt-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>End-to-end m<fixed-case>BERT</fixed-case> based Seq2seq Enhanced Dependency Parser with Linguistic Typology knowledge</title>
+      <author><first>Chinmay</first><last>Choudhary</last></author>
+      <author><first>Colm</first><last>O’riordan</last></author>
+      <pages>225–232</pages>
+      <abstract>We describe the NUIG solution for IWPT 2021 Shared Task of Enhanced Dependency (ED) parsing in multiple languages. For this shared task, we propose and evaluate an End-to-end Seq2seq mBERT-based ED parser which predicts the ED-parse tree of a given input sentence as a relative head-position tag-sequence. Our proposed model is a multitasking neural-network which performs five key tasks simultaneously namely UPOS tagging, UFeat tagging, Lemmatization, Dependency-parsing and ED-parsing. Furthermore we utilise the linguistic typology available in the WALS database to improve the ability of our proposed end-to-end parser to transfer across languages. Results show that our proposed Seq2seq ED-parser performs on par with state-of-the-art ED-parser despite having a much simpler de- sign.</abstract>
+      <url hash="c3dffc51">2021.iwpt-1.24</url>
+    </paper>
+  </volume>
+</collection>

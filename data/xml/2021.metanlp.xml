@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.metanlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 1st Workshop on Meta Learning and Its Applications to Natural Language Processing</booktitle>
+      <editor><first>Hung-Yi</first><last>Lee</last></editor>
+      <editor><first>Mitra</first><last>Mohtarami</last></editor>
+      <editor><first>Shang-Wen</first><last>Li</last></editor>
+      <editor><first>Di</first><last>Jin</last></editor>
+      <editor><first>Mandy</first><last>Korpusik</last></editor>
+      <editor><first>Shuyan</first><last>Dong</last></editor>
+      <editor><first>Ngoc Thang</first><last>Vu</last></editor>
+      <editor><first>Dilek</first><last>Hakkani-Tur</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="bf151e3d">2021.metanlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="147313a8">2021.metanlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Meta-Reinforcement Learning for Mastering Multiple Skills and Generalizing across Environments in Text-based Games</title>
+      <author><first>Zhenjie</first><last>Zhao</last></author>
+      <author><first>Mingfei</first><last>Sun</last></author>
+      <author><first>Xiaojuan</first><last>Ma</last></author>
+      <pages>1–10</pages>
+      <abstract>Text-based games can be used to develop task-oriented text agents for accomplishing tasks with high-level language instructions, which has potential applications in domains such as human-robot interaction. Given a text instruction, reinforcement learning is commonly used to train agents to complete the intended task owing to its convenience of learning policies automatically. However, because of the large space of combinatorial text actions, learning a policy network that generates an action word by word with reinforcement learning is challenging. Recent research works show that imitation learning provides an effective way of training a generation-based policy network. However, trained agents with imitation learning are hard to master a wide spectrum of task types or skills, and it is also difficult for them to generalize to new environments. In this paper, we propose a meta reinforcement learning based method to train text agents through learning-to-explore. In particular, the text agent first explores the environment to gather task-specific information and then adapts the execution policy for solving the task with this information. On the publicly available testbed ALFWorld, we conducted a comparison study with imitation learning and show the superiority of our method.</abstract>
+      <url hash="1c16cbc8">2021.metanlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Soft Layer Selection with Meta-Learning for Zero-Shot Cross-Lingual Transfer</title>
+      <author><first>Weijia</first><last>Xu</last></author>
+      <author><first>Batool</first><last>Haider</last></author>
+      <author><first>Jason</first><last>Krone</last></author>
+      <author><first>Saab</first><last>Mansour</last></author>
+      <pages>11–18</pages>
+      <abstract>Multilingual pre-trained contextual embedding models (Devlin et al., 2019) have achieved impressive performance on zero-shot cross-lingual transfer tasks. Finding the most effective fine-tuning strategy to fine-tune these models on high-resource languages so that it transfers well to the zero-shot languages is a non-trivial task. In this paper, we propose a novel meta-optimizer to soft-select which layers of the pre-trained model to freeze during fine-tuning. We train the meta-optimizer by simulating the zero-shot transfer scenario. Results on cross-lingual natural language inference show that our approach improves over the simple fine-tuning baseline and X-MAML (Nooralahzadeh et al., 2020).</abstract>
+      <url hash="9fa10dd3">2021.metanlp-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Zero-Shot Compositional Concept Learning</title>
+      <author><first>Guangyue</first><last>Xu</last></author>
+      <author><first>Parisa</first><last>Kordjamshidi</last></author>
+      <author><first>Joyce</first><last>Chai</last></author>
+      <pages>19–27</pages>
+      <abstract>In this paper, we study the problem of recognizing compositional attribute-object concepts within the zero-shot learning (ZSL) framework. We propose an episode-based cross-attention (EpiCA) network which combines merits of cross-attention mechanism and episode-based training strategy to recognize novel compositional concepts. Firstly, EpiCA bases on cross-attention to correlate conceptvisual information and utilizes the gated pooling layer to build contextualized representations for both images and concepts. The updated representations are used for a more indepth multi-modal relevance calculation for concept recognition. Secondly, a two-phase episode training strategy, especially the ransductive phase, is adopted to utilize unlabeled test examples to alleviate the low-resource learning problem. Experiments on two widelyused zero-shot compositional learning (ZSCL) benchmarks have demonstrated the effectiveness of the model compared with recent approaches on both conventional and generalized ZSCL settings.</abstract>
+      <url hash="86f04ae6">2021.metanlp-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Multi-Pair Text Style Transfer for Unbalanced Data via Task-Adaptive Meta-Learning</title>
+      <author><first>Xing</first><last>Han</last></author>
+      <author><first>Jessica</first><last>Lundin</last></author>
+      <pages>28–35</pages>
+      <abstract>Text-style transfer aims to convert text given in one domain into another by paraphrasing the sentence or substituting the keywords without altering the content. By necessity, state-of-the-art methods have evolved to accommodate nonparallel training data, as it is frequently the case there are multiple data sources of unequal size, with a mixture of labeled and unlabeled sentences. Moreover, the inherent style defined within each source might be distinct. A generic bidirectional (e.g., formal <tex-math>\Leftrightarrow</tex-math> informal) style transfer regardless of different groups may not generalize well to different applications. In this work, we developed a task adaptive meta-learning framework that can simultaneously perform a multi-pair text-style transfer using a single model. The proposed method can adaptively balance the difference of meta-knowledge across multiple tasks. Results show that our method leads to better quantitative performance as well as coherent style variations. Common challenges of unbalanced data and mismatched domains are handled well by this method.</abstract>
+      <url hash="263e90e1">2021.metanlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>On the cross-lingual transferability of multilingual prototypical models across <fixed-case>NLU</fixed-case> tasks</title>
+      <author><first>Oralie</first><last>Cattan</last></author>
+      <author><first>Sophie</first><last>Rosset</last></author>
+      <author><first>Christophe</first><last>Servan</last></author>
+      <pages>36–43</pages>
+      <abstract>Supervised deep learning-based approaches have been applied to task-oriented dialog and have proven to be effective for limited domain and language applications when a sufficient number of training examples are available. In practice, these approaches suffer from the drawbacks of domain-driven design and under-resourced languages. Domain and language models are supposed to grow and change as the problem space evolves. On one hand, research on transfer learning has demonstrated the cross-lingual ability of multilingual Transformers-based models to learn semantically rich representations. On the other, in addition to the above approaches, meta-learning have enabled the development of task and language learning algorithms capable of far generalization. Through this context, this article proposes to investigate the cross-lingual transferability of using synergistically few-shot learning with prototypical neural networks and multilingual Transformers-based models. Experiments in natural language understanding tasks on MultiATIS++ corpus shows that our approach substantially improves the observed transfer learning performances between the low and the high resource languages. More generally our approach confirms that the meaningful latent space learned in a given language can be can be generalized to unseen and under-resourced ones using meta-learning.</abstract>
+      <url hash="e2dc8e45">2021.metanlp-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Meta-Learning for Few-Shot Named Entity Recognition</title>
+      <author><first>Cyprien</first><last>de Lichy</last></author>
+      <author><first>Hadrien</first><last>Glaude</last></author>
+      <author><first>William</first><last>Campbell</last></author>
+      <pages>44–58</pages>
+      <abstract>Meta-learning has recently been proposed to learn models and algorithms that can generalize from a handful of examples. However, applications to structured prediction and textual tasks pose challenges for meta-learning algorithms. In this paper, we apply two meta-learning algorithms, Prototypical Networks and Reptile, to few-shot Named Entity Recognition (NER), including a method for incorporating language model pre-training and Conditional Random Fields (CRF). We propose a task generation scheme for converting classical NER datasets into the few-shot setting, for both training and evaluation. Using three public datasets, we show these meta-learning algorithms outperform a reasonable fine-tuned BERT baseline. In addition, we propose a novel combination of Prototypical Networks and Reptile.</abstract>
+      <url hash="b7d7b460">2021.metanlp-1.6</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="79e70b1f">2021.metanlp-1.6.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="7">
+      <title>Multi-accent Speech Separation with One Shot Learning</title>
+      <author><first>Kuan Po</first><last>Huang</last></author>
+      <author><first>Yuan-Kuei</first><last>Wu</last></author>
+      <author><first>Hung-yi</first><last>Lee</last></author>
+      <pages>59–66</pages>
+      <abstract>Speech separation is a problem in the field of speech processing that has been studied in full swing recently. However, there has not been much work studying a multi-accent speech separation scenario. Unseen speakers with new accents and noise aroused the domain mismatch problem which cannot be easily solved by conventional joint training methods. Thus, we applied MAML and FOMAML to tackle this problem and obtained higher average Si-SNRi values than joint training on almost all the unseen accents. This proved that these two methods do have the ability to generate well-trained parameters for adapting to speech mixtures of new speakers and accents. Furthermore, we found out that FOMAML obtains similar performance compared to MAML while saving a lot of time.</abstract>
+      <url hash="655d5fa8">2021.metanlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Semi-supervised Meta-learning for Cross-domain Few-shot Intent Classification</title>
+      <author><first>Yue</first><last>Li</last></author>
+      <author><first>Jiong</first><last>Zhang</last></author>
+      <pages>67–75</pages>
+      <abstract>Meta learning aims to optimize the model’s capability to generalize to new tasks and domains. Lacking a data-efficient way to create meta training tasks has prevented the application of meta-learning to the real-world few shot learning scenarios. Recent studies have proposed unsupervised approaches to create meta-training tasks from unlabeled data for free, e.g., the SMLMT method (Bansal et al., 2020a) constructs unsupervised multi-class classification tasks from the unlabeled text by randomly masking words in the sentence and let the meta learner choose which word to fill in the blank. This study proposes a semi-supervised meta-learning approach that incorporates both the representation power of large pre-trained language models and the generalization capability of prototypical networks enhanced by SMLMT. The semi-supervised meta training approach avoids overfitting prototypical networks on a small number of labeled training examples and quickly learns cross-domain task-specific representation only from a few supporting examples. By incorporating SMLMT with prototypical networks, the meta learner generalizes better to unseen domains and gains higher accuracy on out-of-scope examples without the heavy lifting of pre-training. We observe significant improvement in few-shot generalization after training only a few epochs on the intent classification tasks evaluated in a multi-domain setting.</abstract>
+      <url hash="cd35e8a8">2021.metanlp-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Meta-learning for Classifying Previously Unseen Data Source into Previously Unseen Emotional Categories</title>
+      <author><first>Gaël</first><last>Guibon</last></author>
+      <author><first>Matthieu</first><last>Labeau</last></author>
+      <author><first>Hélène</first><last>Flamein</last></author>
+      <author><first>Luce</first><last>Lefeuvre</last></author>
+      <author><first>Chloé</first><last>Clavel</last></author>
+      <pages>76–89</pages>
+      <abstract>In this paper, we place ourselves in a classification scenario in which the target classes and data type are not accessible during training. We use a meta-learning approach to determine whether or not meta-trained information from common social network data with fine-grained emotion labels can achieve competitive performance on messages labeled with different emotion categories. We leverage few-shot learning to match with the classification scenario and consider metric learning based meta-learning by setting up Prototypical Networks with a Transformer encoder, trained in an episodic fashion. This approach proves to be effective for capturing meta-information from a source emotional tag set to predict previously unseen emotional tags. Even though shifting the data type triggers an expected performance drop, our meta-learning approach achieves decent results when compared to the fully supervised one.</abstract>
+      <url hash="b56bde4c">2021.metanlp-1.9</url>
+    </paper>
+  </volume>
+</collection>

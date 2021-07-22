@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.mwe">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 17th Workshop on Multiword Expressions (MWE 2021)</booktitle>
+      <editor><first>Paul</first><last>Cook</last></editor>
+      <editor><first>Jelena</first><last>Mitrović</last></editor>
+      <editor><first>Carla Parra</first><last>Escartín</last></editor>
+      <editor><first>Ashwini</first><last>Vaidya</last></editor>
+      <editor><first>Petya</first><last>Osenova</last></editor>
+      <editor><first>Shiva</first><last>Taslimipoor</last></editor>
+      <editor><first>Carlos</first><last>Ramisch</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="f2cb1188">2021.mwe-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="36cb2cc9">2021.mwe-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>A Long Hard Look at <fixed-case>MWE</fixed-case>s in the Age of Language Models</title>
+      <author><first>Vered</first><last>Shwartz</last></author>
+      <pages>1</pages>
+      <abstract>In recent years, language models (LMs) have become almost synonymous with NLP. Pre-trained to “read” a large text corpus, such models are useful as both a representation layer as well as a source of world knowledge. But how well do they represent MWEs? This talk will discuss various problems in representing MWEs, and the extent to which LMs address them: • Do LMs capture the implicit relationship between constituents in compositional MWEs (from baby oil through parsley cake to cheeseburger stabbing)? • Do LMs recognize when words are used nonliterally in non-compositional MWEs (e.g. do they know whether there are fleas in the flea market)? • Do LMs know idioms, and can they infer the meaning of new idioms from the context as humans often do?</abstract>
+      <url hash="741e50e9">2021.mwe-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Where Do Aspectual Variants of Light Verb Constructions Belong?</title>
+      <author><first>Aggeliki</first><last>Fotopoulou</last></author>
+      <author><first>Eric</first><last>Laporte</last></author>
+      <author><first>Takuya</first><last>Nakamura</last></author>
+      <pages>2–12</pages>
+      <abstract>Expressions with an aspectual variant of a light verb, e.g. ‘take on debt’ vs. ‘have debt’, are frequent in texts but often difficult to classify between verbal idioms, light verb constructions or compositional phrases. We investigate the properties of such expressions with a disputed membership and propose a selection of features that determine more satisfactory boundaries between the three categories in this zone, assigning the expressions to one of them.</abstract>
+      <url hash="472c33f2">2021.mwe-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Data-driven Identification of Idioms in Song Lyrics</title>
+      <author><first>Miriam</first><last>Amin</last></author>
+      <author><first>Peter</first><last>Fankhauser</last></author>
+      <author><first>Marc</first><last>Kupietz</last></author>
+      <author><first>Roman</first><last>Schneider</last></author>
+      <pages>13–22</pages>
+      <abstract>The automatic recognition of idioms poses a challenging problem for NLP applications. Whereas native speakers can intuitively handle multiword expressions whose compositional meanings are hard to trace back to individual word semantics, there is still ample scope for improvement regarding computational approaches. We assume that idiomatic constructions can be characterized by gradual intensities of semantic non-compositionality, formal fixedness, and unusual usage context, and introduce a number of measures for these characteristics, comprising count-based and predictive collocation measures together with measures of context (un)similarity. We evaluate our approach on a manually labelled gold standard, derived from a corpus of German pop lyrics. To this end, we apply a Random Forest classifier to analyze the individual contribution of features for automatically detecting idioms, and study the trade-off between recall and precision. Finally, we evaluate the classifier on an independent dataset of idioms extracted from a list of Wikipedia idioms, achieving state-of-the art accuracy.</abstract>
+      <url hash="04e3aa89">2021.mwe-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Contextualized Embeddings Encode Monolingual and Cross-lingual Knowledge of Idiomaticity</title>
+      <author><first>Samin</first><last>Fakharian</last></author>
+      <author><first>Paul</first><last>Cook</last></author>
+      <pages>23–32</pages>
+      <abstract>Potentially idiomatic expressions (PIEs) are ambiguous between non-compositional idiomatic interpretations and transparent literal interpretations. For example, “hit the road” can have an idiomatic meaning corresponding to ‘start a journey’ or have a literal interpretation. In this paper we propose a supervised model based on contextualized embeddings for predicting whether usages of PIEs are idiomatic or literal. We consider monolingual experiments for English and Russian, and show that the proposed model outperforms previous approaches, including in the case that the model is tested on instances of PIE types that were not observed during training. We then consider cross-lingual experiments in which the model is trained on PIE instances in one language, English or Russian, and tested on the other language. We find that the model outperforms baselines in this setting. These findings suggest that contextualized embeddings are able to learn representations that encode knowledge of idiomaticity that is not restricted to specific expressions, nor to a specific language.</abstract>
+      <url hash="3cdc33d2">2021.mwe-1.4</url>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>PIE</fixed-case>: A Parallel Idiomatic Expression Corpus for Idiomatic Sentence Generation and Paraphrasing</title>
+      <author><first>Jianing</first><last>Zhou</last></author>
+      <author><first>Hongyu</first><last>Gong</last></author>
+      <author><first>Suma</first><last>Bhat</last></author>
+      <pages>33–48</pages>
+      <abstract>Idiomatic expressions (IE) play an important role in natural language, and have long been a “pain in the neck” for NLP systems. Despite this, text generation tasks related to IEs remain largely under-explored. In this paper, we propose two new tasks of idiomatic sentence generation and paraphrasing to fill this research gap. We introduce a curated dataset of 823 IEs, and a parallel corpus with sentences containing them and the same sentences where the IEs were replaced by their literal paraphrases as the primary resource for our tasks. We benchmark existing deep learning models, which have state-of-the-art performance on related tasks using automated and manual evaluation with our dataset to inspire further research on our proposed tasks. By establishing baseline models, we pave the way for more comprehensive and accurate modeling of IEs, both for generation and paraphrasing.</abstract>
+      <url hash="196aa6f7">2021.mwe-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Lexical Semantic Recognition</title>
+      <author><first>Nelson F.</first><last>Liu</last></author>
+      <author><first>Daniel</first><last>Hershcovich</last></author>
+      <author><first>Michael</first><last>Kranzlein</last></author>
+      <author><first>Nathan</first><last>Schneider</last></author>
+      <pages>49–56</pages>
+      <abstract>In lexical semantics, full-sentence segmentation and segment labeling of various phenomena are generally treated separately, despite their interdependence. We hypothesize that a unified lexical semantic recognition task is an effective way to encapsulate previously disparate styles of annotation, including multiword expression identification / classification and supersense tagging. Using the STREUSLE corpus, we train a neural CRF sequence tagger and evaluate its performance along various axes of annotation. As the label set generalizes that of previous tasks (PARSEME, DiMSUM), we additionally evaluate how well the model generalizes to those test sets, finding that it approaches or surpasses existing models despite training only on STREUSLE. Our work also establishes baseline models and evaluation metrics for integrated and accurate modeling of lexical semantics, facilitating future work in this area.</abstract>
+      <url hash="220c2f48">2021.mwe-1.6</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="132180d7">2021.mwe-1.6.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="7">
+      <title>Finding <fixed-case>BERT</fixed-case>’s Idiomatic Key</title>
+      <author><first>Vasudevan</first><last>Nedumpozhimana</last></author>
+      <author><first>John</first><last>Kelleher</last></author>
+      <pages>57–62</pages>
+      <abstract>Sentence embeddings encode information relating to the usage of idioms in a sentence. This paper reports a set of experiments that combine a probing methodology with input masking to analyse where in a sentence this idiomatic information is taken from, and what form it takes. Our results indicate that BERT’s idiomatic key is primarily found within an idiomatic expression, but also draws on information from the surrounding context. Also, BERT can distinguish between the disruption in a sentence caused by words missing and the incongruity caused by idiomatic usage.</abstract>
+      <url hash="28777a72">2021.mwe-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Light Verb Constructions and Their Families - A Corpus Study on <fixed-case>G</fixed-case>erman ‘stehen unter’-<fixed-case>LVC</fixed-case>s</title>
+      <author><first>Jens</first><last>Fleischhauer</last></author>
+      <pages>63–69</pages>
+      <abstract>The paper reports on a corpus study of German light verb constructions (LVCs). LVCs come in families which exemplify systematic interpretation patterns. The paper’s aim is to account for the properties determining these patterns on the basis of a corpus study on German LVCs of the type ‘stehen unter’ NP’ (‘stand under NP’).</abstract>
+      <url hash="7735fb91">2021.mwe-1.8</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="e90de3e3">2021.mwe-1.8.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+  </volume>
+</collection>

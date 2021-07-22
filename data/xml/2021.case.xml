@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.case">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Challenges and Applications of Automated Extraction of Socio-political Events from Text</booktitle>
+      <editor><first>Ali</first><last>Hürriyetoğlu</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="2fadeb05">2021.case-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="4bc787bc">2021.case-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Challenges and Applications of Automated Extraction of Socio-political Events from Text (<fixed-case>CASE</fixed-case> 2021): Workshop and Shared Task Report</title>
+      <author><first>Ali</first><last>Hürriyetoğlu</last></author>
+      <author><first>Hristo</first><last>Tanev</last></author>
+      <author><first>Vanni</first><last>Zavarella</last></author>
+      <author><first>Jakub</first><last>Piskorski</last></author>
+      <author><first>Reyyan</first><last>Yeniterzi</last></author>
+      <author><first>Deniz</first><last>Yuret</last></author>
+      <author><first>Aline</first><last>Villavicencio</last></author>
+      <pages>1–9</pages>
+      <abstract>This workshop is the fourth issue of a series of workshops on automatic extraction of socio-political events from news, organized by the Emerging Market Welfare Project, with the support of the Joint Research Centre of the European Commission and with contributions from many other prominent scholars in this field. The purpose of this series of workshops is to foster research and development of reliable, valid, robust, and practical solutions for automatically detecting descriptions of socio-political events, such as protests, riots, wars and armed conflicts, in text streams. This year workshop contributors make use of the state-of-the-art NLP technologies, such as Deep Learning, Word Embeddings and Transformers and cover a wide range of topics from text classification to news bias detection. Around 40 teams have registered and 15 teams contributed to three tasks that are i) multilingual protest news detection detection, ii) fine-grained classification of socio-political events, and iii) discovering Black Lives Matter protest events. The workshop also highlights two keynote and four invited talks about various aspects of creating event data sets and multi- and cross-lingual machine learning in few- and zero-shot settings.</abstract>
+      <url hash="730ae684">2021.case-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Keynote Abstract: Events on a Global Scale: Towards Language-Agnostic Event Extraction</title>
+      <author><first>Elizabeth</first><last>Boschee</last></author>
+      <pages>10</pages>
+      <abstract>Event extraction is a challenging and exciting task in the world of machine learning &amp; natural language processing. The breadth of events of possible interest, the speed at which surrounding socio-political event contexts evolve, and the complexities involved in generating representative annotated data all contribute to this challenge. One particular dimension of difficulty is the intrinsically global nature of events: many downstream use cases for event extraction involve reporting not just in a few major languages but in a much broader context. The languages of interest for even a fixed task may still shift from day to day, e.g. when a disease emerges in an unexpected location. Early approaches to multi-lingual event extraction (e.g. ACE) relied wholly on supervised data provided in each language of interest. Later approaches leveraged the success of machine translation to side-step the issue, simply translating foreign-language content to English and deploying English models on the result (often leaving some significant portion of the original content behind). Most recently, however, the community has begun to shown significant progress applying zero-shot transfer techniques to the problem, developing models using supervised English data but decoding in a foreign language without translation, typically using embedding spaces specifically designed to capture multi-lingual semantic content. In this talk I will discuss multiple dimensions of these promising new approaches and the linguistic representations that underlie them. I will compare them with approaches based on machine translation (as well as with models trained using in-language training data, where available), and discuss their strengths and weaknesses in different contexts, including the amount of English/foreign bitext available and the nature of the target event ontology. I will also discuss possible future directions with an eye to improving the quality of event extraction no matter its source around the globe.</abstract>
+      <url hash="7e5e8eb6">2021.case-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Keynote Abstract: Machine Learning in Conflict Studies: Reflections on Ethics, Collaboration, and Ongoing Challenges</title>
+      <author><first>Kristine</first><last>Eck</last></author>
+      <pages>11</pages>
+      <abstract>Advances in machine learning are nothing short of revolutionary in their potential to analyze massive amounts of data and in doing so, create new knowledge bases. But there is a responsibility in wielding the power to analyze these data since the public attributes a high degree of confidence to results which are based on big datasets. In this keynote, I will first address our ethical imperative as scholars to “get it right.” This imperative relates not only to model precision but also to the quality of the underlying data, and to whether the models inadvertently reproduce or obscure political biases in the source material. In considering the ethical imperative to get it right, it is also important to define what is “right”: what is considered an acceptable threshold for classification success needs to be understood in light of the project’s objectives. I then reflect on the different topics and data which are sourced in this field. Much of the existing research has focused on identifying conflict events (e.g. battles), but scholars are also increasingly turning to ML approaches to address other facets of the conflict environment. Conflict event extraction has long been a challenge for the natural language processing (NLP) community because it requires sophisticated methods for defining event ontologies, creating language resources, and developing algorithmic approaches. NLP machine-learning tools are ill-adapted to the complex, often messy, and diverse data generated during conflicts. Relative to other types of NLP text corpora, conflicts tend to generate less textual data, and texts are generated non-systematically. Conflict-related texts are often lexically idiosyncratic and tend to be written differently across actors, periods, and conflicts. Event definition and adjudication present tough challenges in the context of conflict corpora. Topics which rely on other types of data may be better-suited to NLP and machine learning methods. For example, Twitter and other social media data lend themselves well to studying hate speech, public opinion, social polarization, or discursive aspects of conflictual environments. Likewise, government-produced policy documents have typically been analyzed with historical, qualitative methods but their standardized formats and quantity suggest that ML methods can provide new traction. ML approaches may also allow scholars to exploit local sources and multi-language sources to a greater degree than has been possible. Many challenges remain, and these are best addressed in collaborative projects which build on interdisciplinary expertise. Classification projects need to be anchored in the theoretical interests of scholars of political violence if the data they produce are to be put to analytical use. There are few ontologies for classification that adequately reflect conflict researchers’ interests, which highlights the need for conceptual as well as technical development.</abstract>
+      <url hash="25e1115b">2021.case-1.3</url>
+    </paper>
+    <paper id="4">
+      <title><fixed-case>PROTEST</fixed-case>-<fixed-case>ER</fixed-case>: Retraining <fixed-case>BERT</fixed-case> for Protest Event Extraction</title>
+      <author><first>Tommaso</first><last>Caselli</last></author>
+      <author><first>Osman</first><last>Mutlu</last></author>
+      <author><first>Angelo</first><last>Basile</last></author>
+      <author><first>Ali</first><last>Hürriyetoğlu</last></author>
+      <pages>12–19</pages>
+      <abstract>We analyze the effect of further retraining BERT with different domain specific data as an unsupervised domain adaptation strategy for event extraction. Portability of event extraction models is particularly challenging, with large performance drops affecting data on the same text genres (e.g., news). We present PROTEST-ER, a retrained BERT model for protest event extraction. PROTEST-ER outperforms a corresponding generic BERT on out-of-domain data of 8.1 points. Our best performing models reach 51.91-46.39 F1 across both domains.</abstract>
+      <url hash="d86a9e2b">2021.case-1.4</url>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>A</fixed-case>rg<fixed-case>F</fixed-case>use: A Weakly-Supervised Framework for Document-Level Event Argument Aggregation</title>
+      <author><first>Debanjana</first><last>Kar</last></author>
+      <author><first>Sudeshna</first><last>Sarkar</last></author>
+      <author><first>Pawan</first><last>Goyal</last></author>
+      <pages>20–30</pages>
+      <abstract>Most of the existing information extraction frameworks (Wadden et al., 2019; Veysehet al., 2020) focus on sentence-level tasks and are hardly able to capture the consolidated information from a given document. In our endeavour to generate precise document-level information frames from lengthy textual records, we introduce the task of Information Aggregation or Argument Aggregation. More specifically, our aim is to filter irrelevant and redundant argument mentions that were extracted at a sentence level and render a document level information frame. Majority of the existing works have been observed to resolve related tasks of document-level event argument extraction (Yang et al., 2018; Zheng et al., 2019) and salient entity identification (Jain et al., 2020) using supervised techniques. To remove dependency from large amounts of labelled data, we explore the task of information aggregation using weakly supervised techniques. In particular, we present an extractive algorithm with multiple sieves which adopts active learning strategies to work efficiently in low-resource settings. For this task, we have annotated our own test dataset comprising of 131 document information frames and have released the code and dataset to further research prospects in this new domain. To the best of our knowledge, we are the first to establish baseline results for this task in English. Our data and code are publicly available at https://github.com/DebanjanaKar/ArgFuse.</abstract>
+      <url hash="343328a5">2021.case-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Modality and Negation in Event Extraction</title>
+      <author><first>Sander</first><last>Bijl de Vroe</last></author>
+      <author><first>Liane</first><last>Guillou</last></author>
+      <author><first>Miloš</first><last>Stanojević</last></author>
+      <author><first>Nick</first><last>McKenna</last></author>
+      <author><first>Mark</first><last>Steedman</last></author>
+      <pages>31–42</pages>
+      <abstract>Language provides speakers with a rich system of modality for expressing thoughts about events, without being committed to their actual occurrence. Modality is commonly used in the political news domain, where both actual and possible courses of events are discussed. NLP systems struggle with these semantic phenomena, often incorrectly extracting events which did not happen, which can lead to issues in downstream applications. We present an open-domain, lexicon-based event extraction system that captures various types of modality. This information is valuable for Question Answering, Knowledge Graph construction and Fact-checking tasks, and our evaluation shows that the system is sufficiently strong to be used in downstream applications.</abstract>
+      <url hash="68080e57">2021.case-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Characterizing News Portrayal of Civil Unrest in <fixed-case>H</fixed-case>ong <fixed-case>K</fixed-case>ong, 1998–2020</title>
+      <author><first>James</first><last>Scharf</last></author>
+      <author><first>Arya D.</first><last>McCarthy</last></author>
+      <author><first>Giovanna Maria Dora</first><last>Dore</last></author>
+      <pages>43–52</pages>
+      <abstract>We apply statistical techniques from natural language processing to a collection of Western and Hong Kong–based English-language newspaper articles spanning the years 1998–2020, studying the difference and evolution of its portrayal. We observe that both content and attitudes differ between Western and Hong Kong–based sources. ANOVA on keyword frequencies reveals that Hong Kong–based papers discuss protests and democracy less often. Topic modeling detects salient aspects of protests and shows that Hong Kong–based papers made fewer references to police violence during the Anti–Extradition Law Amendment Bill Movement. Diachronic shifts in word embedding neighborhoods reveal a shift in the characterization of salient keywords once the Movement emerged. Together, these raise questions about the existence of anodyne reporting from Hong Kong–based media. Likewise, they illustrate the importance of sample selection for protest event analysis.</abstract>
+      <url hash="376bf2ee">2021.case-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Regressing Location on Text for Probabilistic Geocoding</title>
+      <author><first>Benjamin J.</first><last>Radford</last></author>
+      <pages>53–57</pages>
+      <abstract>Text data are an important source of detailed information about social and political events. Automated systems parse large volumes of text data to infer or extract structured information that describes actors, actions, dates, times, and locations. One of these sub-tasks is geocoding: predicting the geographic coordinates associated with events or locations described by a given text. I present an end-to-end probabilistic model for geocoding text data. Additionally, I collect a novel data set for evaluating the performance of geocoding systems. I compare the model-based solution, called ELECTRo-map, to the current state-of-the-art open source system for geocoding texts for event data. Finally, I discuss the benefits of end-to-end model-based geocoding, including principled uncertainty estimation and the ability of these models to leverage contextual information.</abstract>
+      <url hash="25c6433f">2021.case-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Extracting Events from Industrial Incident Reports</title>
+      <author><first>Nitin</first><last>Ramrakhiyani</last></author>
+      <author><first>Swapnil</first><last>Hingmire</last></author>
+      <author><first>Sangameshwar</first><last>Patil</last></author>
+      <author><first>Alok</first><last>Kumar</last></author>
+      <author><first>Girish</first><last>Palshikar</last></author>
+      <pages>58–67</pages>
+      <abstract>Incidents in industries have huge social and political impact and minimizing the consequent damage has been a high priority. However, automated analysis of repositories of incident reports has remained a challenge. In this paper, we focus on automatically extracting events from incident reports. Due to absence of event annotated datasets for industrial incidents we employ a transfer learning based approach which is shown to outperform several baselines. We further provide detailed analysis regarding effect of increase in pre-training data and provide explainability of why pre-training improves the performance.</abstract>
+      <url hash="1ce6ac61">2021.case-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Automatic Fake News Detection in Political Platforms - A Transformer-based Approach</title>
+      <author><first>Shaina</first><last>Raza</last></author>
+      <pages>68–78</pages>
+      <abstract>The dynamics and influence of fake news on Twitter during the 2020 US presidential election remains to be clarified. Here, we use a dataset related to 2020 U.S Election that consists of news articles and tweets on those articles. Therefore, it is extremely important to stop the spread of fake news before it reaches a mass level, which is a big challenge. We propose a novel fake news detection framework that can address this challenge. Our proposed framework exploits the information from news articles and social contexts to detect fake news. The proposed model is based on a Transformer architecture, which can learn useful representations from fake news data and predicts the probability of a news as being fake or real. Experimental results on real-world data show that our model can detect fake news with higher accuracy and much earlier, compared to the baselines.</abstract>
+      <url hash="f842afbb">2021.case-1.10</url>
+      <attachment type="notes_to_EAC" hash="8635d3ba">2021.case-1.10.notes_to_EAC.txt</attachment>
+    </paper>
+    <paper id="11">
+      <title>Multilingual Protest News Detection - Shared Task 1, <fixed-case>CASE</fixed-case> 2021</title>
+      <author><first>Ali</first><last>Hürriyetoğlu</last></author>
+      <author><first>Osman</first><last>Mutlu</last></author>
+      <author><first>Erdem</first><last>Yörük</last></author>
+      <author><first>Farhana Ferdousi</first><last>Liza</last></author>
+      <author><first>Ritesh</first><last>Kumar</last></author>
+      <author><first>Shyam</first><last>Ratan</last></author>
+      <pages>79–91</pages>
+      <abstract>Benchmarking state-of-the-art text classification and information extraction systems in multilingual, cross-lingual, few-shot, and zero-shot settings for socio-political event information collection is achieved in the scope of the shared task Socio-political and Crisis Events Detection at the workshop CASE @ ACL-IJCNLP 2021. Socio-political event data is utilized for national and international policy- and decision-making. Therefore, the reliability and validity of these datasets are of the utmost importance. We split the shared task into three parts to address the three aspects of data collection (Task 1), fine-grained semantic classification (Task 2), and evaluation (Task 3). Task 1, which is the focus of this report, is on multilingual protest news detection and comprises four subtasks that are document classification (subtask 1), sentence classification (subtask 2), event sentence coreference identification (subtask 3), and event extraction (subtask 4). All subtasks had English, Portuguese, and Spanish for both training and evaluation data. Data in Hindi language was available only for the evaluation of subtask 1. The majority of the submissions, which are 238 in total, are created using multi- and cross-lingual approaches. Best scores are above 77.27 F1-macro for subtask 1, above 85.32 F1-macro for subtask 2, above 84.23 CoNLL 2012 average score for subtask 3, and above 66.20 F1-macro for subtask 4 in all evaluation settings. The performance of the best system for subtask 4 is above 66.20 F1 for all available languages. Although there is still a significant room for improvement in cross-lingual and zero-shot settings, the best submissions for each evaluation scenario yield remarkable results. Monolingual models outperformed the multilingual models in a few evaluation scenarios.</abstract>
+      <url hash="1dfe2342">2021.case-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Shared Task 1 System Description : Exploring different approaches for multilingual tasks</title>
+      <author><first>Sureshkumar</first><last>Vivek Kalyan</last></author>
+      <author><first>Tan</first><last>Paul</last></author>
+      <author><first>Tan</first><last>Shaun</last></author>
+      <author><first>Martin</first><last>Andrews</last></author>
+      <pages>92–97</pages>
+      <abstract>The aim of the CASE 2021 Shared Task 1 was to detect and classify socio-political and crisis event information at document, sentence, cross-sentence, and token levels in a multilingual setting, with each of these subtasks being evaluated separately in each test language. Our submission contained entries in all of the subtasks, and the scores obtained validated our research finding : That the multilingual element of the tasks should be embraced, so that modeling and training regimes use the multilingual nature of the tasks to their mutual benefit, rather than trying to tackle the different languages separately.</abstract>
+      <url hash="ce3147af">2021.case-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>IIITT</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Leveraging Pretrained Language Models for Multilingual Protest Detection</title>
+      <author><first>Pawan</first><last>Kalyan</last></author>
+      <author><first>Duddukunta</first><last>Reddy</last></author>
+      <author><first>Adeep</first><last>Hande</last></author>
+      <author><first>Ruba</first><last>Priyadharshini</last></author>
+      <author><first>Ratnasingam</first><last>Sakuntharaj</last></author>
+      <author><first>Bharathi Raja</first><last>Chakravarthi</last></author>
+      <pages>98–104</pages>
+      <abstract>In a world abounding in constant protests resulting from events like a global pandemic, climate change, religious or political conflicts, there has always been a need to detect events/protests before getting amplified by news media or social media. This paper demonstrates our work on the sentence classification subtask of multilingual protest detection in CASE@ACL-IJCNLP 2021. We approached this task by employing various multilingual pre-trained transformer models to classify if any sentence contains information about an event that has transpired or not. We performed soft voting over the models, achieving the best results among the models, accomplishing a macro F1-Score of 0.8291, 0.7578, and 0.7951 in English, Spanish, and Portuguese, respectively.</abstract>
+      <url hash="548f4fea">2021.case-1.13</url>
+    </paper>
+    <paper id="14">
+      <title><fixed-case>NUS</fixed-case>-<fixed-case>IDS</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Improving Multilingual Event Sentence Coreference Identification With Linguistic Information</title>
+      <author><first>Fiona Anting</first><last>Tan</last></author>
+      <author><first>Sujatha Das</first><last>Gollapalli</last></author>
+      <author><first>See-Kiong</first><last>Ng</last></author>
+      <pages>105–112</pages>
+      <abstract>Event Sentence Coreference Identification (ESCI) aims to cluster event sentences that refer to the same event together for information extraction. We describe our ESCI solution developed for the ACL-CASE 2021 shared tasks on the detection and classification of socio-political and crisis event information in a multilingual setting. For a given article, our proposed pipeline comprises of an accurate sentence pair classifier that identifies coreferent sentence pairs and subsequently uses these predicted probabilities to cluster sentences into groups. Sentence pair representations are constructed from fine-tuned BERT embeddings plus POS embeddings fed through a BiLSTM model, and combined with linguistic-based lexical and semantic similarities between sentences. Our best models ranked 2nd, 1st and 2nd and obtained CoNLL F1 scores of 81.20%, 93.03%, 83.15% for the English, Portuguese and Spanish test sets respectively in the ACL-CASE 2021 competition.</abstract>
+      <url hash="39a44101">2021.case-1.14</url>
+    </paper>
+    <paper id="15">
+      <title><fixed-case>FKIE</fixed-case>_itf_2021 at <fixed-case>CASE</fixed-case> 2021 Task 1: Using Small Densely Fully Connected Neural Nets for Event Detection and Clustering</title>
+      <author><first>Nils</first><last>Becker</last></author>
+      <author><first>Theresa</first><last>Krumbiegel</last></author>
+      <pages>113–119</pages>
+      <abstract>In this paper we present multiple approaches for event detection on document and sentence level, as well as a technique for event sentence co-reference resolution. The advantage of our co-reference resolution approach, which handles the task as a clustering problem, is that we use a single neural net to solve the task, which stands in contrast to other clustering algorithms that often are build on more complex models. This means that we can set our focus on the optimization of a single neural network instead of having to optimize numerous different parameters. We use small densely connected neural networks and pre-trained multilingual transformer embeddings in all subtasks. We use either document or sentence embeddings, depending on the task, and refrain from using word embeddings, so that the implementation of complicated network structures and unfolding of RNNs, which can deal with input of different sizes, is not necessary. We achieved an average macro F1 of 0.65 in subtask 1 (i.e., document level classification), and a macro F1 of 0.70 in subtask 2 (i.e., sentence level classification). For the co-reference resolution subtask, we achieved an average CoNLL-2012 score across all languages of 0.83.</abstract>
+      <url hash="169681fd">2021.case-1.15</url>
+    </paper>
+    <paper id="16">
+      <title><fixed-case>DAAI</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Transformer-based Multilingual Socio-political and Crisis Event Detection</title>
+      <author><first>Hansi</first><last>Hettiarachchi</last></author>
+      <author><first>Mariam</first><last>Adedoyin-Olowe</last></author>
+      <author><first>Jagdev</first><last>Bhogal</last></author>
+      <author><first>Mohamed Medhat</first><last>Gaber</last></author>
+      <pages>120–130</pages>
+      <abstract>Automatic socio-political and crisis event detection has been a challenge for natural language processing as well as social and political science communities, due to the diversity and nuance in such events and high accuracy requirements. In this paper, we propose an approach which can handle both document and cross-sentence level event detection in a multilingual setting using pretrained transformer models. Our approach became the winning solution in document level predictions and secured the 3rd place in cross-sentence level predictions for the English language. We could also achieve competitive results for other languages to prove the effectiveness and universality of our approach.</abstract>
+      <url hash="6db2d055">2021.case-1.16</url>
+    </paper>
+    <paper id="17">
+      <title><fixed-case>SU</fixed-case>-<fixed-case>NLP</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Protest News Detection for <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Furkan</first><last>Çelik</last></author>
+      <author><first>Tuğberk</first><last>Dalkılıç</last></author>
+      <author><first>Fatih</first><last>Beyhan</last></author>
+      <author><first>Reyyan</first><last>Yeniterzi</last></author>
+      <pages>131–137</pages>
+      <abstract>This paper summarizes our group’s efforts in the multilingual protest news detection shared task, which is organized as a part of the Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE) Workshop. We participated in all four subtasks in English. Especially in the identification of event containing sentences task, our proposed ensemble approach using RoBERTa and multichannel CNN-LexStem model yields higher performance. Similarly in the event extraction task, our transformer-LSTM-CRF architecture outperforms regular transformers significantly.</abstract>
+      <url hash="7d398582">2021.case-1.17</url>
+    </paper>
+    <paper id="18">
+      <title><fixed-case>IBM</fixed-case> <fixed-case>MNLP</fixed-case> <fixed-case>IE</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Multigranular and Multilingual Event Detection on Protest News</title>
+      <author><first>Parul</first><last>Awasthy</last></author>
+      <author><first>Jian</first><last>Ni</last></author>
+      <author><first>Ken</first><last>Barker</last></author>
+      <author><first>Radu</first><last>Florian</last></author>
+      <pages>138–146</pages>
+      <abstract>In this paper, we present the event detection models and systems we have developed for Multilingual Protest News Detection - Shared Task 1 at CASE 2021. The shared task has 4 subtasks which cover event detection at different granularity levels (from document level to token level) and across multiple languages (English, Hindi, Portuguese and Spanish). To handle data from multiple languages, we use a multilingual transformer-based language model (XLM-R) as the input text encoder. We apply a variety of techniques and build several transformer-based models that perform consistently well across all the subtasks and languages. Our systems achieve an average F_1 score of 81.2. Out of thirteen subtask-language tracks, our submissions rank 1st in nine and 2nd in four tracks.</abstract>
+      <url hash="bf723387">2021.case-1.18</url>
+    </paper>
+    <paper id="19">
+      <title><fixed-case>ALEM</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Multilingual Text Classification on News Articles</title>
+      <author><first>Alaeddin</first><last>Gürel</last></author>
+      <author><first>Emre</first><last>Emin</last></author>
+      <pages>147–151</pages>
+      <abstract>We participated CASE shared task in ACL-IJCNLP 2021. This paper is a summary of our experiments and ideas about this shared task. For each subtask we shared our approach, successful and failed methods and our thoughts about them. We submit our results once for every subtask, except for subtask3, in task submission system and present scores based on our validation set formed from given training samples in this paper. Techniques and models we mentioned includes BERT, Multilingual BERT, oversampling, undersampling, data augmentation and their implications with each other. Most of the experiments we came up with were not completed, as time did not permit, but we share them here as we plan to do them as suggested in the future work part of document.</abstract>
+      <url hash="99afb34c">2021.case-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Team “<fixed-case>N</fixed-case>o<fixed-case>C</fixed-case>onflict” at <fixed-case>CASE</fixed-case> 2021 Task 1: Pretraining for Sentence-Level Protest Event Detection</title>
+      <author><first>Tiancheng</first><last>Hu</last></author>
+      <author><first>Niklas</first><last>Stoehr</last></author>
+      <pages>152–160</pages>
+      <abstract>An ever-increasing amount of text, in the form of social media posts and news articles, gives rise to new challenges and opportunities for the automatic extraction of socio-political events. In this paper, we present our submission to the Shared Tasks on Socio-Political and Crisis Events Detection, Task 1, Multilingual Protest News Detection, Subtask 2, Event Sentence Classification, of CASE @ ACL-IJCNLP 2021. In our submission, we utilize the RoBERTa model with additional pretraining, and achieve the best F1 score of 0.8532 in event sentence classification in English and the second-best F1 score of 0.8700 in Portuguese via simple translation. We analyze the failure cases of our model. We also conduct an ablation study to show the effect of choosing the right pretrained language model, adding additional training data and data augmentation.</abstract>
+      <url hash="150ea8a6">2021.case-1.20</url>
+    </paper>
+    <paper id="21">
+      <title><fixed-case>AMU</fixed-case>-<fixed-case>EURANOVA</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 1: Assessing the stability of multilingual <fixed-case>BERT</fixed-case></title>
+      <author><first>Léo</first><last>Bouscarrat</last></author>
+      <author><first>Antoine</first><last>Bonnefoy</last></author>
+      <author><first>Cécile</first><last>Capponi</last></author>
+      <author><first>Carlos</first><last>Ramisch</last></author>
+      <pages>161–170</pages>
+      <abstract>This paper explains our participation in task 1 of the CASE 2021 shared task. This task is about multilingual event extraction from news. We focused on sub-task 4, event information extraction. This sub-task has a small training dataset and we fine-tuned a multilingual BERT to solve this sub-task. We studied the instability problem on the dataset and tried to mitigate it.</abstract>
+      <url hash="54d722de">2021.case-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Team “<fixed-case>D</fixed-case>a<fixed-case>D</fixed-case>e<fixed-case>F</fixed-case>r<fixed-case>N</fixed-case>i” at <fixed-case>CASE</fixed-case> 2021 Task 1: Document and Sentence Classification for Protest Event Detection</title>
+      <author><first>Francesco</first><last>Re</last></author>
+      <author><first>Daniel</first><last>Vegh</last></author>
+      <author><first>Dennis</first><last>Atzenhofer</last></author>
+      <author><first>Niklas</first><last>Stoehr</last></author>
+      <pages>171–178</pages>
+      <abstract>This paper accompanies our top-performing submission to the CASE 2021 shared task, which is hosted at the workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text. Subtasks 1 and 2 of Task 1 concern the classification of newspaper articles and sentences into “conflict” versus “not conflict”-related in four different languages. Our model performs competitively in both subtasks (up to 0.8662 macro F1), obtaining the highest score of all contributions for subtask 1 on Hindi articles (0.7877 macro F1). We describe all experiments conducted with the XLM-RoBERTa (XLM-R) model and report results obtained in each binary classification task. We propose supplementing the original training data with additional data on political conflict events. In addition, we provide an analysis of unigram probability estimates and geospatial references contained within the original training corpus.</abstract>
+      <url hash="b2261046">2021.case-1.22</url>
+    </paper>
+    <paper id="23">
+      <title>Fine-grained Event Classification in News-like Text Snippets - Shared Task 2, <fixed-case>CASE</fixed-case> 2021</title>
+      <author><first>Jacek</first><last>Haneczok</last></author>
+      <author><first>Guillaume</first><last>Jacquet</last></author>
+      <author><first>Jakub</first><last>Piskorski</last></author>
+      <author><first>Nicolas</first><last>Stefanovitch</last></author>
+      <pages>179–192</pages>
+      <abstract>This paper describes the Shared Task on Fine-grained Event Classification in News-like Text Snippets. The Shared Task is divided into three sub-tasks: (a) classification of text snippets reporting socio-political events (25 classes) for which vast amount of training data exists, although exhibiting different structure and style vis-a-vis test data, (b) enhancement to a generalized zero-shot learning problem, where 3 additional event types were introduced in advance, but without any training data (‘unseen’ classes), and (c) further extension, which introduced 2 additional event types, announced shortly prior to the evaluation phase. The reported Shared Task focuses on classification of events in English texts and is organized as part of the Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021), co-located with the ACL-IJCNLP 2021 Conference. Four teams participated in the task. Best performing systems for the three aforementioned sub-tasks achieved 83.9%, 79.7% and 77.1% weighted F1 scores respectively.</abstract>
+      <url hash="70dd2284">2021.case-1.23</url>
+    </paper>
+    <paper id="24">
+      <title><fixed-case>IBM</fixed-case> <fixed-case>MNLP</fixed-case> <fixed-case>IE</fixed-case> at <fixed-case>CASE</fixed-case> 2021 Task 2: <fixed-case>NLI</fixed-case> Reranking for Zero-Shot Text Classification</title>
+      <author><first>Ken</first><last>Barker</last></author>
+      <author><first>Parul</first><last>Awasthy</last></author>
+      <author><first>Jian</first><last>Ni</last></author>
+      <author><first>Radu</first><last>Florian</last></author>
+      <pages>193–202</pages>
+      <abstract>Supervised models can achieve very high accuracy for fine-grained text classification. In practice, however, training data may be abundant for some types but scarce or even non-existent for others. We propose a hybrid architecture that uses as much labeled data as available for fine-tuning classification models, while also allowing for types with little (few-shot) or no (zero-shot) labeled data. In particular, we pair a supervised text classification model with a Natural Language Inference (NLI) reranking model. The NLI reranker uses a textual representation of target types that allows it to score the strength with which a type is implied by a text, without requiring training data for the types. Experiments show that the NLI model is very sensitive to the choice of textual representation, but can be effective for classifying unseen types. It can also improve classification accuracy for the known types of an already highly accurate supervised model.</abstract>
+      <url hash="5e9a1b29">2021.case-1.24</url>
+    </paper>
+    <paper id="25">
+      <title><fixed-case>CASE</fixed-case> 2021 Task 2: Zero-Shot Classification of Fine-Grained Sociopolitical Events with Transformer Models</title>
+      <author><first>Benjamin J.</first><last>Radford</last></author>
+      <pages>203–207</pages>
+      <abstract>We introduce a method for the classification of texts into fine-grained categories of sociopolitical events. This particular method is responsive to all three Subtasks of Task 2, Fine-Grained Classification of Socio-Political Events, introduced at the CASE workshop of ACL-IJCNLP 2021. We frame Task 2 as textual entailment: given an input text and a candidate event class (“query”), the model predicts whether the text describes an event of the given type. The model is able to correctly classify in-sample event types with an average F1-score of 0.74 but struggles with some out-of-sample event types. Despite this, the model shows promise for the zero-shot identification of certain sociopolitical events by achieving an F1-score of 0.52 on one wholly out-of-sample event class.</abstract>
+      <url hash="089355ad">2021.case-1.25</url>
+    </paper>
+    <paper id="26">
+      <title><fixed-case>CASE</fixed-case> 2021 Task 2 Socio-political Fine-grained Event Classification using Fine-tuned <fixed-case>R</fixed-case>o<fixed-case>BERT</fixed-case>a Document Embeddings</title>
+      <author><first>Samantha</first><last>Kent</last></author>
+      <author><first>Theresa</first><last>Krumbiegel</last></author>
+      <pages>208–217</pages>
+      <abstract>We present our submission to Task 2 of the Socio-political and Crisis Events Detection Shared Task at the CASE @ ACL-IJCNLP 2021 workshop. The task at hand aims at the fine-grained classification of socio-political events. Our best model was a fine-tuned RoBERTa transformer model using document embeddings. The corpus consisted of a balanced selection of sub-events extracted from the ACLED event dataset. We achieved a macro F-score of 0.923 and a micro F-score of 0.932 during our preliminary experiments on a held-out test set. The same model also performed best on the shared task test data (weighted F-score = 0.83). To analyze the results we calculated the topic compactness of the commonly misclassified events and conducted an error analysis.</abstract>
+      <url hash="1c2a0f55">2021.case-1.26</url>
+    </paper>
+    <paper id="27">
+      <title>Discovering Black Lives Matter Events in the <fixed-case>U</fixed-case>nited <fixed-case>S</fixed-case>tates: Shared Task 3, <fixed-case>CASE</fixed-case> 2021</title>
+      <author><first>Salvatore</first><last>Giorgi</last></author>
+      <author><first>Vanni</first><last>Zavarella</last></author>
+      <author><first>Hristo</first><last>Tanev</last></author>
+      <author><first>Nicolas</first><last>Stefanovitch</last></author>
+      <author><first>Sy</first><last>Hwang</last></author>
+      <author><first>Hansi</first><last>Hettiarachchi</last></author>
+      <author><first>Tharindu</first><last>Ranasinghe</last></author>
+      <author><first>Vivek</first><last>Kalyan</last></author>
+      <author><first>Paul</first><last>Tan</last></author>
+      <author><first>Shaun</first><last>Tan</last></author>
+      <author><first>Martin</first><last>Andrews</last></author>
+      <author><first>Tiancheng</first><last>Hu</last></author>
+      <author><first>Niklas</first><last>Stoehr</last></author>
+      <author><first>Francesco Ignazio</first><last>Re</last></author>
+      <author><first>Daniel</first><last>Vegh</last></author>
+      <author><first>Dennis</first><last>Atzenhofer</last></author>
+      <author><first>Brenda</first><last>Curtis</last></author>
+      <author><first>Ali</first><last>Hürriyetoğlu</last></author>
+      <pages>218–227</pages>
+      <abstract>Evaluating the state-of-the-art event detection systems on determining spatio-temporal distribution of the events on the ground is performed unfrequently. But, the ability to both (1) extract events “in the wild” from text and (2) properly evaluate event detection systems has potential to support a wide variety of tasks such as monitoring the activity of socio-political movements, examining media coverage and public support of these movements, and informing policy decisions. Therefore, we study performance of the best event detection systems on detecting Black Lives Matter (BLM) events from tweets and news articles. The murder of George Floyd, an unarmed Black man, at the hands of police officers received global attention throughout the second half of 2020. Protests against police violence emerged worldwide and the BLM movement, which was once mostly regulated to the United States, was now seeing activity globally. This shared task asks participants to identify BLM related events from large unstructured data sources, using systems pretrained to extract socio-political events from text. We evaluate several metrics, accessing each system’s ability to identify protest events both temporally and spatially. Results show that identifying daily protest counts is an easier task than classifying spatial and temporal protest trends simultaneously, with maximum performance of 0.745 and 0.210 (Pearson <tex-math>r</tex-math>), respectively. Additionally, all baselines and participant systems suffered from low recall, with a maximum recall of 5.08.</abstract>
+      <url hash="1f870967">2021.case-1.27</url>
+    </paper>
+  </volume>
+</collection>

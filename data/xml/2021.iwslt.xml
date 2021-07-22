@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.iwslt">
+  <volume id="1" ingest-date="2021-07-22">
+    <meta>
+      <booktitle>Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)</booktitle>
+      <editor><first>Marcello</first><last>Federico</last></editor>
+      <editor><first>Alex</first><last>Waibel</last></editor>
+      <editor><first>Marta R.</first><last>Costa-jussà</last></editor>
+      <editor><first>Jan</first><last>Niehues</last></editor>
+      <editor><first>Sebastian</first><last>Stuker</last></editor>
+      <editor><first>Elizabeth</first><last>Salesky</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Bangkok, Thailand (online)</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="3a0b28e8">2021.iwslt-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="aeeec0cb">2021.iwslt-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title><fixed-case>FINDINGS</fixed-case> <fixed-case>OF</fixed-case> <fixed-case>THE</fixed-case> <fixed-case>IWSLT</fixed-case> 2021 <fixed-case>EVALUATION</fixed-case> <fixed-case>CAMPAIGN</fixed-case></title>
+      <author><first>Antonios</first><last>Anastasopoulos</last></author>
+      <author><first>Ondřej</first><last>Bojar</last></author>
+      <author><first>Jacob</first><last>Bremerman</last></author>
+      <author><first>Roldano</first><last>Cattoni</last></author>
+      <author><first>Maha</first><last>Elbayad</last></author>
+      <author><first>Marcello</first><last>Federico</last></author>
+      <author><first>Xutai</first><last>Ma</last></author>
+      <author><first>Satoshi</first><last>Nakamura</last></author>
+      <author><first>Matteo</first><last>Negri</last></author>
+      <author><first>Jan</first><last>Niehues</last></author>
+      <author><first>Juan</first><last>Pino</last></author>
+      <author><first>Elizabeth</first><last>Salesky</last></author>
+      <author><first>Sebastian</first><last>Stüker</last></author>
+      <author><first>Katsuhito</first><last>Sudoh</last></author>
+      <author><first>Marco</first><last>Turchi</last></author>
+      <author><first>Alexander</first><last>Waibel</last></author>
+      <author><first>Changhan</first><last>Wang</last></author>
+      <author><first>Matthew</first><last>Wiesner</last></author>
+      <pages>1–29</pages>
+      <abstract>The evaluation campaign of the International Conference on Spoken Language Translation (IWSLT 2021) featured this year four shared tasks: (i) Simultaneous speech translation, (ii) Offline speech translation, (iii) Multilingual speech translation, (iv) Low-resource speech translation. A total of 22 teams participated in at least one of the tasks. This paper describes each shared task, data and evaluation metrics, and reports results of the received submissions.</abstract>
+      <url hash="d04d3be0">2021.iwslt-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>The <fixed-case>USTC</fixed-case>-<fixed-case>NELSLIP</fixed-case> Systems for Simultaneous Speech Translation Task at <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Dan</first><last>Liu</last></author>
+      <author><first>Mengge</first><last>Du</last></author>
+      <author><first>Xiaoxi</first><last>Li</last></author>
+      <author><first>Yuchen</first><last>Hu</last></author>
+      <author><first>Lirong</first><last>Dai</last></author>
+      <pages>30–38</pages>
+      <abstract>This paper describes USTC-NELSLIP’s submissions to the IWSLT2021 Simultaneous Speech Translation task. We proposed a novel simultaneous translation model, Cross-Attention Augmented Transducer (CAAT), which extends conventional RNN-T to sequence-to-sequence tasks without monotonic constraints, e.g., simultaneous translation. Experiments on speech-to-text (S2T) and text-to-text (T2T) simultaneous translation tasks shows CAAT achieves better quality-latency trade-offs compared to <i>wait-k</i>, one of the previous state-of-the-art approaches. Based on CAAT architecture and data augmentation, we build S2T and T2T simultaneous translation systems in this evaluation campaign. Compared to last year’s optimal systems, our S2T simultaneous translation system improves by an average of 11.3 BLEU for all latency regimes, and our T2T simultaneous translation system improves by an average of 4.6 BLEU.</abstract>
+      <url hash="f205b592">2021.iwslt-1.2</url>
+    </paper>
+    <paper id="3">
+      <title><fixed-case>NAIST</fixed-case> <fixed-case>E</fixed-case>nglish-to-<fixed-case>J</fixed-case>apanese Simultaneous Translation System for <fixed-case>IWSLT</fixed-case> 2021 Simultaneous Text-to-text Task</title>
+      <author><first>Ryo</first><last>Fukuda</last></author>
+      <author><first>Yui</first><last>Oka</last></author>
+      <author><first>Yasumasa</first><last>Kano</last></author>
+      <author><first>Yuki</first><last>Yano</last></author>
+      <author><first>Yuka</first><last>Ko</last></author>
+      <author><first>Hirotaka</first><last>Tokuyama</last></author>
+      <author><first>Kosuke</first><last>Doi</last></author>
+      <author><first>Sakriani</first><last>Sakti</last></author>
+      <author><first>Katsuhito</first><last>Sudoh</last></author>
+      <author><first>Satoshi</first><last>Nakamura</last></author>
+      <pages>39–45</pages>
+      <abstract>This paper describes NAIST’s system for the English-to-Japanese Simultaneous Text-to-text Translation Task in IWSLT 2021 Evaluation Campaign. Our primary submission is based on wait-k neural machine translation with sequence-level knowledge distillation to encourage literal translation.</abstract>
+      <url hash="1929bf0a">2021.iwslt-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>The <fixed-case>U</fixed-case>niversity of <fixed-case>E</fixed-case>dinburgh’s Submission to the <fixed-case>IWSLT</fixed-case>21 Simultaneous Translation Task</title>
+      <author><first>Sukanta</first><last>Sen</last></author>
+      <author><first>Ulrich</first><last>Germann</last></author>
+      <author><first>Barry</first><last>Haddow</last></author>
+      <pages>46–51</pages>
+      <abstract>We describe our submission to the IWSLT 2021 shared task on simultaneous text-to-text English-German translation. Our system is based on the re-translation approach where the agent re-translates the whole source prefix each time it receives a new source token. This approach has the advantage of being able to use a standard neural machine translation (NMT) inference engine with beam search, however, there is a risk that incompatibility between successive re-translations will degrade the output. To improve the quality of the translations, we experiment with various approaches: we use a fixed size wait at the beginning of the sentence, we use a language model score to detect translatable units, and we apply dynamic masking to determine when the translation is unstable. We find that a combination of dynamic masking and language model score obtains the best latency-quality trade-off.</abstract>
+      <url hash="11e0706e">2021.iwslt-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Without Further Ado: Direct and Simultaneous Speech Translation by <fixed-case>A</fixed-case>pp<fixed-case>T</fixed-case>ek in 2021</title>
+      <author><first>Parnia</first><last>Bahar</last></author>
+      <author><first>Patrick</first><last>Wilken</last></author>
+      <author><first>Mattia A.</first><last>Di Gangi</last></author>
+      <author><first>Evgeny</first><last>Matusov</last></author>
+      <pages>52–63</pages>
+      <abstract>This paper describes the offline and simultaneous speech translation systems developed at AppTek for IWSLT 2021. Our offline ST submission includes the direct end-to-end system and the so-called posterior tight integrated model, which is akin to the cascade system but is trained in an end-to-end fashion, where all the cascaded modules are end-to-end models themselves. For simultaneous ST, we combine hybrid automatic speech recognition with a machine translation approach whose translation policy decisions are learned from statistical word alignments. Compared to last year, we improve general quality and provide a wider range of quality/latency trade-offs, both due to a data augmentation method making the MT model robust to varying chunk sizes. Finally, we present a method for ASR output segmentation into sentences that introduces a minimal additional delay.</abstract>
+      <url hash="dbb91c89">2021.iwslt-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>The Volctrans Neural Speech Translation System for <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Chengqi</first><last>Zhao</last></author>
+      <author><first>Zhicheng</first><last>Liu</last></author>
+      <author><first>Jian</first><last>Tong</last></author>
+      <author><first>Tao</first><last>Wang</last></author>
+      <author><first>Mingxuan</first><last>Wang</last></author>
+      <author><first>Rong</first><last>Ye</last></author>
+      <author><first>Qianqian</first><last>Dong</last></author>
+      <author><first>Jun</first><last>Cao</last></author>
+      <author><first>Lei</first><last>Li</last></author>
+      <pages>64–74</pages>
+      <abstract>This paper describes the systems submitted to IWSLT 2021 by the Volctrans team. We participate in the offline speech translation and text-to-text simultaneous translation tracks. For offline speech translation, our best end-to-end model achieves 7.9 BLEU improvements over the benchmark on the MuST-C test set and is even approaching the results of a strong cascade solution. For text-to-text simultaneous translation, we explore the best practice to optimize the wait-k model. As a result, our final submitted systems exceed the benchmark at around 7 BLEU on the same latency regime. We release our code and model to facilitate both future research works and industrial applications.</abstract>
+      <url hash="5d4dfb8f">2021.iwslt-1.6</url>
+    </paper>
+    <paper id="7">
+      <title><fixed-case>THE</fixed-case> <fixed-case>IWSLT</fixed-case> 2021 <fixed-case>BUT</fixed-case> <fixed-case>SPEECH</fixed-case> <fixed-case>TRANSLATION</fixed-case> <fixed-case>SYSTEMS</fixed-case></title>
+      <author><first>hari Krishna</first><last>Vydana</last></author>
+      <author><first>Martin</first><last>Karafiat</last></author>
+      <author><first>Lukas</first><last>Burget</last></author>
+      <author><first>Jan</first><last>Černocký</last></author>
+      <pages>75–83</pages>
+      <abstract>The paper describes BUT’s English to German offline speech translation (ST) systems developed for IWSLT2021. They are based on jointly trained Automatic Speech Recognition-Machine Translation models. Their performances is evaluated on MustC-Common test set. In this work, we study their efficiency from the perspective of having a large amount of separate ASR training data and MT training data, and a smaller amount of speech-translation training data. Large amounts of ASR and MT training data are utilized for pre-training the ASR and MT models. Speech-translation data is used to jointly optimize ASR-MT models by defining an end-to-end differentiable path from speech to translations. For this purpose, we use the internal continuous representations from the ASR-decoder as the input to MT module. We show that speech translation can be further improved by training the ASR-decoder jointly with the MT-module using large amount of text-only MT training data. We also show significant improvements by training an ASR module capable of generating punctuated text, rather than leaving the punctuation task to the MT module.</abstract>
+      <url hash="5a20ce0f">2021.iwslt-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Dealing with training and test segmentation mismatch: <fixed-case>FBK</fixed-case>@<fixed-case>IWSLT</fixed-case>2021</title>
+      <author><first>Sara</first><last>Papi</last></author>
+      <author><first>Marco</first><last>Gaido</last></author>
+      <author><first>Matteo</first><last>Negri</last></author>
+      <author><first>Marco</first><last>Turchi</last></author>
+      <pages>84–91</pages>
+      <abstract>This paper describes FBK’s system submission to the IWSLT 2021 Offline Speech Translation task. We participated with a direct model, which is a Transformer-based architecture trained to translate English speech audio data into German texts. The training pipeline is characterized by knowledge distillation and a two-step fine-tuning procedure. Both knowledge distillation and the first fine-tuning step are carried out on manually segmented real and synthetic data, the latter being generated with an MT system trained on the available corpora. Differently, the second fine-tuning step is carried out on a random segmentation of the MuST-C v2 En-De dataset. Its main goal is to reduce the performance drops occurring when a speech translation model trained on manually segmented data (i.e. an ideal, sentence-like segmentation) is evaluated on automatically segmented audio (i.e. actual, more realistic testing conditions). For the same purpose, a custom hybrid segmentation procedure that accounts for both audio content (pauses) and for the length of the produced segments is applied to the test data before passing them to the system. At inference time, we compared this procedure with a baseline segmentation method based on Voice Activity Detection (VAD). Our results indicate the effectiveness of the proposed hybrid approach, shown by a reduction of the gap with manual segmentation from 8.3 to 1.4 BLEU points.</abstract>
+      <url hash="7f4c6e97">2021.iwslt-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>The <fixed-case>N</fixed-case>iu<fixed-case>T</fixed-case>rans End-to-End Speech Translation System for <fixed-case>IWSLT</fixed-case> 2021 Offline Task</title>
+      <author><first>Chen</first><last>Xu</last></author>
+      <author><first>Xiaoqian</first><last>Liu</last></author>
+      <author><first>Xiaowen</first><last>Liu</last></author>
+      <author><first>Tiger</first><last>Wang</last></author>
+      <author><first>Canan</first><last>Huang</last></author>
+      <author><first>Tong</first><last>Xiao</last></author>
+      <author><first>Jingbo</first><last>Zhu</last></author>
+      <pages>92–99</pages>
+      <abstract>This paper describes the submission of the NiuTrans end-to-end speech translation system for the IWSLT 2021 offline task, which translates from the English audio to German text directly without intermediate transcription. We use the Transformer-based model architecture and enhance it by Conformer, relative position encoding, and stacked acoustic and textual encoding. To augment the training data, the English transcriptions are translated to German translations. Finally, we employ ensemble decoding to integrate the predictions from several models trained with the different datasets. Combining these techniques, we achieve 33.84 BLEU points on the MuST-C En-De test set, which shows the enormous potential of the end-to-end model.</abstract>
+      <url hash="80d7784d">2021.iwslt-1.9</url>
+    </paper>
+    <paper id="10">
+      <title><fixed-case>ESP</fixed-case>net-<fixed-case>ST</fixed-case> <fixed-case>IWSLT</fixed-case> 2021 Offline Speech Translation System</title>
+      <author><first>Hirofumi</first><last>Inaguma</last></author>
+      <author><first>Brian</first><last>Yan</last></author>
+      <author><first>Siddharth</first><last>Dalmia</last></author>
+      <author><first>Pengcheng</first><last>Guo</last></author>
+      <author><first>Jiatong</first><last>Shi</last></author>
+      <author><first>Kevin</first><last>Duh</last></author>
+      <author><first>Shinji</first><last>Watanabe</last></author>
+      <pages>100–109</pages>
+      <abstract>This paper describes the ESPnet-ST group’s IWSLT 2021 submission in the offline speech translation track. This year we made various efforts on training data, architecture, and audio segmentation. On the data side, we investigated sequence-level knowledge distillation (SeqKD) for end-to-end (E2E) speech translation. Specifically, we used multi-referenced SeqKD from multiple teachers trained on different amounts of bitext. On the architecture side, we adopted the Conformer encoder and the Multi-Decoder architecture, which equips dedicated decoders for speech recognition and translation tasks in a unified encoder-decoder model and enables search in both source and target language spaces during inference. We also significantly improved audio segmentation by using the pyannote.audio toolkit and merging multiple short segments for long context modeling. Experimental evaluations showed that each of them contributed to large improvements in translation performance. Our best E2E system combined all the above techniques with model ensembling and achieved 31.4 BLEU on the 2-ref of tst2021 and 21.2 BLEU and 19.3 BLEU on the two single references of tst2021.</abstract>
+      <url hash="76d4bfdb">2021.iwslt-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>End-to-End Speech Translation with Pre-trained Models and Adapters: <fixed-case>UPC</fixed-case> at <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Gerard I.</first><last>Gállego</last></author>
+      <author><first>Ioannis</first><last>Tsiamas</last></author>
+      <author><first>Carlos</first><last>Escolano</last></author>
+      <author><first>José A. R.</first><last>Fonollosa</last></author>
+      <author><first>Marta R.</first><last>Costa-jussà</last></author>
+      <pages>110–119</pages>
+      <abstract>This paper describes the submission to the IWSLT 2021 offline speech translation task by the UPC Machine Translation group. The task consists of building a system capable of translating English audio recordings extracted from TED talks into German text. Submitted systems can be either cascade or end-to-end and use a custom or given segmentation. Our submission is an end-to-end speech translation system, which combines pre-trained models (Wav2Vec 2.0 and mBART) with coupling modules between the encoder and decoder, and uses an efficient fine-tuning technique, which trains only 20% of its total parameters. We show that adding an Adapter to the system and pre-training it, can increase the convergence speed and the final result, with which we achieve a BLEU score of 27.3 on the MuST-C test set. Our final model is an ensemble that obtains 28.22 BLEU score on the same set. Our submission also uses a custom segmentation algorithm that employs pre-trained Wav2Vec 2.0 for identifying periods of untranscribable text and can bring improvements of 2.5 to 3 BLEU score on the IWSLT 2019 test set, as compared to the result with the given segmentation.</abstract>
+      <url hash="31d80234">2021.iwslt-1.11</url>
+    </paper>
+    <paper id="12">
+      <title><fixed-case>VUS</fixed-case> at <fixed-case>IWSLT</fixed-case> 2021: A Finetuned Pipeline for Offline Speech Translation</title>
+      <author><first>Yong Rae</first><last>Jo</last></author>
+      <author><first>Youngki</first><last>Moon</last></author>
+      <author><first>Minji</first><last>Jung</last></author>
+      <author><first>Jungyoon</first><last>Choi</last></author>
+      <author><first>Jihyung</first><last>Moon</last></author>
+      <author><first>Won Ik</first><last>Cho</last></author>
+      <pages>120–124</pages>
+      <abstract>In this technical report, we describe the fine-tuned ASR-MT pipeline used for the IWSLT shared task. We remove less useful speech samples by checking WER with an ASR model, and further train a wav2vec and Transformers-based ASR module based on the filtered data. In addition, we cleanse the errata that can interfere with the machine translation process and use it for Transformer-based MT module training. Finally, in the actual inference phase, we use a sentence boundary detection model trained with constrained data to properly merge fragment ASR outputs into full sentences. The merged sentences are post-processed using part of speech. The final result is yielded by the trained MT module. The performance using the dev set displays BLEU 20.37, and this model records the performance of BLEU 20.9 with the test set.</abstract>
+      <url hash="24e3eae6">2021.iwslt-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>KIT</fixed-case>’s <fixed-case>IWSLT</fixed-case> 2021 Offline Speech Translation System</title>
+      <author><first>Tuan Nam</first><last>Nguyen</last></author>
+      <author><first>Thai Son</first><last>Nguyen</last></author>
+      <author><first>Christian</first><last>Huber</last></author>
+      <author><first>Ngoc-Quan</first><last>Pham</last></author>
+      <author><first>Thanh-Le</first><last>Ha</last></author>
+      <author><first>Felix</first><last>Schneider</last></author>
+      <author><first>Sebastian</first><last>Stüker</last></author>
+      <pages>125–130</pages>
+      <abstract>This paper describes KIT’submission to the IWSLT 2021 Offline Speech Translation Task. We describe a system in both cascaded condition and end-to-end condition. In the cascaded condition, we investigated different end-to-end architectures for the speech recognition module. For the text segmentation module, we trained a small transformer-based model on high-quality monolingual data. For the translation module, our last year’s neural machine translation model was reused. In the end-to-end condition, we improved our Speech Relative Transformer architecture to reach or even surpass the result of the cascade system.</abstract>
+      <url hash="dac417e1">2021.iwslt-1.13</url>
+    </paper>
+    <paper id="14">
+      <title><fixed-case>FST</fixed-case>: the <fixed-case>FAIR</fixed-case> Speech Translation System for the <fixed-case>IWSLT</fixed-case>21 Multilingual Shared Task</title>
+      <author><first>Yun</first><last>Tang</last></author>
+      <author><first>Hongyu</first><last>Gong</last></author>
+      <author><first>Xian</first><last>Li</last></author>
+      <author><first>Changhan</first><last>Wang</last></author>
+      <author><first>Juan</first><last>Pino</last></author>
+      <author><first>Holger</first><last>Schwenk</last></author>
+      <author><first>Naman</first><last>Goyal</last></author>
+      <pages>131–137</pages>
+      <abstract>In this paper, we describe our end-to-end multilingual speech translation system submitted to the IWSLT 2021 evaluation campaign on the Multilingual Speech Translation shared task. Our system is built by leveraging transfer learning across modalities, tasks and languages. First, we leverage general-purpose multilingual modules pretrained with large amounts of unlabelled and labelled data. We further enable knowledge transfer from the text task to the speech task by training two tasks jointly. Finally, our multilingual model is finetuned on speech translation task-specific data to achieve the best translation results. Experimental results show our system outperforms the reported systems, including both end-to-end and cascaded based approaches, by a large margin. In some translation directions, our speech translation results evaluated on the public Multilingual TEDx test set are even comparable with the ones from a strong text-to-text translation system, which uses the oracle speech transcripts as input.</abstract>
+      <url hash="0c8ef4e3">2021.iwslt-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Maastricht University’s Multilingual Speech Translation System for <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Danni</first><last>Liu</last></author>
+      <author><first>Jan</first><last>Niehues</last></author>
+      <pages>138–143</pages>
+      <abstract>This paper describes Maastricht University’s participation in the IWSLT 2021 multilingual speech translation track. The task in this track is to build multilingual speech translation systems in supervised and zero-shot directions. Our primary system is an end-to-end model that performs both speech transcription and translation. We observe that the joint training for the two tasks is complementary especially when the speech translation data is scarce. On the source and target side, we use data augmentation and pseudo-labels respectively to improve the performance of our systems. We also introduce an ensembling technique that consistently improves the quality of transcriptions and translations. The experiments show that the end-to-end system is competitive with its cascaded counterpart especially in zero-shot conditions.</abstract>
+      <url hash="dff7b25d">2021.iwslt-1.15</url>
+    </paper>
+    <paper id="16">
+      <title><fixed-case>ZJU</fixed-case>’s <fixed-case>IWSLT</fixed-case> 2021 Speech Translation System</title>
+      <author><first>Linlin</first><last>Zhang</last></author>
+      <pages>144–148</pages>
+      <abstract>In this paper, we describe Zhejiang University’s submission to the IWSLT2021 Multilingual Speech Translation Task. This task focuses on speech translation (ST) research across many non-English source languages. Participants can decide whether to work on constrained systems or unconstrained systems which can using external data. We create both cascaded and end-to-end speech translation constrained systems, using the provided data only. In the cascaded approach, we combine Conformer-based automatic speech recognition (ASR) with the Transformer-based neural machine translation (NMT). Our end-to-end direct speech translation systems use ASR pretrained encoder and multi-task decoders. The submitted systems are ensembled by different cascaded models.</abstract>
+      <url hash="244ce8e4">2021.iwslt-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Multilingual Speech Translation with Unified Transformer: Huawei <fixed-case>N</fixed-case>oah’s Ark Lab at <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Xingshan</first><last>Zeng</last></author>
+      <author><first>Liangyou</first><last>Li</last></author>
+      <author><first>Qun</first><last>Liu</last></author>
+      <pages>149–153</pages>
+      <abstract>This paper describes the system submitted to the IWSLT 2021 Multilingual Speech Translation (MultiST) task from Huawei Noah’s Ark Lab. We use a unified transformer architecture for our MultiST model, so that the data from different modalities (i.e., speech and text) and different tasks (i.e., Speech Recognition, Machine Translation, and Speech Translation) can be exploited to enhance the model’s ability. Specifically, speech and text inputs are firstly fed to different feature extractors to extract acoustic and textual features, respectively. Then, these features are processed by a shared encoder–decoder architecture. We apply several training techniques to improve the performance, including multi-task learning, task-level curriculum learning, data augmentation, etc. Our final system achieves significantly better results than bilingual baselines on supervised language pairs and yields reasonable results on zero-shot language pairs.</abstract>
+      <url hash="83dc2a5f">2021.iwslt-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>Multilingual Speech Translation <fixed-case>KIT</fixed-case> @ <fixed-case>IWSLT</fixed-case>2021</title>
+      <author><first>Ngoc-Quan</first><last>Pham</last></author>
+      <author><first>Tuan Nam</first><last>Nguyen</last></author>
+      <author><first>Thanh-Le</first><last>Ha</last></author>
+      <author><first>Sebastian</first><last>Stüker</last></author>
+      <author><first>Alexander</first><last>Waibel</last></author>
+      <author><first>Dan</first><last>He</last></author>
+      <pages>154–159</pages>
+      <abstract>This paper contains the description for the submission of Karlsruhe Institute of Technology (KIT) for the multilingual TEDx translation task in the IWSLT 2021 evaluation campaign. Our main approach is to develop both cascade and end-to-end systems and eventually combine them together to achieve the best possible results for this extremely low-resource setting. The report also confirms certain consistent architectural improvement added to the Transformer architecture, for all tasks: translation, transcription and speech translation.</abstract>
+      <url hash="125bdb8e">2021.iwslt-1.18</url>
+    </paper>
+    <paper id="19">
+      <title><fixed-case>E</fixed-case>dinburgh’s End-to-End Multilingual Speech Translation System for <fixed-case>IWSLT</fixed-case> 2021</title>
+      <author><first>Biao</first><last>Zhang</last></author>
+      <author><first>Rico</first><last>Sennrich</last></author>
+      <pages>160–168</pages>
+      <abstract>This paper describes Edinburgh’s submissions to the IWSLT2021 multilingual speech translation (ST) task. We aim at improving multilingual translation and zero-shot performance in the constrained setting (without using any extra training data) through methods that encourage transfer learning and larger capacity modeling with advanced neural components. We build our end-to-end multilingual ST model based on Transformer, integrating techniques including adaptive speech feature selection, language-specific modeling, multi-task learning, deep and big Transformer, sparsified linear attention and root mean square layer normalization. We adopt data augmentation using machine translation models for ST which converts the zero-shot problem into a zero-resource one. Experimental results show that these methods deliver substantial improvements, surpassing the official baseline by &gt; 15 average BLEU and outperforming our cascading system by &gt; 2 average BLEU. Our final submission achieves competitive performance (runner up).</abstract>
+      <url hash="eee1e1b8">2021.iwslt-1.19</url>
+    </paper>
+    <paper id="20">
+      <title><fixed-case>ON</fixed-case>-<fixed-case>TRAC</fixed-case>’ systems for the <fixed-case>IWSLT</fixed-case> 2021 low-resource speech translation and multilingual speech translation shared tasks</title>
+      <author><first>Hang</first><last>Le</last></author>
+      <author><first>Florentin</first><last>Barbier</last></author>
+      <author><first>Ha</first><last>Nguyen</last></author>
+      <author><first>Natalia</first><last>Tomashenko</last></author>
+      <author><first>Salima</first><last>Mdhaffar</last></author>
+      <author><first>Souhir Gabiche</first><last>Gahbiche</last></author>
+      <author><first>Benjamin</first><last>Lecouteux</last></author>
+      <author><first>Didier</first><last>Schwab</last></author>
+      <author><first>Yannick</first><last>Estève</last></author>
+      <pages>169–174</pages>
+      <abstract>This paper describes the ON-TRAC Consortium translation systems developed for two challenge tracks featured in the Evaluation Campaign of IWSLT 2021, low-resource speech translation and multilingual speech translation. The ON-TRAC Consortium is composed of researchers from three French academic laboratories and an industrial partner: LIA (Avignon Université), LIG (Université Grenoble Alpes), LIUM (Le Mans Université), and researchers from Airbus. A pipeline approach was explored for the low-resource speech translation task, using a hybrid HMM/TDNN automatic speech recognition system fed by wav2vec features, coupled to an NMT system. For the multilingual speech translation task, we investigated the us of a dual-decoder Transformer that jointly transcribes and translates an input speech. This model was trained in order to translate from multiple source languages to multiple target ones.</abstract>
+      <url hash="24ee9689">2021.iwslt-1.20</url>
+    </paper>
+    <paper id="21">
+      <title><fixed-case>IMS</fixed-case>’ Systems for the <fixed-case>IWSLT</fixed-case> 2021 Low-Resource Speech Translation Task</title>
+      <author><first>Pavel</first><last>Denisov</last></author>
+      <author><first>Manuel</first><last>Mager</last></author>
+      <author><first>Ngoc Thang</first><last>Vu</last></author>
+      <pages>175–181</pages>
+      <abstract>This paper describes the submission to the IWSLT 2021 Low-Resource Speech Translation Shared Task by IMS team. We utilize state-of-the-art models combined with several data augmentation, multi-task and transfer learning approaches for the automatic speech recognition (ASR) and machine translation (MT) steps of our cascaded system. Moreover, we also explore the feasibility of a full end-to-end speech translation (ST) model in the case of very constrained amount of ground truth labeled data. Our best system achieves the best performance among all submitted systems for Congolese Swahili to English and French with BLEU scores 7.7 and 13.7 respectively, and the second best result for Coastal Swahili to English with BLEU score 14.9.</abstract>
+      <url hash="d1748ac3">2021.iwslt-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>The <fixed-case>USYD</fixed-case>-<fixed-case>JD</fixed-case> Speech Translation System for <fixed-case>IWSLT</fixed-case>2021</title>
+      <author><first>Liang</first><last>Ding</last></author>
+      <author><first>Dacheng</first><last>Tao</last></author>
+      <pages>182–191</pages>
+      <abstract>This paper describes the University of Sydney &amp; JD’s joint submission of the IWSLT 2021 low resource speech translation task. We participated in the Swahili-&gt;English direction and got the best scareBLEU (25.3) score among all the participants. Our constrained system is based on a pipeline framework, i.e. ASR and NMT. We trained our models with the officially provided ASR and MT datasets. The ASR system is based on the open-sourced tool Kaldi and this work mainly explores how to make the most of the NMT models. To reduce the punctuation errors generated by the ASR model, we employ our previous work SlotRefine to train a punctuation correction model. To achieve better translation performance, we explored the most recent effective strategies, including back translation, knowledge distillation, multi-feature reranking, and transductive finetuning. For model structure, we tried auto-regressive and non-autoregressive models, respectively. In addition, we proposed two novel pre-train approaches, i.e. de-noising training and bidirectional training to fully exploit the data. Extensive experiments show that adding the above techniques consistently improves the BLEU scores, and the final submission system outperforms the baseline (Transformer ensemble model trained with the original parallel data) by approximately 10.8 BLEU score, achieving the SOTA performance.</abstract>
+      <url hash="54e66a2c">2021.iwslt-1.22</url>
+    </paper>
+    <paper id="23">
+      <title>mix<fixed-case>S</fixed-case>eq: A Simple Data Augmentation Methodfor Neural Machine Translation</title>
+      <author><first>Xueqing</first><last>Wu</last></author>
+      <author><first>Yingce</first><last>Xia</last></author>
+      <author><first>Jinhua</first><last>Zhu</last></author>
+      <author><first>Lijun</first><last>Wu</last></author>
+      <author><first>Shufang</first><last>Xie</last></author>
+      <author><first>Yang</first><last>Fan</last></author>
+      <author><first>Tao</first><last>Qin</last></author>
+      <pages>192–197</pages>
+      <abstract>Data augmentation, which refers to manipulating the inputs (e.g., adding random noise,masking specific parts) to enlarge the dataset,has been widely adopted in machine learning. Most data augmentation techniques operate on a single input, which limits the diversity of the training corpus. In this paper, we propose a simple yet effective data augmentation technique for neural machine translation, mixSeq, which operates on multiple inputs and their corresponding targets. Specifically, we randomly select two input sequences,concatenate them together as a longer input aswell as their corresponding target sequencesas an enlarged target, and train models on theaugmented dataset. Experiments on nine machine translation tasks demonstrate that such asimple method boosts the baselines by a non-trivial margin. Our method can be further combined with single input based data augmentation methods to obtain further improvements.</abstract>
+      <url hash="3d4ef533">2021.iwslt-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>On Knowledge Distillation for Translating Erroneous Speech Transcriptions</title>
+      <author><first>Ryo</first><last>Fukuda</last></author>
+      <author><first>Katsuhito</first><last>Sudoh</last></author>
+      <author><first>Satoshi</first><last>Nakamura</last></author>
+      <pages>198–205</pages>
+      <abstract>Recent studies argue that knowledge distillation is promising for speech translation (ST) using end-to-end models. In this work, we investigate the effect of knowledge distillation with a cascade ST using automatic speech recognition (ASR) and machine translation (MT) models. We distill knowledge from a teacher model based on human transcripts to a student model based on erroneous transcriptions. Our experimental results demonstrated that knowledge distillation is beneficial for a cascade ST. Further investigation that combined knowledge distillation and fine-tuning revealed that the combination consistently improved two language pairs: English-Italian and Spanish-English.</abstract>
+      <url hash="aaab8655">2021.iwslt-1.24</url>
+    </paper>
+    <paper id="25">
+      <title>Self-Guided Curriculum Learning for Neural Machine Translation</title>
+      <author><first>Lei</first><last>Zhou</last></author>
+      <author><first>Liang</first><last>Ding</last></author>
+      <author><first>Kevin</first><last>Duh</last></author>
+      <author><first>Shinji</first><last>Watanabe</last></author>
+      <author><first>Ryohei</first><last>Sasano</last></author>
+      <author><first>Koichi</first><last>Takeda</last></author>
+      <pages>206–214</pages>
+      <abstract>In supervised learning, a well-trained model should be able to recover ground truth accurately, i.e. the predicted labels are expected to resemble the ground truth labels as much as possible. Inspired by this, we formulate a difficulty criterion based on the recovery degrees of training examples. Motivated by the intuition that after skimming through the training corpus, the neural machine translation (NMT) model “knows” how to schedule a suitable curriculum according to learning difficulty, we propose a self-guided curriculum learning strategy that encourages the NMT model to learn from easy to hard on the basis of recovery degrees. Specifically, we adopt sentence-level BLEU score as the proxy of recovery degree. Experimental results on translation benchmarks including WMT14 English-German and WMT17 Chinese-English demonstrate that our proposed method considerably improves the recovery degree, thus consistently improving the translation performance.</abstract>
+      <url hash="4d3e2d60">2021.iwslt-1.25</url>
+    </paper>
+    <paper id="26">
+      <title>Between Flexibility and Consistency: Joint Generation of Captions and Subtitles</title>
+      <author><first>Alina</first><last>Karakanta</last></author>
+      <author><first>Marco</first><last>Gaido</last></author>
+      <author><first>Matteo</first><last>Negri</last></author>
+      <author><first>Marco</first><last>Turchi</last></author>
+      <pages>215–225</pages>
+      <abstract>Speech translation (ST) has lately received growing interest for the generation of subtitles without the need for an intermediate source language transcription and timing (i.e. captions). However, the joint generation of source captions and target subtitles does not only bring potential output quality advantages when the two decoding processes inform each other, but it is also often required in multilingual scenarios. In this work, we focus on ST models which generate consistent captions-subtitles in terms of structure and lexical content. We further introduce new metrics for evaluating subtitling consistency. Our findings show that joint decoding leads to increased performance and consistency between the generated captions and subtitles while still allowing for sufficient flexibility to produce subtitles conforming to language-specific needs and norms.</abstract>
+      <url hash="bc462a33">2021.iwslt-1.26</url>
+    </paper>
+    <paper id="27">
+      <title>Large-Scale <fixed-case>E</fixed-case>nglish-<fixed-case>J</fixed-case>apanese Simultaneous Interpretation Corpus: Construction and Analyses with Sentence-Aligned Data</title>
+      <author><first>Kosuke</first><last>Doi</last></author>
+      <author><first>Katsuhito</first><last>Sudoh</last></author>
+      <author><first>Satoshi</first><last>Nakamura</last></author>
+      <pages>226–235</pages>
+      <abstract>This paper describes the construction of a new large-scale English-Japanese Simultaneous Interpretation (SI) corpus and presents the results of its analysis. A portion of the corpus contains SI data from three interpreters with different amounts of experience. Some of the SI data were manually aligned with the source speeches at the sentence level. Their latency, quality, and word order aspects were compared among the SI data themselves as well as against offline translations. The results showed that (1) interpreters with more experience controlled the latency and quality better, and (2) large latency hurt the SI quality.</abstract>
+      <url hash="e1bb3d15">2021.iwslt-1.27</url>
+    </paper>
+    <paper id="28">
+      <title>Inverted Projection for Robust Speech Translation</title>
+      <author><first>Dirk</first><last>Padfield</last></author>
+      <author><first>Colin</first><last>Cherry</last></author>
+      <pages>236–244</pages>
+      <abstract>Traditional translation systems trained on written documents perform well for text-based translation but not as well for speech-based applications. We aim to adapt translation models to speech by introducing actual lexical errors from ASR and segmentation errors from automatic punctuation into our translation training data. We introduce an inverted projection approach that projects automatically detected system segments onto human transcripts and then re-segments the gold translations to align with the projected human transcripts. We demonstrate that this overcomes the train-test mismatch present in other training approaches. The new projection approach achieves gains of over 1 BLEU point over a baseline that is exposed to the human transcripts and segmentations, and these gains hold for both IWSLT data and YouTube data.</abstract>
+      <url hash="cf49d38e">2021.iwslt-1.28</url>
+    </paper>
+    <paper id="29">
+      <title>Towards the evaluation of automatic simultaneous speech translation from a communicative perspective</title>
+      <author><first>Claudio</first><last>Fantinuoli</last></author>
+      <author><first>Bianca</first><last>Prandi</last></author>
+      <pages>245–254</pages>
+      <abstract>In recent years, automatic speech-to-speech and speech-to-text translation has gained momentum thanks to advances in artificial intelligence, especially in the domains of speech recognition and machine translation. The quality of such applications is commonly tested with automatic metrics, such as BLEU, primarily with the goal of assessing improvements of releases or in the context of evaluation campaigns. However, little is known about how the output of such systems is perceived by end users or how they compare to human performances in similar communicative tasks. In this paper, we present the results of an experiment aimed at evaluating the quality of a real-time speech translation engine by comparing it to the performance of professional simultaneous interpreters. To do so, we adopt a framework developed for the assessment of human interpreters and use it to perform a manual evaluation on both human and machine performances. In our sample, we found better performance for the human interpreters in terms of intelligibility, while the machine performs slightly better in terms of informativeness. The limitations of the study and the possible enhancements of the chosen framework are discussed. Despite its intrinsic limitations, the use of this framework represents a first step towards a user-centric and communication-oriented methodology for evaluating real-time automatic speech translation.</abstract>
+      <url hash="52d3d64a">2021.iwslt-1.29</url>
+    </paper>
+    <paper id="30">
+      <title>Tag Assisted Neural Machine Translation of Film Subtitles</title>
+      <author><first>Aren</first><last>Siekmeier</last></author>
+      <author><first>WonKee</first><last>Lee</last></author>
+      <author><first>Hongseok</first><last>Kwon</last></author>
+      <author><first>Jong-Hyeok</first><last>Lee</last></author>
+      <pages>255–262</pages>
+      <abstract>We implemented a neural machine translation system that uses automatic sequence tagging to improve the quality of translation. Instead of operating on unannotated sentence pairs, our system uses pre-trained tagging systems to add linguistic features to source and target sentences. Our proposed neural architecture learns a combined embedding of tokens and tags in the encoder, and simultaneous token and tag prediction in the decoder. Compared to a baseline with unannotated training, this architecture increased the BLEU score of German to English film subtitle translation outputs by 1.61 points using named entity tags; however, the BLEU score decreased by 0.38 points using part-of-speech tags. This demonstrates that certain token-level tag outputs from off-the-shelf tagging systems can improve the output of neural translation systems using our combined embedding and simultaneous decoding extensions.</abstract>
+      <url hash="e2abffd7">2021.iwslt-1.30</url>
+    </paper>
+    <paper id="31">
+      <title>A Statistical Extension of Byte-Pair Encoding</title>
+      <author><first>David</first><last>Vilar</last></author>
+      <author><first>Marcello</first><last>Federico</last></author>
+      <pages>263–275</pages>
+      <abstract>Sub-word segmentation is currently a standard tool for training neural machine translation (MT) systems and other NLP tasks. The goal is to split words (both in the source and target languages) into smaller units which then constitute the input and output vocabularies of the MT system. The aim of reducing the size of the input and output vocabularies is to increase the generalization capabilities of the translation model, enabling the system to translate and generate infrequent and new (unseen) words at inference time by combining previously seen sub-word units. Ideally, we would expect the created units to have some linguistic meaning, so that words are created in a compositional way. However, the most popular word-splitting method, Byte-Pair Encoding (BPE), which originates from the data compression literature, does not include explicit criteria to favor linguistic splittings nor to find the optimal sub-word granularity for the given training data. In this paper, we propose a statistically motivated extension of the BPE algorithm and an effective convergence criterion that avoids the costly experimentation cycle needed to select the best sub-word vocabulary size. Experimental results with morphologically rich languages show that our model achieves nearly-optimal BLEU scores and produces morphologically better word segmentations, which allows to outperform BPE’s generalization in the translation of sentences containing new words, as shown via human evaluation.</abstract>
+      <url hash="6cc34eeb">2021.iwslt-1.31</url>
+    </paper>
+    <paper id="32">
+      <title>Integrated Training for Sequence-to-Sequence Models Using Non-Autoregressive Transformer</title>
+      <author><first>Evgeniia</first><last>Tokarchuk</last></author>
+      <author><first>Jan</first><last>Rosendahl</last></author>
+      <author><first>Weiyue</first><last>Wang</last></author>
+      <author><first>Pavel</first><last>Petrushkov</last></author>
+      <author><first>Tomer</first><last>Lancewicki</last></author>
+      <author><first>Shahram</first><last>Khadivi</last></author>
+      <author><first>Hermann</first><last>Ney</last></author>
+      <pages>276–286</pages>
+      <abstract>Complex natural language applications such as speech translation or pivot translation traditionally rely on cascaded models. However,cascaded models are known to be prone to error propagation and model discrepancy problems. Furthermore, there is no possibility of using end-to-end training data in conventional cascaded systems, meaning that the training data most suited for the task cannot be used.Previous studies suggested several approaches for integrated end-to-end training to overcome those problems, however they mostly rely on(synthetic or natural) three-way data. We propose a cascaded model based on the non-autoregressive Transformer that enables end-to-end training without the need for an explicit intermediate representation. This new architecture (i) avoids unnecessary early decisions that can cause errors which are then propagated throughout the cascaded models and (ii) utilizes the end-to-end training data directly. We conduct an evaluation on two pivot-based machine translation tasks, namely French→German and German→Czech. Our experimental results show that the proposed architecture yields an improvement of more than 2 BLEU for French→German over the cascaded baseline.</abstract>
+      <url hash="622fd78e">2021.iwslt-1.32</url>
+    </paper>
+    <paper id="33">
+      <title>Data Augmentation by Concatenation for Low-Resource Translation: A Mystery and a Solution</title>
+      <author><first>Toan Q.</first><last>Nguyen</last></author>
+      <author><first>Kenton</first><last>Murray</last></author>
+      <author><first>David</first><last>Chiang</last></author>
+      <pages>287–293</pages>
+      <abstract>In this paper, we investigate the driving factors behind concatenation, a simple but effective data augmentation method for low-resource neural machine translation. Our experiments suggest that discourse context is unlikely the cause for concatenation improving BLEU by about +1 across four language pairs. Instead, we demonstrate that the improvement comes from three other factors unrelated to discourse: context diversity, length diversity, and (to a lesser extent) position shifting.</abstract>
+      <url hash="737b3a8e">2021.iwslt-1.33</url>
+    </paper>
+  </volume>
+</collection>

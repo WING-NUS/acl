@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2021.repl4nlp">
+  <volume id="1" ingest-date="2021-07-25">
+    <meta>
+      <booktitle>Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)</booktitle>
+      <editor><first>Anna</first><last>Rogers</last></editor>
+      <editor><first>Iacer</first><last>Calixto</last></editor>
+      <editor><first>Ivan</first><last>Vulić</last></editor>
+      <editor><first>Naomi</first><last>Saphra</last></editor>
+      <editor><first>Nora</first><last>Kassner</last></editor>
+      <editor><first>Oana-Maria</first><last>Camburu</last></editor>
+      <editor><first>Trapit</first><last>Bansal</last></editor>
+      <editor><first>Vered</first><last>Shwartz</last></editor>
+      <publisher>Association for Computational Linguistics</publisher>
+      <address>Online</address>
+      <month>August</month>
+      <year>2021</year>
+      <url hash="ee14b8fa">2021.repl4nlp-1</url>
+    </meta>
+    <frontmatter>
+      <url hash="e0d00975">2021.repl4nlp-1.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Improving Cross-lingual Text Classification with Zero-shot Instance-Weighting</title>
+      <author><first>Irene</first><last>Li</last></author>
+      <author><first>Prithviraj</first><last>Sen</last></author>
+      <author><first>Huaiyu</first><last>Zhu</last></author>
+      <author><first>Yunyao</first><last>Li</last></author>
+      <author><first>Dragomir</first><last>Radev</last></author>
+      <pages>1–7</pages>
+      <abstract>Cross-lingual text classification (CLTC) is a challenging task made even harder still due to the lack of labeled data in low-resource languages. In this paper, we propose zero-shot instance-weighting, a general model-agnostic zero-shot learning framework for improving CLTC by leveraging source instance weighting. It adds a module on top of pre-trained language models for similarity computation of instance weights, thus aligning each source instance to the target language. During training, the framework utilizes gradient descent that is weighted by instance weights to update parameters. We evaluate this framework over seven target languages on three fundamental tasks and show its effectiveness and extensibility, by improving on F1 score up to 4% in single-source transfer and 8% in multi-source transfer. To the best of our knowledge, our method is the first to apply instance weighting in zero-shot CLTC. It is simple yet effective and easily extensible into multi-source transfer.</abstract>
+      <url hash="504832bc">2021.repl4nlp-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>Probing Multilingual Language Models for Discourse</title>
+      <author><first>Murathan</first><last>Kurfalı</last></author>
+      <author><first>Robert</first><last>Östling</last></author>
+      <pages>8–19</pages>
+      <abstract>Pre-trained multilingual language models have become an important building block in multilingual Natural Language Processing. In the present paper, we investigate a range of such models to find out how well they transfer discourse-level knowledge across languages. This is done with a systematic evaluation on a broader set of discourse-level tasks than has been previously been assembled. We find that the XLM-RoBERTa family of models consistently show the best performance, by simultaneously being good monolingual models and degrading relatively little in a zero-shot setting. Our results also indicate that model distillation may hurt the ability of cross-lingual transfer of sentence representations, while language dissimilarity at most has a modest effect. We hope that our test suite, covering 5 tasks with a total of 22 languages in 10 distinct families, will serve as a useful evaluation platform for multilingual performance at and beyond the sentence level.</abstract>
+      <url hash="2a66e3da">2021.repl4nlp-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>Comprehension Based Question Answering using Bloom’s Taxonomy</title>
+      <author><first>Pritish</first><last>Sahu</last></author>
+      <author><first>Michael</first><last>Cogswell</last></author>
+      <author><first>Ajay</first><last>Divakaran</last></author>
+      <author><first>Sara</first><last>Rutherford-Quach</last></author>
+      <pages>20–28</pages>
+      <abstract>Current pre-trained language models have lots of knowledge, but a more limited ability to use that knowledge. Bloom’s Taxonomy helps educators teach children how to use knowledge by categorizing comprehension skills, so we use it to analyze and improve the comprehension skills of large pre-trained language models. Our experiments focus on zero-shot question answering, using the taxonomy to provide proximal context that helps the model answer questions by being relevant to those questions. We show targeting context in this manner improves performance across 4 popular common sense question answer datasets.</abstract>
+      <url hash="11baef0f">2021.repl4nlp-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>Larger-Scale Transformers for Multilingual Masked Language Modeling</title>
+      <author><first>Naman</first><last>Goyal</last></author>
+      <author><first>Jingfei</first><last>Du</last></author>
+      <author><first>Myle</first><last>Ott</last></author>
+      <author><first>Giri</first><last>Anantharaman</last></author>
+      <author><first>Alexis</first><last>Conneau</last></author>
+      <pages>29–33</pages>
+      <abstract>Recent work has demonstrated the effectiveness of cross-lingual language model pretraining for cross-lingual understanding. In this study, we present the results of two larger multilingual masked language models, with 3.5B and 10.7B parameters. Our two new models dubbed and outperform XLM-R by 1.8% and 2.4% average accuracy on XNLI. Our model also outperforms the RoBERTa-Large model on several English tasks of the GLUE benchmark by 0.3% on average while handling 99 more languages. This suggests larger capacity models for language understanding may obtain strong performance on high-resource languages while greatly improving low-resource languages. We make our code and models publicly available.</abstract>
+      <url hash="08de7e01">2021.repl4nlp-1.4</url>
+    </paper>
+    <paper id="5">
+      <title>Learning Sparse Sentence Encoding without Supervision: An Exploration of Sparsity in Variational Autoencoders</title>
+      <author><first>Victor</first><last>Prokhorov</last></author>
+      <author><first>Yingzhen</first><last>Li</last></author>
+      <author><first>Ehsan</first><last>Shareghi</last></author>
+      <author><first>Nigel</first><last>Collier</last></author>
+      <pages>34–46</pages>
+      <abstract>It has been long known that sparsity is an effective inductive bias for learning efficient representation of data in vectors with fixed dimensionality, and it has been explored in many areas of representation learning. Of particular interest to this work is the investigation of the sparsity within the VAE framework which has been explored a lot in the image domain, but has been lacking even a basic level of exploration in NLP. Additionally, NLP is also lagging behind in terms of learning sparse representations of large units of text e.g., sentences. We use the VAEs that induce sparse latent representations of large units of text to address the aforementioned shortcomings. First, we move in this direction by measuring the success of unsupervised state-of-the-art (SOTA) and other strong VAE-based sparsification baselines for text and propose a hierarchical sparse VAE model to address the stability issue of SOTA. Then, we look at the implications of sparsity on text classification across 3 datasets, and highlight a link between performance of sparse latent representations on downstream tasks and its ability to encode task-related information.</abstract>
+      <url hash="8f51e476">2021.repl4nlp-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Temporal-aware Language Representation Learning From Crowdsourced Labels</title>
+      <author><first>Yang</first><last>Hao</last></author>
+      <author><first>Xiao</first><last>Zhai</last></author>
+      <author><first>Wenbiao</first><last>Ding</last></author>
+      <author><first>Zitao</first><last>Liu</last></author>
+      <pages>47–56</pages>
+      <abstract>Learning effective language representations from crowdsourced labels is crucial for many real-world machine learning tasks. A challenging aspect of this problem is that the quality of crowdsourced labels suffer high intra- and inter-observer variability. Since the high-capacity deep neural networks can easily memorize all disagreements among crowdsourced labels, directly applying existing supervised language representation learning algorithms may yield suboptimal solutions. In this paper, we propose <i>TACMA</i>, a temporal-aware language representation learning heuristic for crowdsourced labels with multiple annotators. The proposed approach (1) explicitly models the intra-observer variability with attention mechanism; (2) computes and aggregates per-sample confidence scores from multiple workers to address the inter-observer disagreements. The proposed heuristic is extremely easy to implement in around 5 lines of code. The proposed heuristic is evaluated on four synthetic and four real-world data sets. The results show that our approach outperforms a wide range of state-of-the-art baselines in terms of prediction accuracy and AUC. To encourage the reproducible results, we make our code publicly available at <url>https://github.com/CrowdsourcingMining/TACMA</url>.</abstract>
+      <url hash="4e51af9e">2021.repl4nlp-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>Structure-aware Sentence Encoder in Bert-Based <fixed-case>S</fixed-case>iamese Network</title>
+      <author><first>Qiwei</first><last>Peng</last></author>
+      <author><first>David</first><last>Weir</last></author>
+      <author><first>Julie</first><last>Weeds</last></author>
+      <pages>57–63</pages>
+      <abstract>Recently, impressive performance on various natural language understanding tasks has been achieved by explicitly incorporating syntax and semantic information into pre-trained models, such as BERT and RoBERTa. However, this approach depends on problem-specific fine-tuning, and as widely noted, BERT-like models exhibit weak performance, and are inefficient, when applied to unsupervised similarity comparison tasks. Sentence-BERT (SBERT) has been proposed as a general-purpose sentence embedding method, suited to both similarity comparison and downstream tasks. In this work, we show that by incorporating structural information into SBERT, the resulting model outperforms SBERT and previous general sentence encoders on unsupervised semantic textual similarity (STS) datasets and transfer classification tasks.</abstract>
+      <url hash="bcd00059">2021.repl4nlp-1.7</url>
+    </paper>
+    <paper id="8">
+      <title>Preserving Cross-Linguality of Pre-trained Models via Continual Learning</title>
+      <author><first>Zihan</first><last>Liu</last></author>
+      <author><first>Genta Indra</first><last>Winata</last></author>
+      <author><first>Andrea</first><last>Madotto</last></author>
+      <author><first>Pascale</first><last>Fung</last></author>
+      <pages>64–71</pages>
+      <abstract>Recently, fine-tuning pre-trained language models (e.g., multilingual BERT) to downstream cross-lingual tasks has shown promising results. However, the fine-tuning process inevitably changes the parameters of the pre-trained model and weakens its cross-lingual ability, which leads to sub-optimal performance. To alleviate this problem, we leverage continual learning to preserve the original cross-lingual ability of the pre-trained model when we fine-tune it to downstream tasks. The experimental result shows that our fine-tuning methods can better preserve the cross-lingual ability of the pre-trained model in a sentence retrieval task. Our methods also achieve better performance than other fine-tuning baselines on the zero-shot cross-lingual part-of-speech tagging and named entity recognition tasks.</abstract>
+      <url hash="43608339">2021.repl4nlp-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>Text Style Transfer: Leveraging a Style Classifier on Entangled Latent Representations</title>
+      <author><first>Xiaoyan</first><last>Li</last></author>
+      <author><first>Sun</first><last>Sun</last></author>
+      <author><first>Yunli</first><last>Wang</last></author>
+      <pages>72–82</pages>
+      <abstract>Learning a good latent representation is essential for text style transfer, which generates a new sentence by changing the attributes of a given sentence while preserving its content. Most previous works adopt disentangled latent representation learning to realize style transfer. We propose a novel text style transfer algorithm with entangled latent representation, and introduce a style classifier that can regulate the latent structure and transfer style. Moreover, our algorithm for style transfer applies to both single-attribute and multi-attribute transfer. Extensive experimental results show that our method generally outperforms state-of-the-art approaches.</abstract>
+      <url hash="1e50eb13">2021.repl4nlp-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Inductively Representing Out-of-Knowledge-Graph Entities by Optimal Estimation Under Translational Assumptions</title>
+      <author><first>Damai</first><last>Dai</last></author>
+      <author><first>Hua</first><last>Zheng</last></author>
+      <author><first>Fuli</first><last>Luo</last></author>
+      <author><first>Pengcheng</first><last>Yang</last></author>
+      <author><first>Tianyu</first><last>Liu</last></author>
+      <author><first>Zhifang</first><last>Sui</last></author>
+      <author><first>Baobao</first><last>Chang</last></author>
+      <pages>83–89</pages>
+      <abstract>Conventional Knowledge Graph Completion (KGC) assumes that all test entities appear during training. However, in real-world scenarios, Knowledge Graphs (KG) evolve fast with out-of-knowledge-graph (OOKG) entities added frequently, and we need to efficiently represent these entities. Most existing Knowledge Graph Embedding (KGE) methods cannot represent OOKG entities without costly retraining on the whole KG. To enhance efficiency, we propose a simple and effective method that inductively represents OOKG entities by their optimal estimation under translational assumptions. Moreover, given pretrained embeddings of the in-knowledge-graph (IKG) entities, our method even needs no additional learning. Experimental results on two KGC tasks with OOKG entities show that our method outperforms the previous methods by a large margin with higher efficiency.</abstract>
+      <url hash="16a934c4">2021.repl4nlp-1.10</url>
+    </paper>
+    <paper id="11">
+      <title>Revisiting Pretraining with Adapters</title>
+      <author><first>Seungwon</first><last>Kim</last></author>
+      <author><first>Alex</first><last>Shum</last></author>
+      <author><first>Nathan</first><last>Susanj</last></author>
+      <author><first>Jonathan</first><last>Hilgart</last></author>
+      <pages>90–99</pages>
+      <abstract>Pretrained language models have served as the backbone for many state-of-the-art NLP results. These models are large and expensive to train. Recent work suggests that continued pretraining on task-specific data is worth the effort as pretraining leads to improved performance on downstream tasks. We explore alternatives to full-scale task-specific pretraining of language models through the use of adapter modules, a parameter-efficient approach to transfer learning. We find that adapter-based pretraining is able to achieve comparable results to task-specific pretraining while using a fraction of the overall trainable parameters. We further explore direct use of adapters without pretraining and find that the direct fine-tuning performs mostly on par with pretrained adapter models, contradicting previously proposed benefits of continual pretraining in full pretraining fine-tuning strategies. Lastly, we perform an ablation study on task-adaptive pretraining to investigate how different hyperparameter settings can change the effectiveness of the pretraining.</abstract>
+      <url hash="4ed74db1">2021.repl4nlp-1.11</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="a990aeb3">2021.repl4nlp-1.11.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="12">
+      <title>Knodle: Modular Weakly Supervised Learning with <fixed-case>P</fixed-case>y<fixed-case>T</fixed-case>orch</title>
+      <author><first>Anastasiia</first><last>Sedova</last></author>
+      <author><first>Andreas</first><last>Stephan</last></author>
+      <author><first>Marina</first><last>Speranskaya</last></author>
+      <author><first>Benjamin</first><last>Roth</last></author>
+      <pages>100–111</pages>
+      <abstract>Strategies for improving the training and prediction quality of weakly supervised machine learning models vary in how much they are tailored to a specific task or integrated with a specific model architecture. In this work, we introduce Knodle, a software framework that treats weak data annotations, deep learning models, and methods for improving weakly supervised training as separate, modular components. This modularization gives the training process access to fine-grained information such as data set characteristics, matches of heuristic rules, or elements of the deep learning model ultimately used for prediction. Hence, our framework can encompass a wide range of training methods for improving weak supervision, ranging from methods that only look at correlations of rules and output classes (independently of the machine learning model trained with the resulting labels), to those that harness the interplay of neural networks and weakly labeled data. We illustrate the benchmarking potential of the framework with a performance comparison of several reference implementations on a selection of datasets that are already available in Knodle.</abstract>
+      <url hash="c9e270da">2021.repl4nlp-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>X</fixed-case>2<fixed-case>P</fixed-case>arser: Cross-Lingual and Cross-Domain Framework for Task-Oriented Compositional Semantic Parsing</title>
+      <author><first>Zihan</first><last>Liu</last></author>
+      <author><first>Genta Indra</first><last>Winata</last></author>
+      <author><first>Peng</first><last>Xu</last></author>
+      <author><first>Pascale</first><last>Fung</last></author>
+      <pages>112–127</pages>
+      <abstract>Task-oriented compositional semantic parsing (TCSP) handles complex nested user queries and serves as an essential component of virtual assistants. Current TCSP models rely on numerous training data to achieve decent performance but fail to generalize to low-resource target languages or domains. In this paper, we present X2Parser, a transferable Cross-lingual and Cross-domain Parser for TCSP. Unlike previous models that learn to generate the hierarchical representations for nested intents and slots, we propose to predict intents and slots separately and cast both prediction tasks into sequence labeling problems. After that, we further propose a fertility-based slot predictor that first learns to detect the number of labels for each token, and then predicts the slot types. Experimental results illustrate that our model can significantly outperform existing strong baselines in cross-lingual and cross-domain settings, and our model can also achieve a good generalization ability on target languages of target domains. Furthermore, we show that our model can reduce the latency by up to 66% compared to the generation-based model.</abstract>
+      <url hash="82c4761e">2021.repl4nlp-1.13</url>
+    </paper>
+    <paper id="14">
+      <title>Unsupervised Representation Disentanglement of Text: An Evaluation on Synthetic Datasets</title>
+      <author><first>Lan</first><last>Zhang</last></author>
+      <author><first>Victor</first><last>Prokhorov</last></author>
+      <author><first>Ehsan</first><last>Shareghi</last></author>
+      <pages>128–140</pages>
+      <abstract>To highlight the challenges of achieving representation disentanglement for text domain in an unsupervised setting, in this paper we select a representative set of successfully applied models from the image domain. We evaluate these models on 6 disentanglement metrics, as well as on downstream classification tasks and homotopy. To facilitate the evaluation, we propose two synthetic datasets with known generative factors. Our experiments highlight the existing gap in the text domain and illustrate that certain elements such as representation sparsity (as an inductive bias), or representation coupling with the decoder could impact disentanglement. To the best of our knowledge, our work is the first attempt on the intersection of unsupervised representation disentanglement and text, and provides the experimental framework and datasets for examining future developments in this direction.</abstract>
+      <url hash="c59e5dc9">2021.repl4nlp-1.14</url>
+    </paper>
+    <paper id="15">
+      <title>Learn The Big Picture: Representation Learning for Clustering</title>
+      <author><first>Sumanta</first><last>Kashyapi</last></author>
+      <author><first>Laura</first><last>Dietz</last></author>
+      <pages>141–151</pages>
+      <abstract>Existing supervised models for text clustering find it difficult to directly optimize for clustering results. This is because clustering is a discrete process and it is difficult to estimate meaningful gradient of any discrete function that can drive gradient based optimization algorithms. So, existing supervised clustering algorithms indirectly optimize for some continuous function that approximates the clustering process. We propose a scalable training strategy that directly optimizes for a discrete clustering metric. We train a BERT-based embedding model using our method and evaluate it on two publicly available datasets. We show that our method outperforms another BERT-based embedding model employing Triplet loss and other unsupervised baselines. This suggests that optimizing directly for the clustering outcome indeed yields better representations suitable for clustering.</abstract>
+      <url hash="4df4cbfc">2021.repl4nlp-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Probing Cross-Modal Representations in Multi-Step Relational Reasoning</title>
+      <author><first>Iuliia</first><last>Parfenova</last></author>
+      <author><first>Desmond</first><last>Elliott</last></author>
+      <author><first>Raquel</first><last>Fernández</last></author>
+      <author><first>Sandro</first><last>Pezzelle</last></author>
+      <pages>152–162</pages>
+      <abstract>We investigate the representations learned by vision and language models in tasks that require relational reasoning. Focusing on the problem of assessing the relative size of objects in abstract visual contexts, we analyse both one-step and two-step reasoning. For the latter, we construct a new dataset of three-image scenes and define a task that requires reasoning at the level of the individual images and across images in a scene. We probe the learned model representations using diagnostic classifiers. Our experiments show that pretrained multimodal transformer-based architectures can perform higher-level relational reasoning, and are able to learn representations for novel tasks and data that are very different from what was seen in pretraining.</abstract>
+      <url hash="2f2181c2">2021.repl4nlp-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>In-Batch Negatives for Knowledge Distillation with Tightly-Coupled Teachers for Dense Retrieval</title>
+      <author><first>Sheng-Chieh</first><last>Lin</last></author>
+      <author><first>Jheng-Hong</first><last>Yang</last></author>
+      <author><first>Jimmy</first><last>Lin</last></author>
+      <pages>163–173</pages>
+      <abstract>We present an efficient training approach to text retrieval with dense representations that applies knowledge distillation using the ColBERT late-interaction ranking model. Specifically, we propose to transfer the knowledge from a bi-encoder teacher to a student by distilling knowledge from ColBERT’s expressive MaxSim operator into a simple dot product. The advantage of the bi-encoder teacher–student setup is that we can efficiently add in-batch negatives during knowledge distillation, enabling richer interactions between teacher and student models. In addition, using ColBERT as the teacher reduces training cost compared to a full cross-encoder. Experiments on the MS MARCO passage and document ranking tasks and data from the TREC 2019 Deep Learning Track demonstrate that our approach helps models learn robust representations for dense retrieval effectively and efficiently.</abstract>
+      <url hash="31270ae7">2021.repl4nlp-1.17</url>
+    </paper>
+    <paper id="18">
+      <title><fixed-case>NPV</fixed-case>ec1: Word Embeddings for <fixed-case>N</fixed-case>epali - Construction and Evaluation</title>
+      <author><first>Pravesh</first><last>Koirala</last></author>
+      <author><first>Nobal B.</first><last>Niraula</last></author>
+      <pages>174–184</pages>
+      <abstract>Word Embedding maps words to vectors of real numbers. It is derived from a large corpus and is known to capture semantic knowledge from the corpus. Word Embedding is a critical component of many state-of-the-art Deep Learning techniques. However, generating good Word Embeddings is a special challenge for low-resource languages such as Nepali due to the unavailability of large text corpus. In this paper, we present NPVec1 which consists of 25 state-of-art Word Embeddings for Nepali that we have derived from a large corpus using Glove, Word2Vec, FastText, and BERT. We further provide intrinsic and extrinsic evaluations of these Embeddings using well established metrics and methods. These models are trained using 279 million word tokens and are the largest Embeddings ever trained for Nepali language. Furthermore, we have made these Embeddings publicly available to accelerate the development of Natural Language Processing (NLP) applications in Nepali.</abstract>
+      <url hash="438b031e">2021.repl4nlp-1.18</url>
+    </paper>
+    <paper id="19">
+      <title>Deriving Word Vectors from Contextualized Language Models using Topic-Aware Mention Selection</title>
+      <author><first>Yixiao</first><last>Wang</last></author>
+      <author><first>Zied</first><last>Bouraoui</last></author>
+      <author><first>Luis</first><last>Espinosa Anke</last></author>
+      <author><first>Steven</first><last>Schockaert</last></author>
+      <pages>185–194</pages>
+      <abstract>One of the long-standing challenges in lexical semantics consists in learning representations of words which reflect their semantic properties. The remarkable success of word embeddings for this purpose suggests that high-quality representations can be obtained by summarizing the sentence contexts of word mentions. In this paper, we propose a method for learning word representations that follows this basic strategy, but differs from standard word embeddings in two important ways. First, we take advantage of contextualized language models (CLMs) rather than bags of word vectors to encode contexts. Second, rather than learning a word vector directly, we use a topic model to partition the contexts in which words appear, and then learn different topic-specific vectors for each word. Finally, we use a task-specific supervision signal to make a soft selection of the resulting vectors. We show that this simple strategy leads to high-quality word vectors, which are more predictive of semantic properties than word embeddings and existing CLM-based strategies.</abstract>
+      <url hash="375e123d">2021.repl4nlp-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Zero-shot Sequence Labeling for Transformer-based Sentence Classifiers</title>
+      <author><first>Kamil</first><last>Bujel</last></author>
+      <author><first>Helen</first><last>Yannakoudakis</last></author>
+      <author><first>Marek</first><last>Rei</last></author>
+      <pages>195–205</pages>
+      <abstract>We investigate how sentence-level transformers can be modified into effective sequence labelers at the token level without any direct supervision. Existing approaches to zero-shot sequence labeling do not perform well when applied on transformer-based architectures. As transformers contain multiple layers of multi-head self-attention, information in the sentence gets distributed between many tokens, negatively affecting zero-shot token-level performance. We find that a soft attention module which explicitly encourages sharpness of attention weights can significantly outperform existing methods.</abstract>
+      <url hash="57a733e2">2021.repl4nlp-1.20</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="845e9046">2021.repl4nlp-1.20.OptionalSupplementaryMaterial.zip</attachment>
+    </paper>
+    <paper id="21">
+      <title>Predicting the Success of Domain Adaptation in Text Similarity</title>
+      <author><first>Nick</first><last>Pogrebnyakov</last></author>
+      <author><first>Shohreh</first><last>Shaghaghian</last></author>
+      <pages>206–212</pages>
+      <abstract>Transfer learning methods, and in particular domain adaptation, help exploit labeled data in one domain to improve the performance of a certain task in another domain. However, it is still not clear what factors affect the success of domain adaptation. This paper models adaptation success and selection of the most suitable source domains among several candidates in text similarity. We use descriptive domain information and cross-domain similarity metrics as predictive features. While mostly positive, the results also point to some domains where adaptation success was difficult to predict.</abstract>
+      <url hash="0ad1ab71">2021.repl4nlp-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Syntagmatic Word Embeddings for Unsupervised Learning of Selectional Preferences</title>
+      <author><first>Renjith</first><last>P. Ravindran</last></author>
+      <author><first>Akshay</first><last>Badola</last></author>
+      <author><first>Narayana Kavi</first><last>Murthy</last></author>
+      <pages>213–222</pages>
+      <abstract>Selectional Preference (SP) captures the tendency of a word to semantically select other words to be in direct syntactic relation with it, and thus informs us about syntactic word configurations that are meaningful. Therefore SP is a valuable resource for Natural Language Processing (NLP) systems and for semanticists. Learning SP has generally been seen as a supervised task, because it requires a parsed corpus as a source of syntactically related word pairs. In this paper we show that simple distributional analysis can learn a good amount of SP without the need for an annotated corpus. We extend the general word embedding technique with directional word context windows giving word representations that better capture syntagmatic relations. We test on the SP-10K dataset and demonstrate that syntagmatic embeddings outperform the paradigmatic embeddings. We also evaluate supervised version of these embeddings and show that unsupervised syntagmatic embeddings can be as good as supervised embeddings. We also make available the source code of our implementation.</abstract>
+      <url hash="7ef97bbe">2021.repl4nlp-1.22</url>
+    </paper>
+    <paper id="23">
+      <title><fixed-case>B</fixed-case>ayesian Model-Agnostic Meta-Learning with Matrix-Valued Kernels for Quality Estimation</title>
+      <author><first>Abiola</first><last>Obamuyide</last></author>
+      <author><first>Marina</first><last>Fomicheva</last></author>
+      <author><first>Lucia</first><last>Specia</last></author>
+      <pages>223–230</pages>
+      <abstract>Most current quality estimation (QE) models for machine translation are trained and evaluated in a fully supervised setting requiring significant quantities of labelled training data. However, obtaining labelled data can be both expensive and time-consuming. In addition, the test data that a deployed QE model would be exposed to may differ from its training data in significant ways. In particular, training samples are often labelled by one or a small set of annotators, whose perceptions of translation quality and needs may differ substantially from those of end-users, who will employ predictions in practice. Thus, it is desirable to be able to adapt QE models efficiently to new user data with limited supervision data. To address these challenges, we propose a Bayesian meta-learning approach for adapting QE models to the needs and preferences of each user with limited supervision. To enhance performance, we further propose an extension to a state-of-the-art Bayesian meta-learning approach which utilizes a matrix-valued kernel for Bayesian meta-learning of quality estimation. Experiments on data with varying number of users and language characteristics demonstrates that the proposed Bayesian meta-learning approach delivers improved predictive performance in both limited and full supervision settings.</abstract>
+      <url hash="efbfa2e5">2021.repl4nlp-1.23</url>
+    </paper>
+    <paper id="24">
+      <title>Knowledge Informed Semantic Parsing for Conversational Question Answering</title>
+      <author><first>Raghuveer</first><last>Thirukovalluru</last></author>
+      <author><first>Mukund</first><last>Sridhar</last></author>
+      <author><first>Dung</first><last>Thai</last></author>
+      <author><first>Shruti</first><last>Chanumolu</last></author>
+      <author><first>Nicholas</first><last>Monath</last></author>
+      <author><first>Sankaranarayanan</first><last>Ananthakrishnan</last></author>
+      <author><first>Andrew</first><last>McCallum</last></author>
+      <pages>231–240</pages>
+      <abstract>Smart assistants are tasked to answer various questions regarding world knowledge. These questions range from retrieval of simple facts to retrieval of complex, multi-hops question followed by various operators (i.e., filter, argmax). Semantic parsing has emerged as the state-of-the-art for answering these kinds of questions by forming queries to extract information from knowledge bases (KBs). Specially, neural semantic parsers (NSPs) effectively translate natural questions to logical forms, which execute on KB and give desirable answers. Yet, NSPs suffer from non-executable logical forms for some instances in the generated logical forms might be missing due to the incompleteness of KBs. Intuitively, knowing the KB structure informs NSP with changes of the global logical forms structures with respect to changes in KB instances. In this work, we propose a novel knowledge-informed decoder variant of NSP. We consider the conversational question answering settings, where a natural language query, its context and its final answers are available at training. Experimental results show that our method outperformed strong baselines by 1.8 F1 points overall across 10 types of questions of the CSQA dataset. Especially for the “Logical Reasoning” category, our model improves by 7 F1 points. Furthermore, our results are achieved with 90.3% fewer parameters, allowing faster training for large-scale datasets.</abstract>
+      <url hash="1507a54b">2021.repl4nlp-1.24</url>
+    </paper>
+    <paper id="25">
+      <title>Simultaneously Self-Attending to Text and Entities for Knowledge-Informed Text Representations</title>
+      <author><first>Dung</first><last>Thai</last></author>
+      <author><first>Raghuveer</first><last>Thirukovalluru</last></author>
+      <author><first>Trapit</first><last>Bansal</last></author>
+      <author><first>Andrew</first><last>McCallum</last></author>
+      <pages>241–247</pages>
+      <abstract>Pre-trained language models have emerged as highly successful methods for learning good text representations. However, the amount of structured knowledge retained in such models, and how (if at all) it can be extracted, remains an open question. In this work, we aim at directly learning text representations which leverage structured knowledge about entities mentioned in the text. This can be particularly beneficial for downstream tasks which are knowledge-intensive. Our approach utilizes self-attention between words in the text and knowledge graph (KG) entities mentioned in the text. While existing methods require entity-linked data for pre-training, we train using a mention-span masking objective and a candidate ranking objective – which doesn’t require any entity-links and only assumes access to an alias table for retrieving candidates, enabling large-scale pre-training. We show that the proposed model learns knowledge-informed text representations that yield improvements on the downstream tasks over existing methods.</abstract>
+      <url hash="79a3acf5">2021.repl4nlp-1.25</url>
+    </paper>
+    <paper id="26">
+      <title>Deriving Contextualised Semantic Features from <fixed-case>BERT</fixed-case> (and Other Transformer Model) Embeddings</title>
+      <author><first>Jacob</first><last>Turton</last></author>
+      <author><first>Robert Elliott</first><last>Smith</last></author>
+      <author><first>David</first><last>Vinson</last></author>
+      <pages>248–262</pages>
+      <abstract>Models based on the transformer architecture, such as BERT, have marked a crucial step forward in the field of Natural Language Processing. Importantly, they allow the creation of word embeddings that capture important semantic information about words in context. However, as single entities, these embeddings are difficult to interpret and the models used to create them have been described as opaque. Binder and colleagues proposed an intuitive embedding space where each dimension is based on one of 65 core semantic features. Unfortunately, the space only exists for a small data-set of 535 words, limiting its uses. Previous work (Utsumi, 2018, 2020; Turton et al., 2020) has shown that Binder features can be derived from static embeddings and successfully extrapolated to a large new vocabulary. Taking the next step, this paper demonstrates that Binder features can be derived from the BERT embedding space. This provides two things; (1) semantic feature values derived from contextualised word embeddings and (2) insights into how semantic features are represented across the different layers of the BERT model.</abstract>
+      <url hash="eea0ed24">2021.repl4nlp-1.26</url>
+    </paper>
+    <paper id="27">
+      <title>Syntactic Perturbations Reveal Representational Correlates of Hierarchical Phrase Structure in Pretrained Language Models</title>
+      <author><first>Matteo</first><last>Alleman</last></author>
+      <author><first>Jonathan</first><last>Mamou</last></author>
+      <author><first>Miguel</first><last>A Del Rio</last></author>
+      <author><first>Hanlin</first><last>Tang</last></author>
+      <author><first>Yoon</first><last>Kim</last></author>
+      <author><first>SueYeon</first><last>Chung</last></author>
+      <pages>263–276</pages>
+      <abstract>While vector-based language representations from pretrained language models have set a new standard for many NLP tasks, there is not yet a complete accounting of their inner workings. In particular, it is not entirely clear what aspects of sentence-level syntax are captured by these representations, nor how (if at all) they are built along the stacked layers of the network. In this paper, we aim to address such questions with a general class of interventional, input perturbation-based analyses of representations from pretrained language models. Importing from computational and cognitive neuroscience the notion of representational invariance, we perform a series of probes designed to test the sensitivity of these representations to several kinds of structure in sentences. Each probe involves swapping words in a sentence and comparing the representations from perturbed sentences against the original. We experiment with three different perturbations: (1) random permutations of n-grams of varying width, to test the scale at which a representation is sensitive to word position; (2) swapping of two spans which do or do not form a syntactic phrase, to test sensitivity to global phrase structure; and (3) swapping of two adjacent words which do or do not break apart a syntactic phrase, to test sensitivity to local phrase structure. Results from these probes collectively suggest that Transformers build sensitivity to larger parts of the sentence along their layers, and that hierarchical phrase structure plays a role in this process. More broadly, our results also indicate that structured input perturbations widens the scope of analyses that can be performed on often-opaque deep learning systems, and can serve as a complement to existing tools (such as supervised linear probes) for interpreting complex black-box models.</abstract>
+      <url hash="3eee76ff">2021.repl4nlp-1.27</url>
+    </paper>
+    <paper id="28">
+      <title>Box-To-Box Transformations for Modeling Joint Hierarchies</title>
+      <author><first>Shib Sankar</first><last>Dasgupta</last></author>
+      <author><first>Xiang Lorraine</first><last>Li</last></author>
+      <author><first>Michael</first><last>Boratko</last></author>
+      <author><first>Dongxu</first><last>Zhang</last></author>
+      <author><first>Andrew</first><last>McCallum</last></author>
+      <pages>277–288</pages>
+      <abstract>Learning representations of entities and relations in structured knowledge bases is an active area of research, with much emphasis placed on choosing the appropriate geometry to capture the hierarchical structures exploited in, for example, isa or haspart relations. Box embeddings (Vilnis et al., 2018; Li et al., 2019; Dasgupta et al., 2020), which represent concepts as n-dimensional hyperrectangles, are capable of embedding hierarchies when training on a subset of the transitive closure. In Patel et al., (2020), the authors demonstrate that only the transitive reduction is required and further extend box embeddings to capture joint hierarchies by augmenting the graph with new nodes. While it is possible to represent joint hierarchies with this method, the parameters for each hierarchy are decoupled, making generalization between hierarchies infeasible. In this work, we introduce a learned box-to-box transformation that respects the structure of each hierarchy. We demonstrate that this not only improves the capability of modeling cross-hierarchy compositional edges but is also capable of generalizing from a subset of the transitive reduction.</abstract>
+      <url hash="4c0532e3">2021.repl4nlp-1.28</url>
+    </paper>
+    <paper id="29">
+      <title>An Overview of Uncertainty Calibration for Text Classification and the Role of Distillation</title>
+      <author><first>Han</first><last>Guo</last></author>
+      <author><first>Ramakanth</first><last>Pasunuru</last></author>
+      <author><first>Mohit</first><last>Bansal</last></author>
+      <pages>289–306</pages>
+      <abstract>Recent advances in NLP systems, notably the pretraining-and-finetuning paradigm, have achieved great success in predictive accuracy. However, these systems are usually not well calibrated for uncertainty out-of-the-box. Many recalibration methods have been proposed in the literature for quantifying predictive uncertainty and calibrating model outputs, with varying degrees of complexity. In this work, we present a systematic study of a few of these methods. Focusing on the text classification task and finetuned large pretrained language models, we first show that many of the finetuned models are not well calibrated out-of-the-box, especially when the data come from out-of-domain settings. Next, we compare the effectiveness of a few widely-used recalibration methods (such as ensembles, temperature scaling). Then, we empirically illustrate a connection between distillation and calibration. We view distillation as a regularization term encouraging the student model to output uncertainties that match those of a teacher model. With this insight, we develop simple recalibration methods based on distillation with no additional inference-time cost. We show on the GLUE benchmark that our simple methods can achieve competitive out-of-domain (OOD) calibration performance w.r.t. more expensive approaches. Finally, we include ablations to understand the usefulness of components of our proposed method and examine the transferability of calibration via distillation.</abstract>
+      <url hash="2dd50aa0">2021.repl4nlp-1.29</url>
+    </paper>
+    <paper id="30">
+      <title>Entity and Evidence Guided Document-Level Relation Extraction</title>
+      <author><first>Kevin</first><last>Huang</last></author>
+      <author><first>Peng</first><last>Qi</last></author>
+      <author><first>Guangtao</first><last>Wang</last></author>
+      <author><first>Tengyu</first><last>Ma</last></author>
+      <author><first>Jing</first><last>Huang</last></author>
+      <pages>307–315</pages>
+      <abstract>Document-level relation extraction is a challenging task, requiring reasoning over multiple sentences to predict a set of relations in a document. In this paper, we propose a novel framework E2GRE (Entity and Evidence Guided Relation Extraction) that jointly extracts relations and the underlying evidence sentences by using large pretrained language model (LM) as input encoder. First, we propose to guide the pretrained LM’s attention mechanism to focus on relevant context by using attention probabilities as additional features for evidence prediction. Furthermore, instead of feeding the whole document into pretrained LMs to obtain entity representation, we concatenate document text with head entities to help LMs concentrate on parts of the document that are more related to the head entity. Our E2GRE jointly learns relation extraction and evidence prediction effectively, showing large gains on both these tasks, which we find are highly correlated.</abstract>
+      <url hash="d034db75">2021.repl4nlp-1.30</url>
+      <attachment type="OptionalSupplementaryMaterial" hash="9a107d3b">2021.repl4nlp-1.30.OptionalSupplementaryMaterial.pdf</attachment>
+    </paper>
+    <paper id="31">
+      <title>Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup</title>
+      <author><first>Luyu</first><last>Gao</last></author>
+      <author><first>Yunyi</first><last>Zhang</last></author>
+      <author><first>Jiawei</first><last>Han</last></author>
+      <author><first>Jamie</first><last>Callan</last></author>
+      <pages>316–321</pages>
+      <abstract>Contrastive learning has been applied successfully to learn vector representations of text. Previous research demonstrated that learning high-quality representations benefits from batch-wise contrastive loss with a large number of negatives. In practice, the technique of in-batch negative is used, where for each example in a batch, other batch examples’ positives will be taken as its negatives, avoiding encoding extra negatives. This, however, still conditions each example’s loss on all batch examples and requires fitting the entire large batch into GPU memory. This paper introduces a gradient caching technique that decouples backpropagation between contrastive loss and the encoder, removing encoder backward pass data dependency along the batch dimension. As a result, gradients can be computed for one subset of the batch at a time, leading to almost constant memory usage.</abstract>
+      <url hash="915c72c2">2021.repl4nlp-1.31</url>
+    </paper>
+    <paper id="32">
+      <title>Direction is what you need: Improving Word Embedding Compression in Large Language Models</title>
+      <author><first>Klaudia</first><last>Bałazy</last></author>
+      <author><first>Mohammadreza</first><last>Banaei</last></author>
+      <author><first>Rémi</first><last>Lebret</last></author>
+      <author><first>Jacek</first><last>Tabor</last></author>
+      <author><first>Karl</first><last>Aberer</last></author>
+      <pages>322–330</pages>
+      <abstract>The adoption of Transformer-based models in natural language processing (NLP) has led to great success using a massive number of parameters. However, due to deployment constraints in edge devices, there has been a rising interest in the compression of these models to improve their inference time and memory footprint. This paper presents a novel loss objective to compress token embeddings in the Transformer-based models by leveraging an AutoEncoder architecture. More specifically, we emphasize the importance of the direction of compressed embeddings with respect to original uncompressed embeddings. The proposed method is task-agnostic and does not require further language modeling pre-training. Our method significantly outperforms the commonly used SVD-based matrix-factorization approach in terms of initial language model Perplexity. Moreover, we evaluate our proposed approach over SQuAD v1.1 dataset and several downstream tasks from the GLUE benchmark, where we also outperform the baseline in most scenarios. Our code is public.</abstract>
+      <url hash="445056a2">2021.repl4nlp-1.32</url>
+    </paper>
+  </volume>
+</collection>
