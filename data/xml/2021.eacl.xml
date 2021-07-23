@@ -1182,7 +1182,9 @@
       <author><first>Joakim</first><last>Nivre</last></author>
       <pages>1376–1387</pages>
       <abstract>Standard models for syntactic dependency parsing take words to be the elementary units that enter into dependency relations. In this paper, we investigate whether there are any benefits from enriching these models with the more abstract notion of nucleus proposed by Tesnière. We do this by showing how the concept of nucleus can be defined in the framework of Universal Dependencies and how we can use composition functions to make a transition-based dependency parser aware of this concept. Experiments on 12 languages show that nucleus composition gives small but significant improvements in parsing accuracy. Further analysis reveals that the improvement mainly concerns a small number of dependency relations, including nominal modifiers, relations of coordination, main predicates, and direct objects.</abstract>
-      <url hash="39fdb798">2021.eacl-main.117</url>
+      <url hash="3f551d96">2021.eacl-main.117</url>
+      <revision id="1" href="2021.eacl-main.117v1" hash="39fdb798"/>
+      <revision id="2" href="2021.eacl-main.117v2" hash="3f551d96" date="2021-07-22">Corrected a model, consequently fixed Abstract, Sections 5.2 and 6, Tables 1 and 2, Figures 4 and 5</revision>
     </paper>
     <paper id="118">
       <title>Searching for Search Errors in Neural Morphological Inflection</title>

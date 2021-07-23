@@ -20,7 +20,7 @@
     </frontmatter>
     <paper id="1">
       <title>Multidomain Pretrained Language Models for Green <fixed-case>NLP</fixed-case></title>
-      <author><first>Antonios</first><last>Maronikolakis</last></author>
+      <author><first>Antonis</first><last>Maronikolakis</last></author>
       <author><first>Hinrich</first><last>Schütze</last></author>
       <pages>1–8</pages>
       <abstract>When tackling a task in a given domain, it has been shown that adapting a model to the domain using raw text data before training on the supervised task improves performance versus solely training on the task. The downside is that a lot of domain data is required and if we want to tackle tasks in n domains, we require n models each adapted on domain data before task learning. Storing and using these models separately can be prohibitive for low-end devices. In this paper we show that domain adaptation can be generalised to cover multiple domains. Specifically, a single model can be trained across various domains at the same time with minimal drop in performance, even when we use less data and resources. Thus, instead of training multiple models, we can train a single multidomain model saving on computational resources and training time.</abstract>

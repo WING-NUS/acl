@@ -1502,8 +1502,10 @@
       <author><first>Yusuke</first><last>Miyao</last></author>
       <pages>1274–1290</pages>
       <abstract>Peer review is a core element of the scientific process, particularly in conference-centered fields such as ML and NLP. However, only few studies have evaluated its properties empirically. Aiming to fill this gap, we present a corpus that contains over 4k reviews and 1.2k author responses from ACL-2018. We quantitatively and qualitatively assess the corpus. This includes a pilot study on paper weaknesses given by reviewers and on quality of author responses. We then focus on the role of the rebuttal phase, and propose a novel task to predict after-rebuttal (i.e., final) scores from initial reviews and author responses. Although author responses do have a marginal (and statistically significant) influence on the final scores, especially for borderline papers, our results suggest that a reviewer’s final score is largely determined by her initial score and the distance to the other reviewers’ initial scores. In this context, we discuss the conformity bias inherent to peer reviewing, a bias that has largely been overlooked in previous research. We hope our analyses will help better assess the usefulness of the rebuttal phase in NLP conferences.</abstract>
-      <url hash="fca1c505">N19-1129</url>
+      <url hash="6e122537">N19-1129</url>
       <doi>10.18653/v1/N19-1129</doi>
+      <revision id="1" href="N19-1129v1" hash="fca1c505"/>
+      <revision id="2" href="N19-1129v2" hash="6e122537" date="2021-07-22">Added abbreviation explanation, clarified the use of a term</revision>
     </paper>
     <paper id="130">
       <title><fixed-case>C</fixed-case>asting <fixed-case>L</fixed-case>ight on <fixed-case>I</fixed-case>nvisible <fixed-case>C</fixed-case>ities: <fixed-case>C</fixed-case>omputationally <fixed-case>E</fixed-case>ngaging with <fixed-case>L</fixed-case>iterary <fixed-case>C</fixed-case>riticism</title>

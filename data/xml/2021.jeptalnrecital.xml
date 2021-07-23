@@ -123,8 +123,8 @@
     </paper>
     <paper id="12">
       <title>Contribution d’informations syntaxiques aux capacités de généralisation compositionelle des modèles seq2seq convolutifs (Assessing the Contribution of Syntactic Information for Compositional Generalization of seq2seq Convolutional Networks)</title>
-      <author><first>Diana</first><last>Nicoleta Popa</last></author>
-      <author><first>William</first><last>N. Havard</last></author>
+      <author><first>Diana Nicoleta</first><last>Popa</last></author>
+      <author><first>William N.</first><last>Havard</last></author>
       <author><first>Maximin</first><last>Coavoux</last></author>
       <author><first>Eric</first><last>Gaussier</last></author>
       <author><first>Laurent</first><last>Besacier</last></author>
@@ -232,7 +232,7 @@
       <author><first>Houssam</first><last>Akhmouch</last></author>
       <author><first>Hamza</first><last>Bouanani</last></author>
       <author><first>Gaël</first><last>Dias</last></author>
-      <author><first>Jose</first><last>G Moreno</last></author>
+      <author><first>Jose G.</first><last>Moreno</last></author>
       <pages>227–236</pages>
       <abstract>Nous proposons une idée originale pour exploiter les relations entre les classes dans les problèmes multiclasses. Nous définissons deux architectures multitâches de type one-vs-rest qui combinent des ensembles de classifieurs appris dans une configuration multitâche en utilisant des réseaux de neurones. Les expériences menées sur six jeux de données pour la classification des sentiments, des émotions, des thématiques et des relations lexico-sémantiques montrent que nos architectures améliorent constamment les performances par rapport aux stratégies de l’état de l’art de type one-vsrest et concurrencent fortement les autres stratégies multiclasses.</abstract>
       <url hash="033f7c03">2021.jeptalnrecital-taln.22</url>
