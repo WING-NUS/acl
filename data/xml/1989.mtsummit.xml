@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="1989.mtsummit">
+  <volume id="1" ingest-date="2021-06-28">
+    <meta>
+      <booktitle>Proceedings of Machine Translation Summit II</booktitle>
+      <address>München, Germany</address>
+      <month>August 16-18</month>
+      <year>1989</year>
+    </meta>
+    <paper id="1">
+      <title>Two years after the <fixed-case>MT</fixed-case> Summit</title>
+      <author><first>Makoto</first><last>Nagao</last></author>
+      <url hash="734c9660">1989.mtsummit-1.1</url>
+    </paper>
+    <paper id="2">
+      <title>The <fixed-case>METAL</fixed-case> System</title>
+      <author><first>Thomas</first><last>Schneider</last></author>
+      <url hash="7463b1b9">1989.mtsummit-1.2</url>
+    </paper>
+    <paper id="3">
+      <title>The <fixed-case>SYSTRAN</fixed-case> renaissance</title>
+      <author><first>Denis A.</first><last>Gachot</last></author>
+      <url hash="7df18d58">1989.mtsummit-1.3</url>
+    </paper>
+    <paper id="4">
+      <title>The <fixed-case>LOGOS</fixed-case> system</title>
+      <author><first>Bernard E.</first><last>Scott</last></author>
+      <url hash="f25b91ce">1989.mtsummit-1.4</url>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>ATLAS</fixed-case></title>
+      <author><first>Hiroshi</first><last>Uchida</last></author>
+      <url hash="efea02b7">1989.mtsummit-1.5</url>
+    </paper>
+    <paper id="6">
+      <title>Language control for effective utilization of <fixed-case>HICATS</fixed-case>/<fixed-case>JE</fixed-case></title>
+      <author><first>Hiroyuki</first><last>Kaji</last></author>
+      <url hash="3ebc4da7">1989.mtsummit-1.6</url>
+    </paper>
+    <paper id="7">
+      <title>The <fixed-case>TAURAS</fixed-case> design philosophy</title>
+      <author><first>D.</first><last>Amano</last></author>
+      <url hash="51ef933e">1989.mtsummit-1.7</url>
+    </paper>
+    <paper id="8">
+      <title><fixed-case>LMT</fixed-case></title>
+      <author><first>Michael</first><last>McCord</last></author>
+      <url hash="0476a0f4">1989.mtsummit-1.8</url>
+    </paper>
+    <paper id="9">
+      <title>The Rosetta project</title>
+      <author><first>Jan</first><last>Landsbergen</last></author>
+      <url hash="546c2548">1989.mtsummit-1.9</url>
+    </paper>
+    <paper id="10">
+      <title>Outline of the <fixed-case>JICST</fixed-case> machine translation system</title>
+      <author><first>Tatsuo</first><last>Ashizaki</last></author>
+      <url hash="b76a8503">1989.mtsummit-1.10</url>
+    </paper>
+    <paper id="11">
+      <title><fixed-case>JFY</fixed-case>-<fixed-case>IV</fixed-case> machine translation system</title>
+      <author><first>Zho</first><last>Liu</last></author>
+      <author><first>Aiping</first><last>Fu</last></author>
+      <author><first>Wei</first><last>Li</last></author>
+      <url hash="e21f41f9">1989.mtsummit-1.11</url>
+    </paper>
+    <paper id="12">
+      <title>Research and development of cooperation project on a machine translation system for <fixed-case>J</fixed-case>apanese and its neighboring countries</title>
+      <author><first>Hozumi</first><last>Tanaka</last></author>
+      <author><first>Shun</first><last>Ishizaki</last></author>
+      <author><first>Akira</first><last>Uehara</last></author>
+      <author><first>Hiroshi</first><last>Uchida</last></author>
+      <url hash="e9671934">1989.mtsummit-1.12</url>
+    </paper>
+    <paper id="13">
+      <title><fixed-case>KBMT</fixed-case>-89 - A knowledge-based <fixed-case>MT</fixed-case> project at <fixed-case>C</fixed-case>arnegie <fixed-case>M</fixed-case>ellon <fixed-case>U</fixed-case>niversity</title>
+      <author><first>Sergei</first><last>Nirenburg</last></author>
+      <url hash="c540a2aa">1989.mtsummit-1.13</url>
+    </paper>
+    <paper id="14">
+      <title><fixed-case>EUROTRA</fixed-case></title>
+      <author><first>Sergei</first><last>Perschke</last></author>
+      <url hash="253c1f08">1989.mtsummit-1.14</url>
+    </paper>
+    <paper id="15">
+      <title><fixed-case>J</fixed-case>apanese view of the future of machine translation</title>
+      <author><first>Makoto</first><last>Nagao</last></author>
+      <url hash="40b4eadf">1989.mtsummit-1.15</url>
+    </paper>
+    <paper id="16">
+      <title>Panel 1: Practical Experience in the Application of MT-Systems</title>
+      <author><first>Reiner</first><last>Arntz</last></author>
+      <url hash="41e3a108">1989.mtsummit-1.16</url>
+    </paper>
+    <paper id="17">
+      <title>Panel 1: Practical Experience in the Application of MT-Systems</title>
+      <author><first>Gerhard</first><last>Freibott</last></author>
+      <url hash="fa547e29">1989.mtsummit-1.17</url>
+    </paper>
+    <paper id="18">
+      <title>Panel 1: Practical Experience in the Application of MT-Systems</title>
+      <author><first>Loll</first><last>Rolling</last></author>
+      <url hash="3e19f17c">1989.mtsummit-1.18</url>
+    </paper>
+    <paper id="19">
+      <title>The place of <fixed-case>MT</fixed-case> in an in-house translation service</title>
+      <author><first>Muriel</first><last>Vasconcellos</last></author>
+      <url hash="aad849b1">1989.mtsummit-1.19</url>
+    </paper>
+    <paper id="20">
+      <title>Panel 1: Practical Experience in the Application of MT-Systems</title>
+      <author><first>G.</first><last>Engel</last></author>
+    </paper>
+    <paper id="21">
+      <title>Panel 1: Practical Experience in the Application of MT-Systems</title>
+      <author><first>Shigeru</first><last>Sato</last></author>
+      <url hash="36863c3c">1989.mtsummit-1.21</url>
+    </paper>
+    <paper id="22">
+      <title>Machine translation in <fixed-case>M</fixed-case>alaysia</title>
+      <author><first>Haji Khalid M.</first><last>Hussain</last></author>
+      <url hash="1c508345">1989.mtsummit-1.22</url>
+    </paper>
+    <paper id="23">
+      <title>Machine translation in <fixed-case>J</fixed-case>apan</title>
+      <author><first>A.</first><last>Kubota</last></author>
+    </paper>
+    <paper id="24">
+      <title>Machine translation in <fixed-case>S</fixed-case>audi <fixed-case>A</fixed-case>rabia</title>
+      <author><first>Mahmoud Esma’il</first><last>Sieny</last></author>
+      <url hash="93721624">1989.mtsummit-1.24</url>
+    </paper>
+    <paper id="25">
+      <title>Computational Linguistics and <fixed-case>MT</fixed-case> in <fixed-case>I</fixed-case>taly</title>
+      <author><first>Antonio</first><last>Zampolli</last></author>
+      <url hash="e0014765">1989.mtsummit-1.25</url>
+    </paper>
+    <paper id="26">
+      <title>Statements by mr. <fixed-case>C</fixed-case>.<fixed-case>N</fixed-case>. <fixed-case>J</fixed-case>ansen van <fixed-case>R</fixed-case>osendaal</title>
+      <author><first>C. N.</first><last>Jansen van Rosendaal</last></author>
+      <url hash="0b5bc8ad">1989.mtsummit-1.26</url>
+    </paper>
+    <paper id="27">
+      <title>Needs, research and perspectives in Szwitzerland</title>
+      <author><first>Giovanni</first><last>Coray</last></author>
+      <url hash="30bdcd25">1989.mtsummit-1.27</url>
+    </paper>
+    <paper id="28">
+      <title>Promotion of <fixed-case>MT</fixed-case> in the public domain by the <fixed-case>F</fixed-case>ederal <fixed-case>R</fixed-case>epublic of <fixed-case>G</fixed-case>ermany</title>
+      <author><first>Hans</first><last>Billing</last></author>
+      <url hash="14d468e5">1989.mtsummit-1.28</url>
+    </paper>
+    <paper id="29">
+      <title>New Directions in <fixed-case>MT</fixed-case> Systems</title>
+      <author><first>Christian</first><last>Rohrer</last></author>
+      <url hash="93b38a3e">1989.mtsummit-1.29</url>
+    </paper>
+    <paper id="30">
+      <title>Motivations, aims and architecture of the <fixed-case>LIDIA</fixed-case> project</title>
+      <author><first>C.</first><last>Boitet</last></author>
+      <url hash="46136a30">1989.mtsummit-1.30</url>
+    </paper>
+    <paper id="31">
+      <title>New directions in <fixed-case>MT</fixed-case> systems: a change in paradigm</title>
+      <author><first>Margaret</first><last>King</last></author>
+      <url hash="ccc03da2">1989.mtsummit-1.31</url>
+    </paper>
+    <paper id="32">
+      <title>Research on automatic telephone interpretation</title>
+      <author><first>Akira</first><last>Kurematsu</last></author>
+      <url hash="c9eb3c16">1989.mtsummit-1.32</url>
+    </paper>
+    <paper id="33">
+      <title>Towards reversible <fixed-case>MT</fixed-case> systems</title>
+      <author><first>Pierre</first><last>Isabelle</last></author>
+      <url hash="34d1bd9e">1989.mtsummit-1.33</url>
+    </paper>
+  </volume>
+</collection>
