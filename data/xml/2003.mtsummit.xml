@@ -1,0 +1,857 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<collection id="2003.mtsummit">
+  <volume id="plenaries" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Proceedings of Machine Translation Summit IX: Plenaries</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <frontmatter>
+      <url hash="e349b78d">2003.mtsummit-plenaries.0</url>
+    </frontmatter>
+    <paper id="1">
+      <title>Soaring demand, shrinking supply in translation: how we plan to make ends meet</title>
+      <author><first>Donald</first><last>Barabé</last></author>
+      <url hash="7faf489a">2003.mtsummit-plenaries.1</url>
+    </paper>
+    <paper id="2">
+      <title>Development of speech translation for hand-held devices</title>
+      <author><first>Akitoshi</first><last>Okumura</last></author>
+      <url hash="bd5b76be">2003.mtsummit-plenaries.2</url>
+    </paper>
+    <paper id="3">
+      <title>Multilingual document processing at <fixed-case>XRCE</fixed-case></title>
+      <author><first>Pierre</first><last>Isabelle</last></author>
+    </paper>
+    <paper id="4">
+      <title>Questions the panelists were asked to comment on</title>
+      <author><first>Elliott</first><last>Macklovitch</last></author>
+      <url hash="ee9966c7">2003.mtsummit-plenaries.4</url>
+    </paper>
+    <paper id="5">
+      <title>Have we found the Holy Grail?</title>
+      <author><first>Hermann</first><last>Ney</last></author>
+      <attachment type="presentation" hash="9dd877bc">2003.mtsummit-plenaries.5.Presentation.pdf</attachment>
+    </paper>
+    <paper id="6">
+      <title>Have we found the Holy Grail?</title>
+      <author><first>Steve</first><last>Richardson</last></author>
+      <attachment type="presentation" hash="146b9fdb">2003.mtsummit-plenaries.6.Presentation.pdf</attachment>
+    </paper>
+    <paper id="7">
+      <title>The <fixed-case>HKUST</fixed-case> leading question translation system</title>
+      <author><first>Dekai</first><last>Wu</last></author>
+      <attachment type="presentation" hash="3567c9e1">2003.mtsummit-plenaries.7.Presentation.pdf</attachment>
+    </paper>
+    <paper id="8">
+      <title>Holy and unholy grails</title>
+      <author><first>Eduard</first><last>Hovy</last></author>
+      <author><first>Deepak</first><last>Ravichandran</last></author>
+      <attachment type="presentation" hash="7a5a5abf">2003.mtsummit-plenaries.8.Presentation.pdf</attachment>
+    </paper>
+  </volume>
+  <volume id="papers" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Proceedings of Machine Translation Summit IX: Papers</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title>Experimental comparison of <fixed-case>MT</fixed-case> evaluation methods: <fixed-case>RED</fixed-case> vs.<fixed-case>BLEU</fixed-case></title>
+      <author><first>Yasuhiro</first><last>Akiba</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <author><first>Hiromi</first><last>Nakaiwa</last></author>
+      <author><first>Seiichi</first><last>Yamamoto</last></author>
+      <author><first>Hiroshi G.</first><last>Okuno</last></author>
+      <url hash="8e2b4525">2003.mtsummit-papers.1</url>
+      <abstract>This paper experimentally compares two automatic evaluators, RED and BLEU, to determine how close the evaluation results of each automatic evaluator are to average evaluation results by human evaluators, following the ATR standard of MT evaluation. This paper gives several cautionary remarks intended to prevent MT developers from drawing misleading conclusions when using the automatic evaluators. In addition, this paper reports a way of using the automatic evaluators so that their results agree with those of human evaluators.</abstract>
+    </paper>
+    <paper id="2">
+      <title>A hybrid approach to deriving selectional preferences</title>
+      <author><first>Arendse</first><last>Bernth</last></author>
+      <author><first>Michael C.</first><last>McCord</last></author>
+      <url hash="062df972">2003.mtsummit-papers.2</url>
+      <abstract>A hybrid approach to automatic derivation of class-based selectional preferences is proposed. A lexicon of selectional preferences can assist in handling several forms of ambiguity, a major problem for MT. The approach combines knowledge-rich parsing and lexicons, with statistics and corpus data. We illustrate the use of a selectional preference lexicon for anaphora resolution.</abstract>
+    </paper>
+    <paper id="3">
+      <title>Evaluation of a method of creating new valency entries</title>
+      <author><first>Francis</first><last>Bond</last></author>
+      <author><first>Sanae</first><last>Fujita</last></author>
+      <url hash="e1218404">2003.mtsummit-papers.3</url>
+      <abstract>Information on subcategorization and selectional restrictions is important for natural language processing tasks such as deep parsing, rule-based machine translation and automatic summarization. In this paper we present a method of adding detailed entries to a bilingual dictionary, based on information in an existing valency dictionary. The method is based on two assumptions: words with similar meaning have similar subcategorization frames and selectional restrictions; and words with the same translations have similar meanings. Based on these assumptions, new valency entries are constructed from words in a plain bilingual dictionary, using entries with similar source-language meaning and the same target-language translations. We evaluate the effects of various measures of similarity in increasing accuracy.</abstract>
+    </paper>
+    <paper id="4">
+      <title>Reducing boundary friction using translation-fragment overlap</title>
+      <author><first>Ralf D.</first><last>Brown</last></author>
+      <author><first>Rebecca</first><last>Hutchinson</last></author>
+      <author><first>Paul N.</first><last>Bennett</last></author>
+      <author><first>Jaime G.</first><last>Carbonell</last></author>
+      <author><first>Peter</first><last>Jansen</last></author>
+      <url hash="c88ee7cc">2003.mtsummit-papers.4</url>
+      <abstract>Many corpus-based Machine Translation (MT) systems generate a number of partial translations which are then pieced together rather than immediately producing one overall translation. While this makes them more robust to ill-formed input, they are subject to disfluencies at phrasal translation boundaries even for well-formed input. We address this “boundary friction” problem by introducing a method that exploits overlapping phrasal translations and the increased confidence in translation accuracy they imply. We specify an efficient algorithm for producing translations using overlap. Finally, our empirical analysis indicates that this approach produces higher quality translations than the standard method of combining non-overlapping fragments generated by our Example-Based MT (EBMT) system in a peak-to-peak comparison.</abstract>
+    </paper>
+    <paper id="5">
+      <title>Communicative strategies and patterns of multimodal integration in a speech-to-speech translation system</title>
+      <author><first>Susanne</first><last>Burger</last></author>
+      <author><first>Erica</first><last>Costantini</last></author>
+      <author><first>Fabio</first><last>Pianesi</last></author>
+      <url hash="4dddd84c">2003.mtsummit-papers.5</url>
+      <abstract>When multilingual communication through a speech-to-speech translation system is supported by multimodal features, e.g. pen-based gestures, the following issues arise concerning the nature of the supported communication: a) to what extend does multilingual communication differ from ‘ordinary’ monolingual communication with respect to the dialogue structure and the communicative strategies used by participants; b) the patterns of integration between speech and gestures. Building on the outcomes of a previous work, we present results from a study aimed at addressing those issues. The initial findings confirm that multilingual communication, and the way in which it is realized by actual systems (e.g., with or without the push-to-talk mode) affects the form and structure of the conversation.</abstract>
+    </paper>
+    <paper id="6">
+      <title>Syntax-based language models for statistical machine translation</title>
+      <author><first>Eugene</first><last>Charniak</last></author>
+      <author><first>Kevin</first><last>Knight</last></author>
+      <author><first>Kenji</first><last>Yamada</last></author>
+      <url hash="17aecd25">2003.mtsummit-papers.6</url>
+      <abstract>We present a syntax-based language model for use in noisy-channel machine translation. In particular, a language model based upon that described in (Cha01) is combined with the syntax based translation-model described in (YK01). The resulting system was used to translate 347 sentences from Chinese to English and compared with the results of an IBM-model-4-based system, as well as that of (YK02), all trained on the same data. The translations were sorted into four groups: good/bad syntax crossed with good/bad meaning. While the total number of translations that preserved meaning were the same for (YK02) and the syntax-based system (and both higher than the IBM-model-4-based system), the syntax based system had 45% more translations that also had good syntax than did (YK02) (and approximately 70% more than IBM Model 4). The number of translations that did not preserve meaning, but at least had good grammar, also increased, though to less avail.</abstract>
+    </paper>
+    <paper id="7">
+      <title>A fine-grained evaluation framework for machine translation system development</title>
+      <author><first>Nelson</first><last>Correa</last></author>
+      <url hash="b655eb65">2003.mtsummit-papers.7</url>
+      <abstract>Intelligibility and fidelity are the two key notions in machine translation system evaluation, but do not always provide enough information for system development. Detailed information about the type and number of errors of each type that a translation system makes is important for diagnosing the system, evaluating the translation approach, and allocating development resources. In this paper, we present a fine-grained machine translation evaluation framework that, in addition to the notions of intelligibility and fidelity, includes a typology of errors common in automatic translation, as well as several other properties of source and translated texts. The proposed framework is informative, sensitive, and relatively inexpensive to apply, to diagnose and quantify the types and likely sources of translation error. The proposed fine-grained framework has been used in two evaluation experiments on the LMT English-Spanish machine translation system, and has already suggested one important architectural improvement of the system.</abstract>
+    </paper>
+    <paper id="8">
+      <title>Combining decision trees and transformation-based learning to correct transferred linguistic representations</title>
+      <author><first>Simon</first><last>Corston-Oliver</last></author>
+      <author><first>Michael</first><last>Gamon</last></author>
+      <url hash="ff8739c1">2003.mtsummit-papers.8</url>
+      <abstract>We approach to correcting features in transferred linguistic representations in machine translation. The hybrid approach combines decision trees and transformation-based learning. Decision trees serve as a filter on the intractably large search space of possible interrelations among features. Transformation-based learning results in a simple set of ordered rules that can be compiled and executed after transfer and before sentence realization in the target language. We measure the reduction in noise in the linguistic representations and the results of human evaluations of end-to-end English-German machine translation.</abstract>
+    </paper>
+    <paper id="9">
+      <title>Correlating automated and human assessments of machine translation quality</title>
+      <author><first>Deborah</first><last>Coughlin</last></author>
+      <url hash="8fbf2564">2003.mtsummit-papers.9</url>
+      <abstract>We describe a large-scale investigation of the correlation between human judgments of machine translation quality and the automated metrics that are increasingly used to drive progress in the field. We compare the results of 124 human evaluations of machine translated sentences to the scores generated by two automatic evaluation metrics (BLEU and NIST). When datasets are held constant or file size is sufficiently large, BLEU and NIST scores closely parallel human judgments. Surprisingly, this was true even though these scores were calculated using just one human reference. We suggest that when human evaluators are forced to make decisions without sufficient context or domain expertise, they fall back on strategies that are not unlike determining n-gram precision.</abstract>
+    </paper>
+    <paper id="10">
+      <title>The limits of n-gram translation evaluation metrics</title>
+      <author><first>Christopher</first><last>Culy</last></author>
+      <author><first>Susanne Z.</first><last>Riehemann</last></author>
+      <url hash="9ce534f7">2003.mtsummit-papers.10</url>
+      <abstract>N-gram measures of translation quality, such as BLEU and the related NIST metric, are becoming increasingly important in machine translation, yet their behaviors are not fully understood. In this paper we examine the performance of these metrics on professional human translations into German of two literary genres, the Bible and Tom Sawyer. The most surprising result is that some machine translations outscore some professional human translations. In addition, it can be difficult to distinguish some other human translations from machine translations with only two reference translations; with four reference translations it is much easier. Our results lead us to conclude that much care must be taken in using n-gram measures in formal evaluations of machine translation quality, though they are still valuable as part of the iterative development cycle.</abstract>
+    </paper>
+    <paper id="11">
+      <title>A hybrid approach to word order transfer in the <fixed-case>E</fixed-case>nglish-to-<fixed-case>V</fixed-case>ietnamese machine translation</title>
+      <author><first>Dinh</first><last>Dien</last></author>
+      <author><first>Nguyen Luu Thuy</first><last>Ngan</last></author>
+      <author><first>Do Xuan</first><last>Quang</last></author>
+      <author><first>Van Chi</first><last>Nam</last></author>
+      <url hash="2a52e3eb">2003.mtsummit-papers.11</url>
+      <abstract>Word Order transfer is a compulsory stage and has a great effect on the translation result of a transfer-based machine translation system. To solve this problem, we can use fixed rules (rule-based) or stochastic methods (corpus-based) which extract word order transfer rules between two languages. However, each approach has its own advantages and disadvantages. In this paper, we present a hybrid approach based on fixed rules and Transformation-Based Learning (or TBL) method. Our purpose is to transfer automatically the English word orders into the Vietnamese ones. The learning process will be trained on the annotated bilingual corpus (named EVC: English-Vietnamese Corpus) that has been automatically word-aligned, phrase-aligned and POS-tagged. This transfer result is being used for the transfer module in the English-Vietnamese transfer-based machine translation system.</abstract>
+    </paper>
+    <paper id="12">
+      <title><fixed-case>BTL</fixed-case>: a hybrid model for <fixed-case>E</fixed-case>nglish-<fixed-case>V</fixed-case>ietnamese machine translation</title>
+      <author><first>Dinh</first><last>Dien</last></author>
+      <author><first>Kiem</first><last>Hoang</last></author>
+      <author><first>Eduard</first><last>Hovy</last></author>
+      <url hash="b79fdd03">2003.mtsummit-papers.12</url>
+      <abstract>Machine Translation (MT) is the most interesting and difficult task which has been posed since the beginning of computer history. The highest difficulty which computers had to face with, is the built-in ambiguity of Natural Languages. Formerly, a lot of human-devised rules have been used to disambiguate those ambiguities. Building such a complete rule-set is time-consuming and labor-intensive task whilst it doesn’t cover all the cases. Besides, when the scale of system increases, it is very difficult to control that rule-set. In this paper, we present a new model of learning-based MT (entitled BTL: Bitext-Transfer Learning) that learns from bilingual corpus to extract disambiguating rules. This model has been experimented in English-to-Vietnamese MT system (EVT) and it gave encouraging results.</abstract>
+    </paper>
+    <paper id="13">
+      <title>An algorithm for word-level alignment of parallel dependency trees</title>
+      <author><first>Yuan</first><last>Ding</last></author>
+      <author><first>Daniel</first><last>Gildea</last></author>
+      <author><first>Martha</first><last>Palmer</last></author>
+      <url hash="cbaf3463">2003.mtsummit-papers.13</url>
+      <abstract>Structural divergence presents a challenge to the use of syntax in statistical machine translation. We address this problem with a new algorithm for alignment of loosely matched non-isomorphic dependency trees. The algorithm selectively relaxes the constraints of the two tree structures while keeping computational complexity polynomial in the length of the sentences. Experimentation with a large Chinese-English corpus shows an improvement in alignment results over the unstructured models of (Brown et al., 1993).</abstract>
+    </paper>
+    <paper id="14">
+      <title>Effectiveness of automatic extraction of bilingual collocations using recursive chain-link-type learning</title>
+      <author><first>Hiroshi</first><last>Echizen-ya</last></author>
+      <author><first>Kenji</first><last>Araki</last></author>
+      <author><first>Yoshio</first><last>Momouchi</last></author>
+      <author><first>Koji</first><last>Tochinai</last></author>
+      <url hash="cd4328e1">2003.mtsummit-papers.14</url>
+    </paper>
+    <paper id="15">
+      <title>Statistical machine translation: rapid development with limited resources</title>
+      <author><first>George</first><last>Foster</last></author>
+      <author><first>Simona</first><last>Gandrabur</last></author>
+      <author><first>Philippe</first><last>Langlais</last></author>
+      <author><first>Pierre</first><last>Plamondon</last></author>
+      <author><first>Graham</first><last>Russell</last></author>
+      <author><first>Michel</first><last>Simard</last></author>
+      <url hash="43d87d09">2003.mtsummit-papers.15</url>
+      <abstract>We describe an experiment in rapid development of a statistical machine translation (SMT) system from scratch, using limited resources: under this heading we include not only training data, but also computing power, linguistic knowledge, programming effort, and absolute time.</abstract>
+    </paper>
+    <paper id="16">
+      <title>The functionality of a tool bar for postedition in machine translation between languages with linguistic interference: the <fixed-case>S</fixed-case>panish-<fixed-case>G</fixed-case>alician case</title>
+      <author><first>Antonio</first><last>Sayáns Gómez</last></author>
+      <author><first>Elena</first><last>Villar Conde</last></author>
+      <url hash="555dfcc7">2003.mtsummit-papers.16</url>
+      <abstract>The Department of Linguistics of the Centro Ramón Piñeiro para a Investigación en Humanidades (C.R.P.I.H.), headed by Professor Guillermo Rojo, has developed Es-Ga, a machine translation system based on the Metal system which at the present time translates from Spanish into Galician in .rtf, .txt and .html formats. It also contains a number of programmes whose function is to deformat documents that are then translated and, once this process has finished, to reconstruct their original format. The system has a tool bar with linguistic information designed for MS-WORD, the functionality and functioning of which has proven unquestionable as an aid to the posteditor in a context of linguistic interference between two intercomprehensible languages.</abstract>
+    </paper>
+    <paper id="17">
+      <title>Transliteration considering context information based on the maximum entropy method</title>
+      <author><first>Isao</first><last>Goto</last></author>
+      <author><first>Naoto</first><last>Kato</last></author>
+      <author><first>Noriyoshi</first><last>Uratani</last></author>
+      <author><first>Terumasa</first><last>Ehara</last></author>
+      <url hash="991d3769">2003.mtsummit-papers.17</url>
+      <abstract>This paper proposes a method of automatic transliteration from English to Japanese words. Our method successfully transliterates an English word not registered in any bilingual or pronunciation dictionaries by converting each partial letters in the English word into Japanese katakana characters. In such transliteration, identical letters occurring in different English words must often be converted into different katakana. To produce an adequate transliteration, the proposed method considers chunking of alphabetic letters of an English word into conversion units and considers English and Japanese context information simultaneously to calculate the plausibility of conversion. We have confirmed experimentally that the proposed method improves the conversion accuracy by 63% compared to a simple method that ignores the plausibility of chunking and contextual information.</abstract>
+    </paper>
+    <paper id="18">
+      <title>Controlled generation in example-based machine translation</title>
+      <author><first>Nano</first><last>Gough</last></author>
+      <author><first>Andy</first><last>Way</last></author>
+      <url hash="429d36cb">2003.mtsummit-papers.18</url>
+      <abstract>The theme of controlled translation is currently in vogue in the area of MT. Recent research (Scha ̈ler et al., 2003; Carl, 2003) hypothesises that EBMT systems are perhaps best suited to this challenging task. In this paper, we present an EBMT system where the generation of the target string is filtered by data written according to controlled language specifications. As far as we are aware, this is the only research available on this topic. In the field of controlled language applications, it is more usual to constrain the source language in this way rather than the target. We translate a small corpus of controlled English into French using the on-line MT system Logomedia, and seed the memories of our EBMT system with a set of automatically induced lexical resources using the Marker Hypothesis as a segmentation tool. We test our system on a large set of sentences extracted from a Sun Translation Memory, and provide both an automatic and a human evaluation. For comparative purposes, we also provide results for Logomedia itself.</abstract>
+    </paper>
+    <paper id="19">
+      <title>Identification of divergence for <fixed-case>E</fixed-case>nglish to <fixed-case>H</fixed-case>indi <fixed-case>EBMT</fixed-case></title>
+      <author><first>Deepa</first><last>Gupta</last></author>
+      <author><first>Niladri</first><last>Chatterjee</last></author>
+      <url hash="ead7184f">2003.mtsummit-papers.19</url>
+      <abstract>Divergence is a key aspect of translation between two languages. Divergence occurs when structurally similar sentences of the source language do not translate into sentences that are similar in structures in the target language. Divergence assumes special significance in the domain of Example-Based Machine Translation (EBMT). An EBMT system generates translation of a given sentence by retrieving similar past translation examples from its example base and then adapting them suitably to meet the current translation requirements. Divergence imposes a great challenge to the success of EBMT. The present work provides a technique for identification of divergence without going into the semantic details of the underlying sentences. This identification helps in partitioning the example database into divergence / non-divergence categories, which in turn should facilitate efficient retrieval and adaptation in an EBMT system.</abstract>
+    </paper>
+    <paper id="20">
+      <title>Matador: a large-scale <fixed-case>S</fixed-case>panish-<fixed-case>E</fixed-case>nglish <fixed-case>GHMT</fixed-case> system</title>
+      <author><first>Nizar</first><last>Habash</last></author>
+      <url hash="c2334b7c">2003.mtsummit-papers.20</url>
+      <abstract>This paper describes and evaluates Matador, an implemented large-scale Spanish-English MT system built in the Generation-Heavy Hybrid Machine Translation (GHMT) approach. An extensive evaluation shows that Matador has a higher degree of robustness and superior output quality, in terms of grammaticality and accuracy, when compared to a primarily statistical approach.</abstract>
+    </paper>
+    <paper id="21">
+      <title>A simple multilingual machine translation system</title>
+      <author><first>Jan</first><last>Hajič</last></author>
+      <author><first>Petr</first><last>Homola</last></author>
+      <author><first>Vladislav</first><last>Kuboň</last></author>
+      <url hash="14979c06">2003.mtsummit-papers.21</url>
+      <abstract>The multilingual machine translation system described in the first part of this paper demonstrates that the translation memory (TM) can be used in a creative way for making the translation process more automatic (in a way which in fact does not depend on the languages used). The MT system is based upon exploitation of syntactic similarities between more or less related natural languages. It currently covers the translation from Czech to Slovak, Polish and Lithuanian. The second part of the paper also shows that one of the most popular TM based commercial systems, TRADOS, can be used not only for the translation itself, but also for a relatively fast and natural method of evaluation of the translation quality of MT systems.</abstract>
+    </paper>
+    <paper id="22">
+      <title>Seeing the wood for the trees: data-oriented translation</title>
+      <author><first>Mary</first><last>Hearne</last></author>
+      <author><first>Andy</first><last>Way</last></author>
+      <url hash="2a4c5df4">2003.mtsummit-papers.22</url>
+      <abstract>Data-Oriented Translation (DOT), which is based on Data-Oriented Parsing (DOP), comprises an experience-based approach to translation, where new translations are derived with reference to grammatical analyses of previous translations. Previous DOT experiments [Poutsma, 1998, Poutsma, 2000a, Poutsma, 2000b] were small in scale because important advances in DOP technology were not incorporated into the translation model. Despite this, related work [Way, 1999, Way, 2003a, Way, 2003b] reports that DOT models are viable in that solutions to ‘hard’ translation cases are readily available. However, it has not been shown to date that DOT models scale to larger datasets. In this work, we describe a novel DOT system, inspired by recent advances in DOP parsing technology. We test our system on larger, more complex corpora than have been used heretofore, and present both automatic and human evaluations which show that high quality translations can be achieved at reasonable speeds.</abstract>
+    </paper>
+    <paper id="23">
+      <title>A unified statistical model for generalized translation memory system</title>
+      <author><first>Jin-Xia</first><last>Huang</last></author>
+      <author><first>Wei</first><last>Wang</last></author>
+      <author><first>Ming</first><last>Zhou</last></author>
+      <url hash="48343c7f">2003.mtsummit-papers.23</url>
+      <abstract>We introduced, for Translation Memory System, a statistical framework, which unifies the different phases in a Translation Memory System by letting them constrain each other, and enables Translation Memory System a statistical qualification. Compared to traditional Translation Memory Systems, our model operates at a fine grained sub-sentential level such that it improves the translation coverage. Compared with other approaches that exploit sub-sentential benefits, it unifies the processes of source string segmentation, best example selection, and translation generation by making them constrain each other via the statistical confidence of each step. We realized this framework into a prototype system. Compared with an existing product Translation Memory System, our system exhibits obviously better performance in the "assistant quality metric" and gains improvements in the range of 26.3% to 55.1% in the "translation efficiency metric".</abstract>
+    </paper>
+    <paper id="24">
+      <title>Has machine translation improved? some historical comparisons</title>
+      <author><first>John</first><last>Hutchins</last></author>
+      <url hash="d9038c10">2003.mtsummit-papers.24</url>
+      <abstract>The common assertion that MT systems have improved over the last decades is examined by informal comparisons of translations produced by operational systems in the 1960s, 1970s and 1980s and of translations of the same source texts produced by some currently available commercial and online systems. The scarcity of source and target texts for earlier systems means that the conclusions are consequently tentative and preliminary.</abstract>
+    </paper>
+    <paper id="25">
+      <title>Testing Prompt: the development of a rapid post-editing service at <fixed-case>CLS</fixed-case> Corporate Language Services <fixed-case>AG</fixed-case>, <fixed-case>S</fixed-case>witzerland</title>
+      <author><first>Catherine</first><last>Hyland</last></author>
+      <url hash="d1dcf5ad">2003.mtsummit-papers.25</url>
+      <abstract>CLS Corporate Language Services AG recently began offering the rapid post-editing of raw machine translation output to meet the rising demand for this service among clients. What is meant by rapid post-editing is the rough correction of machine translated texts with emphasis on speed and denotative accuracy. In the preliminary phase of the project, CLS conducted a test among four in-house translators. The objective was to gain practical experience, establish workflow requirements and set up efficient post-editing processes. Text samples were selected from several subject categories, and post-edited in English, German and French. The participants were given 10, 15 and 30 minutes per page to complete their tasks. This paper aims to present the results of the post-editing test at CLS Corporate Language Services AG, and to examine the conditions under which a rapid post-editing service is feasible in a commercial environment.</abstract>
+    </paper>
+    <paper id="26">
+      <title>Lexical knowledge representation with contextonyms</title>
+      <author><first>Hyungsuk</first><last>Ji</last></author>
+      <author><first>Sabine</first><last>Ploux</last></author>
+      <author><first>Eric</first><last>Wehrli</last></author>
+      <url hash="ac5399dd">2003.mtsummit-papers.26</url>
+      <abstract>Inter-word associations like stagger - drunken, or intra-word sense divisions (e.g. write a diary vs. write an article) are difficult to compile using a traditional lexicographic approach. As an alternative, we present a model that reflects this kind of subtle lexical knowledge. Based on the minimal sense of a word (clique), the model (1) selects contextually related words (contexonyms) and (2) classifies them in a multi-dimensional semantic space. Trained on very large corpora, the model provides relevant, organized contexonyms that reflect the fine-grained connotations and contextual usage of the target word, as well as the distinct senses of homonyms and polysemous words. Further study on the neighbor effect showed that the model can handle the data sparseness problem.</abstract>
+    </paper>
+    <paper id="27">
+      <title>Multilingual translation via annotated hub language</title>
+      <author><first>Hiroshi</first><last>Kanayama</last></author>
+      <author><first>Hideo</first><last>Watanabe</last></author>
+      <url hash="839304fb">2003.mtsummit-papers.27</url>
+      <abstract>This paper describes a framework for multilingual translation using existing translation engines. Our method allows translation between non-English languages through English as a “hub language”. This hub language method has two major problems: “information loss” and “error accumulation”. In order to address these problems, we represent the hub language using the Linguistic Annotation Language (LAL), which contains English syntactic information and source language information. We show the effectiveness of the annotation approach with a series of experiments.</abstract>
+    </paper>
+    <paper id="28">
+      <title>Acquisition of bilingual <fixed-case>MT</fixed-case> lexicons from <fixed-case>OCR</fixed-case>ed dictionaries</title>
+      <author><first>Burcu</first><last>Karagol-Ayan</last></author>
+      <author><first>David</first><last>Doermann</last></author>
+      <author><first>Bonnie J.</first><last>Dorr</last></author>
+      <url hash="a4712b58">2003.mtsummit-papers.28</url>
+      <abstract>This paper describes an approach to analyzing the lexical structure of OCRed bilingual dictionaries to construct resources suited for machine translation of low-density languages, where online resources are limited. A rule-based, an HMM-based, and a post-processed HMM-based method are used for rapid construction of MT lexicons based on systematic structural clues provided in the original dictionary. We evaluate the effectiveness of our techniques, concluding that: (1) the rule-based method performs better with dictionaries where the font is not an important distinguishing feature for determining information types; (2) the post-processed stochastic method improves the results of the stochastic method for phrasal entries; and (3) Our resulting bilingual lexicons are comprehensive enough to provide the basis for reasonable translation results when compared to human translations.</abstract>
+    </paper>
+    <paper id="29">
+      <title>Building a parallel corpus for monologues with clause alignment</title>
+      <author><first>Hideki</first><last>Kashioka</last></author>
+      <author><first>Takehiko</first><last>Maruyama</last></author>
+      <author><first>Hideki</first><last>Tanaka</last></author>
+      <url hash="69036496">2003.mtsummit-papers.29</url>
+      <abstract>Many studies have been reported in the domain of speech-to-speech machine translation systems for travel conversation use. Therefore, a large number of travel domain corpora have become available in recent years. From a wider viewpoint, speech-to-speech systems are required for many purposes other than travel conversation. One of these is monologues (e.g., TV news, lectures, technical presentations). However, in monologues, sentences tend to be long and complicated, which often causes problems for parsing and translation. Therefore, we need a suitable translation unit, rather than the sentence. We propose the clause as a unit for translation. To develop a speech-to-speech machine translation system for monologues based on the clause as the translation unit, we need a monologue parallel corpus with clause alignment. In this paper, we describe how to build a Japanese-English monologue parallel corpus with clauses aligned, and discuss the features of this corpus.</abstract>
+    </paper>
+    <paper id="30">
+      <title><fixed-case>FEMTI</fixed-case>: creating and using a framework for <fixed-case>MT</fixed-case> evaluation</title>
+      <author><first>Margaret</first><last>King</last></author>
+      <author><first>Andrei</first><last>Popescu-Belis</last></author>
+      <author><first>Eduard</first><last>Hovy</last></author>
+      <url hash="0bcc1d59">2003.mtsummit-papers.30</url>
+      <abstract>This paper presents FEMTI, a web-based Framework for the Evaluation of Machine Translation in ISLE. FEMTI offers structured descriptions of potential user needs, linked to an overview of technical characteristics of MT systems. The description of possible systems is mainly articulated around the quality characteristics for software product set out in ISO/IEC standard 9126. Following the philosophy set out there and in the related 14598 series of standards, each quality characteristic bottoms out in metrics which may be applied to a particular instance of a system in order to judge how satisfactory the system is with respect to that characteristic. An evaluator can use the description of user needs to help identify the specific needs of his evaluation and the relations between them. He can then follow the pointers to system description to determine what metrics should be applied and how. In the current state of the framework, emphasis is on being exhaustive, including as much as possible of the information available in the literature on machine translation evaluation. Future work will aim at being more analytic, looking at characteristics and metrics to see how they relate to one another, validating metrics and investigating the correlation between particular metrics and human judgement.</abstract>
+    </paper>
+    <paper id="31">
+      <title>Practical machine translation system allowing complex patterns</title>
+      <author><first>Mihoko</first><last>Kitamura</last></author>
+      <author><first>Toshiki</first><last>Murata</last></author>
+      <url hash="d6317592">2003.mtsummit-papers.31</url>
+      <abstract>Pattern-based machine translation systems can be easily customized by adding new patterns. To gain full profits from this character, input of patterns should be both expressive and simple to understand. The pattern-based machine translation system we have developed simplifies the handling of features in patterns by allowing sharing constraints between non-terminal symbols, and implementing an automated scheme of feature inheritance between syntactic classes. To avoid conflicts inherent to the pattern-based approach the system has priority control between patterns and between dictionaries. This approach proved its scalability in the web-based collaborative translation environment ‘Yakushite Net.’</abstract>
+    </paper>
+    <paper id="32">
+      <title>A novel string-to-string distance measure with applications to machine translation evaluation</title>
+      <author><first>Gregor</first><last>Leusch</last></author>
+      <author><first>Nicola</first><last>Ueffing</last></author>
+      <author><first>Hermann</first><last>Ney</last></author>
+      <url hash="286e36f7">2003.mtsummit-papers.32</url>
+      <abstract>We introduce a string-to-string distance measure which extends the edit distance by block transpositions as constant cost edit operation. An algorithm for the calculation of this distance measure in polynomial time is presented. We then demonstrate how this distance measure can be used as an evaluation criterion in machine translation. The correlation between this evaluation criterion and human judgment is systematically compared with that of other automatic evaluation measures on two translation tasks. In general, like other automatic evaluation measures, the criterion shows low correlation at sentence level, but good correlation at system level.</abstract>
+    </paper>
+    <paper id="33">
+      <title>Scalability in <fixed-case>MT</fixed-case> systems</title>
+      <author><first>Elisabeth</first><last>Maier</last></author>
+      <author><first>Anthony</first><last>Clarke</last></author>
+      <url hash="57ec4f65">2003.mtsummit-papers.33</url>
+      <abstract>In this paper we show why scalability is one of the most important aspects for the evaluation of Machine Translation (MT) systems and what scalability entails in the framework of MT. We illustrate the issue of scalability by reporting about an MT solution, which has been chosen in the course of a thorough hands-on evaluation and which in the meantime has been developed from a pilot system to a MT turnkey solution for mid-to large-scale enterprises.</abstract>
+    </paper>
+    <paper id="34">
+      <title>Source language diagnostics for <fixed-case>MT</fixed-case></title>
+      <author><first>Teruko</first><last>Mitamura</last></author>
+      <author><first>Kathryn</first><last>Baker</last></author>
+      <author><first>David</first><last>Svoboda</last></author>
+      <author><first>Eric</first><last>Nyberg</last></author>
+      <url hash="52af86df">2003.mtsummit-papers.34</url>
+      <abstract>This paper presents a source language diagnostic system for controlled translation. Diagnostics were designed and implemented to address the most difficult rewrites for authors, based on an empirical analysis of log files containing over 180,000 sentences. The design and implementation of the diagnostic system are presented, along with experimental results from an empirical evaluation of the completed system. We found that the diagnostic system can correctly identify the problem in 90.2% of the cases. In addition, depending on the type of grammar problem, the diagnostic system may offer a rewritten sentence. We found that 89.4% of the rewritten sentences were correctly rewritten. The results suggest that these methods could be used as the basis for an automatic rewriting system in the future.</abstract>
+    </paper>
+    <paper id="35">
+      <title>Resolving ‘incognito’ ellipsis: treatment for constructions that disguise ellipsis</title>
+      <author><first>Shigeko</first><last>Nariyama</last></author>
+      <url hash="2a3a2a1b">2003.mtsummit-papers.35</url>
+      <abstract>This paper raises a neglected issue in the study of ellipsis resolution. The existence of ellipsis under certain constructions is often disguised due to the structure that assigns the nominative marking to what is typically the object. This kind of ellipsis deserves attention in view of the fact that its referent is the agent of the sentence and that these constructions are observed in diverse languages. A problem is posed by virtue of the fact that English is not one of those languages, and it overtly expresses the referent of ellipsis that is implicit in those languages that use those constructions. Hence, the recognition and resolution of such ellipses is of importance particularly in machine translation systems that translate sentences with “incognito ellipsis” from those languages into English. After presenting the types of constructions, the paper explicates the mechanisms that govern the constructions in Japanese, and proposes a method to resolve such incognito ellipses along with common ellipses in a unified manner.</abstract>
+    </paper>
+    <paper id="36">
+      <title>Predictive models of performance in multi-engine machine translation</title>
+      <author><first>Tadashi</first><last>Nomoto</last></author>
+      <url hash="10d141b8">2003.mtsummit-papers.36</url>
+      <abstract>The paper describes a novel approach to Multi-Engine Machine Translation. We build statistical models of performance of translations and use them to guide us in combining and selecting from outputs from multiple MT engines. We empirically demonstrate that the MEMT system based on the models outperforms any of its component engine.</abstract>
+    </paper>
+    <paper id="37">
+      <title>Rapid-response machine translation for unexpected languages</title>
+      <author><first>Douglas W.</first><last>Oard</last></author>
+      <author><first>Franz Josef</first><last>Och</last></author>
+      <url hash="5e9a30eb">2003.mtsummit-papers.37</url>
+      <abstract>Statistical techniques for machine translation offer promise for rapid development in response to unexpected requirements, but realizing that potential requires rapid acquisition of required resources as well. This paper reports the results of experiments with resources collected in ten days; about 1.3 million words of parallel text from five types of sources and a bilingual term list with about 20,000 term pairs. Systems were trained with resources individually and in combination, using an approach based on alignment templates. The use of all available resources was found to yield the best results in an automatic evaluation using the BLEU measure, but a single resource (the Bible) coupled with a small amount of in-domain manual translation (less than 6,000 words) achieved more than 85% of that upper baseline. With a concerted effort, such a system could be built in a single day.</abstract>
+    </paper>
+    <paper id="38">
+      <title>Translation of news headlines</title>
+      <author><first>Kenji</first><last>Ono</last></author>
+      <url hash="b91daef5">2003.mtsummit-papers.38</url>
+      <abstract>Machine-Translation of news headlines is difficult since the sentences are fragmentary and abbreviations and acronyms of proper names are frequently used. Another difficulty is that, since the headline comes at the top of a news article, the context information useful to disambiguate the sense of words and to determine their translation(target word) is not available. This paper proposes a new approach to translating English news headline. In this approach, the abbreviations and acronyms in the headlines are complemented with their coreference in the lead of the article. Moreover, the target word selection is performed by referring to the translation of similar news articles retrieved from a parallel corpus. In the experiment, 100 English headlines are translated into Japanese using a corpus containing 30,000 English-Japanese article pairs, resulting in a 17 % improvement in the target words and a 21 % improvement in the style of translation.</abstract>
+    </paper>
+    <paper id="39">
+      <title>Collocation extraction for machine translation</title>
+      <author><first>Brigitte</first><last>Orliac</last></author>
+      <author><first>Mike</first><last>Dillinger</last></author>
+      <url hash="1c4f4528">2003.mtsummit-papers.39</url>
+      <abstract>This paper reports on the development of a collocation extraction system that is designed within a commercial machine translation system in order to take advantage of the robust syntactic analysis that the system offers and to use this analysis to refine collocation extraction. Embedding the extraction system also addresses the need to provide information about the source language collocations in a system-specific form to support automatic generation of a collocation rulebase for analysis and translation.</abstract>
+    </paper>
+    <paper id="40">
+      <title>On the use of statistical machine-translation techniques within a memory-based translation system (<fixed-case>AMETRA</fixed-case>)</title>
+      <author><first>Daniel</first><last>Ortíz</last></author>
+      <author><first>Ismael</first><last>García-Varea</last></author>
+      <author><first>Francisco</first><last>Casacuberta</last></author>
+      <author><first>Antonio</first><last>Lagarda</last></author>
+      <author><first>Jorge</first><last>González</last></author>
+      <url hash="84d35ac1">2003.mtsummit-papers.40</url>
+      <abstract>The goal of the AMETRA project is to make a computer-assisted translation tool from the Spanish language to the Basque language under the memory-based translation framework. The system is based on a large collection of bilingual word-segments. These segments are obtained using linguistic or statistical techniques from a Spanish-Basque bilingual corpus consisting of sentences extracted from the Basque Country’s of£cial government record. One of the tasks within the global information document of the AMETRA project is to study the combination of well-known statistical techniques for the translation of short sequences and techniques for memory-based translation. In this paper, we address the problem of constructing a statistical module to deal with the task of translating segments. The task undertaken in the AMETRA project is compared with other existing translation tasks, This study includes the results of some preliminary experiments we have carried out using well-known statistical machine translation tools and techniques.</abstract>
+    </paper>
+    <paper id="41">
+      <title>An experiment in comparative evaluation: humans vs. computers</title>
+      <author><first>Andrei</first><last>Popescu-Belis</last></author>
+      <url hash="c676cd30">2003.mtsummit-papers.41</url>
+      <abstract>This paper reports results from an experiment that was aimed at comparing evaluation metrics for machine translation. Implemented as a workshop at a major conference in 2002, the experiment defined an evaluation task, description of the metrics, as well as test data consisting of human and machine translations of two texts. Several metrics, either applicable by human judges or automated, were used, and the overall results were analyzed. It appeared that most human metrics and automated metrics provided in general consistent rankings of the various candidate translations; the ranking of the human translations matched the one provided by translation professionals; and human translations were distinguished from machine translations.</abstract>
+    </paper>
+    <paper id="42">
+      <title>Word sense discovery based on sense descriptor dissimilarity</title>
+      <author><first>Reinhard</first><last>Rapp</last></author>
+      <url hash="9676ca8a">2003.mtsummit-papers.42</url>
+      <abstract>In machine translation, information on word ambiguities is usually provided by the lexicographers who construct the lexicon. In this paper we propose an automatic method for word sense induction, i.e. for the discovery of a set of sense descriptors to a given ambiguous word. The approach is based on the statistics of the distributional similarity between the words in a corpus. Our algorithm works as follows: The 20 strongest first-order associations to the ambiguous word are considered as sense descriptor candidates. All pairs of these candidates are ranked according to the following two criteria: First, the two words in a pair should be as dissimilar as possible. Second, although being dissimilar their co-occurrence vectors should add up to the co-occurrence vector of the ambiguous word scaled by two. Both conditions together have the effect that preference is given to pairs whose co-occurring words are complementary. For best results, our implementation uses singular value decomposition, entropy-based weights, and second-order similarity metrics.</abstract>
+    </paper>
+    <paper id="43">
+      <title>For the proper treatment of long sentences in a sentence pattern-based <fixed-case>E</fixed-case>nglish-<fixed-case>K</fixed-case>orean <fixed-case>MT</fixed-case> system</title>
+      <author><first>Yoon-Hyung</first><last>Roh</last></author>
+      <author><first>Munpyo</first><last>Hong</last></author>
+      <author><first>Sung-Kwon</first><last>Choi</last></author>
+      <author><first>Ki-Young</first><last>Lee</last></author>
+      <author><first>Sang-Kyu</first><last>Park</last></author>
+      <url hash="933fae30">2003.mtsummit-papers.43</url>
+      <abstract>This paper describes a sentence pattern-based English-Korean machine translation system backed up by a rule-based module as a solution to the translation of long sentences. A rule-based English-Korean MT system typically suffers from low translation accuracy for long sentences due to poor parsing performance. In the proposed method we only use chunking information on the phrase-level of the parse result (i.e. NP, PP, and AP). By applying a sentence pattern directly to a chunking result, the high performance of analysis and a good quality of translation are expected. The parsing efficiency problem in the traditional RBMT approach is resolved by sentence partitioning, which is generally assumed to have many problems. However, we will show that the sentence partitioning has little side effect, if any, in our approach, because we use only the chunking results for the transfer. The coverage problem of a pattern-based method is overcome by applying sentence pattern matching recursively to the sub-sentences of the input sentence, in case there is no exact matching pattern to the input sentence.</abstract>
+    </paper>
+    <paper id="44">
+      <title>Disambiguation of <fixed-case>E</fixed-case>nglish <fixed-case>PP</fixed-case> attachment using multilingual aligned data</title>
+      <author><first>Lee</first><last>Schwartz</last></author>
+      <author><first>Takako</first><last>Aikawa</last></author>
+      <author><first>Chris</first><last>Quirk</last></author>
+      <url hash="966d96a9">2003.mtsummit-papers.44</url>
+      <abstract>Prepositional phrase attachment (PP attachment) is a major source of ambiguity in English. It poses a substantial challenge to Machine Translation (MT) between English and languages that are not characterized by PP attachment ambiguity. In this paper we present an unsupervised, bilingual, corpus-based approach to the resolution of English PP attachment ambiguity. As data we use aligned linguistic representations of the English and Japanese sentences from a large parallel corpus of technical texts. The premise of our approach is that with large aligned, parsed, bilingual (or multilingual) corpora, languages can learn non-trivial linguistic information from one another with high accuracy. We contend that our approach can be extended to linguistic phenomena other than PP attachment.</abstract>
+    </paper>
+    <paper id="45">
+      <title><fixed-case>SYSTRAN</fixed-case> new generation: the <fixed-case>XML</fixed-case> translation workflow</title>
+      <author><first>Jean</first><last>Senellart</last></author>
+      <author><first>Christian</first><last>Boitet</last></author>
+      <author><first>Laurent</first><last>Romary</last></author>
+      <url hash="0bc02184">2003.mtsummit-papers.45</url>
+      <abstract>Customization of Machine Translation (MT) is a prerequisite for corporations to adopt the technology. It is therefore important but nonetheless challenging. Ongoing implementation proves that XML is an excellent exchange device between MT modules that efficiently enables interaction between the user and the processes to reach highly granulated structure-based customization. Accomplished through an innovative approach called the SYSTRAN Translation Stylesheet, this method is coherent with the current evolution of the “authoring process”. As a natural progression, the next stage in the customization process is the integration of MT in a multilingual tool kit designed for the “authoring process”.</abstract>
+    </paper>
+    <paper id="46">
+      <title><fixed-case>SYSTRAN</fixed-case> intuitive coding technology</title>
+      <author><first>Jean</first><last>Senellart</last></author>
+      <author><first>Jin</first><last>Yang</last></author>
+      <author><first>Anabel</first><last>Rebollo</last></author>
+      <url hash="ef787c78">2003.mtsummit-papers.46</url>
+      <abstract>Customizing a general-purpose MT system is an effective way to improve machine translation quality for specific usages. Building a user-specific dictionary is the first and most important step in the customization process. An intuitive dictionary-coding tool was developed and is now utilized to allow the user to build user dictionaries easily and intelligently. SYSTRAN’s innovative and proprietary IntuitiveCoding® technology is the engine powering this tool. It is comprised of various components: massive linguistic resources, a morphological analyzer, a statistical guesser, finite-state automaton, and a context-free grammar. Methodologically, IntuitiveCoding® is also a cross-application approach for high quality dictionary building in terminology import and exchange. This paper describes the various components and the issues involved in its implementation. An evaluation frame and utilization of the technology are also presented.</abstract>
+    </paper>
+    <paper id="47">
+      <title>Example-based rough translation for speech-to-speech translation</title>
+      <author><first>Mitsuo</first><last>Shimohata</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <author><first>Yuji</first><last>Matsumoto</last></author>
+      <url hash="94a9cd60">2003.mtsummit-papers.47</url>
+      <abstract>Example-based machine translation (EBMT) is a promising translation method for speech-to-speech translation (S2ST) because of its robustness. However, it has two problems in that the performance degrades when input sentences are long and when the style of the input sentences and that of the example corpus are different. This paper proposes example-based rough translation to overcome these two problems. The rough translation method relies on “meaning-equivalent sentences,” which share the main meaning with an input sentence despite missing some unimportant information. This method facilitates retrieval of meaning-equivalent sentences for long input sentences. The retrieval of meaning-equivalent sentences is based on content words, modality, and tense. This method also provides robustness against the style differences between the input sentence and the example corpus.</abstract>
+    </paper>
+    <paper id="48">
+      <title>High quality machine translation using a machine-learned sentence realization component</title>
+      <author><first>Martine</first><last>Smets</last></author>
+      <author><first>Michael</first><last>Gamon</last></author>
+      <author><first>Jessie</first><last>Pinkham</last></author>
+      <author><first>Tom</first><last>Reutter</last></author>
+      <author><first>Martine</first><last>Pettenaro</last></author>
+      <url hash="6740b848">2003.mtsummit-papers.48</url>
+      <abstract>We describe the implementation of two new language pairs (English-French and English-German) which use machine-learned sentence realization components instead of hand-written generation components. The resulting systems are evaluated by human evaluators, and in the technical domain, are equal to the quality of highly respected commercial systems. We comment on the difficulties that are encountered when using machine-learned sentence realization in the context of MT.</abstract>
+    </paper>
+    <paper id="49">
+      <title>Evaluating commercial spoken language translation software</title>
+      <author><first>Harold</first><last>Somers</last></author>
+      <author><first>Yuri</first><last>Sugita</last></author>
+      <url hash="6b88840c">2003.mtsummit-papers.49</url>
+      <abstract>While spoken language translation remains a research goal, a crude form of it is widely available commercially for Japanese–English as a pipeline concatenation of speech-to-text recognition (SR), text-to-text translation (MT) and text-to-speech synthesis (SS). This paper proposes and illustrates an evaluation methodology for this noisy channel which tries to quantify the relative amount of degradation in translation quality due to each of the contributing modules. A small pilot experiment involving word-accuracy rate for the SR, and a fidelity evaluation for the MT and SS modules is proposed in which subjects are asked to paraphrase translated and/or synthesised sentences from a tourist’s phrasebook. Results show (as expected) that MT is the “noisiest” channel, with SS contributing least noise. The concatenation of the three channels is worse than could be predicted from the performance of each as individual tasks.</abstract>
+    </paper>
+    <paper id="50">
+      <title>Translation selection for <fixed-case>J</fixed-case>apanese-<fixed-case>E</fixed-case>nglish noun-noun compounds</title>
+      <author><first>Takaaki</first><last>Tanaka</last></author>
+      <author><first>Timothy</first><last>Baldwin</last></author>
+      <url hash="0333f0c7">2003.mtsummit-papers.50</url>
+      <abstract>We present a method for compositionally translating Japanese NN compounds into English, using a word-level transfer dictionary and target language monolingual corpus. The method interpolates over fully-specified and partial translation data, based on corpus evidence. In evaluation, we demonstrate that interpolation over the two data types is superior to using either one, and show that our method performs at an F-score of 0.68 over translation-aligned inputs and 0.66 over a random sample of 500 NN compounds.</abstract>
+    </paper>
+    <paper id="51">
+      <title>Evaluation of machine translation and its evaluation</title>
+      <author><first>Joseph P.</first><last>Turian</last></author>
+      <author><first>Luke</first><last>Shen</last></author>
+      <author><first>I. Dan</first><last>Melamed</last></author>
+      <url hash="c77173e1">2003.mtsummit-papers.51</url>
+      <abstract>Evaluation of MT evaluation measures is limited by inconsistent human judgment data. Nonetheless, machine translation can be evaluated using the well-known measures precision, recall, and their average, the F-measure. The unigram-based F-measure has significantly higher correlation with human judgments than recently proposed alternatives. More importantly, this standard measure has an intuitive graphical interpretation, which can facilitate insight into how MT systems might be improved. The relevant software is publicly available from http://nlp.cs.nyu.edu/GTM/.</abstract>
+    </paper>
+    <paper id="52">
+      <title>Confidence measures for statistical machine translation</title>
+      <author><first>Nicola</first><last>Ueffing</last></author>
+      <author><first>Klaus</first><last>Macherey</last></author>
+      <author><first>Hermann</first><last>Ney</last></author>
+      <url hash="a590c438">2003.mtsummit-papers.52</url>
+      <abstract>In this paper, we present several confidence measures for (statistical) machine translation. We introduce word posterior probabilities for words in the target sentence that can be determined either on a word graph or on an N best list. Two alternative confidence measures that can be calculated on N best lists are proposed. The performance of the measures is evaluated on two different translation tasks: on spontaneously spoken dialogues from the domain of appointment scheduling, and on a collection of technical manuals.</abstract>
+    </paper>
+    <paper id="53">
+      <title>The <fixed-case>CMU</fixed-case> statistical machine translation system</title>
+      <author><first>Stephan</first><last>Vogel</last></author>
+      <author><first>Ying</first><last>Zhang</last></author>
+      <author><first>Fei</first><last>Huang</last></author>
+      <author><first>Alicia</first><last>Tribble</last></author>
+      <author><first>Ashish</first><last>Venugopal</last></author>
+      <author><first>Bing</first><last>Zhao</last></author>
+      <author><first>Alex</first><last>Waibel</last></author>
+      <url hash="c6865c22">2003.mtsummit-papers.53</url>
+      <abstract>In this paper we describe the components of our statistical machine translation system. This system combines phrase-to-phrase translations extracted from a bilingual corpus using different alignment approaches. Special methods to extract and align named entities are used. We show how a manual lexicon can be incorporated into the statistical system in an optimized way. Experiments on Chinese-to-English and Arabic-to-English translation tasks are presented.</abstract>
+    </paper>
+    <paper id="54">
+      <title>Example-based decoding for statistical machine translation</title>
+      <author><first>Taro</first><last>Watanabe</last></author>
+      <author><first>Eiichiro</first><last>Sumita</last></author>
+      <url hash="416513a3">2003.mtsummit-papers.54</url>
+      <abstract>This paper presents a decoder for statistical machine translation that can take advantage of the example-based machine translation framework. The decoder presented here is based on the greedy approach to the decoding problem, but the search is initiated from a similar translation extracted from a bilingual corpus. The experiments on multilingual translations showed that the proposed method was far superior to a word-by-word generation beam search algorithm.</abstract>
+    </paper>
+    <paper id="55">
+      <title>Automatic predicate argument structure analysis of the <fixed-case>P</fixed-case>enn <fixed-case>C</fixed-case>hinese Treebank</title>
+      <author><first>Nianwen</first><last>Xue</last></author>
+      <author><first>Seth</first><last>Kulick</last></author>
+      <url hash="0542e56d">2003.mtsummit-papers.55</url>
+      <abstract>Recent work in machine translation and information extraction has demonstrated the utility of a level that represents the predicate-argument structure. It would be especially useful for machine translation to have two such Proposition Banks, one for each language under consideration. A Proposition Bank for English has been developed over the last few years, and we describe here our development of a tool for facilitating the development of a Chinese Proposition Bank. We also discuss some issues specific to the Chinese Treebank that complicate the matter of mapping syntactic representation to a predicate-argument level, and report on some preliminary evaluation of the accuracy of the semantic tagging tool.</abstract>
+    </paper>
+    <paper id="56">
+      <title>Improving translation models by applying asymmetric learning</title>
+      <author><first>Setsuo</first><last>Yamada</last></author>
+      <author><first>Masaaki</first><last>Nagata</last></author>
+      <author><first>Kenji</first><last>Yamada</last></author>
+      <url hash="e75d69ac">2003.mtsummit-papers.56</url>
+      <abstract>The statistical Machine Translation Model has two components: a language model and a translation model. This paper describes how to improve the quality of the translation model by using the common word pairs extracted by two asymmetric learning approaches. One set of word pairs is extracted by Viterbi alignment using a translation model, the other set is extracted by Viterbi alignment using another translation model created by reversing the languages. The common word pairs are extracted as the same word pairs in the two sets of word pairs. We conducted experiments using English and Japanese. Our method improves the quality of a original translation model by 5.7%. The experiments also show that the proposed learning method improves the word alignment quality independent of the training domain and the translation model. Moreover, we show that common word pairs are almost as useful as regular dictionary entries for training purposes.</abstract>
+    </paper>
+    <paper id="57">
+      <title>Customizing complex lexical entries for high-quality <fixed-case>MT</fixed-case></title>
+      <author><first>Rémi</first><last>Zajac</last></author>
+      <author><first>Elke</first><last>Lange</last></author>
+      <author><first>Jin</first><last>Yang</last></author>
+      <url hash="d98bcc45">2003.mtsummit-papers.57</url>
+      <abstract>The customization of Machine Translation systems concentrates, for the most part, on MT dictionaries. In this paper, we focus on the customization of complex lexical entries that involve various types of lexical collocations, such as sub-categorization frames. We describe methods and tools that leverage existing parsers and other MT dictionaries for customization of MT dictionaries. This customization process is applied on large-scale customization of several commercial MT systems, including English to Japanese, Chinese, and Korean.</abstract>
+    </paper>
+  </volume>
+  <volume id="systems" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Proceedings of Machine Translation Summit IX: System Presentations</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title>The Comprendium Translator system</title>
+      <author><first>Juan A.</first><last>Alonso</last></author>
+      <author><first>Gregor</first><last>Thurmair</last></author>
+    </paper>
+    <paper id="2">
+      <title>Language Weaver: the next generation of machine translation</title>
+      <author><first>Bryce</first><last>Benjamin</last></author>
+      <author><first>Laurie</first><last>Gerber</last></author>
+      <author><first>Kevin</first><last>Knight</last></author>
+      <author><first>Daniel</first><last>Marcu</last></author>
+      <url hash="08b81332">2003.mtsummit-systems.2</url>
+      <abstract>We introduce a new generation of commercial translation software, based primarily on statistical learning and statistical language models.</abstract>
+    </paper>
+    <paper id="3">
+      <title>The <fixed-case>J</fixed-case>ohns <fixed-case>H</fixed-case>opkins <fixed-case>U</fixed-case>niversity 2003 <fixed-case>C</fixed-case>hinese-<fixed-case>E</fixed-case>nglish machine translation system</title>
+      <author><first>W.</first><last>Byrne</last></author>
+      <author><first>S.</first><last>Khudanpur</last></author>
+      <author><first>W.</first><last>Kim</last></author>
+      <author><first>S.</first><last>Kumar</last></author>
+      <author><first>P.</first><last>Pecina</last></author>
+      <author><first>P.</first><last>Virga</last></author>
+      <author><first>P.</first><last>Xu</last></author>
+      <author><first>D.</first><last>Yarowsky</last></author>
+      <url hash="218872af">2003.mtsummit-systems.3</url>
+      <abstract>We describe a Chinese to English Machine Translation system developed at the Johns Hopkins University for the NIST 2003 MT evaluation. The system is based on a Weighted Finite State Transducer implementation of the alignment template translation model for statistical machine translation. The baseline MT system was trained using 100,000 sentence pairs selected from a static bitext training collection. Information retrieval techniques were then used to create specific training collections for each document to be translated. This document-specific training set included bitext and name entities that were then added to the baseline system by augmenting the library of alignment templates. We report translation performance of baseline and IR-based systems on two NIST MT evaluation test sets.</abstract>
+    </paper>
+    <paper id="4">
+      <title><fixed-case>SYSTRAN</fixed-case> Review Manager</title>
+      <author><first>Jean-Cédric</first><last>Costa</last></author>
+      <author><first>Christiane</first><last>Panissod</last></author>
+      <url hash="494a2377">2003.mtsummit-systems.4</url>
+      <abstract>The SYSTRAN Review Manager (SRM) is one of the components that comprise the SYSTRAN Linguistics Platform (SLP), a comprehensive enterprise solution for managing MT customization and localization projects. The SRM is a productivity tool used for the review, quality assessment and maintenance of linguistic resources combined with a SYSTRAN solution. The SRM is used in-house by SYSTRAN’s development team and is also licensed to corporate customers as it addresses leading linguistic challenges, such as terminology and homographs, which makes it a key component of the QA process. Extremely flexible, the SRM adapts to localization and MT customization projects from small to large-scale. Its Web-based interface and multi-user architecture enable a centralized and efficient work environment for local and geographically disbursed individual users and teams. Users segment a given corpus to fluidly review and evaluate translations, as well as identify the typology of errors. Corpus metrics, terminology extraction and detailed reporting capabilities facilitate prioritizing tasks, resulting in immediate focus on those issues that significantly impact MT quality. Data and statistics are tracked throughout the customization process and are always available for regression tests and overall project management. This environment is highly conducive to increased productivity and efficient QA in the MT customization effort.</abstract>
+    </paper>
+    <paper id="5">
+      <title><fixed-case>U</fixed-case>.<fixed-case>S</fixed-case>. Government Foreign Language Resource Center</title>
+      <author><first>Jennifer</first><last>DeCamp</last></author>
+      <author><first>Bob</first><last>Bernier</last></author>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>M</fixed-case>ulti<fixed-case>T</fixed-case>rans system presentation: translation support and language management solutions</title>
+      <author><first>Dan</first><last>Gervais</last></author>
+      <url hash="ae2d8cb1">2003.mtsummit-systems.6</url>
+      <abstract>MultiTrans is a translation support and language management solution that is based on a multilingual full-text repository of previously translated content. It has helped global organizations and language-industry professionals to improve translation productivity and quality for all types of content. Unlike traditional translation memory tools, which are based on a database of isolated whole sentences, MultiTrans makes vast collections of legacyfull-text translations searchable fortext stringsof any length in their full usage context.MultiTrans' interactive research agent automates and aggregates the search process, providing users with the most relevant information, maximizing language resource reuse.</abstract>
+    </paper>
+    <paper id="7">
+      <title>A multi-language translation example browser</title>
+      <author><first>Isao</first><last>Goto</last></author>
+      <author><first>Naoto</first><last>Kato</last></author>
+      <author><first>Noriyoshi</first><last>Uratani</last></author>
+      <author><first>Terumasa</first><last>Ehara</last></author>
+      <author><first>Tadashi</first><last>Kumano</last></author>
+      <author><first>Hideki</first><last>Tanaka</last></author>
+      <url hash="eb27f69d">2003.mtsummit-systems.7</url>
+      <abstract>This paper describes a Multi-language Translation Example Browser, a type of translation memory system. The system is able to retrieve translation examples from bilingual news databases, which consist of news transcripts of past broadcasts. We put a Japanese-English system to practical use and undertook trial operations of a system of eight language-pairs.</abstract>
+    </paper>
+    <paper id="8">
+      <title>Matador: <fixed-case>S</fixed-case>panish-<fixed-case>E</fixed-case>nglish <fixed-case>GHMT</fixed-case></title>
+      <author><first>Nizar</first><last>Habash</last></author>
+      <url hash="43754629">2003.mtsummit-systems.8</url>
+      <abstract>This paper presents the online demo of Matador, a large-scale Spanish-English machine translation system implemented following the Generation-heavy Hybrid Machine Translation (GHMT) approach.</abstract>
+    </paper>
+    <paper id="9">
+      <title><fixed-case>C</fixed-case>at<fixed-case>V</fixed-case>ar: a database of categorial variations for <fixed-case>E</fixed-case>nglish</title>
+      <author><first>Nizar</first><last>Habash</last></author>
+      <author><first>Bonnie</first><last>Dorr</last></author>
+      <url hash="5f2365b1">2003.mtsummit-systems.9</url>
+      <abstract>We present a new large-scale database called “CatVar” (Habash and Dorr, 2003) which contains categorial variations of English lexemes. Due to the prevalence of cross-language categorial variation in multilingual applications, our categorial-variation resource may serve as an integral part of a diverse range of natural language applications. Thus, the research reported herein overlaps heavily with that of the machine-translation, lexicon-construction, and information-retrieval communities. We demonstrate this database, embedded in a graphical interface; we also show a GUI for user input of corrections to the database.</abstract>
+    </paper>
+    <paper id="10">
+      <title>A system for <fixed-case>J</fixed-case>apanese/<fixed-case>E</fixed-case>nglish/<fixed-case>K</fixed-case>orean multilingual patent retrieval</title>
+      <author><first>Mitsuharu</first><last>Makita</last></author>
+      <author><first>Shigeto</first><last>Higuchi</last></author>
+      <author><first>Atsushi</first><last>Fujii</last></author>
+      <author><first>Tetsuya</first><last>Ishikawa</last></author>
+      <url hash="bc23b86c">2003.mtsummit-systems.10</url>
+      <abstract>In response to growing needs for cross-lingual patent retrieval, we propose PRIME (Patent Retrieval In Multilingual Environment system), in which users can retrieve and browse patents in foreign languages only by their native language. PRIME translates a query in the user language into the target language, retrieves patents relevant to the query, and translates retrieved patents into the user language. To update a translation dictionary, PRIME automatically extracts new translations from parallel patent corpora. In the current implementation, trilingual (J/E/K) patent retrieval is available. We describe the system design and its evaluation.</abstract>
+    </paper>
+    <paper id="11">
+      <title>Implementation of collaborative translation environment ‘Yakushite Net’</title>
+      <author><first>Toshiki</first><last>Murata</last></author>
+      <author><first>Mihoko</first><last>Kitamura</last></author>
+      <author><first>Tsuyoshi</first><last>Fukui</last></author>
+      <author><first>Tatsuya</first><last>Sukehiro</last></author>
+      <url hash="5cb08292">2003.mtsummit-systems.11</url>
+      <abstract>This paper describes an implementation of Collaborative Translation Environment ‘Yakushite Net’. In ‘Yakushite Net’, Internet users collaborate in enhancing the dictionaries of their specialty fields, and the system thus improves and expands its accuracy and areas of translations. In the course of realization of this system, we encountered several technical challenges. We would like to first explain those challenges, and then the solutions to them. Our future plan will also be explained at the end.</abstract>
+    </paper>
+    <paper id="12">
+      <title><fixed-case>LTC</fixed-case> Communicator</title>
+      <author><first>Philippe</first><last>Nozay</last></author>
+      <author><first>Adriane</first><last>Rinsche</last></author>
+      <url hash="e4af4623">2003.mtsummit-systems.12</url>
+      <abstract>Combining machine translation (MT), translation memory (TM), XML, and an automation server, the LTC Communicator enables help desk systems to handle multilingual data by providing automatic translation on the fly. The system has been designed to deliver machine-translated questions/answers (trouble tickets/solutions) at an intelligible level. The modular architecture combining automation servers and workflow management gives flexibility and reliability to the overall system. The web server architecture allows remote access and easy integration with existing help desk systems. A trial was funded within the framework of the EU project IMPACT.</abstract>
+    </paper>
+    <paper id="13">
+      <title>An integrated system for source language checking, analysis and term management</title>
+      <author><first>Eric</first><last>Nyberg</last></author>
+      <author><first>Teruko</first><last>Mitamura</last></author>
+      <author><first>David</first><last>Svoboda</last></author>
+      <author><first>Jeongwoo</first><last>Ko</last></author>
+      <author><first>Kathryn</first><last>Baker</last></author>
+      <author><first>Jeffrey</first><last>Micher</last></author>
+      <url hash="dd9661e8">2003.mtsummit-systems.13</url>
+      <abstract>This paper presents an overview of the tools provided by KANTOO MT system for controlled source language checking, source text analysis, and terminology management. The steps in each process are described, and screen images are provided to illustrate the system architecture and example tool interfaces.</abstract>
+    </paper>
+    <paper id="14">
+      <title><fixed-case>MATS</fixed-case> – a glass box machine translation system</title>
+      <author><first>Anna</first><last>Sågvall Hein</last></author>
+      <author><first>Eva</first><last>Forsbom</last></author>
+      <author><first>Per</first><last>Weijnitz</last></author>
+      <author><first>Ebba</first><last>Gustavii</last></author>
+      <author><first>Jörg</first><last>Tiedemann</last></author>
+      <url hash="20321556">2003.mtsummit-systems.14</url>
+    </paper>
+    <paper id="15">
+      <title><fixed-case>A</fixed-case>ngla<fixed-case>H</fixed-case>indi: an <fixed-case>E</fixed-case>nglish to <fixed-case>H</fixed-case>indi machine-aided translation system</title>
+      <author><first>R. M. K.</first><last>Sinha</last></author>
+      <author><first>A.</first><last>Jain</last></author>
+      <url hash="b6ad0bee">2003.mtsummit-systems.15</url>
+      <abstract>This paper presents a system overview of an English to Hindi Machine-Aided Translation System named AnglaHindi. Its beta-version has been made available on the internet for free translation at http://anglahindi.iitk.ac.in AnglaHindi is an English to Hindi version of the ANGLABHARTI translation methodology developed by the author for translation from English to all Indian languages. Anglabharti is a pseudo-interlingual rule-based translation methodology. AnglaHindi, besides using the rule-bases, uses example-base and statistics to obtain more acceptable and accurate translation for frequently encountered noun and verb phrasals. This way a limited hybridization of rule-based and example-based approaches has been incorporated.</abstract>
+    </paper>
+    <paper id="16">
+      <title><fixed-case>T</fixed-case>rans<fixed-case>T</fixed-case>ype2 - a new paradigm for translation automation</title>
+      <author><first>Antonio S.</first><last>Valderrábanos</last></author>
+      <author><first>José</first><last>Esteban</last></author>
+      <author><first>Luis</first><last>Iraola</last></author>
+      <url hash="817552a9">2003.mtsummit-systems.16</url>
+      <abstract>The aim of TransType2 (TT2) is to develop a new kind of Computer-Assisted Translation (CAT) system that will help solve a very pressing social problem: how to meet the growing demand for high-quality translation. To date, translation technology has not been able to keep pace with the demand for high-quality translation. The innovative solution proposed by TT2 is to embed a data driven Machine Translation (MT) engine within an interactive translation environment. In this way, the system combines the best of two paradigms: the CAT paradigm, in which the human translator ensures high-quality output; and the MT paradigm, in which the machine ensures significant productivity gains.</abstract>
+    </paper>
+    <paper id="17">
+      <title>Translation of words in context</title>
+      <author><first>Eric</first><last>Wehrli</last></author>
+      <url hash="aaa5ee35">2003.mtsummit-systems.17</url>
+      <abstract>TWiC is an on-line word and expression translation syste m which uses a powerful parser to (i) properly identify the relevant lexical units, (ii) retrieve the base form of the selected word and (iii) recognize the presence of a multiword expression (compound, idiom, collocation) the selected word may be part of. The conjunction of state-of-the-art natural language parsing, multiword expression identification and large bilingual databases provides a powerful and effective tool for people who want to read on-line material in a foreign language which they are not completely fluent in. A full prototype version of TWiC has been completed for the English-French pair of languages.</abstract>
+    </paper>
+  </volume>
+  <volume id="tutorials" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Proceedings of Machine Translation Summit IX: Tutorials</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title><fixed-case>MT</fixed-case> customization</title>
+      <author><first>Rémi</first><last>Zajac</last></author>
+      <url hash="395dc87b">2003.mtsummit-tutorials.1</url>
+    </paper>
+    <paper id="2">
+      <title>Finite state technology and its applications to machine translation</title>
+      <author><first>Shuly</first><last>Wintner</last></author>
+      <url hash="77413284">2003.mtsummit-tutorials.2</url>
+    </paper>
+  </volume>
+  <volume id="semit" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Workshop on Machine Translation for Semitic languages: issues and approaches</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title><fixed-case>S</fixed-case>emitic linguistic phenomena and variations</title>
+      <author><first>Nizar</first><last>Habash</last></author>
+      <attachment type="presentation" hash="17955b21">2003.mtsummit-semit.1.Presentation.pdf</attachment>
+    </paper>
+    <paper id="2">
+      <title><fixed-case>SMT</fixed-case> – <fixed-case>TIDES</fixed-case> – and all that</title>
+      <author><first>Stephan</first><last>Vogel</last></author>
+      <attachment type="presentation" hash="45a3ba8b">2003.mtsummit-semit.2.Presentation.pdf</attachment>
+    </paper>
+    <paper id="3">
+      <title>The <fixed-case>CMU</fixed-case> <fixed-case>A</fixed-case>rabic-to-<fixed-case>E</fixed-case>nglish statistical <fixed-case>MT</fixed-case> system</title>
+      <author><first>Alicia</first><last>Tribble</last></author>
+      <author><first>Stephan</first><last>Vogel</last></author>
+      <attachment type="presentation" hash="1642cbb5">2003.mtsummit-semit.3.Presentation.pdf</attachment>
+    </paper>
+    <paper id="4">
+      <title>Issues in <fixed-case>A</fixed-case>rabic <fixed-case>MT</fixed-case></title>
+      <author><first>Alex</first><last>Fraser</last></author>
+      <attachment type="presentation" hash="74c59622">2003.mtsummit-semit.4.Presentation.pdf</attachment>
+    </paper>
+    <paper id="5">
+      <title>Roots &amp; patterns vs. stems plus grammar-lexis specifications: on what basis should a multilingual database centred on <fixed-case>A</fixed-case>rabic be built?</title>
+      <author><first>Joseph</first><last>Dichy</last></author>
+      <author><first>Ali</first><last>Farghaly</last></author>
+      <url hash="8202fe4a">2003.mtsummit-semit.5</url>
+      <abstract>Machine translation engines draw on various types of databases. This paper is concerned with Arabic as a source or target language, and focuses on lexical databases. The non-concatenative nature of Arabic morphology, the complex structure of Arabic word-forms, and the general use of vowel-free writing present a real challenge to NLP developers. We show here how and why a stem-grounded lexical database, the items of which are associated with grammar-lexis specifications – as opposed to a root-&amp;-pattern database –, is motivated both linguistically and with regards to efficiency, economy and modularity. Arguments in favour of databases relying on stems associated with grammar-lexis specifications (such as DIINAR.1 or the Arabic dB under development at SYSTRAN), rather than on roots and patterns, are the following: (a) The latter include huge numbers of rule-generated word-forms, which do not actually appear in the language. (b) Rule-generated lemmas – as opposed to existing ones – are widely under-specified with regards to grammar-lexis relations. (c) In a Semitic language such as Arabic, the mapping of grammar-lexis specifications that need to be associated with every lexical entry of the database is decisive. (d) These specifications can only be included in a stem-based dB. Points (a) to (d) are crucial and in the context of machine translation involving Arabic.</abstract>
+    </paper>
+    <paper id="6">
+      <title>Inductive coding of the <fixed-case>A</fixed-case>rabic lexicon</title>
+      <author><first>Ali</first><last>Farghaly</last></author>
+      <author><first>Jean</first><last>Senellart</last></author>
+      <url hash="15a1473c">2003.mtsummit-semit.6</url>
+      <abstract>SYSTRAN started the design and the development of Arabic, Farsi and Urdu to English machine translation systems in July 2002. This paper describes the methodology and implementation adopted for dictionary building and morphological analysis. SYSTRAN’s IntuitiveCoding® technology (ICT) for facilitates the creation, update, and maintenance of Arabic, Farsi and Urdu lexical entries, is more modular and less costly. ICT for Arabic, Farsi, and Urdu requires the implementation of stem-based lexical entries, the authentic scripts for each language, a statistical Arabic stem-guesser, and separate declarative modules for internal and external morphology.</abstract>
+    </paper>
+    <paper id="7">
+      <title>Application of corpus-based techniques to <fixed-case>A</fixed-case>mharic texts</title>
+      <author><first>Sisay</first><last>Fissaha</last></author>
+      <author><first>Johann</first><last>Haller</last></author>
+      <url hash="febe4abd">2003.mtsummit-semit.7</url>
+      <abstract>A number of corpus-based techniques have been used in the development of natural language processing application. One area in which these techniques have extensively been applied is lexical development. The current work is being undertaken in the context of a machine translation project in which lexical development activities constitute a significant portion of the overall task. In the first part, we applied corpus-based techniques to the extraction of collocations from Amharic text corpus. Analysis of the output reveals important collocations that can usefully be incorporated in the lexicon. This is especially true for the extraction of idiomatic expressions. The patterns of idiom formation which are observed in a small manually collected data enabled extraction of large set of idioms which otherwise may be difficult or impossible to recognize. Furthermore, preliminary results of other corpus-based techniques, that is, clustering and classification, that are currently being under investigation are presented. The results show that clustering performed no better than the frequency base line whereas classification showed a clear performance improvement over the frequency base line. This in turn suggests the need to carry out further experiments using large sets of data and more contextual information.</abstract>
+    </paper>
+    <paper id="8">
+      <title>Towards semantic composition of <fixed-case>A</fixed-case>rabic: a λ-<fixed-case>DRT</fixed-case> based approach</title>
+      <author><first>Bassam</first><last>Haddad</last></author>
+      <author><first>Mustafa</first><last>Yaseen</last></author>
+      <url hash="84632680">2003.mtsummit-semit.8</url>
+      <abstract>This paper addresses issues related to employing logic-based semantic composition as a meaning representation for Arabic within a unification-based syntax-semantics interface. Since semantic representation has to be compositional on the level of semantic processing λ-calculus based on Discourse Representation Theory can be utilized as a helpful and practical technique for the semantic construction of ARABIC in Arabic understanding systems. As ARABIC computational linguistics is also short of feature-based compositional syntax-semantics interfaces we hope that this approach might be a further motivation to redirect research to modern semantic construction techniques for developing an adequate model of semantic processing for Arabic and even no existing formal theory is capable to provide a complete and consistent account of all phenomena involved in Arabic semantic processing.</abstract>
+    </paper>
+    <paper id="9">
+      <title>A corpus based morphological analyzer for unvocalized modern <fixed-case>H</fixed-case>ebrew</title>
+      <author><first>Alon</first><last>Itai</last></author>
+      <author><first>Erel</first><last>Segal</last></author>
+      <url hash="2c897e8d">2003.mtsummit-semit.9</url>
+      <abstract>Most words in Modern Hebrew texts are morphologically ambiguous. We describe a method for finding the correct morphological analysis of each word in a Modern Hebrew text. The program first uses a small tagged corpus to estimate the probability of each possible analysis of each word regardless of its context and chooses the most probable analysis. It then applies automatically learned rules to correct the analysis of each word according to its neighbors. Finally, it uses a simple syntactical analyzer to further correct the analysis, thus combining statistical methods with rule-based syntactic analysis. It is shown that this combination greatly improves the accuracy of the morphological analysis—achieving up to 96.2% accuracy.</abstract>
+    </paper>
+    <paper id="10">
+      <title>A chart parser for analyzing modern standard <fixed-case>A</fixed-case>rabic sentence</title>
+      <author><first>Eman</first><last>Othman</last></author>
+      <author><first>Khaled</first><last>Shaalan</last></author>
+      <author><first>Ahmed</first><last>Rafea</last></author>
+      <url hash="23a636db">2003.mtsummit-semit.10</url>
+      <abstract>The parsing of Arabic sentence is a necessary prerequisite for many natural language processing applications such as machine translation and information retrieval. In this paper we report our attempt to develop an efficient chart parser for Analyzing Modern Standard Arabic (MSA) sentence. From a practical point of view, the parser is able to satisfy syntactic constraints reducing parsing ambiguity. Lexical semantic features are also used to disambiguate the sentence structure. We explain also an Arabic morphological analyzer based on ATN technique. Both the Arabic parser and the Arabic morphological analyzer are implemented in Prolog. The linguistic rules were acquired from a set of sentences from MSA sentence in the Agriculture domain.</abstract>
+    </paper>
+    <paper id="11">
+      <title>A two-level syntax-based approach to <fixed-case>A</fixed-case>rabic-<fixed-case>E</fixed-case>nglish statistical machine translation</title>
+      <author><first>Charles</first><last>Schafer</last></author>
+      <author><first>David</first><last>Yarowsky</last></author>
+      <url hash="7d06c056">2003.mtsummit-semit.11</url>
+      <abstract>We formulate an original model for statistical machine translation (SMT) inspired by characteristics of the Arabic-English translation task. Our approach incorporates part-of-speech tags and linguistically motivated phrase chunks in a 2-level shallow syntactic model of reordering. We implement and evaluate this model, showing it to have advantageous properties and to be competitive with an existing SMT baseline. We also describe cross-categorial lexical translation coercion, an interesting component and side-effect of our approach. Finally, we discuss the novel implementation of decoding for this model which saves much development work by constructing finite-state machine (FSM) representations of translation probability distributions and using generic FSM operations for search. Algorithmic details, examples and results focus on Arabic, and the paper includes discussion on the issues and challenges of Arabic statistical machine translation.</abstract>
+    </paper>
+    <paper id="12">
+      <title>Resources for processing Israeli <fixed-case>H</fixed-case>ebrew</title>
+      <author><first>Shuly</first><last>Wintner</last></author>
+      <author><first>Shlomo</first><last>Yona</last></author>
+      <url hash="ac561ce9">2003.mtsummit-semit.12</url>
+      <abstract>We describe work in progress whose main objective is to create a collection of resources and tools for processing Hebrew. These resources include corpora of written texts, some of them annotated in various degrees of detail; tools for collecting, expanding and maintaining corpora; tools for annotation; lexicons, both monolingual and bilingual; a rule-based, linguistically motivated morphological analyzer and generator; and a WordNet for Hebrew. We emphasize the methodological issue of well-defined standards for the resources to be developed. The design of the resources guarantees their reusability, such that the output of one system can naturally be the input to another.</abstract>
+    </paper>
+  </volume>
+  <volume id="tttt" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Workshop on Teaching Translation Technologies and Tools</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title>Buying up to falling down</title>
+      <author><first>Judith</first><last>Belam</last></author>
+      <url hash="a61e75fe">2003.mtsummit-tttt.1</url>
+      <abstract>A course in machine-assisted translation at final-year undergraduate level is the subject of the paper. The course includes a workshop session during which students compile a list of post-editing guidelines to make a text suitable for use in a clearly defined situation, and the paper describes this workshop and considers its place in the course and its future development. Issues of teaching MT to language learners are discussed.</abstract>
+    </paper>
+    <paper id="2">
+      <title>A 45-hour computers in translation course</title>
+      <author><first>Mikel L.</first><last>Forcada</last></author>
+      <url hash="d02532b7">2003.mtsummit-tttt.2</url>
+      <abstract>This paper describes how a 45-hour Computers in Translation course is actually taught to 3rd-year translation students at the University of Alacant; the course described started in year 1995–1996 and has undergone substantial redesign until its present form. It is hoped that this description may be of use to instructors who are forced to teach a similar subject in such as small slot of time and need some design guidelines.</abstract>
+    </paper>
+    <paper id="3">
+      <title>Teaching statistical machine translation</title>
+      <author><first>Kevin</first><last>Knight</last></author>
+      <url hash="9e67a7a0">2003.mtsummit-tttt.3</url>
+      <abstract>This paper describes some resources for introducing concepts of statistical machine translation. Students using these resources are not required to have any particular background in computational linguistics or mathematics.</abstract>
+    </paper>
+    <paper id="4">
+      <title>Teaching machine translation in a graduate language technologies program</title>
+      <author><first>Teruko</first><last>Mitamura</last></author>
+      <author><first>Eric</first><last>Nyberg</last></author>
+      <author><first>Robert</first><last>Frederking</last></author>
+      <url hash="e25ca3d1">2003.mtsummit-tttt.4</url>
+      <abstract>This paper describes a graduate-level machine translation (MT) course taught at the Language Technologies Institute at Carnegie Mellon University. Most of the students in the course have a background in computer science. We discuss what we teach (the course syllabus), and how we teach it (lectures, homeworks, and projects). The course has evolved steadily over the past several years to incorporate refinements in the set of course topics, how they are taught, and how students “learn by doing”. The course syllabus has also evolved in response to changes in the field of MT and the role that MT plays in various social contexts.</abstract>
+    </paper>
+    <paper id="5">
+      <title>Teaching the automation of the translation process to future translators</title>
+      <author><first>Benoît</first><last>Robichaud</last></author>
+      <author><first>Marie-Claude</first><last>L’Homme</last></author>
+      <url hash="6417be40">2003.mtsummit-tttt.5</url>
+      <abstract>This paper describes the approach used for introducing CAT tools and MT systems into a course offered in translation curricula at the Université de Montréal (Canada). It focuses on the automation of the translation process and presents various strategies that have been developed to help students progressively acquire the knowledge necessary to understand and undertake the tasks involved in the automation of translation. We begin with very basic principles and techniques, and move towards complex processes of advanced CAT and revision tools, including ultimately MT systems. As we will see, teaching concepts related to MT serves both as a wrap-up for the subjects dealt with during the semester and a way to highlight the tasks involved in the transfer phase of translation.</abstract>
+    </paper>
+    <paper id="6">
+      <title><fixed-case>P</fixed-case>rolog models of classical approaches to <fixed-case>MT</fixed-case></title>
+      <author><first>Harold</first><last>Somers</last></author>
+      <url hash="e68ca3fc">2003.mtsummit-tttt.6</url>
+      <abstract>This paper describes a number of “toy” MT systems written in Prolog, designed as programming exercises and illustrations of various approaches to MT. The systems include a dumb word-for-word system, DCG-based “transfer” system, an interlingua-based system with an LFG-like interface structure, a first-generation-like Russian-English system, an interactive system, and an implementation based on early example-based MT.</abstract>
+    </paper>
+    <paper id="7">
+      <title>Specification and evaluation of machine translation toy systems - criteria for laboratory assignments</title>
+      <author><first>Cristina</first><last>Vertan</last></author>
+      <author><first>Walter von</first><last>Hahn</last></author>
+      <url hash="96809bcf">2003.mtsummit-tttt.7</url>
+      <abstract>Implementation of machine translation “toy” systems is a good practical exercise especially for computer science students. Our aim in a series of courses on MT in 2002 was to make students familiar both with typical problems of Machine Translation in particular and natural language processing in general, as well as with software implementation. In order to simulate a software implementation proc- ess as realistic as possible, we introduced more than 20 evaluation criteria to be filled by the students when they evaluated their own products. The criteria go far beyond such “toy” systems, but they should demonstrate the students, what a real software evaluation means, and which are the particularities of Machine Translation Evaluation.</abstract>
+    </paper>
+    <paper id="8">
+      <title>Teaching and assessing empirical approaches to machine translation</title>
+      <author><first>Andy</first><last>Way</last></author>
+      <author><first>Nano</first><last>Gough</last></author>
+      <url hash="5d0eb561">2003.mtsummit-tttt.8</url>
+      <abstract>Empirical methods in Natural Language Processing (NLP) and Machine Translation (MT) have become mainstream in the research field. Accordingly, it is important that the tools and techniques in these paradigms be taught to potential future researchers and developers in University courses. While many dedicated courses on Statistical NLP can be found, there are few, if any courses on Empirical Approaches to MT. This paper presents the development and assessment of one such course as taught to final year undergraduates taking a degree in NLP.</abstract>
+    </paper>
+  </volume>
+  <volume id="eval" ingest-date="2021-07-23">
+    <meta>
+      <booktitle>Workshop on Systemizing MT Evaluation</booktitle>
+      <address>New Orleans, USA</address>
+      <month>September 23-27</month>
+      <year>2003</year>
+    </meta>
+    <paper id="1">
+      <title>Evaluation techniques applied to domain tuning of <fixed-case>MT</fixed-case> lexicons</title>
+      <author><first>Necip Fazil</first><last>Ayan</last></author>
+      <author><first>Bonnie J.</first><last>Dorr</last></author>
+      <author><first>Okan</first><last>Kolak</last></author>
+      <url hash="17b2a9c5">2003.mtsummit-eval.1</url>
+    </paper>
+    <paper id="2">
+      <title>Considerations of methodology and human factors in rating a suite of translated sentences</title>
+      <author><first>Leslie</first><last>Barrett</last></author>
+      <url hash="30c0f0b9">2003.mtsummit-eval.2</url>
+    </paper>
+    <paper id="3">
+      <title>Pragmatics-based translation and <fixed-case>MT</fixed-case> evaluation</title>
+      <author><first>David</first><last>Farwell</last></author>
+      <author><first>Stephen</first><last>Helmreich</last></author>
+      <url hash="0220f302">2003.mtsummit-eval.3</url>
+      <abstract>In this paper the authors wish to present a view of translation equivalence related to a pragmatics-based approach to machine translation. We will argue that current evaluation methods which assume that there is a predictable correspondence between language forms cannot adequately account for this view. We will then describe a method for objectively determining the relative equivalence of two texts. However, given the need for both an open world assumption and non-monotonic inferencing, such a method cannot be realistically implemented and therefore certain "classic" evaluation strategies will continue to be preferable as practical methods of evaluation.</abstract>
+    </paper>
+    <paper id="4">
+      <title>Training a super model look-alike</title>
+      <author><first>Eva</first><last>Forsbom</last></author>
+      <url hash="5f720eaf">2003.mtsummit-eval.4</url>
+      <abstract>Two string comparison measures, edit distance and n-gram co-occurrence, are tested for automatic evaluation of translation quality, where the quality is compared to one or several reference translations. The measures are tested in combination for diagnostic evaluation on segments. Both measures have been used for evaluation of translation quality before, but for another evaluation purpose (performance) and with another granularity (system). Preliminary experiments showed that the measures are not portable without redefinitions, so two new measures are defined, WAFT and NEVA. The new measures could be applied for both purposes and granularities.</abstract>
+    </paper>
+    <paper id="5">
+      <title>Granularity in <fixed-case>MT</fixed-case> evaluation</title>
+      <author><first>Florence</first><last>Reeder</last></author>
+      <author><first>John</first><last>White</last></author>
+      <url hash="1df7bb62">2003.mtsummit-eval.5</url>
+      <abstract>This paper looks at granularity issues in machine translation evaluation. We start with work by (White, 2001) who examined the correlation between intelligibility and fidelity at the document level. His work showed that intelligibility and fidelity do not correlate well at the document level. These dissimilarities lead to our investigation of evaluation granularity. In particular, we revisit the intelligibility and fidelity relationship at the corpus level. We expect these to support certain assumptions in both evaluations as well as indicate issues germane to future evaluations.</abstract>
+    </paper>
+    <paper id="6">
+      <title>Task-based <fixed-case>MT</fixed-case> evaluation: tackling software, experimental design, &amp; statistical models.</title>
+      <author><first>Calandra</first><last>Tate</last></author>
+      <author><first>Sooyon</first><last>Lee</last></author>
+      <author><first>Clare R.</first><last>Voss</last></author>
+      <url hash="ffbc7b04">2003.mtsummit-eval.6</url>
+      <abstract>Even with recent, renewed attention to MT evaluation—due in part to n-gram-based metrics (Papineni et al., 2001; Doddington, 2002) and the extensive, online catalogue of MT metrics on the ISLE project (Hovy et al., 2001, 2003), few reports involving task-based metrics have surfaced. This paper presents our work on three parts of task-based MT evaluation: (i) software to track and record users' task performance via a browser, run from a desktop computer or remotely over the web, (ii) factorial experimental design with replicate observations to compare the MT engines, based on the accuracy of users' task responses, and (iii) the use of chi-squared and generalized linear models (GLMs) to permit finer-grained data analyses. We report on the experimental results of a six-way document categorization task, used for the evaluation of three Korean-English MT engines. The statistical models of the probabilities of correct responses yield an ordering of the MT engines, with one engine having a statistically significant lead over the other two. Future research will involve testing user performance on linguistically more complex tasks, as well as extending our initial GLMs with the documents' Bleu scores as variables, to test the scores as independent predictors of task results.</abstract>
+    </paper>
+  </volume>
+</collection>
